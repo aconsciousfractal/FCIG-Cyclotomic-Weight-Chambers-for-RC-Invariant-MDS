@@ -1,10 +1,10 @@
 {
   "byte_identical_runs": 2,
-  "bytes": 397138,
+  "bytes": 395400,
   "claim_labels": {
     "cor:dna-field-gate": {
       "number": "A.2",
-      "page": 28
+      "page": 27
     },
     "cor:excess-one-oracle": {
       "number": "5.4",
@@ -40,7 +40,7 @@
     },
     "ext:thm:farey": {
       "number": "A.20",
-      "page": 38
+      "page": 37
     },
     "ext:thm:freiman": {
       "number": "A.22",
@@ -68,7 +68,7 @@
     },
     "lem:stable-pcr-parity": {
       "number": "5.7",
-      "page": 18
+      "page": 17
     },
     "lem:walk-budget": {
       "number": "6.1",
@@ -76,7 +76,7 @@
     },
     "prop:8232": {
       "number": "5.11",
-      "page": 20
+      "page": 19
     },
     "prop:affine-pruning": {
       "number": "5.12",
@@ -88,7 +88,7 @@
     },
     "prop:boolean-ranks": {
       "number": "5.5",
-      "page": 17
+      "page": 16
     },
     "prop:component-optima": {
       "number": "4.2",
@@ -100,7 +100,7 @@
     },
     "prop:core-pool-strictness": {
       "number": "6.5",
-      "page": 24
+      "page": 23
     },
     "prop:family-components": {
       "number": "3.9",
@@ -124,11 +124,11 @@
     },
     "prop:sharp-parity": {
       "number": "4.3",
-      "page": 14
+      "page": 13
     },
     "prop:stable-fibre": {
       "number": "5.3",
-      "page": 16
+      "page": 15
     },
     "thm:bounded-chart": {
       "number": "5.9",
@@ -148,7 +148,7 @@
     },
     "thm:dna-certificate": {
       "number": "A.12",
-      "page": 33
+      "page": 32
     },
     "thm:finite-pool-closure": {
       "number": "6.3",
@@ -168,7 +168,7 @@
     },
     "thm:membership-complexity": {
       "number": "A.17",
-      "page": 36
+      "page": 35
     },
     "thm:mixed-wall": {
       "number": "D.4",
@@ -180,7 +180,7 @@
     },
     "thm:rc-retiming": {
       "number": "3.5",
-      "page": 10
+      "page": 9
     },
     "thm:rc-rounding": {
       "number": "3.6",
@@ -204,11 +204,11 @@
     },
     "thm:twice-prime-structural": {
       "number": "A.7",
-      "page": 30
+      "page": 29
     },
     "thm:two-rc-sectors": {
       "number": "3.8",
-      "page": 11
+      "page": 10
     },
     "thm:unit-retiming": {
       "number": "3.3",
@@ -218,9 +218,9 @@
   "output": "paper/Cyclotomic_Weight_Chambers_for_RC_Invariant_MDS.pdf",
   "pages": 57,
   "schema": "fcig-cwc-paper-build-v1",
-  "sha256": "34c1304872baa4f1df4f363b497389de296496738d6ee6316cf72c5315cbe7d8",
+  "sha256": "30fa233f430304cb8f6a343b43c92773e7406973d97ae3b8b262869919cc25f4",
   "source_date_epoch": "1786924800",
-  "source_tree_sha256": "d5b3813e4ed871466cc1b6d939bd3f084c9cbe21e217a8eb559b56882e7bac29",
+  "source_tree_sha256": "086bfc35fab01bf370804d630c9602b4bdfd5b13c8b432fb770f61017b4cc1e4",
   "status": "PASS_DETERMINISTIC_PAPER_BUILD",
   "toolchain": "Tectonic 0.16.9"
 }

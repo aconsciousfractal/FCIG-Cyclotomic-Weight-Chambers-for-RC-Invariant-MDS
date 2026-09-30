@@ -8,13 +8,13 @@
   },
   "manifest": {
     "entries": 1120,
-    "sha256": "dce288a78369dcf4122a4f9a53ea5f4320938b3615b738e91f7797b09891e16d",
-    "tree_sha256": "174a7fa0541720636f89c32a6f97b0d6042292ddd69c85c02474971122638c4f"
+    "sha256": "00fed57f6beacefcd3286db5c51449c5fbf8986b5585d03fc6b0d0f9568599ce",
+    "tree_sha256": "6d18218206efc5709814bcd6c8540f99add5d52cad27c0dbe2023c6a2ec64a94"
   },
   "paper": {
-    "bytes": 397138,
+    "bytes": 395400,
     "path": "paper/Cyclotomic_Weight_Chambers_for_RC_Invariant_MDS.pdf",
-    "sha256": "34c1304872baa4f1df4f363b497389de296496738d6ee6316cf72c5315cbe7d8"
+    "sha256": "30fa233f430304cb8f6a343b43c92773e7406973d97ae3b8b262869919cc25f4"
   },
   "publication_status": "OUT_OF_SCOPE_NOT_ASSERTED",
   "schema": "fcig-cwc-release-attestation-v1",

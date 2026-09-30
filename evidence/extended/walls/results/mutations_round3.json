@@ -1,0 +1,81 @@
+{
+  "receipts": [
+    {
+      "name": "drop_pair",
+      "output": "PAIR_CERT_DISTANCE",
+      "result": "REJECTED"
+    },
+    {
+      "name": "repeat_pair",
+      "output": "PAIR_CERT_LEGALITY",
+      "result": "REJECTED"
+    },
+    {
+      "name": "parity_flip",
+      "output": "PAIR_CERT_PARITY",
+      "result": "REJECTED"
+    },
+    {
+      "name": "false_geodesic_length",
+      "output": "PAIR_CERT_DISTANCE",
+      "result": "REJECTED"
+    },
+    {
+      "name": "out_of_carrier_pair",
+      "output": "PAIR_VERTEX_RANGE",
+      "result": "REJECTED"
+    },
+    {
+      "name": "false_cycle_hit_count",
+      "output": "SEPARATOR_HITS",
+      "result": "REJECTED"
+    },
+    {
+      "name": "repeated_cycle_vertex",
+      "output": "SEPARATOR_NOT_SIMPLE",
+      "result": "REJECTED"
+    },
+    {
+      "name": "reverse_directed_cycle",
+      "output": "SEPARATOR_NOT_CLOSED",
+      "result": "REJECTED"
+    },
+    {
+      "name": "oversized_separator",
+      "output": "SEPARATOR_LENGTH",
+      "result": "REJECTED"
+    },
+    {
+      "name": "patch_wrong_sign",
+      "output": "PATCH_LITERAL_IDENTITY",
+      "result": "REJECTED"
+    },
+    {
+      "name": "duplicate_patch_edge",
+      "output": "PATCH_DUPLICATES",
+      "result": "REJECTED"
+    },
+    {
+      "name": "missing_patch_edge",
+      "output": "PATCH_LITERAL_IDENTITY",
+      "result": "REJECTED"
+    },
+    {
+      "name": "false_null_cycle_count",
+      "output": "CYCLE_COUNT",
+      "result": "REJECTED"
+    },
+    {
+      "name": "coherent_total_wrong_breakdown",
+      "output": "EXTERNAL_COUNT",
+      "result": "REJECTED"
+    },
+    {
+      "name": "wrong_total_jump",
+      "output": "MIXED_COUNT_IDENTITY",
+      "result": "REJECTED"
+    }
+  ],
+  "rejected": 15,
+  "status": "PASS"
+}

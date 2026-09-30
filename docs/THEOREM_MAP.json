@@ -1,0 +1,687 @@
+{
+  "claims": [
+    {
+      "evidence": "derived_summary_of_family_components_component_optima_construction107_and8232",
+      "id": "H01",
+      "label": "thm:headline-separation",
+      "scope": "DNA k=8; exactly the fixed labelled family W=(-rho,-1,1,rho), rho>1, ties A<C<G<T; tau_RC(106) remains8230..8232 globally",
+      "title": "Fixed-family141/107 separation and global cardinality frontier"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T01",
+      "label": "thm:component-field",
+      "scope": "fixed even k>=4; field-linear independence over the stated component fields",
+      "title": "Component-field zero criterion and structural extremality"
+    },
+    {
+      "evidence": "deductive_with_classical_imports",
+      "id": "T02",
+      "label": "cor:dna-field-gate",
+      "scope": "DNA ratio rho>1 and the declared conductor, non-Galois, and finite-horizon regimes",
+      "title": "DNA field gate and exact weight-design regimes"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T03",
+      "label": "thm:twice-prime-structural",
+      "scope": "q=2m and k=2p with p an odd prime",
+      "title": "Twice-prime structural zero, firing, and density formulas"
+    },
+    {
+      "evidence": "deductive_reduction",
+      "id": "T04",
+      "label": "thm:membership-complexity",
+      "scope": "one word query over a dense explicitly represented real algebraic input; the degree is part of the input size",
+      "title": "Dense variable-degree polynomial-bit membership"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T05",
+      "label": "thm:terminal-covector",
+      "scope": "fixed complemented alphabet, even k>=4, and frozen tie rules",
+      "title": "Complete sign-covector terminal factorization"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T06",
+      "label": "thm:dna-certificate",
+      "scope": "five stated selector equality roles with signed positional one-hot certificates",
+      "title": "Certificate-preserving DNA realization and typed divisibility"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T07",
+      "label": "thm:rational-twice-prime",
+      "scope": "DNA, rational rho>1, k=2p, p an odd prime, lower-lambda family",
+      "title": "Rational twice-prime lower-resonance classification"
+    },
+    {
+      "evidence": "deductive_with_classical_field_theory",
+      "id": "T08",
+      "label": "cor:uniform-radical",
+      "scope": "fixed finite m; odd prime d>=max(m,3); every even cyclotomic order",
+      "title": "Uniform radical magnitude family"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T09",
+      "label": "thm:twice-prime-embedding",
+      "scope": "q=2m and k=2^b p^a with p an odd prime and a,b>=1; total scalar count requires K_k-linear independence",
+      "title": "Single-odd-prime structural embedding words and PCRs"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T10",
+      "label": "cor:rational-lower-energy",
+      "scope": "positive distinct rational magnitudes at k=2p; geometric integer family B>=4",
+      "title": "Rational lower energy and the structural floor"
+    },
+    {
+      "evidence": "deductive",
+      "id": "T11",
+      "label": "thm:galois-certificate",
+      "scope": "typed realized equality certificates before positivity and selector sign filtering",
+      "title": "Typed Galois covariance of equality certificates"
+    },
+    {
+      "evidence": "computer_assisted_exact",
+      "id": "F01",
+      "label": "prop:finite-atlas",
+      "scope": "complete k=4,6 and four named k=8 landmarks; exactly 30 rows; fixed labelled W=(s(A),s(C),s(G),s(T))=(-rho,-1,1,rho), rho>1, with fixed A<C<G<T ties; no classification of other labelled assignments",
+      "title": "Exact small DNA chamber atlas"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E12",
+      "label": "ext:thm:two",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E13",
+      "label": "ext:thm:farey",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E14",
+      "label": "ext:thm:freiman",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E15",
+      "label": "ext:thm:count",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E16",
+      "label": "ext:thm:mid",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E17",
+      "label": "ext:thm:algebraic",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E18",
+      "label": "ext:thm:paths",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E19",
+      "label": "thm:regular-wall",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E20",
+      "label": "thm:mixed-wall",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "exact_finite_with_deductive_reduction",
+      "id": "E21",
+      "label": "thm:complete-atlas",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md; fixed labelled W=(s(A),s(C),s(G),s(T))=(-rho,-1,1,rho), rho>1, with fixed A<C<G<T ties; no classification of other labelled assignments"
+    },
+    {
+      "evidence": "exact_finite_with_deductive_reduction",
+      "id": "E22",
+      "label": "prop:quadratic-embedding",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md; fixed labelled W=(s(A),s(C),s(G),s(T))=(-rho,-1,1,rho), rho>1, with fixed A<C<G<T ties; no classification of other labelled assignments"
+    },
+    {
+      "evidence": "exact_finite_with_deductive_reduction",
+      "id": "E23",
+      "label": "prop:family-optima",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md; fixed labelled W=(s(A),s(C),s(G),s(T))=(-rho,-1,1,rho), rho>1, with fixed A<C<G<T ties; no classification of other labelled assignments"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E24",
+      "label": "thm:unit-retiming",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E25",
+      "label": "thm:rc-retiming",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E26",
+      "label": "thm:rc-rounding",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "deductive",
+      "id": "E27",
+      "label": "thm:two-rc-sectors",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "exact_finite_with_deductive_reduction",
+      "id": "E28",
+      "label": "prop:family-components",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md; fixed labelled W=(s(A),s(C),s(G),s(T))=(-rho,-1,1,rho), rho>1, with fixed A<C<G<T ties; no classification of other labelled assignments"
+    },
+    {
+      "evidence": "exact_finite_with_deductive_reduction",
+      "id": "E29",
+      "label": "prop:component-optima",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md; fixed labelled W=(s(A),s(C),s(G),s(T))=(-rho,-1,1,rho), rho>1, with fixed A<C<G<T ties; no classification of other labelled assignments"
+    },
+    {
+      "evidence": "exact_finite_with_deductive_reduction",
+      "id": "E30",
+      "label": "prop:construction-131",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "evidence": "exact_finite_with_deductive_reduction",
+      "id": "E31",
+      "label": "cor:global-upper-131",
+      "scope": "Exact hypotheses in the labelled statement; see PUBLIC_CLAIM_BOUNDARY.md"
+    },
+    {
+      "certificate": "evidence/advances/r1/certificates/parity_obstruction.json",
+      "evidence": "finite_exact",
+      "id": "V3-01",
+      "label": "prop:sharp-parity",
+      "scope": "DNA k=8, one named ordinary component and its two sectors; optima 124 and 125/124",
+      "title": "The one-unit sector cost is attained"
+    },
+    {
+      "certificate": "evidence/advances/r5/certificates/M107.json",
+      "evidence": "finite_exact",
+      "id": "V3-02",
+      "label": "thm:construction-107",
+      "scope": "Canonical DNA k=8 RC MDS, 8230 words, L=107 and exact ordinary-component optimum; global upper bound only",
+      "title": "Certified DNA upper bound 107"
+    },
+    {
+      "evidence": "deductive",
+      "id": "V3-03",
+      "label": "lem:stable-pcr-parity",
+      "scope": "Even q,k>=2, free alphabet complement; integral transfers and Boolean RC endpoints",
+      "title": "Stable PCRs and a parity restriction"
+    },
+    {
+      "evidence": "deductive",
+      "id": "V3-04",
+      "label": "lem:signed-reconstruction",
+      "scope": "Integral RC arc cochain with each PCR sum one; integral clock, T>=1 and prescribed mate sum",
+      "title": "Reconstruction from a signed cochain"
+    },
+    {
+      "evidence": "deductive",
+      "id": "V3-05",
+      "label": "thm:bounded-chart",
+      "scope": "Even q,k>=2, free complement and a base RC one-per-PCR indicator; all sites allowed, integral bounded coordinates",
+      "title": "Complete bounded endpoint chart"
+    },
+    {
+      "evidence": "deductive",
+      "id": "V3-06",
+      "label": "lem:one-fixed-arc",
+      "scope": "Finite RC-invariant DAG with arc-reversing involution; individually fixed arcs",
+      "title": "At most one fixed arc on a path"
+    },
+    {
+      "evidence": "deductive",
+      "id": "V3-07",
+      "label": "thm:stable-completion",
+      "scope": "RC-invariant DAG D plus individually fixed arcs; for PCR application the nonstable choices are fixed, empty paths included",
+      "title": "Stable completion by 2-SAT"
+    },
+    {
+      "certificate": "evidence/advances/r9/certificates/stable_cube.json",
+      "evidence": "finite_exact",
+      "id": "V3-08",
+      "label": "prop:stable-fibre",
+      "scope": "Only the complete stable fibre of the exact canonical M107; 128 endpoints and ordinary components",
+      "title": "The complete stable fibre of $M_{107}$"
+    },
+    {
+      "evidence": "deductive_consolidation_self_review",
+      "id": "V3-09",
+      "label": "cor:excess-one-oracle",
+      "scope": "Even q,k and free complement; fixed nonstable one-per-PCR exterior; cost<=N+1; polynomial in the explicit graph, 495 DNA branches",
+      "title": "Complete fixed-exterior oracle for excess at most one"
+    },
+    {
+      "evidence": "deductive",
+      "id": "V3-10",
+      "label": "prop:boolean-ranks",
+      "scope": "Boolean arc indicator; real bounded rank is exact; no relaxation of the integral signed chart follows",
+      "title": "Continuous ranks for Boolean endpoints"
+    },
+    {
+      "evidence": "deductive_consolidation_self_review",
+      "id": "V3-11",
+      "label": "cor:surplus-two-arm",
+      "scope": "RC feedback set at length<=2h; two h-arc arms, full arc universe, surplus of their stable PCR",
+      "title": "Two-arm inequality with stable surplus"
+    },
+    {
+      "evidence": "deductive_with_classical_context",
+      "id": "V3-12",
+      "label": "thm:height-formulation",
+      "scope": "Finite digraph with arc-reversing involution, integer H>=0 and path bound 2H; fixed vertices allowed",
+      "title": "Exact antisymmetric height formulation"
+    },
+    {
+      "certificate": "evidence/advances/r11/certificates/irredundancy.json",
+      "evidence": "finite_exact",
+      "id": "V3-13",
+      "label": "prop:8232",
+      "scope": "DNA k=8 RC feedback set at size8232 and L105, inclusion-minimal; not a global cardinality optimum",
+      "title": "Cost 8232 at length 105"
+    },
+    {
+      "certificate": "evidence/advances/r13/certificates/affine_pruning.json",
+      "evidence": "deductive_reduction_and_finite_exact",
+      "id": "V3-14",
+      "label": "prop:affine-pruning",
+      "scope": "Three named bases; nonzero nonnegative integral RC subtraction plus arbitrary real gradient, Boolean feedback endpoints; no new insertions",
+      "title": "Affine pruning is exhausted for three bases"
+    },
+    {
+      "certificate": "evidence/advances/README.md",
+      "evidence": "finite_exact",
+      "id": "V3-15",
+      "label": "prop:local-exclusions",
+      "scope": "Exact named bases, operation order and domains in all five numbered clauses; no global lower bound",
+      "title": "Exact local exclusions"
+    },
+    {
+      "evidence": "general_proof",
+      "id": "V31-01",
+      "label": "lem:walk-budget",
+      "scope": "Every nonempty closed walk, multiplicities retained; RC feedback endpoint with L <= T-1",
+      "title": "Closed-walk counting"
+    },
+    {
+      "evidence": "general_proof",
+      "id": "V31-02",
+      "label": "prop:balanced-normal-form",
+      "scope": "Even order, free complement, T >= k, uncapped aggregate stable budget b >= 0; one combined row",
+      "title": "Balanced stable loads and aggregate projection"
+    },
+    {
+      "evidence": "general_proof",
+      "id": "V31-03",
+      "label": "thm:finite-pool-closure",
+      "scope": "Finite mixed pool, each walk uses stable arcs; b >= 0, signed real gamma; pure exterior walks separate; no endpoint sufficiency",
+      "title": "Exact finite-pool signed-lift closure"
+    },
+    {
+      "evidence": "general_proof",
+      "id": "V31-04",
+      "label": "cor:mds-pool",
+      "scope": "b=0 specialization forces each stable PCR lift mass one, without Boolean lift constraints",
+      "title": "MDS stable budget"
+    },
+    {
+      "certificate": "evidence/balanced_loads/README.md",
+      "evidence": "finite_exact_and_general_reduction",
+      "id": "V31-05",
+      "label": "prop:core-pool-strictness",
+      "scope": "DNA8: core8102 L106, old1804-walk signed lift mass128; new returns force cost >=8235 only in the named nonstable real-gradient class, not attained or global",
+      "title": "Strictness of a specified mixed pool"
+    }
+  ],
+  "formal_count": 79,
+  "formal_inventory": [
+    {
+      "kind": "theorem",
+      "label": "thm:headline-separation"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:imported-selector"
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:two"
+    },
+    {
+      "kind": "corollary",
+      "label": "ext:cor:compression"
+    },
+    {
+      "kind": "definition",
+      "label": "def:decision-catalog"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:terminal-covector"
+    },
+    {
+      "kind": "remark",
+      "label": "rem:resonance-terminal-strata"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:dna-phase"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:move-component"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:short-separation"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:unit-retiming"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:autodual-rank"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:rc-retiming"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:rc-rounding"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:parity-cost"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:two-rc-sectors"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:family-components"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:complete-atlas"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:component-optima"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:sharp-parity"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:construction-107"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:one-fixed-arc"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:stable-completion"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:stable-fibre"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:excess-one-oracle"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:boolean-ranks"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:surplus-two-arm"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:stable-pcr-parity"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:signed-reconstruction"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:bounded-chart"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:height-formulation"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:8232"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:affine-pruning"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:walk-budget"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:balanced-normal-form"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:finite-pool-closure"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:mds-pool"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:core-pool-strictness"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:component-field"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:dna-field-gate"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:weight-designs"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:uniform-radical"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:prime-sines"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:cross-energy"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:twice-prime-structural"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:structural-zero-density"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:twice-prime-embedding"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:rational-lower-energy"
+    },
+    {
+      "kind": "definition",
+      "label": null
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:dna-certificate"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:galois-certificate"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:rho-three"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:rational-twice-prime"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:twice-prime-dna-trichotomy"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:membership-complexity"
+    },
+    {
+      "kind": "lemma",
+      "label": "ext:lem:mixed"
+    },
+    {
+      "kind": "lemma",
+      "label": "ext:lem:realization"
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:farey"
+    },
+    {
+      "kind": "corollary",
+      "label": null
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:freiman"
+    },
+    {
+      "kind": "proposition",
+      "label": "ext:prop:normal"
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:count"
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:seed"
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:mid"
+    },
+    {
+      "kind": "remark",
+      "label": null
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:algebraic"
+    },
+    {
+      "kind": "corollary",
+      "label": null
+    },
+    {
+      "kind": "theorem",
+      "label": "ext:thm:paths"
+    },
+    {
+      "kind": "proposition",
+      "label": null
+    },
+    {
+      "kind": "proposition",
+      "label": null
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:construction-131"
+    },
+    {
+      "kind": "corollary",
+      "label": "cor:global-upper-131"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:local-exclusions"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:finite-atlas"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:regular-wall"
+    },
+    {
+      "kind": "lemma",
+      "label": "lem:singular-subgraph"
+    },
+    {
+      "kind": "theorem",
+      "label": "thm:mixed-wall"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:quadratic-embedding"
+    },
+    {
+      "kind": "proposition",
+      "label": "prop:family-optima"
+    }
+  ],
+  "imported_interface": {
+    "label": "thm:imported-selector",
+    "status": "attributed_not_a_new_claim_in_this_article"
+  },
+  "schema": "fcig-cwc-theorem-map-v3",
+  "version": "3.2.0"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "file": "report/RED_TEAM_E_RAFFORZAMENTI.pdf",
+      "pages": 9,
+      "text_outside_page": 0
+    },
+    {
+      "file": "proofs/strengthening_supplement.pdf",
+      "pages": 14,
+      "text_outside_page": 0
+    }
+  ],
+  "visual_review": "All pages inspected on contact sheets; key mathematical pages and tables inspected at larger scale. Not a PDF/UA or accessibility certification."
+}

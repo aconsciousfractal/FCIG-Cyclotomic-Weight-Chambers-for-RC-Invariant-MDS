@@ -1,0 +1,47 @@
+{
+  "binary_control": {
+    "all_masks": 65536,
+    "ordinary_F_components_met": 3,
+    "paired_components": 6,
+    "paired_edges": 0,
+    "rc_mds": 6
+  },
+  "independence": "Original-seed reconstruction and Fraction-pair signs imported from inherited verifier, not new wall producer; positive paths checked by set operations, negatives by explicit cycle hits. No wall-discovery import.",
+  "orders": [
+    {
+      "k": 4,
+      "mixed_pairs": 0,
+      "mixed_word_decisions": 0,
+      "negative_cycle_pairs": 0,
+      "new_components": 1,
+      "paired_moves": 1,
+      "parent_rows": 3,
+      "parent_word_decisions": 768,
+      "positive_geodesics": 3
+    },
+    {
+      "k": 6,
+      "mixed_pairs": 3,
+      "mixed_word_decisions": 12288,
+      "negative_cycle_pairs": 3,
+      "new_components": 3,
+      "paired_moves": 146,
+      "parent_rows": 23,
+      "parent_word_decisions": 94208,
+      "positive_geodesics": 23
+    },
+    {
+      "k": 8,
+      "mixed_pairs": 30,
+      "mixed_word_decisions": 1966080,
+      "negative_cycle_pairs": 210,
+      "new_components": 21,
+      "paired_moves": 3710,
+      "parent_rows": 173,
+      "parent_word_decisions": 11337728,
+      "positive_geodesics": 173
+    }
+  ],
+  "parent_full_certificate_replay": true,
+  "status": "PASS"
+}

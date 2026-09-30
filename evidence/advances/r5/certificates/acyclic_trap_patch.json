@@ -1,0 +1,40 @@
+{
+  "changes": [
+    {
+      "group": 753,
+      "old": [
+        "ACACAACA",
+        "TGTTGTGT"
+      ],
+      "new": [
+        "AACACAAC",
+        "GTTGTGTT"
+      ]
+    },
+    {
+      "group": 788,
+      "old": [
+        "ACACAAGA",
+        "TCTTGTGT"
+      ],
+      "new": [
+        "AACACAAG",
+        "CTTGTGTT"
+      ]
+    },
+    {
+      "group": 1462,
+      "old": [
+        "GACACCAA",
+        "TTGGTGTC"
+      ],
+      "new": [
+        "AGACACCA",
+        "TGGTGTCT"
+      ]
+    }
+  ],
+  "old_critical_histogram": {
+    "3": 6931456
+  }
+}

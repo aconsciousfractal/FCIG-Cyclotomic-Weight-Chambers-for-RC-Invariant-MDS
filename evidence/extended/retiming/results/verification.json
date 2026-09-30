@@ -1,0 +1,291 @@
+{
+  "independent_indicator_edge_checks": 4468992,
+  "indicator_digest": "dd1f221ee6cc8c7a08f9eb3686624629c1274f53befa7333fcaf3c26c905a5f2",
+  "inherited_custody": {
+    "base_byte_joins": 25,
+    "round2_sha256": "187ad3c92075353287977f9e73bdcc033b9df0bdb77966cebc5b3419a6819d86",
+    "round3_sha256": "6fddde536d1597bf2cc69e2cc88cbbce1aceae999c25c2cdc08e203b3916c5a5"
+  },
+  "k8_ordinary_components": 21,
+  "k8_paired_components": 42,
+  "literal_change_from_start": 20,
+  "long_cycle_lower_certificates": 30,
+  "mds_certificates": 72,
+  "new_chain_L": [
+    141,
+    135,
+    135,
+    133,
+    131
+  ],
+  "new_final_component_minimum": 131,
+  "new_final_size": 8230,
+  "old_components_optimized": 25,
+  "retiming_certificates": 42,
+  "semantic_mutations": [
+    {
+      "rejected_by": "PCR_HIT",
+      "tag": "mandatory_loop_removed"
+    },
+    {
+      "rejected_by": "PCR_HIT",
+      "tag": "one_word_added"
+    },
+    {
+      "rejected_by": "PCR_HIT",
+      "tag": "rc_mate_not_changed"
+    },
+    {
+      "rejected_by": "INDICATOR_TYPE",
+      "tag": "nonbinary_indicator"
+    },
+    {
+      "rejected_by": "INDICATOR_TYPE",
+      "tag": "fractional_indicator"
+    },
+    {
+      "rejected_by": "RANK_EDGE",
+      "tag": "flat_rank"
+    },
+    {
+      "rejected_by": "RANK_RANGE",
+      "tag": "negative_rank"
+    },
+    {
+      "rejected_by": "RANK_RANGE",
+      "tag": "length_lowered_without_new_certificate"
+    },
+    {
+      "rejected_by": "PATH_LENGTH",
+      "tag": "path_truncated"
+    },
+    {
+      "rejected_by": "PATH_USES_DELETION",
+      "tag": "path_uses_removed_loop"
+    },
+    {
+      "rejected_by": "CYCLE_HITS",
+      "tag": "cycle_wrong_hit_count"
+    },
+    {
+      "rejected_by": "CYCLE_NOT_SIMPLE",
+      "tag": "cycle_broken"
+    },
+    {
+      "rejected_by": "CYCLE_LOWER_BOUND",
+      "tag": "cycle_wrong_length_bound"
+    },
+    {
+      "rejected_by": "RETIMING_RC_OFFSET",
+      "tag": "wrong_rc_sector"
+    },
+    {
+      "rejected_by": "RETIMING_RC_OFFSET",
+      "tag": "one_potential_coordinate"
+    },
+    {
+      "rejected_by": "RETIMING_FLOOR",
+      "tag": "cut_floor_wrong"
+    },
+    {
+      "rejected_by": "PATCH_NONBOOLEAN",
+      "tag": "patch_wrong_letter"
+    },
+    {
+      "rejected_by": "SEPARATOR_HITS",
+      "tag": "separator_counts_fused"
+    },
+    {
+      "rejected_by": "ESCAPE_OPTIMALITY_COVERAGE",
+      "tag": "missing_final_component_lower"
+    },
+    {
+      "rejected_by": "OPTIMUM_ATTAINER_COVERAGE",
+      "tag": "missing_opposite_sector"
+    },
+    {
+      "rejected_by": "OPTIMUM_ATTAINER_COVERAGE",
+      "tag": "duplicate_sector_attainer"
+    },
+    {
+      "rejected_by": "SEPARATOR_SOURCE_JOIN",
+      "tag": "separator_wrong_source_join"
+    },
+    {
+      "rejected_by": "ESCAPE_PAIR_COVERAGE",
+      "tag": "duplicate_escape_pair"
+    },
+    {
+      "rejected_by": "ESCAPE_CYCLE_RECORDED_LENGTH",
+      "tag": "cycle_metadata_off_by_one"
+    }
+  ],
+  "short_separators": 31,
+  "small_controls": {
+    "censuses": [
+      {
+        "components": 1,
+        "directed_simple_cycles": 3,
+        "k": 2,
+        "ordinary_mds": 2,
+        "q": 2,
+        "rc_feasibility_comparisons": 8,
+        "rows": [
+          {
+            "component_size": 2,
+            "ordinary_min": 1,
+            "ratio": [
+              2,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              1,
+              1
+            ]
+          }
+        ],
+        "subsets_scanned": 16
+      },
+      {
+        "components": 3,
+        "directed_simple_cycles": 19,
+        "k": 4,
+        "ordinary_mds": 30,
+        "q": 2,
+        "rc_feasibility_comparisons": 24,
+        "rows": [
+          {
+            "component_size": 8,
+            "ordinary_min": 7,
+            "ratio": [
+              8,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              7,
+              7
+            ]
+          },
+          {
+            "component_size": 14,
+            "ordinary_min": 5,
+            "ratio": [
+              6,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              5,
+              5
+            ]
+          },
+          {
+            "component_size": 8,
+            "ordinary_min": 7,
+            "ratio": [
+              8,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              7,
+              7
+            ]
+          }
+        ],
+        "subsets_scanned": 65536
+      },
+      {
+        "components": 6,
+        "directed_simple_cycles": 24,
+        "k": 2,
+        "ordinary_mds": 24,
+        "q": 4,
+        "rc_feasibility_comparisons": 32,
+        "rows": [
+          {
+            "component_size": 4,
+            "ordinary_min": 3,
+            "ratio": [
+              4,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              3,
+              3
+            ]
+          },
+          {
+            "component_size": 4,
+            "ordinary_min": 3,
+            "ratio": [
+              4,
+              1
+            ],
+            "rc_count": 0
+          },
+          {
+            "component_size": 4,
+            "ordinary_min": 3,
+            "ratio": [
+              4,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              3,
+              3
+            ]
+          },
+          {
+            "component_size": 4,
+            "ordinary_min": 3,
+            "ratio": [
+              4,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              3,
+              3
+            ]
+          },
+          {
+            "component_size": 4,
+            "ordinary_min": 3,
+            "ratio": [
+              4,
+              1
+            ],
+            "rc_count": 0
+          },
+          {
+            "component_size": 4,
+            "ordinary_min": 3,
+            "ratio": [
+              4,
+              1
+            ],
+            "rc_count": 2,
+            "sector_minima": [
+              3,
+              3
+            ]
+          }
+        ],
+        "subsets_scanned": 65536
+      }
+    ],
+    "scope": "finite exact controls only",
+    "self_dual_ranks": {
+      "anti_invariant_graphs": 256,
+      "dags": 65,
+      "integer_rank_checks": 260
+    },
+    "status": "PASS"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,140 @@
+{
+  "scope": "Read-only source identity. SHA256 identifies bytes, not validity. New claims are checked by Round 9 code.",
+  "archives": [
+    {
+      "name": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "sha256": "751dce9a156e11fbc31fc14dea10f5230d85833b8f97f00aa101131efb73bae8",
+      "bytes": 20475245
+    },
+    {
+      "name": "RC_MDS_K8_Round8_Ostruzione_Tre_Siti_2026-09-20.zip",
+      "sha256": "147c85a5e330039d7be44a0c6bcc8230051ec63d3bc691b504060dff549b1862",
+      "bytes": 4380034
+    }
+  ],
+  "inputs": [
+    {
+      "path": "inputs/M107.json",
+      "sha256": "46c46db057f70646eda537b901148f93cb26fa8d930b62cb070d33af5d11dc4b",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/inputs/M107.json"
+        },
+        {
+          "archive": "RC_MDS_K8_Round8_Ostruzione_Tre_Siti_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round8_2026-09-20/inputs/M107.json"
+        },
+        {
+          "archive": "RC_MDS_K8_Round8_Ostruzione_Tre_Siti_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round8_2026-09-20/parent_round7/inputs/M107.json"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/M107.words.txt",
+      "sha256": "4e0c44d87ea9782f261cf3ed2c0e918784fa404bbf0f57041b494509ff7d5edc",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/inputs/M107.words.txt"
+        },
+        {
+          "archive": "RC_MDS_K8_Round8_Ostruzione_Tre_Siti_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round8_2026-09-20/inputs/M107.words.txt"
+        },
+        {
+          "archive": "RC_MDS_K8_Round8_Ostruzione_Tre_Siti_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round8_2026-09-20/parent_round7/inputs/M107.words.txt"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/M107_alternative0.words.txt",
+      "sha256": "aab8cdfdc63f7f3921a2cb62ffa11d8085fa5307cc4204a40d1d8a381ff9b328",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/witnesses/M107_alternative0.words.txt"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/M107_alternative1.words.txt",
+      "sha256": "a4ed7fe10683a323e6ae6f2aeb84f4aa85bc1df170a9937d9391b7e89800dc11",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/witnesses/M107_alternative1.words.txt"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/M107_atlas.json",
+      "sha256": "efc2966528905d9a642cea8be7ea6221c46d81f8f6b9f92e6e9c24c09e41b167",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/inputs/M107_atlas.json"
+        },
+        {
+          "archive": "RC_MDS_K8_Round8_Ostruzione_Tre_Siti_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round8_2026-09-20/inputs/M107_atlas.json"
+        },
+        {
+          "archive": "RC_MDS_K8_Round8_Ostruzione_Tre_Siti_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round8_2026-09-20/parent_round7/inputs/M107_atlas.json"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/M107_sector1.words.txt",
+      "sha256": "fcd9e406a0b5bdf09dedcf26e9851816c819ca18af1622a4f54e9fcfe1dbb93b",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/witnesses/M107_sector1.words.txt"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/stable_027_L107.words.txt",
+      "sha256": "5828d4cdd4fc5e157f12afa84c369280f850944cf66668693f8c972b287aa1db",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/witnesses/stable_027_L107.words.txt"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/stable_058_L107.words.txt",
+      "sha256": "e122758460dd4610e39436747594b5988bbc67de35073a900ef1bf57e3d79a35",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/witnesses/stable_058_L107.words.txt"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    },
+    {
+      "path": "inputs/stable_099_L107.words.txt",
+      "sha256": "cc8a4091763fdc21e81b22045144e23a51c1255a858e0bbaf9c4ba56702dcd0f",
+      "matching_source_members": [
+        {
+          "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+          "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/witnesses/stable_099_L107.words.txt"
+        }
+      ],
+      "source_status": "EXACT_MATCH"
+    }
+  ]
+}

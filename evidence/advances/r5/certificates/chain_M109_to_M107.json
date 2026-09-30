@@ -1,0 +1,5628 @@
+{
+  "initial": "inputs/M109.words.txt",
+  "initial_sha256": "7d2c92e196be416950b52baed95beaa66a45c165bc8ad757ba88ae6257d224d2",
+  "steps": [
+    {
+      "type": "retiming",
+      "target": "witnesses/M109_rephased.words.txt",
+      "certificate": "certificates/retime_initial.json",
+      "sha256_after": "77cb7619e26f71658f194c3905d0b7f53791fd895baf805eecf3ee1a7b085aea",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGTACG",
+      "letters": "ACG",
+      "sha256_after": "371d10133fe90f62ef701013f98b008be9b219c46e22c90970228c3048b811fa",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "4e4ffc1974e51d86209375cd55a102a7514e8e08ee0c9bbf302364c7681d5aec",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGGGAG",
+      "letters": "T",
+      "sha256_after": "9d1777431ec79bce02f32b773d68e846834878985514e7b1aba60cc71b7c8719",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "6799b9d182ed1daeaee046f1e5ebde64d3f07faec2e1ee98d597addb00679b76",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCACGCA",
+      "letters": "A",
+      "sha256_after": "065e1a30b7a2d6a1ada98c27dd775381bda7e331acfdd52a281b7a0104a98b9f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "1a3050657a10128a88d1659919f4efd5ea5d8b5efae44ba7e90567c69e2e1ba6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAC",
+      "letters": "A",
+      "sha256_after": "8adbad9700c03b13848f7954d9f17c8ef673468a9e3e7b09560e0cc325d187a9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGAAGA",
+      "letters": "A",
+      "sha256_after": "4e6ceeace734560277bbb2d7f2c61c6ac5e4c5677e4e4e1733c9d194de7c7c17",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "87ff7c69da326cb1f9c8270eb005bc0b4e831273e5349e9408d5c848e138ccd7",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCACGCA",
+      "letters": "A",
+      "sha256_after": "614d6f17de8a9b4e23e59b311e47e3e5d05e00b9e425bc2883a8136ea66924d8",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "f397e656a7cd6b95ac21f8f6f539f90b510a930597fdade0441fb629d2ae74b2",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGCTA",
+      "letters": "AC",
+      "sha256_after": "7587debde9f5f42fffb3294078e3dbb3d12f23842cbf416a770aa68e021c1e20",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "a8a23bb613146fc982008d2fb99e486eaae9cf8e9fc60219c72208436b116a84",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAAGC",
+      "letters": "A",
+      "sha256_after": "3129d149c928c712eeb8d72d7a30cd86eb3b1ab4fe08813a6664c0f49a9a3ae3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "4c028df99e819e495a6885ceaa96dee63aa8b1445412cc184e20a9978341b00c",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAATA",
+      "letters": "A",
+      "sha256_after": "558071b55eeb50696a305139d3e2c3144043a4e3b6a4a11dc888d9b58f640f76",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "TACCCGA",
+      "letters": "A",
+      "sha256_after": "a447eb6fec9f3c149c7d73e74d906da5c801ff851149ef9ae03beab915bcdc56",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATAGAG",
+      "letters": "A",
+      "sha256_after": "c45459ac239a7209302fe8706dcd53fc94f12c2bd5f5fa883764f1f3aad3b6c9",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGCAGG",
+      "letters": "A",
+      "sha256_after": "87e8a267e07f434db5e7ccec21e69ba43b87eba70c549d9f0436818a2b58584e",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "3338138398b789bcc42f4c0d52c6398393cae1cfd1aad4ac3f3863717ff2554c",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCAGC",
+      "letters": "A",
+      "sha256_after": "7f7efebf63f508ea47acf9d69ba42b4eb0bad30c236ca8aad8354cad29f7b156",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "6c18ef1cd14704923da67688de1bfeb629451839e3b3814f080c003f20a45731",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACGCGA",
+      "letters": "ACG",
+      "sha256_after": "9aba58540d228f8c2139502f1996eaca37dc107b1741db5b524178e93c068571",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "93b5201cc1825355ce43ebc12a1f00dd1539001c89f3d6307cef29a212ea4e11",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "1ee3e169df4e19353ad44cf30a154529e8cad0e315b220e076352384d50d95f1",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "2d15c3e85dd668e4585e0da9510db126aa72c74c239fe2bad830750ecd7f817c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GAGATCA",
+      "letters": "ACG",
+      "sha256_after": "ee95c4ad36de0b216f90d710672349bdbc56118703b3e19361aa643aa769e152",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAC",
+      "letters": "A",
+      "sha256_after": "86711e4e26371e64500c006130d52ad4baf62a2d7db42b41fea953ed10a6311b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "6ffa317312b92e6943a0dddf0a6495388f9daef16f0ab6b3b716890a6a42424e",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "378e3b01d1a4df1c6906bbcbf9d853e6ba5692815e91802b2d75c11f3e3f63ef",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "f46f760a58f954faff42bd0e9112141eaa73fbe78166ec4cdfc3dca7c4386343",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCACGC",
+      "letters": "A",
+      "sha256_after": "8e6a4ed544e2edc02f6190b240cf7bd334f8d52d49a1f8d15eaa0bc96e901d4d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "a16ce013345de06bd203ae4aa9555ca9788e112a28c8c93819f9d49bce7a3be5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCACGCA",
+      "letters": "AC",
+      "sha256_after": "1e3ad21198e678eeef7ec6d708b92ef52ab94195f9fb3524f2053e3d776bca6e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGAACA",
+      "letters": "A",
+      "sha256_after": "017b87032877256defa7d5f5bd47ff10d0e4d6aa91a6e06b8d0c99f69241376f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "4dc18291bb1d02a0511fe99142f8ce469573d2c092b639ee76679a83ba06088f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGAACA",
+      "letters": "A",
+      "sha256_after": "0906e792f02e87a58fea4d37e51b32971526ed4de822695a22b463d0d99f6e05",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCAGC",
+      "letters": "A",
+      "sha256_after": "0418becd845390e4bfd7c550f02861ae08a9ae39c84a24ca9244698bf69e595c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACGCAC",
+      "letters": "G",
+      "sha256_after": "b123ea75446d4cf1ada43403dd0cc0f61a4e88d611b86d4859da459d578e2725",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "3b304370ac68953f401d2f76bfc9b097f8d0ffd4d5e57568469f3da30f5d3bf2",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAGAGA",
+      "letters": "AC",
+      "sha256_after": "97897d5b49d2ca187a61b2b68a217918621977784a14641258fa539be021fef9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "5b5bb5e9b8b0260205d4546a9fd68d33dbd35b0a3d8faddbfe8a30f3e7be8493",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAC",
+      "letters": "A",
+      "sha256_after": "e1c494fe2f0c3c16d956bff9484f436c54664ecc13f43270b6d43b1646e68dc4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCTCA",
+      "letters": "ACG",
+      "sha256_after": "c73606c8d2e5c73ceefc6d715c7a0c353c1ab864b62cee768fb30b771d9eb9f0",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "c10680fa929a992e3687e2c35c7ba345aad9a4ed5cfce2d95bd3e4198599d784",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGATGA",
+      "letters": "T",
+      "sha256_after": "582ad5acf65a7fd8aeb53691e9157ad035cb154cec4e0f43abb4d7f0a642203c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "7e9835fe243d400a16aac87b26cf5cf196ba5ed6dcf0eba3b29cf7f2ffea71d7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "92d0ed0cf70d8b16afbd461a9bf526bc1bb4364f573013bdedf88b9cba158f58",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "00eafa4f1ab942aef1db35c135fcf386d92a3f5a9c65c3651d77141c76315fe3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "f13c4f062bdad038a25150a8390a524a15824540dcd669c062497532a1743095",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "17ea52506964352cf77b898002f79e3d199f68b68fe20c6bbe6294f50170f512",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "089959aa20607d32b4233e2c7c1163f28776d50fb50663fe068d0657801a91fe",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "aa07d75e249621e5c94328ee9ef79dcbf0613e53f719bdb6b0a9a454c3d0c586",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAGA",
+      "letters": "A",
+      "sha256_after": "3d2affbb51c0e4c2d05f75d51a80ebfa3fce61112fed48f91df0b8e7ae43d617",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GAGGCGA",
+      "letters": "ACG",
+      "sha256_after": "7175cb9eb2d611fd7ab8d452b9f542462d40313329b83f8e120a97106ffccb31",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAGA",
+      "letters": "A",
+      "sha256_after": "a47e87cd1bfafed0e70b71f6f7fd83aff1b84c07165cd0b4df8eb2faff5e6808",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "8a8a08ed137e7b85c4b55c8b0de288e7ef696c7b28fba16b32f8f135cdede612",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACTACCG",
+      "letters": "A",
+      "sha256_after": "05b474861d8de95a59dcd39e044c84923e071467cae4407bc79b9dc91453f45a",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACCGA",
+      "letters": "AC",
+      "sha256_after": "e3245a23dbbbeb051e224cd64cd975c900f99433ab97e3a9c4f9c627628b45dd",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "03c1ae520ae25d13ff247e43659d4fcdd647f4657e2c49035f21575219ea14af",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAGCAG",
+      "letters": "A",
+      "sha256_after": "0b0a5d06a3950c07f727f803ac9b202cb85ab967f9ac127e73af8c4f5463f4e0",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "ebbc4c188769371c8bcb49212f25ccafc31bcc1550b264f45269168aacc889c4",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "2df374cb416147b16926234026bd706c9e4c06a43ffcb26452c19d57a866230b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "d1cd013eacc2796399a0b6cb9b5a3e413836a4201824da928621b633a565c503",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCAGC",
+      "letters": "A",
+      "sha256_after": "6d62a2f5884f2133e0f63cf34f19ca1c185ef2af36c8cb74a9e66855fdd0bfb4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "8b549ba242ba6c3db47d428a6afb66a7eb454c2226ba09ddf71fb83d97553d9b",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "42f5398c47a54c917154e0d0bf13daf1f2d7e8a7937c8091ef2ca8d82a0e7484",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCATCCC",
+      "letters": "AC",
+      "sha256_after": "865ba7a91473547e2f86dd95a29fd8c96828ae4856dafd2846ebbe31d6a0d782",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "7ccb76a18ac0a83b99f4799ba46398d4aced113f63b5f06117d607caf8d90d91",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "d112a5f63efb48559311de109d4efc1d8a9745c4db55b1ce8c4e3d946001f648",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "bce50d60f018f6d5101ebb5d5686b1e4f3ceff9c51c3dc0f880f3ffa2afbd6d3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "9ff3e25eab405c194cc2d1bf91fec26ea1a03982b094931a36d4c17bc9be459b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "aa86490a4189816570df05fdacd0b8a59e34811f793925381b06e839c0c9caeb",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "219bbc6fd1c990ac78a01159f79156f1dc96564e1d794feb12171c7fcce6ad1e",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "2b0c6a0439fa47d066de6623cc100ecfb2ca0aa335292e8667543213084cae83",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "7c69558f100c80e208b9ce43502c77e42235e86606c18e1a6894bf30d4132206",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "a019e179563c714cc27da88be04dcc8c4a80d274291b3b6c2ba98606532fd94e",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCACC",
+      "letters": "A",
+      "sha256_after": "d2963aa5385ab9184baa5885dcf22db2548aa02fc010b7eb12bcaffc2e688512",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGACAGA",
+      "letters": "A",
+      "sha256_after": "7103d149084ebc3b4dfb358e6f40373fe0da1732bdb800c9515d9ee1f4316d0d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACCAA",
+      "letters": "AC",
+      "sha256_after": "6c22d8ce9e20c6cedbbf473e0e9d793eeafcc3250624dce7d3ec9a59b285bb7f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCACAGA",
+      "letters": "A",
+      "sha256_after": "b0abc87da9ac94d26078224c1bfc24cfd1786837781f9fe7d69976a96680e0cc",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGGAGTA",
+      "letters": "GT",
+      "sha256_after": "6a390fe23153830d250ed81e1df07e33f8754257dbfe8e488baf08c0a04b81c9",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "10e7b5a3c082b8ba26842aa9e4dc806090231064f2ccb103e28b2b6d75e048b3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAGCAG",
+      "letters": "A",
+      "sha256_after": "41ad1069deb9a7e980a698e895cc40feb3971fd66856d986b71d30b2fccab74d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "817b901f9d517af43e9d3eaf6d735a413f438a7c99289d7a3a516fe57a9e7cb9",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "3b79f018da4b270b0227508563f18dfda0281a68a5c658d1221db91bf52aa0e9",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "5a9a3d9c5251fc6c09df0c3f8fd6a398bca449d625ddb9845b1fd36f515215ab",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "6314440e7dfc1c723a26d87410525b6bd409c7333911cd56a4df7e2b57ff4652",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "074b79e520debb908fd3352113a0a5177656505b0bff016571c4809d0e7372d7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "1e954e83e1a1b485e0a37bb444b4dff8bf10637da0829c3842974ca72289e485",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "3a43c865ff55fb0f39b7649d056c6112531f7b78303ad59a3d3fe7349a7ce45a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "b1d2645ab853b781ec57cdb1322b9bd6c296820a4be9094325869f0ecf1dc0ab",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AACCCAA",
+      "letters": "ACG",
+      "sha256_after": "a199b3c5447144d12306fab53f53e4dc2c49c2791f2f11651656e34506dc8454",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "18b8a77b36f666c62a663f8279f1913b2cbf06b4f57b86f51f6cd5b8e0b6b4b7",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "d4d13d10971bd3f5146a3f140ad6706ffe47ad5bf9bf972a5791738542717aa2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "8585b9ba0c24a4dd63376e1f0b9d427af6b4763a0bbb3445405a00669e007c16",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "a81f3bb792fd63e797118c91c009a87309cad3bf8bedb2b32bc76e9555c4b7cb",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "a2c3d3e94154f6469a777cb43bfd6b90bd2c4c624bb5417bac43d04aacae689b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGATACG",
+      "letters": "A",
+      "sha256_after": "74934a559a51784554226b65d8682d42367f573ac71fa3d2cd074df4a736d579",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "d579ec6b9a2a6545574cd3e65e66a6d07bc9ed40548b887fe29c333bc834f470",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "e7b76c42d888492d59a881f22f6c9eb000cbfa7077c28c9414cb424d41cbc148",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "32a39656a3981b75f597fb4c4ae582e9ec02fecca069849813f2cb0be107e36b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "c55fa9cc4c59e69a0abf02ca4306ff15d6e685d66ba4a3516b2ed7a61521c475",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "13df939bfb556a44d9bb986a6247bf74ee4849367af7f150cdd7e4dcecb7c135",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "5e7285fd87b22fef2f0932eb67a3240182fb7c2854c8e7b53468c96f355e3f28",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGTAGTC",
+      "letters": "T",
+      "sha256_after": "15e3111746b30e680a765b6052718d9fa79df3710cc1eae7bc0c9f42ef348273",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGAGCC",
+      "letters": "A",
+      "sha256_after": "60a47d0f5d496b99dc4c227e15ccbd35105b2cd303035608b121bfd7e35e6cfe",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTAGCTA",
+      "letters": "AC",
+      "sha256_after": "ee1fd8d93d05e217f3c00bf6ab6e9a835cb4d7dc787eaa4229f7e0a163c6a004",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGCC",
+      "letters": "AC",
+      "sha256_after": "6a6489617558f0749f3f8d34a8692a175197016fb0db543e98617f148b636648",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAG",
+      "letters": "A",
+      "sha256_after": "90722bc7d08e890c651fd72816d907465f009a63cf33934631b91d45830489c7",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "280cf19c9de04c177a579890f3aed7ccab2c167cb81b4ad24629c1f0aecf0284",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGCTA",
+      "letters": "AC",
+      "sha256_after": "a868d4e74760169ebe75073334a64f862918ba109719a4fa4eb75747660e10f3",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "TAGACTA",
+      "letters": "A",
+      "sha256_after": "373229b34dd5dffc87a725ec3b25d3d1a6504cc849f4ccd8f479ef8dbb9984fb",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACGAG",
+      "letters": "A",
+      "sha256_after": "0e3d95d2b19544f11b2d07a39889e6605478a5665d54eec8090ce79f8a593ea6",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATCAGAG",
+      "letters": "A",
+      "sha256_after": "404dbbffb07a7599d98e460707d9b2819eb23edb18d4fde3a4781f3f55f291f3",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "AACCGAA",
+      "letters": "ACG",
+      "sha256_after": "de8cd6f64464ca7e21df326c636fa4c2bea6039de27c407e74132f7476750a13",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCATA",
+      "letters": "A",
+      "sha256_after": "3fbd1ec291e792e3eae40ff921469580d5e3d4a27d4ad68338ed7ba1077c00e9",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "7726d954a959242aa582e8d4c8150e7507de3d4fc87a34ab6635a98b2b5c03be",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCGGAG",
+      "letters": "ACG",
+      "sha256_after": "7b76c65df0546657817c6aae374e5c1fde964696288e05be2d57c6ac30c1276c",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "5c457b9b87dadcb3f8d3deba9639e6d7c4c3b80fdc86d697ef0318a6d5ef5c6c",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "d494a7bc6a713f30ce7b345e35d583c566797f3573f024baed4bb2c80caf2e17",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATGGCTC",
+      "letters": "T",
+      "sha256_after": "86191738c2c781c4cc354c782a46fceef157e3fc7a2ae34f29cb5e1268d26c2b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "663ab9ec8d4520bb7df67726e0954b84db6924c432b297d0afcda74ad9ededc9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATATGA",
+      "letters": "T",
+      "sha256_after": "04d3312ef7099ed8662f68aba1162d8b6c2e8b6bfe83fdd4f377e1b808b1a631",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATCATA",
+      "letters": "ACG",
+      "sha256_after": "09d55d7974c47cd5955f69663e5585b23b5d597b889d12c7f46900e599c2c9d8",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATAGAG",
+      "letters": "A",
+      "sha256_after": "a2fb59855c978b75330b2b69e8b740ddea1b49950c014e0341142ec5543b0b3e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AATAACC",
+      "letters": "A",
+      "sha256_after": "dcec1909ff95c6a67d8dcfc171ad17027615a53b970fc494e8fd74d82604fca8",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "TAGACTA",
+      "letters": "A",
+      "sha256_after": "aeabe1358e96976733ca811ec97d90240f536096afb26a9e4968f5c096ac96b7",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "5fa227e87ef880fbe2f0a9ec1cd9720f449a3483bc4695511a0560d7a4bef49b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATCATA",
+      "letters": "ACG",
+      "sha256_after": "e8293ed13598353f0d3a06c5ec8b7d15b8cdc3d5687df212fcd41e57da6957fe",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "9f79a7b2b2a85aade0b4e58707dd0edbc2e2cb3b9badb689742fbec4ee5e3854",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "900c238ec4673125252525d8446165a1cf2257e93b8ef9594d4669910124c2a3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "TAATAGA",
+      "letters": "A",
+      "sha256_after": "a4e9815849199f694d84f744455d88e2e9e6efe4c46527f3a86416d4cda397f3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "62e9bd872c13ce400551ce2f9c7c08180fba9ea8124e3ac60029e473a3b89551",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "f6ca779083cdee25e35a659db8645295689e0c18f8844841c6e44163203d1532",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATAATCA",
+      "letters": "AC",
+      "sha256_after": "4c4e4e4cbf0b31dfdb33771b0ad7ccfd2d8e5b9d095fad5a97e5ea4d5c261da1",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AATAACC",
+      "letters": "A",
+      "sha256_after": "96fb9d6d4db69a1d904dced57be15377761fdc8a85e06bb1132d7368945886fe",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "c4466da393aadc5db5e4538c81559adb4e02dc1d16eb80571698bc3dcf239e30",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "3c3f941def7034507d7b708ebe9b1309a2021b4ab9fc5ff924c3950f1448c158",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCACAGA",
+      "letters": "A",
+      "sha256_after": "c6ace6bfca740401b8dde27b70875b52afcdef7c8a0adcd48b43ca3743f0471b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCATCCC",
+      "letters": "AC",
+      "sha256_after": "c13b86819b2f6fad773607262e7cc72d3829d4ffe5787be6270ca3c540cfd46e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATCATA",
+      "letters": "ACG",
+      "sha256_after": "39d4c4cbb20e2b4655aad9b8c5656ffeb0887774c910c4075cc4657e13566448",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "eb3aa818823fba3c059f165a59fd634ad1a5c73f44693963952d84a4af73bed2",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCATCGA",
+      "letters": "ACG",
+      "sha256_after": "b163491349210b6164eadab95bb8ac23c92b662d07b99afd97384e3a656766c9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCATCCC",
+      "letters": "AC",
+      "sha256_after": "dd5ed2106157f164c2abee4b74c7787d267cd52518f305b749aae6457eaf0261",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "3cc533dd2b31b679f0812d5494ab4be9d6873cb1804eec9c283eca1f7848a421",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATATGA",
+      "letters": "T",
+      "sha256_after": "322d27b01cd23c235eff2da480108b90928dd451d90bd012b3cb9a47586bc92f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAG",
+      "letters": "A",
+      "sha256_after": "fed183718edf0f355756b3126d64185a0da18ac5f7889883b147e6585c4dba30",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "d4205b3c3ec288e5574d62d2d00a99592e2360175c2fdcff24a9c6c38d3660aa",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "4f802519377906bd9fc2605a73758cbd9bcbc51ac164196860578aeb8edb181d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "418fa2190e8fe36d794e13f3a3a268ff3cd316ec4b7b2b658b012d90da20bb50",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "c959c18cce70546c8f9b72ad37091d25fe4408eaf4150dec2e19875bcbf3c2ef",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACGCA",
+      "letters": "ACG",
+      "sha256_after": "9c986a7e388d4f1b896fb913c5ae2af8e0e3d75ffb41f08a8c9f4314131c93f5",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGATGCC",
+      "letters": "T",
+      "sha256_after": "c0af923ffe1aa18acac8cd7e9ea451d2dfb1b68fa8b881452732b4a1e1d34375",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACGCA",
+      "letters": "ACG",
+      "sha256_after": "0d73c3745bd958fe25581022082305ab9f82f0b4a8d66b2bcaede8b533fe3361",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "93a74c6b0e8431d5f2277a5372431f933cef33047c8cd5737aa82a0080ab2524",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "72d4da288f602c10ed4b7b40f1657f64e213885ccc8ce1732d85000fe67c4256",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCCAG",
+      "letters": "C",
+      "sha256_after": "24794c19fe5c1ddb307389660678d39c40cb940992cc4041cca721f44fef7a1b",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "e07f71ca18f2b7ede2f3baf15497619abbcc94a8807f87b3b30284380d7f1b5c",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCAGCG",
+      "letters": "A",
+      "sha256_after": "367080687f2c6fa97180d41485e1a17de6eb95f8b4dc1532ca5c543b33b58953",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "61d0e6c84c2e1f2edc336c76501001cc13b3adb757f51fe71cbf1a62b0a68f83",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "ba5c6058b5e58ae7e38d315d2f907c512949fdb86b1d5de47d3df0639cc70856",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGTA",
+      "letters": "T",
+      "sha256_after": "074a5c2bc398d301ae963cb2b049ba32a605bd7ac38bdbc7c97a7c648d3087de",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGATGCC",
+      "letters": "T",
+      "sha256_after": "58d6e7fa042c1f27d3ef72817da4d0ff21eb82b38edca17a3577fc320720f22b",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "2120c8045fe61da610eff4ef0b8b51dee33e623f9b5df1cd36c36c7101e1454e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "62f2d45166acbffd07264b58fbd875e727bd40f2c0763885240ff173965d705b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "46275d4393446c66726bf470ded68b93bf27fe10f26fec103ae125f057541403",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAGGCA",
+      "letters": "ACG",
+      "sha256_after": "0f178a9111f75f51039fbd3615b61922840c3913b9708bc3c1559eb4da36283f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAACGA",
+      "letters": "A",
+      "sha256_after": "b2e2bc2be784361cb69c035cd307195622c9884c20367ee92766d7f3dd3b04dd",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCACAG",
+      "letters": "A",
+      "sha256_after": "c6834cd3ea7bf2bcddefe04e8c9f17c04a1fd3cb8eb07d3485ad7d209a09edce",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "59c31bbe3ccba58dccaac1f31654ba8b684ba440653de2d56e7a4de7ffb1aa0c",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "d5f30580e2e3ff7778dac93bf838a931ae635f026e80c5c18e7b7f8b9e72365b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AATAACC",
+      "letters": "A",
+      "sha256_after": "250339b4c5d03377049be511bde31ed70903bbe657904ae978ff4313284b5cfc",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATCATA",
+      "letters": "ACG",
+      "sha256_after": "f71081b7da9c017de32ba056a1da732e8e0ce4b3801ae3c2bdd9c5ef05f53666",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AACCACA",
+      "letters": "ACG",
+      "sha256_after": "b846e485438577f519d797d6c3370b9b5102054dfc18ecda94a8b0fbc43a1f28",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATAATCA",
+      "letters": "AC",
+      "sha256_after": "c1a88e469ad2be825b04590fcae89ab2e2890c39d6270ced24185e986e8c2d08",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGACTAC",
+      "letters": "AC",
+      "sha256_after": "3c9c067b465277084853e3043d481d429ee59ce46c520d21f7a288011972d66f",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "6251964a2eed32f432604da45b798cf87f05bcffbfbd0254556c2e56df94aae7",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATGCCTC",
+      "letters": "T",
+      "sha256_after": "a1db4d4887de8777b7e1225c5434449519acaff3fed0ae2edfd991e4113806b0",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "a317c983f09b7761bfb0a2601d5437ca4c24826d84d8184f0bce173d3f2aa652",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGATGCC",
+      "letters": "T",
+      "sha256_after": "6e094cd68b6b2ac29e2dc72995ffb8addfb2e1de7e393614f7121ac38c497831",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATCACTA",
+      "letters": "AC",
+      "sha256_after": "1449e4d2e1c98d54bbcab314b269f53eaafe801e98c1064f53209060853fef03",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "7c517f2bcf2697318bb09ce938120f3927a6c728487394fd408985391a8520d1",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "20acb8d2679b7303c93064a4d00dfd8e8d64530d674da051f07377f4faf1a967",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "80f640fe54aacf31e1964014b6d47cdf520c59c8550fbb7c7f478f9db723cb4e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "19a19e386037a79c59affd0a760aeb7945123ca87a35bb0abf8533ee69c7fa36",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAACGA",
+      "letters": "A",
+      "sha256_after": "aedc5777ace9f0b22593a18208dfe26ab6d0c031176fbd7b6dbd1f6ddd666e31",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "b5aff90c174d94035d807dbc6975bc6044bad5c39b4fb747f32982af85e3b0b6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAATAA",
+      "letters": "AC",
+      "sha256_after": "ec7ddfb52a4d67fc827a04f24489f0d5df79c1d1104a9b0607c5d16fae597943",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "2235038367ffe465715dda7a27b7d85a8cd086af85e06cf83136d45ea1258843",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAATAA",
+      "letters": "AC",
+      "sha256_after": "42e851dc16477bfbe92de82a9ec9bb9295efaf2eaa91504604434849b8b9f3c6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "bc5ed3b3fd8440d3dfbbff38e5af7a9896945a835d1a604a4a561c83fab8c95d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AATAACG",
+      "letters": "A",
+      "sha256_after": "efeef2a62f30458453158352dcb90fefe9f8c8a7864b236b7e2394d20f1422e4",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "9416c1c1a0a365058d3da3a3e522e6341e1756d02e43d43de31fa4039ead2e93",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAACGA",
+      "letters": "A",
+      "sha256_after": "7e1cfcd2825a2d4bc9c5c901fd88a3285124716caafa99be6abb1bbea221cce3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAATAA",
+      "letters": "AC",
+      "sha256_after": "3290100fd4c80869529be513b581aaa4398bbfa965ca2400047374cee3a8ac3d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "TAAGCGA",
+      "letters": "A",
+      "sha256_after": "67bcd1b6d2d5b9afb1a1dd9001f2334c272ba83ec3a6d98768001999e8cc4fe0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAATAA",
+      "letters": "AC",
+      "sha256_after": "3432acbbca5691dd686602e22171155d536b70afc30a34ab331130caa72d95c9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "aab813f417ae14544d0a0e0f763dfefadb86d18df718d6d4d8e5211088f776e5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "fa94b2fd7bbada78aa61ca34549ea2ed5bfb54210673304dc6e9152e2827e64f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "1a74fd48ffff5aa2bad00905eb1b2ace9aa934b9ff2c266e41e551def27a9e57",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "4d0b9eabd7d366395cb04a6ad87e575e6b893be0ede3c47edf4ba1761526b05e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "59944a44bcee932068d8514046236625a6929bd7ddb636bc18b1338bd48d8b45",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCGACG",
+      "letters": "A",
+      "sha256_after": "0d1bdb2b26c9eb9e6c76073e2dc6cbf546f56f678b7eff219f119790c0e3b615",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "c452795f583efc31f660e86c51b8554d1c1fe2aa4773e9e224b0678bb5a779b6",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAGCAG",
+      "letters": "A",
+      "sha256_after": "bcabcf31be553f827a1d2aabc2742177fe804b58395f6a227805de796c29ef8e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "a175bdcd4c03944328cc1121a20fc8621c905b07798b992d27a9bd492b5a09c4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAGCAG",
+      "letters": "A",
+      "sha256_after": "846be27aa3df1e398484c523358132ae803f5818afdf77dafe39ae1a83de0ba2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "47ce42155b8ba275d6d81afc59ee71c341556c12600f539691abd0abb1dc1164",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "6f72feb28f84d1a470bb9d5d376ee523a7b20ada37e110b044e9638cb0105fd2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "38b656dbf5ed9329e9cdbbcc59029cd2d2810f5cdf52a03c5c5091ac9cb7e488",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "dd2a9753736058ddd6c5b42860f10771149093df8fed1b8a6bfe046ef7ac31af",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "5824a10b2a3f0a029e38a9fe60c84ff9235907559bff4b2d0071b45cf7388683",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "778b5946c2b612109f4cf78361aea43227a4651f85afe7db6bcd90fb46af0b88",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "bd46b5685cd92ac9f40977f9855c29a221a23ae3497939097ed8fcb23c9c4d55",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "e5aff85856d619f7fb7b85a4b7dd486cb8c87c68add4157be08a01a893df80da",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "943ad90d4748da895e9bed2b95079fdbeb0ee6e2dd14cad9546522345d206d05",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "c33da91277b30a9a8f469aa96ac5f25e85bf6c7e7876887ce7fc62f6981a2b5d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "7e44c0fc6a26d64eaa02583e68a14094c0a0c6e63e1d761d257ee3ca6ec7c9cc",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "fc4401529c98f6a2b24be2a558ec0da9a5b6fcee00d0369350806756ff761122",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "1f853064c131f9fb5be54f33952491accb1eaf7414d4b2e49a28d228fc85754a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "dbc80c8f89140768bc6f1157e7cac4362413089f0044cd59e0a10b48152ed5f4",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "9f818c3d1588a15c2f51613d797d9d4518541b2a3fc9358046e973553a38499e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "00fbd4e66f0c548c0a7c9d1bbd9b918db5f4e92200114ccbe29de20478b84756",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "1688dd60df66670352bf2f6e514053222f943196cf5ff02f944058f3f6c818cf",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "40cb58bbb8049bf9329c9926695ba90f8e930dbedfeb0996012ef11a20b3527b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "9b0ac7a44a6a571cb6725877ebcfb054131aec07423ed67ef6654c9c3b29761b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "53945a76cecff132a5436ab5ee0edee2b63146f6a0e5c65703f2edc2103e734f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "edf7b3f1ddf1c5ed31562b82734d6a2fba6f018c3fe666005413fa1cf007bc8b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "d504e21fc12ff10fecd88fc9572eed56c94260a4ecf3500b1ef598a9a51638ff",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "5c64206a5e393c9fbe9bb10b23c14e48f414f5aa064c3a42aeb262b35de759af",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "2a29623630c871f0903e69439df4d7930c9b7456420b68f463aaf179779263d4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAACGA",
+      "letters": "A",
+      "sha256_after": "aceb04d9cf477ffee794bf2f29f563838916555484a6254ef6e0a6738732ffb8",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "94883ace7d831ddf12a3eddafcb6abcf01a9fc1f9acbd86724badb7de97491b6",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "2ad1d22b7a42f0205e95c2b2348b22d22e6e666df4c3686df467cd4795f8c6e7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "d2992c029800dacb0e0ef96e448c52e0cf512b44c466d1982a2b34089bac5a49",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "2c7013a3e94b5ad3a0a2da09bf7f8dff806136fddc1b993f213c69b4783a5c6c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCGCTA",
+      "letters": "T",
+      "sha256_after": "f403fd2e57700c5611a39a1e093885e4ca89366b5516c885d73250fdce65b7b7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "b3a6199b91e738829226dde4f2662f57a9f0f83c7dff321c3d9b5020f4d839a9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "251d4979dfbeb9e0cddf5ec08cc4aed0d7028d87f33394e6791441c9c80473e3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAACGA",
+      "letters": "A",
+      "sha256_after": "ad23df5aee294ca92503b8c3e2d1c3a1b12f4e6bbc00c93e941c7d8001f89e3c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "bd9b6e8a35dfbe435b3f7e5807e98228cbb0873212eead0f9f648b0d4a156552",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "4604001d3e9341da59a6947c4f6947fe81938e6b10ca7b3f7ec2cf75866de422",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "a9d4eef8bdeedbbc05337ce07b1b0dc488b18df0762e6513c3b9e61899e69ec5",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "633ef67a5a82de63a4c37c2bbd90f86eb8f42fe698405a5100750b63afab285a",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "46f293d0f5ff6c8b054cee624ef1c52715755a8d5693c87fbcc83235404b635a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "7691ec054a7c8953c3bb2f127165253cc4f37e69dd609e696dc3748b457cc6ff",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATACTA",
+      "letters": "AC",
+      "sha256_after": "4d3e8d40ac6073eb61ad9b927f7477dc29faae388ac310b9e0746d906fa4fd26",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "11f12b5613a10b3908897bd33821bfb9aa224f752bfcb0d49eccae54dcbc9ab1",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "1d269dce069f3bf19d4298acde5497ec49e9b2feb7b98c42fc46cbd0321c0cc5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGGCCG",
+      "letters": "T",
+      "sha256_after": "3122a2893dbfe070e97e2de85771c10caa13620b42e904f092c753d0da2c2d9a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "b3d9d6cf1926c48c41c7dd6e4ccdbcf7a6584b609b2a82a7f6a379ea34846bab",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGGCCG",
+      "letters": "T",
+      "sha256_after": "2759aa3fe8b47f684b20d6bafde29b1a52005141e72f107eaa076895938d59fa",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACAGCA",
+      "letters": "A",
+      "sha256_after": "02df0710805d1f2e7a3790186c8831e93e2f9818b0e982397b3e2a95bb681d80",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "cb90ea18874924c31537da3420f51be25a29bbd14547f8f165ba792adb1752d4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACAGCA",
+      "letters": "A",
+      "sha256_after": "2ac721532dd559a474b78c58be2271b64ea50086ef04e0d87bfb049ff8ff4972",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "d8990269581026b9272cfc332349def361d2132b1c11d8ffc5542ae2d33c5664",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "7234df7b35e3f01c28d22cff199a6065e93839346a89f9db5522920e560d5d3e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "0b4f862b2a566514739984289cebf1bed38d0ad96087c00496307a6995f834b3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "aab3203154663862a59a9adfa42d3628747146937e8d1f4540f5ac9d237ca159",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "4787a4c9ecdd36a7047dc31cee4ab80b0e3437d303aa66fc3ed6c53f11231b5e",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "f54cad32b71eb071496f811fb8c25b27c5cf63cf053cef01a7463c6693d083c5",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "1076b1a9c0cf0e59fc4c7eec566bfafc915688364511c881f16db0e076475207",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "f84f3da316b7e322910a2a59048245f5f2d08be527322f7b19b2c54bfa24a242",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "61d566e5dc7014443f8d8a23cc70a838bf496669d0b0b354e43febe9c2ae8d3c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "03811473b71a993e1193946525cb91bd3220ba5c58e04e910e80299726d53e8e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "f00a444b8a7c3081d254ac4b242967995fe0edcf4e684f54654bb560051d48d0",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGTA",
+      "letters": "T",
+      "sha256_after": "d54377c6ed385d35b387c30c31dde7cc9969d7db4459b2087754824a017bbe44",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGCC",
+      "letters": "AC",
+      "sha256_after": "ba42e05ee4feab93317e26832561c19df8d00321037876016f056b9c121f7a80",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "b66e9e9a75282ea3441003b958014710d541c3da167fe8a728680704031ccf39",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGCC",
+      "letters": "AC",
+      "sha256_after": "56e1a27b2143842e040dc9d6f95caa025ec0bec1c907afe4d77ab94115cec50a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "e6fbaeddd430d8ed5537c2b22b0bdd93a56aa70920f56f6c21f47a506518af6b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "d81b8cf4da1fca755bbb9d18857273019cd958fca08df359b40a4c3e27f829ed",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGCCCG",
+      "letters": "A",
+      "sha256_after": "150ad4b44d90f07f9a9636d1e78ebc45603f96e7146325c1855f27e456a55d89",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "f82a65c08f3ec3a23e58b8b477ebbb629674559e258aa81b03c3da2cdddcb5d9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "499e9395e3e4328850b4c2ae089c9460d519a626973ad4d000d2197b6e93242f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "08ab8de092c8320fc573ac1962e172eca1e435d9769a9e7841ef29dd7d33afe6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "444b70b1fec0fcdec75d795ce232180766e80a630a07850df6f20dee7885a231",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "3ea97e8e549a6ee54765be75bbcb81c033179bad84c7c4f314f0ba417439c553",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "ae1672c363ac4fac97d07c0445df07b05a8a636296b4cc23a4d076839af83ade",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "4da55e33177d432d01011ccb26624c610a24331732bb78c9d877f42cbba5f66f",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "01eff87ffa06f8b0f1b32c117f94202ae5100727a99f6cd93161f12fa5c4aadd",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "4b2a59f5182505b1f25503b9859dd98ba63e3e74454de59983cd5461f21def3b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGGA",
+      "letters": "AC",
+      "sha256_after": "06f7425efd4e09d7c8e12ee4d445cbbea75dbcebf4fab6d795f17740689ee046",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "30e9540f04554b59bf8512e1336ddb6faf7fd3a82a506204e8f26844bd58e095",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "8d4fa08373d1c227fa56b43db7e92aefde482e38be7feb0d3a129d4091351087",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "51e41990a1afab554f1e3b64d5c7178904df6c11ac34fe2e574b0371d0646ed9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "aed1bcb34c151b87ec48c840a2cb00631897bb2bfc601f0ba01ef2b0a8540afb",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGTA",
+      "letters": "T",
+      "sha256_after": "ba14782bf9b4d2ac59e92a39cb2cbe019a3dab740126924ccea32de8230c37c3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "e0a3c1362a36f83b4afca281b1d0cc380a7cd89c64b1af0cf5f702d6366c8e93",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "04d245c45ae42e14ff11e7990ed9edb4ec6fc8eb4e44bc9ae47d48101e32a498",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "7f905e49cb1b3fa9377aa334158e60b5af5c21d334333006a73825592817e1e0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "53a3e3ba274a5763983ed0663dbbe7cfd9b1dabafc1014f8725358f1c5f4ff16",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "559e6f631149d869b9ca78b2889e3c8d8b86370d4ff99a05e8dfba724945146e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "05ec33a6ab09449a733951f1f7a98dab30a752cb8288313da40f22a72ab0d79e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "85554e35fc0c215e47f40d3c200bd0f51d352682669adcb87250293108245867",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "748c7f9cda453c06eb3a1c22748cf1763073f4bf918a584d8f0a9d13b92bc62e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATATGA",
+      "letters": "T",
+      "sha256_after": "3415e45c8101cce0840c45b53a2d06cbb60388c55af947db42010a9ffd35006e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAC",
+      "letters": "A",
+      "sha256_after": "3b4c6b9a000a163cb2652c19c7cc51b4cebeaee29e5a6f00c731954bbdcb41bb",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "bdb97daeffe4597cbf441f92125c61a509872436325f9db4c427cf613ba5f10e",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "73424d6a03e4b22653ae7a8ccaaa97c2b0634abf99be759e29f4ac63dc4674ca",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "7e2c5bb81d02e88712f2196a94d977cdab0e11aa4bcbe5cbcfdb5a8d8a0a0efc",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "17f7543fb44537f9ad672e4ffa7f8f4a01ede14405e8bbde663cc3d5682291df",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "3098a91645c7d694f406c01c91af149d2120d004d6772b0a0a853dbbbf330b1c",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCACG",
+      "letters": "A",
+      "sha256_after": "82acd8b95dbcdd11b2fedad351504d40288bf3c9238b4bf3d2f7bd19f41bfcdd",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "40dd3e42e2ccfed78564c62130b452228316548f76e2f35e4ca0c3c4f9fcccc9",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGCCCC",
+      "letters": "ACG",
+      "sha256_after": "346785012fb495498d374d1b68a848150f7e14509c7118ce5f3a2d4b012f611e",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "60e5202ad2ee5fb68667e71c48d98e64f5348d4cd0d23507c13974027e4b5095",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGCCCC",
+      "letters": "ACG",
+      "sha256_after": "cd10351fb3dd088648342998de1a3096245503a84b2799f85860676585f68888",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "975729dc0877db7a27ab848486e35e74abb68b142031fdae72b2409285f4f921",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCACGA",
+      "letters": "AC",
+      "sha256_after": "9382a39210dcdbfd04ed11169d8a6825399fc7cf3dfcc7b02d9f9629a34e5279",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGACA",
+      "letters": "ACG",
+      "sha256_after": "a2c2f224c6ae6e349cf9e74c3846cdea6b0fd6b21b2835e2f366f0dbacb46644",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGAAGA",
+      "letters": "A",
+      "sha256_after": "1830d990425d42c3ba8db87819d724e2a80e5243dab7a31a27428577311f1d1f",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "8e034bc108296ad0cf2909d82c51baa48e2666ab0da44d2437001b826c0526ef",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "97367b7502540fec7dd5a8771bbdd8f16b1190cf5eb712a1d7e3b189eb721d5b",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "493e6d1831b32d6c0ec8a8ec6c618086edc16d4e8593f95906eff1316f816bdb",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "3db486e267194808bc30c138449afa23a0e85b04b0d3281aeece8d8d728f17e9",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGATA",
+      "letters": "A",
+      "sha256_after": "e2fda0ddb9e0435feb38d082a8877ae770cc0760c89870b7a18cd8335202539a",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "1cbc4835f0aa19a3de2fda7abe1923e78ed0ea84575fc7ab63403fd410504220",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGAAGA",
+      "letters": "A",
+      "sha256_after": "ed7c25ee8d592d56ed26df890133303bd4d3a74d3be14d8834240fc1f51d806b",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "98265cce9a946dc5169a4693d96e4afdaa32913552d560c39fda49d7b9a378fd",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAACGA",
+      "letters": "A",
+      "sha256_after": "4be4c21316dff7822615041c6deec009934bcbba591b4796c5d8678584ccc07a",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGCCTGA",
+      "letters": "T",
+      "sha256_after": "3b9b3e8e7b9d04d32a9cc83b25caa4a891ce51bdb7325ce83563bee2ad72f07e",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCAGC",
+      "letters": "A",
+      "sha256_after": "b5ebfa1088f092ae1617beb2808dbaf46cef5cdac2500ba81c5c58c6552cfe19",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "4d1b3fc3275052dfaeb1c1e7bb7e71216504e015416864a96abd486d0256624c",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "754f66950cfc20e947e4a75a3c7d927120ab5517c806c56153c879a032a2482c",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "10d58a6aa7350d4d6c10436881d1154b9b28091667a69141d2c49af6a2097c7e",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCAGC",
+      "letters": "A",
+      "sha256_after": "a8aa2ff57fa2d6ca7528d07c520ab06f66aea7ed8767a07a14afb28a57700a80",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "9d44c9f692815dbb52af6f76f19a20ae9c4aba3c16f0b73e5bc286ff84fb2827",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "8997686e13882bd092d8d93a8a0d0c3ee58ca230a0af72151840dac51fc07215",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGACAGA",
+      "letters": "A",
+      "sha256_after": "44ebc8e26e16779effed1f5e9663fd343cae292b727e3e06a7946921eea4f925",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGACAG",
+      "letters": "A",
+      "sha256_after": "991a5d48c0113b35d9c4c6304a760fae6e77187effd8e7c6b20f7a25d7d229ee",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "10a0e71cae6602871aa32795623da6f7e59053b27c453556b63b24095575f586",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGGACG",
+      "letters": "A",
+      "sha256_after": "ed00fff98186a1029064a00d76784c1c4a0911f09a2d567b232c70a02549fce3",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "2e52fb2bfe69ed7c7a7c508c529e780368a355d890c652171a1f81a3fcecfb73",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "74fe0aa43a181af92d5cfb5eb1cb4c1a888a9b8dc15ffee3ad569c5a53904f8b",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAACGA",
+      "letters": "A",
+      "sha256_after": "41955a99b46c32efe62269e1d95f6f7c170ba78180deba2db1cd696d159d2a76",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGACAC",
+      "letters": "A",
+      "sha256_after": "329b9c5c44c40ba2110813facddfacb4b8114478ed03081f5c13bb0ad60aef73",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "482ef44f5011349ffcb31456b2c01ef99dfa6477b6770a0694fe39a19e315d81",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "52fb276c9d25210b16a8940aa1040958d2dad4fd6a84d20172061c56b99bf675",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "a9de13ba9b98ed5d1eda42dd5bfb6b90c294d0770f7a2085f8204ebcba11f434",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGGACG",
+      "letters": "A",
+      "sha256_after": "deee0653f44676cfdc327bde14fd75b37d1ecb064ff7895eb52dd041cd2dcda2",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGACG",
+      "letters": "A",
+      "sha256_after": "c551bd6b1cb8643b79eeb5b654eff5590ff813946cd2a60c5f1a4d14f778a63c",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCTCA",
+      "letters": "ACG",
+      "sha256_after": "b52d89a03f6a5fced6c5b0e0cf6770f10d3cde3e620f7777d7c0f6a9168bfb21",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "ecbb79cc4c3a8703087df4e1344ede18353400c12369da86d908bb65ebcf688a",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "643833ca6157cbac52bbcbe0db5289cfeddf5b689f60290a295566fe0356f885",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGGCC",
+      "letters": "A",
+      "sha256_after": "ff3c1ae66ef84427c9ec3c1b215ea873d9b4cd05301d9d510c67f6761f65efc4",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "2dfb39fc9d30b1a900337088d069db4bc507313e62fd5b8978dbed50715fae3c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGACAC",
+      "letters": "A",
+      "sha256_after": "4c340030de923f3948f28b11d936460ef5b21f17af1cd7dd6b1889ccb3e49fb4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGGACG",
+      "letters": "A",
+      "sha256_after": "a67ed5ac9aec54ff7c32283b37ed03e8ef3a91581208af961dac2328f7523e20",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "508d378ec216bd31b6e07b7e7b1d34ae78a2a491a709850a445867bb4de9a79a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "35c2db2bbfd4c4d3e0fe9ae4633c1afc04a4cded7fa49c0b23b332b08ec7b91b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGACA",
+      "letters": "ACG",
+      "sha256_after": "78a261633321e206091ef31b4f30b119712f3ff62030586aac8a07ad927f373f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAG",
+      "letters": "A",
+      "sha256_after": "0c7fe71d217381a6e5e18083147afb33c7a30dfedf2ca6ff57b8df6b6bbb3355",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "7d2d437f74d445934ec882605ac5c1ac0637a6cd23cc2048ba1351342983efd9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "TAGACTA",
+      "letters": "A",
+      "sha256_after": "a1ce159f9fd409059bd81cb30bb9e2bff2b0b63553cc7fccb0246ed3714746b6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "98c8242c16652314bf3820f169ef6a9e2f0bd6af2fed9f49ef3c9568424d1bb3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "d1dff6a59e9570a5f6a4af41f67e60a1a27933954c81f8026ad149fdac93e0c3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGATAC",
+      "letters": "AC",
+      "sha256_after": "e021b909c5552dfa78540d1373ce72c1c0680fd975b9102453c3940d5c957d1c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "cbfda6cc51da293e2adc3d6b0e914d677462777cb6aa7e9f2195934e46026fe3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "862ce12dcc32f0ead89a76cbb7f556795f4c085e7333ab05fbf471e2f8330315",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "cdfac31f71d055e45fbb4bc917aa19e147fef0574e1e73be08f7a998f9403cca",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACCGA",
+      "letters": "AC",
+      "sha256_after": "f0ccc00a07028d9f9af77651deb17afa85b91462175ad6ab2fa66d6fabc59149",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGGCC",
+      "letters": "A",
+      "sha256_after": "322a0a6a8b7d5e430f4ca81a184154673b4081596e73dbe8b2fc866562716b7b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "5183be43ce852b0ee16703cb4a8955e556dd394459ea77580f04276e39dfd407",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "b04587a4be3caec56144e2edaee205a34b8f3a485cc861cf559e5bff46e8be2d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "384c8685d507dd14ace2fa06358b88e17c439ff6eab6c906253dec74132d3beb",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACCGA",
+      "letters": "AC",
+      "sha256_after": "9086dee55f7934dde4168dbbda3b2cead1f240dd75b1c92762333492b76d5018",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "0cd4fddbf3df98ce04db6bd952b8d8ee35be602e0dc4876b8cb9ea35bed9a9d3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "836deaf29e174def786947162c8e207181249e582e8a6ef15ac4b0a73f487fa8",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "47797988cab790defb90358c728f46b2f4c71a615ff75a6b57db19fffaa17426",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "92a3b503bff7382688ff181a74f1d4d8f8f4d4f4251057dec671a398378ea4d0",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "5682255dcb5837b3142bcca06e3d29002aff907bb1808bd0f7d8eae42ab94297",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCAATA",
+      "letters": "A",
+      "sha256_after": "52e3b3e3e1466397b893b81523a8f655afa700a3da1f4741fbf0993d078ffdc4",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "bdd52e6ecac5e727d49b4f2b8513ae602cb97deb67d5968f220d3307dccdb775",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGACA",
+      "letters": "ACG",
+      "sha256_after": "f61ef703115e797508276fff6b41275a2a9409069b63168c4603fda852d73d92",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "e2eb12abfc41635356aa62296cd4880c1a9684ddb8570491649e8c2548355b6b",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "cfef423e539f2fc1d0ed751e34a51c05a2edc5ae484874eb04fb8a2c167152e0",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "9be4bf64a052bac1d5694ac0efd2af914a7466ed7f1beb5263fc958f882cba0a",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCGAC",
+      "letters": "AC",
+      "sha256_after": "f525afe393a697c45360d7dd26ab99b961ae24b7d3c428b89b90cd9e485a2167",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAATAA",
+      "letters": "AC",
+      "sha256_after": "068853e0f7155d0cd065675b1344903aeb44ac58249b971bef30d2fac09c8e37",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGACA",
+      "letters": "ACG",
+      "sha256_after": "24faf3c71e1c7cfa5edfc540484f0e2ea0332a8c888b9c202292da1a8d26076a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "605e7bb4693400344f8f0e86f9bc334a34b0b2f752156e88c2c0156969ee7aee",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGACA",
+      "letters": "ACG",
+      "sha256_after": "7b8ae650b6b9127fe438e1b3947115ad1f0e58888db2cf3980cbdf1be4ff8863",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGGACG",
+      "letters": "A",
+      "sha256_after": "d3e7830ac4086212c18f1883416876bf7a640429f7f21bd7e7eb044128e54e06",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "8eb8e314c5a37df66a33541c3f216834ccee3d2b91704265754d3841fc89a774",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "18c0f9a6b28de5f35a0fdeb53958608f4ad43f099e24d16b6e48c8fea1e4e163",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAATA",
+      "letters": "A",
+      "sha256_after": "18f6888f725dc575d2eaa79337a009d9877630326cc6f7c0f74978bd2f82a261",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "8858e9b7de267b73a5fcbadbfed7c0f4c10bc60678d4a46f97eba79141585292",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "84bf3d65b971add6662fd93a638efa5ec3034421e1beb623163097c02041f231",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "36f2a9d1e11f9deb690fcb8b66fa24684602aac861a7534c6874f7baa93b93d9",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCAATA",
+      "letters": "A",
+      "sha256_after": "e43bb18794d7a61ccbdb380399762bbeba714501ce8b31e1408bf2ac1a2ef93b",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "a093e4e7c78c67c1bac96a9458ef04a219dd98ccd14152cc4aeb75dbcb0aaa19",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAAGCAA",
+      "letters": "ACG",
+      "sha256_after": "361c5fda1dccba9e3123b4c071d49cb713c10673e2701d11b73cb40ddab7ef20",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "cefe3b1d38ddf0e569c846ccd7b84b644fed41491f5d8b8830a6c1890a2c1973",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGGACG",
+      "letters": "A",
+      "sha256_after": "8b4dee9881a657656b17270e7b772c65c87e1c9baa59d9ce76370a47cb51ee70",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GTAGTTA",
+      "letters": "T",
+      "sha256_after": "d66a76703f13573575e8242d8d7cdd4bffefb505572d0f3836261df08091e521",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAATAA",
+      "letters": "AC",
+      "sha256_after": "7c6161f927210f5eea84398fb15e588059586b691408513459507df4782a8bef",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "9cdd4ce188b9f3e538a969f50f5738f7a54f63736fdbefb01987ece5a0e702e1",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "75798891ce2bca6c5b0505b3c291e166508b5164a62228c1f9f9dcee5b3ac002",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGCAA",
+      "letters": "ACG",
+      "sha256_after": "2711e1591e7bdef970d7045b8f408e7e159cb13081f684feb3ab9510c33fa6e8",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "ef4bc96e7dd5a8aa0eb05d8f6a2abefc4eb97d00086caf4a8af11cb8946e86c9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCAGCG",
+      "letters": "A",
+      "sha256_after": "1b2761798e2c1afbc291e5cb942207d0ad300c561886712c110043c3e5c1d3e3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "09a6628b18d5cfd5accd6f621436208391ae63cbe89e5bcde77521a55600fac3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "d875920a39c195e897047b678177c35503cc3229008996ce2c76eb61726bb07c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACCTA",
+      "letters": "A",
+      "sha256_after": "a2609aaf962917601aefc65dbd863aace146563309238a636f02bbdd241d7caa",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAACCA",
+      "letters": "A",
+      "sha256_after": "6438b46529456a957348b91fecb8353f32de0e7ecd2fbcf64ed4ad0b4c49b0c1",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGGCC",
+      "letters": "A",
+      "sha256_after": "4e39d41aab044e9e9a998d5c29264d15a4952c1b1f666e90264c907488e412c5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACCTA",
+      "letters": "A",
+      "sha256_after": "0c3e1df9d963c94073561ad4dbb2202d79300588569cd6f6a17aca778c53ab6d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "24dee62173868a0491aa94a6f9bf5fe9771d55d8d8d6d65e7f46fc4cfe8dec41",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCCAC",
+      "letters": "A",
+      "sha256_after": "741797ff553c03be95a3cb568ee7fee94dd262a933aeb353e3539d555fa80701",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "db884b7ba30c62f9c79d0d4a34f15e4a6a84d8a98d00b358f7197fbc182bdeee",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCGAC",
+      "letters": "AC",
+      "sha256_after": "37defe82bf54ea2a1d287adca89643e24d9d9c3f4bce06359a7513e1b6a0605f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCCAC",
+      "letters": "A",
+      "sha256_after": "abfd32756eb2bf1f1ea22cce569c0614f8444fc807fc34a5bd688016be73059d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATCAGCC",
+      "letters": "AC",
+      "sha256_after": "5d49f4e0d7d3efcfbde80a7370a9e9969bb706b0f07b5018f0f20dd3a8b49e7d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGATCA",
+      "letters": "ACG",
+      "sha256_after": "830e22ec52446fc0155198573f4e8c6819a52c4f67a64057376670eca66d3a23",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTGA",
+      "letters": "T",
+      "sha256_after": "ae0f56a0b845af30413ae341f13c3044a404d8d5cddb7d268ddfa01138d69e0c",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCGAC",
+      "letters": "AC",
+      "sha256_after": "9ca4314d493d1256384b7b1312eca6235d683a84a16e35bda4593da3269b76f4",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAACCA",
+      "letters": "A",
+      "sha256_after": "3368e671172bdccf1cd9e098994a80958650b3f96cf10a6f60fdb49fbf0e7219",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCGAC",
+      "letters": "AC",
+      "sha256_after": "620801983abf9eef3d01636defe107b88af4b437db621ee9917e5fe74ee02ce1",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTGA",
+      "letters": "T",
+      "sha256_after": "b2219634fdb48b69d0a1b797125e59a839f37d6acabe2da8b24634335425f407",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "342897b427656dc58cce59f9dec3648c29b1a6dbd0aa7bb3c498353bccda457e",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "34244ada6091b1e9227e59fc9e03eb789c50d718591bcef0032981725a64569c",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "888b615a7406788a73f29541a6aec90dae45a1d2c0b471cfe77fecc1c29815ee",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGCAA",
+      "letters": "ACG",
+      "sha256_after": "9cb5a88424d5ecb0d846454b5e3b929ee540ab4f989bd8789f7182b9070d354d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "8265b99c196d6fdeb1fec0f3684e61a7075e18161a8ababc91dbd43c15b3c445",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "be34c52001ca917980e7606cdf179c9e4b14b19053c3d9d8b3925601a7112096",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAATA",
+      "letters": "A",
+      "sha256_after": "b06c8fac3805ecd4e3fda230846bacaecc929fff0f9c0c59e64b7268d882917c",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "0530e4cb187090ca2270ac9ffb6cca7a70c983b108cf3b3463b8c1da75bff07d",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "1ca77cb8f461f3d92992a1a722e418f92d9626b4dbd543434918ebe2ed81ffb7",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATCAGAG",
+      "letters": "A",
+      "sha256_after": "c7016511d3b03151fd3587cdef89a5138efcdf8f1a0e21acd77060f3c699b471",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "3175ea7b465076024af646c145f2fd7d043afbc8900d13b02d0f33619a36ac3c",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "726c917414734d1ff38126cd6572fadff40d7c349ff99fa8c64a450a3cc27cf9",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "051a9ee39946b0521ce8452fcb7d7a2aa83e5327fda2a8ddfcffa3af67185861",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "0dcaa9c514483f55706c504a461fff74dc9feb82a53090d48b33258826b5119d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAATA",
+      "letters": "A",
+      "sha256_after": "940dad18185bf0bc0db3e546ca18056ef266ac84c3918e0cf84a954a2e73b823",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "4601b3eec82e15b4e2a2e068c4a86b30a502ae1134d38deaf754689c0cc6f314",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCGAAT",
+      "letters": "A",
+      "sha256_after": "19a0d3ad406538e4d1e8193ce8edfbbe3fc418138468ea10e3d9e1d3efb27566",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCTAAT",
+      "letters": "AC",
+      "sha256_after": "29c6c293bcbfce69a20f767ce5ea392ffd155eb240a5e203109469429cf139ac",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACAGCA",
+      "letters": "A",
+      "sha256_after": "bb63f9b79aef1660e48d2d26cd4f722a298781d160b80bda700087a2437be756",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "f78657679ebabd30254296200528a2b16b0e20a890fb7726f6e5a0d78d66f3db",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "33b894ecc25afed82e0c2522b7513a9928f79bb94b8fe41f86781c82a26d3550",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGGCC",
+      "letters": "A",
+      "sha256_after": "b95f6816e8cd463e2971b54156fb5cea4711fcc9b3ddc1eb2848edd6a50a1686",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACAGCA",
+      "letters": "A",
+      "sha256_after": "e2c951f67afe8766d52851f9118b91b1ad011b2f0fb4b2b421fe025f59d61044",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "d08d1062741db0e2594a165c7c47c45e436a99df831fd5324cf74ee9f37200cb",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "b2ee4ec73ea176290a306d1239ae40bbf6fd8e9a2e1b24393602c14c4231ca01",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCAGCCC",
+      "letters": "A",
+      "sha256_after": "a81f0ceab85c0d75f55c9b4a77512049ba5bd2fb6bcf5ca12932c3b065db489c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATCATA",
+      "letters": "ACG",
+      "sha256_after": "c225c810a8609071aa8dd3cbe7da3588cfed6a866b7aaad2a1c678821b2d7184",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "7022c9a3c54fa9decf6ffedd1a04da9894e55ca8a7160f9f1114f690a03d74b5",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "1177ca4b2bb309740228f2cdf1512602aaf96e96ae4e17ba7c36458dc3995498",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATCGCC",
+      "letters": "T",
+      "sha256_after": "8b5bb215e8e5ae420b42c329476ff6990a17df51f3fcbd96f7b8dc92ebdbd679",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GAGGCGA",
+      "letters": "ACG",
+      "sha256_after": "e8a705616fcaaf477d57c08d55d97672400110a29a06379fb851e833b789bc92",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "f1536a9a35057e7a81fbae5525443389c1877dc1446cd3e048a15bf9c7f11c05",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCCAAT",
+      "letters": "A",
+      "sha256_after": "f79b08c920dc688214b94f602ddc193e51a3b0ce1c4b2b78cbe4299bbd67abfe",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "65a289b85a3ca0defe89e9897caf78b786c01b2ab23569cceb10c217b6fdbcdf",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "cd039f42099a6ab420c39a026af971ecb141a24ada83222e3ce9088df72b8c7c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGGAGTA",
+      "letters": "GT",
+      "sha256_after": "43b9c08aceb664059c62458c73639ce8d1e958cb0da33a6d3df9dc374763405a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "df411926e0fbeae08da037e380df5eabbc3cff0a6603af8cca559629b6035092",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "bc96a14ab4a2896c05a274abeb86c81e2570ea77266f41f89402264b44dcda4d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "45db0848ac37bef5c184a398e2f3de86325eac6b231cf04dc23111743cf648b0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATATGA",
+      "letters": "T",
+      "sha256_after": "3590dae22a48a2a0735564e573a44dee78e059feb5832c3c2618ed381831d47f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCCCTA",
+      "letters": "AC",
+      "sha256_after": "b5a32567f618557b2ec139f0d25282636b4877770c9b64ab75f3e2e3cf0f519e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "6e4f42dae0e14659b7a7839f5df50c22135fd270aca836cc809858f7ddf407c5",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCAGA",
+      "letters": "AC",
+      "sha256_after": "9e53586825aa7542833fc3ccce7d70b5c0c6c2a3478044936470accdd2bfa023",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AACCACA",
+      "letters": "ACG",
+      "sha256_after": "8445062e79a768ca4aa8198a412f31d718df6a75378f012e020470114c88176e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "28eb07be1d285a19b86f5a612fa1f832864d9b37623d10992d023a2f8d55ae3c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACCGA",
+      "letters": "AC",
+      "sha256_after": "5ccc3b07d4d673f30994f23c4b0be08266dc96a3617454b37a065316e70db72b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "ce0cfc6373043ca72460fdc7369a870e08e61b126309850b4b76bd559a765bbc",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCCCTA",
+      "letters": "AC",
+      "sha256_after": "1af545064e0940b09a818c4537c62e095eaa024e91ded82f3b1cf3b884c5b350",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "0a8c1f4f36edec08758fcbc5b1664ab22abf2283c2be0acd4d26c1cf6afb8cab",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATCATA",
+      "letters": "ACG",
+      "sha256_after": "64f2a28e469d52ed1a0095448d07c771a0e5d35443c40140f0408dcd3f185c1f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "7a9cae71b51fa1f4dbb19122d125610ae2b3e2f7c1405e8311853208b032593a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGTA",
+      "letters": "T",
+      "sha256_after": "cba60befe0ed08de8075d5bbe7bb76e6f1200491cca59e3f390a17556e37153c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "8f4db36016158fb8b46115526184f4a0c242471efe0082e6e9a516d1b4c35652",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "eaa2827d323a7903d8c8a0a29b8e0dfcf3ead0ee69a8cc7e223f2de031991848",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "b082c2d9d50adcd7eae1103fc946c90854d16ed1e758b805fb5fc50457260187",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "803ee980f64709cc2474449dd4b0f491175c9f6e62d50bd0949ef9fd769b6f30",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "b4c7a15e2acda19b96ca1f64c6c11ee14fdf08dbf583bc3e839a89265b9baf5e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTAGCTA",
+      "letters": "AC",
+      "sha256_after": "d4e4b9dcac8aedbbc41f8ffc67a05adba2eca1694848a63e29db1c7ab7a4e79b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGCC",
+      "letters": "AC",
+      "sha256_after": "533725984a815aef9e5b6623fcfb30e40a3b32d600a604fe25cacfad7da76566",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGGA",
+      "letters": "AC",
+      "sha256_after": "30470b5425a445755912d837d469214d4c934f94c360e32e541d11e40d2cfc2c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "42fbf98cd60db2a7b198e879f66f86126ba70ae43d28eeae468deea21164d180",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "fa138418f576971aa35673431eb4cdc055e0f3bbf5fa6ffa33ce5d51f567b3f1",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCCAAT",
+      "letters": "A",
+      "sha256_after": "e47edef6871b8133e51094a78dea998f6e611b20150d145a69fdd839b54f4528",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "62a88c66b415eb42a2d9fee78f75f015877d6cf8b6782e0121052c5c039ae909",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCCAAT",
+      "letters": "A",
+      "sha256_after": "5872d1d9e81d66bbd193189baa4ba89e182013ea5579bf24db8ef5aa122fdc3d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGAGCC",
+      "letters": "A",
+      "sha256_after": "c512b457a7eba0b51370313bed1ec313e1d3b90cfbf1827bb55a9635d54c765e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "e1dafbbd60ae544daf8da0920004fda92aaa58a4f0ee4ea235e7176f8ec3c98e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATGGCTC",
+      "letters": "T",
+      "sha256_after": "a580ef7bdd07342bb45d33e9484c1c9f824027701c18e726c3abdb995494a76a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "e7905452a91af4afaf9b3472696b8ef2e37cb6169b581c3268b01e9a478f8777",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "95542fd55afcf875caf772bf5afad88b1142111a6dfb86e9e33640ab396b8ae0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "7f3d7257c788959e97c2132c8968973e695149952a340a2d95c3d0d7c4259b88",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "TAGCTGA",
+      "letters": "GT",
+      "sha256_after": "62015978a37cb8066c66ff5bc960410cf82aa1e839559cf5b5a0a413cb4049b7",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCCAC",
+      "letters": "A",
+      "sha256_after": "ffccbb3acaf6a6260b28185a75665a9f8bc80a40d4c8008c415d8b89ee275064",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "5297299781ba678dc326fbe87f55ab8c900e7537319c3273e4196dc35bb1b34d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCAGAC",
+      "letters": "ACG",
+      "sha256_after": "143e29ee5de43e29b64fd3fed829b8aae24920fd84efcb610fed056bb686e970",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGATCA",
+      "letters": "ACG",
+      "sha256_after": "8b949a2dfc910ea23d02c35bd6d5474338f506553e9eae4bbc9be9d07fa74fb5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "5cb8b209f24ff049a1292d7d36cde7e401b4c74a47e68af3850b8c1bdfaf92f0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCAGAC",
+      "letters": "ACG",
+      "sha256_after": "9adb758dcbb149b8295f11fa8ee7b5817f2de8d79f92fd64623e2d6e003480b7",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "045087a8d541122af71d8e2006041dfabc8e71a60a28f3f2d25c48fea63e06d0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATAGAG",
+      "letters": "A",
+      "sha256_after": "cd498f573fd69936f17cfa1374d9c0a4d84792e4370789114870fa0dfd1fa89a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCAGAC",
+      "letters": "ACG",
+      "sha256_after": "bfb35fb4c9250a4b96087468a988cede1e85a055dc6e0c0678f762e4a74929e5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAG",
+      "letters": "A",
+      "sha256_after": "8b88829f8bdd998467c9ed54440b883c0cdc807e0264210ba650019587f79b73",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "7e70059ce6396d6ba414c5374aa318e5acabaa119169d435bca58b91db63c835",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAG",
+      "letters": "A",
+      "sha256_after": "1813aa44a296c4c4273169e4f8727acfa35338032b31c7efd20fd8521d426a60",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGACAC",
+      "letters": "A",
+      "sha256_after": "a592e0510b7c21d6cfed85c2d4f1b35a08bc6c59024c440e997c03afe01215f1",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "7f245b0c84cb618f18e7c50679613c08fc1d5c336ad651383ed86cf00090a354",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "d59947e0714a2162b657449b399e5a45bf09369a73d52c84f76e0baceca98d9e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGACG",
+      "letters": "A",
+      "sha256_after": "a741386b96fae19bb7aa8e3e8e35bc6e23fe88fccca6e31fbe13f58bfe3b2f79",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "ae3869edebef5585c11da212942737be99d8b0ca2cb6fd9c3118c68ccc77a0aa",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "3d3f4599e85e2cff9e9286eb9f37044d6c25671243e4f050e02ac5883b6e64c0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "3836d125e484a026f3264a89b7defba0cfec81aa54039059d3d93d90d41adf59",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGACAC",
+      "letters": "A",
+      "sha256_after": "801b9cf09fd1a66082b910f09c3f86a3c761ec785c9d46808a130921120d34d6",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "9f3f92f74e22592727112ae4251072c134d411746f1f39e6f33c7938709127a9",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GAGATCA",
+      "letters": "ACG",
+      "sha256_after": "3976f8b05432d26a18ad7590513a6b9b13026977447cd13600d27ab05df1b54c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "b7dc739ac6d77bae135acf267afc3d006f74e25dbfd6ad1eafaac4645ac395be",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGACTAC",
+      "letters": "AC",
+      "sha256_after": "e26ceb26d6749d60e5f1f830dfcebbd701f45c330fa24d3bdb1db13e3d890494",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "e57f39930a505c62049939feb5ae60b91890ff2ccf447830c515b071229c3dc5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "b78cf2dea976a1df71e9d6f62430f5a946fddd2697c3c336e094b1264b32623f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "6aa658d3ce337dda69a56c78f3bfa78bdf40255fe188b50e023a7d80ebba9252",
+      "L_after": 110
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "61938883e9f115c62b2c0b681cccaf971e6638a865e69be3013494d181e83753",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCAGAC",
+      "letters": "ACG",
+      "sha256_after": "99443bd162f269af8ee64df9a5057f820d08c2f36149a39bcadd88e1eea83131",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGGAGTA",
+      "letters": "GT",
+      "sha256_after": "4aba1a834222eba12cc79a53fc425ca37fcb27604bb897d1575cef97ac3c1113",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGCTA",
+      "letters": "AC",
+      "sha256_after": "38d2390b3115fd542cfc80dd0f24d1d6a06a4eb1e6e4478d850d6244ef384c9a",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "c12669c905e36082117c015d23d2a46558a9379a99b36a582798f5c60b307c7e",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGTAGTC",
+      "letters": "T",
+      "sha256_after": "c3361f269562137178304f82b16da8e42bd3c631a4eeaf52b15cf2efc7aa93fe",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACGAGAC",
+      "letters": "ACG",
+      "sha256_after": "4f591f96ce213f96948272b2e2398e1015c36ee30441576103971acc4f604b94",
+      "L_after": 109
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACCGA",
+      "letters": "AC",
+      "sha256_after": "e08f64c346d9b0547417e7a3fd31960fecc9128f880b23b3e5e63c929b1deff5",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AACCACA",
+      "letters": "ACG",
+      "sha256_after": "9006737a4fcf6e374ab8101bef50bfcb556fc3459543c7477445c631b9dd27db",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "3e66474074f0c5ffbf93d70420ea8f10d0bf9be20803788346ab91d9a66fe1d5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAGCAG",
+      "letters": "AC",
+      "sha256_after": "81ee9df5db9160574da12713d4fd991bd7e999ea0e52a20016c7fbdfd82b75d8",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "72abf45bb6e76c8da54a11a5eb074757ba27ac47cc6256e69653424ab782152b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCTATCC",
+      "letters": "T",
+      "sha256_after": "938b8e6300251902752198ca590df5afeb304ded32f0232adc1768baf25712f6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GAGCATA",
+      "letters": "AC",
+      "sha256_after": "cb0fac7a0166509211de8f05517b41ad640c5e34f537b7bba6c889135e24092f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGATCA",
+      "letters": "ACG",
+      "sha256_after": "072926dff6e8372c2d08825c9b8108e1eeea55087947ce97d83a2b5855cee557",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACCGA",
+      "letters": "AC",
+      "sha256_after": "0f85ad6acd4547a45986a6906d416d12dd53c2a155e91868bc2635581ab71b6d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "6c744ccf597eadafb1b1d7c497bbee38ddecc1dda7b9fdb01118c1d741398ec3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "1690ad76117c104419c2091ed0019d3ee434f0976145f014e53976bacc34177d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "1b7c7fb758fda81e89139dbcfab1b7aaa281abb21d45ca52b2c5a911ef8a8bc7",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCCAAT",
+      "letters": "A",
+      "sha256_after": "d04b838e6b20ceb4c9440eea1de4722213a08879ab0ae3eca5eeaeec1f588964",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGACCGA",
+      "letters": "A",
+      "sha256_after": "ac84d2bd3f293132783cadf967dd208656a22650541d19ec6ce54d60107bd25e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCCAAT",
+      "letters": "A",
+      "sha256_after": "d84872d3bac37ef50f044538773fdc9bd304780b634a8b665055f20583d0c002",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "de121856813dcba0359c3938659de42ae41f7c488313e8ec67e9202638c95ce6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGATAC",
+      "letters": "AC",
+      "sha256_after": "024c614a3013501da99b8354872897cfd6eb95c6f982e62ae5f6f139ce3cd15b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "6cea6244536e8d3c8faaeda6cbac4bc428d47478a249d7100ee0f082059eea0a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "A",
+      "sha256_after": "b38bb502740a7df2843fabf3bca0621b2396c2aabe8aa6906c7e4ef91a8dafb5",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACAC",
+      "letters": "A",
+      "sha256_after": "9ec104e2d245a706f9e6786c7d6acb498782e3510672feb5083c940dc53f1aee",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "0c38b40891d8e68f980d7552ea3028092a6c3b2a41a3836b378ed1c87598a5e0",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAGAG",
+      "letters": "A",
+      "sha256_after": "a5a131dcfd71ea9c42f6bb138de830f74871bbb42b1359765c93afbf2b0d36ea",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "a99d6646575fc26391e9acc1b8912fa73bcedacbd0358144423522e6b20a5c49",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATACCGA",
+      "letters": "AC",
+      "sha256_after": "a9d9adc6ec11ec857b158709c106f9629936638bf6fb206d69a8223a53c2cae7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GAGATCA",
+      "letters": "ACG",
+      "sha256_after": "941728755c55ecdac2f2fb04597818ab091a61221c150a24d75f6090caaa3704",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGGAGA",
+      "letters": "ACG",
+      "sha256_after": "1e76341e49102b1657521c16a927ded44338927e3cfcb713b5c08ed3ba810906",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGCA",
+      "letters": "ACG",
+      "sha256_after": "5dae17a9dfa40a6c8c871bfc0c5469b49102bfa9f717f88960c5d275e20aacd2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "c8ad9fd105461bec35b8d03940f658eb808df437e2ae66242b46e00947ff916c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "b4b5a2b800c5356ee070150d2cfaa028dd46a3e59e3d51a7a2bbd800be1a1cfc",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAG",
+      "letters": "A",
+      "sha256_after": "f820869e04fe8db05131a0df8d8643574918d91a087651ae653ebf3f6b07e056",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTAGCTA",
+      "letters": "AC",
+      "sha256_after": "ec6d61229192f70a595bd7c392ee0ea1e242c5da0e196b3037fbd47f207b40ff",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGCAA",
+      "letters": "ACG",
+      "sha256_after": "4915255aa219826620b7f70d77d7f8d5bf5b58fa8c2efe146441bdfe3bf20da8",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CATCGAG",
+      "letters": "ACG",
+      "sha256_after": "c86352e9bcf692d614c5d4acac040ee1ffd0e325dd9a71f870592b459f15214d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTAGCTA",
+      "letters": "AC",
+      "sha256_after": "6cb28bef0cc0c4134a23064726708076e5763af173dbd37d5bc0ec13224cb82a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "59b64175cdf232e1fd61ef916f88f0267a569a899106198236d32e5923dc279a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "850a99ab4663c40fad57ebc0c854defde7a9e6c16166961dd0a53b56b9aa0a31",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "f827da8388d16bb25ba20ac3dd91244dbe575ab5566e02a2d9482d0bf3df0313",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTGA",
+      "letters": "T",
+      "sha256_after": "18b25092686239e94fc7cacbabe0e777304a2f3eb77ee8cc518dc91a2d9bfd90",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "829c25c9e1f04cb24408ed07171e70198d22fea250f74e05e72704a7780fb711",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ATCGAGG",
+      "letters": "AC",
+      "sha256_after": "1e4479c669a01a75d3e737f24b0331303d414cddf71c9a49b8d92e3c9e21b197",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACCAA",
+      "letters": "ACG",
+      "sha256_after": "6a338ea47659234c62967def002c69053b1fe4586c278311b761dcfbd00fef6e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCACCC",
+      "letters": "A",
+      "sha256_after": "98d00f259c8867bc4a88adc1cf3db7f487d1716a8f609d39f6f09374397fe618",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "831e0086ef1f62b2219f2320cbb621372d053cb0f58048df31872f788b9791d1",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCGAC",
+      "letters": "AC",
+      "sha256_after": "0c6e9f725f3b510c3d2cf1f086e13b4f960031769d5844a46250c163ab7ceb32",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAGACC",
+      "letters": "A",
+      "sha256_after": "309b77e777fa8c4374d77405a8ea8fc00cc8fa585625b3b0e583432a4da1e0c2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAGAG",
+      "letters": "A",
+      "sha256_after": "2feb03bcaf478d3f1e5a0293064927b6a067d8a177ba7db040861e62570e9716",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "81a1903726bfbd58d2c78040338c3e9b081f34e768cefa4764e7371d184aae38",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "9f875c0b334d6a069c795f2ab92af64b8148a161a68cac1e747243c623dfdf25",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACGAA",
+      "letters": "ACG",
+      "sha256_after": "302692f1950834fe56854529dde0a9e1b7bb1f23d712460d0b5da84abda20265",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAC",
+      "letters": "A",
+      "sha256_after": "587992b64e21adaa4258ff1dab158eda179a053d8edd0e0dfdfa35c441c49d9c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "a7a8f279cbfade62dace759d47cf961df1ff109abeadccaaab507ae241489074",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAAGCAA",
+      "letters": "ACG",
+      "sha256_after": "67fd9e9f75f52199ee65e4f87052613680f489c25accb34e7c815fa0b035722b",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "f3dc34d7a791fe13da4573caa43743ae813bc5631b3e88e6338677600e38526e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCTATCC",
+      "letters": "T",
+      "sha256_after": "1f88580859a2baaa299ec57406310fc6091eb115ee4018648304880f6e53849f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "a67097e36eec158335ed07588ce4753cf2a5541b79d79a80e6168df597607168",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "A",
+      "sha256_after": "8940058b7ec58f23135996ecde84e07991ef0640ed92cb42a4d0a68d357afa0c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "b300c41d10fb75b351fd52268f3fe614a4aa3b974d31b62609e1829d3b9b0a19",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "841ea127d8ace3a9b1e046ade2592a4adf5dd8918fbae53297d5d4e5ea440e07",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AACGACA",
+      "letters": "ACG",
+      "sha256_after": "70bd3d0b9ed123722e3fca8163afd2a04e3ddef6c32e639b0a9934148da54649",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "C",
+      "sha256_after": "9665a546477c1f2c4da42130a817b91c084060d5617784df44e4c4b210cbc68a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAGGA",
+      "letters": "ACG",
+      "sha256_after": "b1f101ac9bdfc5429756fa01770582c67adf91ad82e58d1dbf268556cc3f13d4",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GAGCAGC",
+      "letters": "A",
+      "sha256_after": "634cb0cc56a866ea0e7906e34c55e5875e0a4e046401612c4afc1298a7cfc940",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGCCGA",
+      "letters": "ACG",
+      "sha256_after": "fa0b3fb3f97b3eba2aefe61a97cd0e4496e463330328cba231e02e2e0be5317b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGGCGGC",
+      "letters": "T",
+      "sha256_after": "86390b3bf01716d1b60c6bb2ff09004c88d0f8c62dbca5b31e9a0814f16ff7e5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAGAG",
+      "letters": "A",
+      "sha256_after": "802aad60c04e1f74e0aa32071c6d9b9bdc6e1210499321b7b60361e6a88cb5e2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGAGAC",
+      "letters": "A",
+      "sha256_after": "e98be972c0f67ee94aa016694afae19f22172b1650060dd1ebce12562122fda3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "1fe73c57e305e5863f24bf6ae6f4055fc8b3358846a2ba9bcf297bf8392b595a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "928c3a023c9deb460b63759311d5ea1f453cfad9845525b0a77d04bc86c20e1b",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "fb6ef8ee73f946e924fff56162dfaf5b91c34d80bc1a866505a7ba63fea76015",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "c7db7c92152c8da276a146358191d65e0e4924f2b7d74f7e6354ac83a3eeda3d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "2fad650673ddf74e8707f00d7bcff457a7c88b1389b9c284723ed66622df2377",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCCAAT",
+      "letters": "A",
+      "sha256_after": "5942719cdbad323674a302a3764e4bfa7b8d079cc3ba1dfbeda318414fd9b1e1",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "3bcbeaab61429fc8d45dc3b62d7c899c08c95cec9d14ce4ce6499d970c965592",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "df2b4f3d650bb964cbbc6bc56bf23958011a1e77fef79a2ab7804440520f8735",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "13f2a9bc877db2c727f6972de90ae671754996acfac63302b1099ec2afff3b91",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAATA",
+      "letters": "A",
+      "sha256_after": "3fd63d5aa8756afdefd8f5fa8b1ab301b69a5fc7e9d6fee005f950dbb72b61b3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "71bda4e7b4c22ad0b7184c8db3faf1e00649fdfd1557018e108568ea13d6b538",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "951319334986a2b4fe47e809246b898d71a4a2ed69d9e22e490085678a37b5fe",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGAGAC",
+      "letters": "A",
+      "sha256_after": "ae4f60ea7dfcb15911983bc81301a6fd91c3e733eaea9df28c03374c6c2b8df2",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "b671c0c4e407dc969d40c0431896842aea9c1f495d8ac987470bcb1204a5bb25",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "b6fcfcc34c0b48e13301797aec50a9305fda23007a89709e83f4dd1ab83e7a76",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "60a41c542eb0e448a58323b8a50d01d69172399b0348f5cdf731b7bf9172b1d9",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAGAG",
+      "letters": "A",
+      "sha256_after": "919a6e9dace851ee096c63d90e72efd40109d256a86a4edfa86645c3216246c2",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "55327d72ae3651b0ad54ae83651c49b745097573bbe9e153d7729e9e07d9e2c9",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "d1796e7b20c74d2e2889aeb37bd8298643805f83b97ee3faee211972fb2bd87a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "TAAGCGA",
+      "letters": "A",
+      "sha256_after": "4caf968a6cdc79c83f695984006d47dbf197c3a89b5aa0ce6896220ee8836da5",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "a03fd0d71e046abc210186eb9507285a53ffe032ced94cf1e0a5ad1f53fac2cd",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAGCC",
+      "letters": "ACG",
+      "sha256_after": "8390432beb365cc7942bcba82decded01bcbefc257c6eecdf482c57e115ff85f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCGAAT",
+      "letters": "A",
+      "sha256_after": "193efa4cd5d2d16cbea18023f02bcb0bdfc06b1c28e662b02736287e558ab3da",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "9836963f4e4788d8397d810bf4a713f6c1ade0bcb2a9816e04f5656f4d9abdad",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "7b54ca058a55b94146bf09d7c6be5775eed0988130d6b3cc8ede66d65547b311",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "42307b0df2ebce3ec908b4e4303505ed3758e4cdfc901ea750bdffaffc944cd2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "e9adbb52230cf4e1dcf76fd851bfed6fe0925dee2dd81dfeb7a94fce939c2219",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "ddcfa1aad276366ede08c6e7282a2c8bdfe53d78a2331147b21c408dc0e4e727",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAC",
+      "letters": "A",
+      "sha256_after": "aba998acb6575d4de8d9a768ad40a03ee24e1fa68d3dadfd527896a9191c64ce",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAGACG",
+      "letters": "A",
+      "sha256_after": "430f7670f868295b88ad542a696674671f12fe65a8daf8e8b2863db488cb8bbf",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "3834a767915c6e7bcd4c30042e484642ec2e126eaa04dc438ef71ce39f44c35d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "7e97ee1b5892e98823723340a92f74d15b37894dd273bbb84244743bf6dffcdd",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GATAGCC",
+      "letters": "AC",
+      "sha256_after": "45b2aa794a23d1ad9c009f5edcf3aa476d496010c64ecf5b7a90c646b2a33fef",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "31d840afa403396816e1f012a8befaba27207d7b3b998068a2858e12bc15ad73",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "6859ecbe20cbcc74008c9d328bc74c9a0ebec48d9986398ee16ac926c3d3030e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGCC",
+      "letters": "AC",
+      "sha256_after": "a8e09fc04715b47d31b59b314689907b0a09640ad066bca9187bad4b4a7044f3",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTAGCTA",
+      "letters": "AC",
+      "sha256_after": "f84ade45454f2a5f45c27d4a847799ec2ab792f7aa5b6946b9b44fbe9c595133",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "A",
+      "sha256_after": "4638fb0a2e98bbf292e3b4d3546a553f6070d72feb71b83f339e501be934bf8a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "ba87c43bae791bf324e921f7c18fd1494a726bea3e695b6377b7d2aa49764314",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "68aed9ccc0bc7d60be6ca088083b69f921c9d5ef04c2744943fb9962edffe3a9",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "145008b72182f36c8c765b291bfa0fff8b6bd11605f39c08602d4f20c5fbab23",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACAC",
+      "letters": "A",
+      "sha256_after": "a66703fe2d583f966171a916dad1cdd782f71622bccad6ab66ae60e13fb1aa67",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "TACCCGA",
+      "letters": "A",
+      "sha256_after": "65e8e5385a5ecb0895ecca8b762a85146eaf82bf394a2116a9fa6d818c888a73",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCCAC",
+      "letters": "A",
+      "sha256_after": "969486c8b6cc3cb03c21a3300c5d987eb939aec0b26f2af7ac81bf466dad3b6c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTAGCTA",
+      "letters": "AC",
+      "sha256_after": "0caf516834402ff9b0a26f071cad424f5cb3e02c5d7aa4d33ccc7092f54a6a3f",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTACGCC",
+      "letters": "AC",
+      "sha256_after": "af8dcbde70c13dc209d6348d5382ab3c7228520bef9e28f69c20642d0d8a301e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCCTA",
+      "letters": "A",
+      "sha256_after": "7f0b45d5a62cb71987963f5a9ccefc5f5913a13c6b8d1b9ffc2024cd398deb0a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "8a81fb22ce32b1e1731bc3fc70b9387e823138aada83c940bcfdc5d120b0a709",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAGCC",
+      "letters": "ACG",
+      "sha256_after": "a8ae549634484a6bb1c7437b8b2f662149a63d6730707662285dca96dd21fb8e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "64a4b13cc228f58114449578425ccdd9de7f923e7fc79f538fe30845778a27ca",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAGAG",
+      "letters": "A",
+      "sha256_after": "728295a249f09efecf7d96ab24e309d341be6edb83254b493dad51aa51cc414b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGACAGA",
+      "letters": "A",
+      "sha256_after": "206ed1c8b1de2e87a1404d307e3df07d9348018df8055421811e169727a4d9fd",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGAGAC",
+      "letters": "A",
+      "sha256_after": "59b4fbbcc86eecfbeaa743bb18f4a7fff149544562d5c0ea0e2039d37050fa3e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "A",
+      "sha256_after": "8f1c000a6ff58d256f9fd0d02049742ebf8c711b1441dd7a3854f39a21ea25c4",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCAGCG",
+      "letters": "A",
+      "sha256_after": "b48184546fcb24fc24dcdab2a198e127c4be282b9f3b2a23fbe8f56df9975566",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGACAGA",
+      "letters": "A",
+      "sha256_after": "d415f99e08e2cc8de0e2d786c9318a132b729707f96d1b5c27d3b83d8383a2d3",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "C",
+      "sha256_after": "5e191c0a1a2a4e11865ebb73dfec9b0d00c57564f8371ba86e6711b7c5f77023",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "c5b922747ac34dd0d6992b6aa57b46bc9554a7ddb314d6d847e45ec754cfb76d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "3e26cfbb6589d725f06a1308d063df6f23edbfed4d7dcd5aae913bfc714a12da",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "8af292d9c514ffaae95564f4d6530c2bb0315878f0393aa247c888694df91d40",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "b8e0d37279bdbbdad61b529a103300309e14c6f4197ea32cfc94dfa6922b683f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAC",
+      "letters": "A",
+      "sha256_after": "48faf9c2ec6fad4f308f7bf905712e5962051d7f4a74e3be11344c038a319944",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "c627ead37d9f04a925c602f95ec049797fee9117a1e1a6f591f6ba2b4e0677ea",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "3fe01762014e49c9c51a867b9653b09f25b309397134001e691dcaaddf083d8f",
+      "L_after": 114
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "b20f535dd50be65f1cd2876f8719e4cde190f43ee98d3e505acf625554517dbe",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "d54b72ec3cfbbe418efd58afdd54c1aa1aaa0181967ed7b739c4c1d29d73b1eb",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "A",
+      "sha256_after": "c0502c53480c939c20120877a9f7266de19cabfd0c4b02f34d640d88e01e63ca",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "93aac9ef6e0cd07ea6b81b923cb3636f79ef8d1e83d2cc351451539868acf9a3",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "56ddfced544fcfda0b29ffa36f3c26fe503919016b1966dae0ae8cf7d0affe1c",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "ad07d447f02e6ecd764319e034b4de1a9cc3ed5528cefb8710f24adb7e1c4c47",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "TACCCGA",
+      "letters": "A",
+      "sha256_after": "4a0419a1f84020da3411344d940ce20300bd4231c9ecd1d9db56d9d603f9ce49",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCCAC",
+      "letters": "A",
+      "sha256_after": "16e0c3f16836df0aa48e6624b43d3507887c31891de33156b9569754aef390df",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "A",
+      "sha256_after": "8f22538316db6c20e3c9e4990b1b7c24fde00f275e54504c43e7ba1d1da89c12",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "87918aca41ea06e52ab33688ddd95d9b00ff334e4cfa9469b2e1d09e6fbcc9f4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "c8bb3a400457c08b68866d3cbd760ba06bf686b7e5d818564af983dc094ba4bc",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACACA",
+      "letters": "AC",
+      "sha256_after": "49b703b15b60060ab5a398e0c8e0a7a4382583b6a6352c0464fd6bf7db8559c1",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "e0ece07c38809944dba72638cd0235dc161553f00b146bbf65a52e4f24c0becb",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "6a36acaa28717ecb9c63e78e816644bf401969de702f035ace7a4882dcc3e843",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAC",
+      "letters": "A",
+      "sha256_after": "b8f9e93783c600aa263d53294e86e219807a885ec063b2b16b2d64e5a110ff0c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAGCC",
+      "letters": "ACG",
+      "sha256_after": "7e3302a5e399207151d49cc1ac12b5ce2cadd9a23151073d7dfee5282689a268",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "1000a6a7f79aceb358caebb5f7eef2f85e6dddd4df629f48257b61586ac3f62f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AAGAACA",
+      "letters": "A",
+      "sha256_after": "2175ce7b6ad7c7b3550844698a3a70b13a30ce36d8ea3e48a982f581491d9d96",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AATACAC",
+      "letters": "ACG",
+      "sha256_after": "1f0dc86c6f3394c757e3e5dbbd3a9b6e51245982d1aa3c7677d978ad759448d2",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "00e9bea724bf3f2e838354db62348e4549c6913e5614718ddc8c0528a1685f76",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACCAA",
+      "letters": "ACG",
+      "sha256_after": "78aaca8f4059b2a18deca9522648c79c51fb196286c7f92bda7e1b7cda0e0d5c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "30e6828d917deca4a78b092e932e25d861f729ceaac8a1ea6d52326ec306125d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "01b00279f24a02cf19290fd1b5a610cea02a5fd1fd9ede073fe90f3706857a73",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "e05bb98c693c3b83aa96198b533fb781bba24b69c5c1c82fa5f3df505400f80f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCGCCC",
+      "letters": "AC",
+      "sha256_after": "c5b9c36969f685eb63f7fc39522abaf4c4471c65c1f8c93b17652a6e7ca66585",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AATACCA",
+      "letters": "ACG",
+      "sha256_after": "2687f147f84c32e0eda5456f876c860032dcf3d7b68a124575b638c15259a22c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGAGGA",
+      "letters": "AC",
+      "sha256_after": "cbaa5828e7b0505aad38f58150a823030e5b8d0afcff3a73d790368af7a95002",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACGAA",
+      "letters": "ACG",
+      "sha256_after": "94a843d4c1caf19bcb2ccd3467785881324a6a947dc3d9c9c9b479a4511b2924",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACGA",
+      "letters": "A",
+      "sha256_after": "cd8e7f936b1ef596e47f91139fd0df4bbc01fc6efe21c3f8784d9724c00ae830",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGCTCC",
+      "letters": "T",
+      "sha256_after": "2cc9bd37564b96e59c76f0b125c98587a9f3ba0e67f36a32a17c39f3677dd770",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CTCCTGC",
+      "letters": "T",
+      "sha256_after": "a00df8ba132c4befaa1196c00ae6b78b878738856c8003c22d2825ec6e90b72c",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCACCA",
+      "letters": "AC",
+      "sha256_after": "8eb4159d6f72e7260ced004da1e1315d7108300ccb01902c9136d1f1044c013e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "1d6f05b74bde328dae19a0f806fddc7a1e18f22497816a93b5c0976a47fca115",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAATA",
+      "letters": "A",
+      "sha256_after": "6c9462fc068caf4cee8f2356d792ca1d7f0000318104e532272a993bb2683e34",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGACAC",
+      "letters": "A",
+      "sha256_after": "9a37d7b9ac4088bc06284f8d2cdcbc8410fb7727a79030a9325b3ae6fec84e7f",
+      "L_after": 115
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "14e3da943d92fb468495872f1875cfc015558af59486e0e58b44b2080c95aa67",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGCAA",
+      "letters": "ACG",
+      "sha256_after": "aadba23bbb07104710f135c4eb2c6bd9bb8909b2ad2895d65579979ad964959f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAGACG",
+      "letters": "A",
+      "sha256_after": "12a9d8f0bed5d266e731b6b48318742192d097427e07bad527325eb7385e92dc",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCTGAG",
+      "letters": "T",
+      "sha256_after": "48c6b3e030522b169b52bdd7b2312426c4d4c6571de63d7ceefdd186974dfd5a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAAGCAA",
+      "letters": "ACG",
+      "sha256_after": "dd34d50c5865b9af7e0b79c984553782f989461311e8797d138cb07d8425f418",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGGGAG",
+      "letters": "T",
+      "sha256_after": "907d51bce5b4a7b9e085500b95474570a4c095a1a38c9910a0c0da699c6962be",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGGAGCC",
+      "letters": "ACG",
+      "sha256_after": "f0490ac6db8b260a629f40fea41a58d3833f9d0da64223fb94f745981f87adda",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "41f1c45b3d6901b3676cf0b1872d0a3634f5ea473bb6e83ab85195a0f0c9df8b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCCAAT",
+      "letters": "A",
+      "sha256_after": "678df8cbc4511ac67b7d086f0c3af6ad38abd8a8dd76401579b45f3e56436daf",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "4004e0d78c9f1bf986c7abec8e7e581f4ffde194050e9ea9c829993c8e6cf0ca",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "792aae8a6c86cf236aca9121e7cf458b5e17f348d8a1d8e88aff08af04d6cdba",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAGAAG",
+      "letters": "A",
+      "sha256_after": "809f8633f83aad2c7343bd36ad8678963f3d97f08c88d9ccd04e8fe4df79f3de",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCGA",
+      "letters": "AC",
+      "sha256_after": "55772e8db13a0013164ed67840c72ec249362ba36063731ae4d15a15a69ad56a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCACCC",
+      "letters": "A",
+      "sha256_after": "2f90a6ec752a3a86ca748b07ceda3a61d79c9f10bc9535d34a323626e5f26895",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "55b000aa9d61e780bc11c87bcfeb422fd3c2227323e8f4406194c0289fd524b8",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGACAC",
+      "letters": "A",
+      "sha256_after": "8518cda3543398982fd58d013ff518bbb69e165483aff5d3501915245a53d0a0",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "cd91f86f2a8e248147ac4bbe61113d9999b515db1c78cd724e9a3148f652a296",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "3d1bdb1ce228b5947f6dc617ef11740d9e3e3d9be65127df73d3498441212755",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "9a2c11f1127bd317dcb05a55353de23355bbf9c36cbd104efd311b98193c8482",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGCCCG",
+      "letters": "A",
+      "sha256_after": "d3f21d177319d5078d1f6a7e274922388fc9d9f96b013a7e26114c2480e6b8f0",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "8fa8a020d928ee55d8527a91772e75536373b70a799b3c5d5ec1695833e8a66c",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "9bb0976fc09c9d97c365e93d2f88a87e88154e56b189b0359eb7b580625e823a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "1b0310af353e8c42dca4a9c174073711b6b0787b70b826146b987154e7fe23e8",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "06e2e10c070c3ae6759a8c6ea02ced3e9c78802e37733cd9a6993fb473982195",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGCAGCG",
+      "letters": "A",
+      "sha256_after": "ae05dbdceb9a06c40011433e8266141de72eddd4732407aac7447a3a83d93574",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "7b9238c3529834cfb7bbfc24c244d929ca647a5fc7b269f2877a4d18158af022",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "ca854e84fe9c533058ebd03229945abec88eb1fe45d9520244bcfb8488c6c0a0",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "c74e8803a9e7501327649b82c18dcb858910a72b6acee308ed8432777a9b93d7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "16e64b12757c7047acc62382155abd84f76adfa60cf73be9565964975545def7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "a1e367e6288880a65981818636a044cd42309e4b085d2075f1d219f977d8b4d5",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "9936c07259da092dbfac51ebd6b5c092d1a77f5cdb1a2a47d67c45ac7cdcea15",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "922eee4465a311ded8bbdd02cd67b1bd8ac0ae4221b195b1bca703a7c5e9660a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "7101f32eae833180c50016734d9866a1445e2152579046478ceaa00fee4515b6",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "97edb4988db6cdba17232e0e65bbe9a0ce9a1feb02db402fb4aab6fb96280ee6",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "19e8a6aa3aaac43d38d08eed0522cbef9aaf0b7479cd7b3d1bdb405d7fc415f9",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCCGCC",
+      "letters": "ACG",
+      "sha256_after": "0505edf4bedd44f9142b37501fbd8fca0240cb1bee26ef3e5ed9051208eb81d5",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCCCGCC",
+      "letters": "AC",
+      "sha256_after": "12e8486d00901fa6a5fe44a41cfe9b5f91974478cf1d85682b25e6e0c1d8c106",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "26baf0f0901d8977379041dbbf9c4af10167353451d7c273f2c4e1937a7df1d7",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "377f0572d38befe08ef0b1c1d5f1359b300b807befe2aaf4a712cfff0e66b87d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACCGAAT",
+      "letters": "A",
+      "sha256_after": "0ca82e2adbb8e1e4d6eda1426d94c5a7cc6fc41879c43bd662eccc0ff7e4f5af",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "c07b2fb27cd0d5da611df79e89576d05f0916bc84fcba8f71eb028691c2bae95",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "1ed044f51ca2eae9651a687b8b7e682f3a2884481cafa6ea0752919659d76806",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "f29d3a37720be870660463b3c261ae0d4ab015cb98bdec595df1a310fc948593",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "9dc692899f01a3224d7de819c3636e5f8d4929b284a7d9dcdf969f34140084e0",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGCCTGA",
+      "letters": "T",
+      "sha256_after": "77f833f08c0740b0763aa7555dbc3c20a712525e5c7c102de2a3fd711eda8a6f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "aa0c11f300f529d2b945eab083c5baa1f4a316ed812712b18a0e82a1aa4db50f",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "a758e6a4171e5bbd4924795d280d1a0e0f06608050269def78afdfabc1222c9a",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "275384ad8d09815d8d8147e36d144ad0882fa6a7d6c5c9dba1fabba57c948aec",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "6d45e33012535bdaa82facdc5e64a20c5a55361034f4d0c2c7a6add838a676e4",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "7581079fcdb98104d9a51c52333131feefd255e3f18ab50003791aa96519561b",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCGAG",
+      "letters": "A",
+      "sha256_after": "1a5ad11c7d048d2be45b7a3a832f817213fe10a0e2bec0b5fe05862309b89272",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "9556fed7152731b3d5ec38991409908de081b9e121b0ba2a7a13d1364537392d",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "68d66ef2159cf1a382d523001c5983b592edc326fecfb4d3ce118a9bef7f9f2e",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "a1b00afbf6b1f169b03313cbde8fa609d2a0a23289ece8dc0f153bfe9640d7de",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACACCA",
+      "letters": "A",
+      "sha256_after": "85bdc9c56c63dc353fab6256bf632408d34aac8cbeea0937f2501386a6d5a635",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACAGCA",
+      "letters": "A",
+      "sha256_after": "cbc07ae059b543e6b3000a4652d73c3636d9844f7e5bbae4b4a4f9b96a82bdca",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAAG",
+      "letters": "A",
+      "sha256_after": "c00bbc519b2fcf83d51b20da47bab4efde280dc37c54806001fc669362b08ca5",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAGAGAC",
+      "letters": "A",
+      "sha256_after": "8b81e3c827b300b09a03f2ac84f9b58ff55ce9ab48ebe65546d19cc39442ac87",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAGATA",
+      "letters": "AC",
+      "sha256_after": "ab5fc6780a39d9eddeb041bb8f7744f77d38731d5c56887837b2eefd67c3e953",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCAGAG",
+      "letters": "A",
+      "sha256_after": "2c40feb650834258b89da83adfab95e68d0d40f51829a021c523b6fd7af23c66",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AATACCA",
+      "letters": "ACG",
+      "sha256_after": "a1cd14fbe09ddd1680fd2b94f3d799384eefcaf3de6114a5b9695d6bb626fd90",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGAATAA",
+      "letters": "AC",
+      "sha256_after": "340bebe9aa49a131969f1136765218cad993193f6f7761fb505fdcd61a22c9e6",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAATAA",
+      "letters": "AC",
+      "sha256_after": "7ceed4a143593636d6fab43629c5e1068f55c914a192b808374b5345759a7964",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "3271926123ea475504c262c828ca0841da41b5879cf7eae0bcc813402af103bf",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAAGCA",
+      "letters": "A",
+      "sha256_after": "389a98d98c132c405d97582507a26867bba1864f80ab621302ddfde8a966d385",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "adf13c20581a268b894d6729101244d0c48eb0d3b4a19ede2487922de0872dd8",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AACGACA",
+      "letters": "ACG",
+      "sha256_after": "ae4270b60478822a5113a906fe848cc7b61545dc424c91984d4575803bed1c69",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "a1b9e22503ae61fe040362074c9c139f0cbcad902372e166e9f8250ec16367e0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "4fef12fafa96451632fa6f8e7dd5491a835d34944ed89d95badbe4ca43f0beb1",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "62fe8e0d0f6be1be4a5a13e21889102658eb7ba94f64c0354890367044fe43dd",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAATAA",
+      "letters": "AC",
+      "sha256_after": "1926d96b7f2be15961fa8a6160cd76524f4b7132ea07add74a0dc4b9cdfaa498",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCGAC",
+      "letters": "AC",
+      "sha256_after": "6fd75718e1eb66f729888bc162a482429adc66ed6f21c55cfba92ff8da5a7e9d",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCGACG",
+      "letters": "A",
+      "sha256_after": "83ce3168335e9b879c336c0b9385170f643c22b1d1ffc358cd7b077050d148f7",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGGGAG",
+      "letters": "T",
+      "sha256_after": "b0e1788e4f6de2d650c5e1a0f2f30779e7c6373be71ee34dcc5bc0f1f31bfbfb",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "f9ceb6624eaaca44a05591fc3828dd01dc9ebe44d9e7fff8e1d5b41d15451ae1",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "c6e5493853ac644655df1b692d8501b2f496540720b640abe46876b9c2084cb1",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "74b0bd1f94da49254287c65791bb0909f21c8673687dbc0508a7342460ea91d0",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "bcd40e1a5349b5c765bcae7f16041d6c4fe55bd8a369f30fffcabf57df660896",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "b7e87518a1b608a5e8775cbafd699ea94a26adfd83bb576df922184ff57c2820",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACGA",
+      "letters": "A",
+      "sha256_after": "7ac5a29cf7b3e4412a99510bddee9b4517b04679bd76ed9394b8c239c14dedf0",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "GACCCAC",
+      "letters": "A",
+      "sha256_after": "62206403d4d8b9425fa3bdefb3a6d7d331937e9c37e0caed61a52cbd7b0539e3",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CAACGAA",
+      "letters": "A",
+      "sha256_after": "dd3bd53859d52f21dcdbeb9b996dfef99b9cd98014b092dab13237d3eac5ff7c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "6bc1bf53a4f92ec8596d4ea934fb3f104e5fe7eee8c9c267ce3488bcdbeb6c15",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACCCAC",
+      "letters": "A",
+      "sha256_after": "adb8b2f5951e10d58ae5213d9604aaa12cd17f632c8ede22803847d28a6f6ad7",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "41621a766b08dbf28809cd7dea650a3f450799acc8b926a39049e8879f34e521",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "ec03aa370898b941c6c667c2f27ad05fa233a82f7530d01cf0fea4fa7c73b8c5",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCTGAG",
+      "letters": "T",
+      "sha256_after": "3ce00a2088b05428e989f666f6e759f0eb361a0d135789e0730c52eeb6e4faea",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "f0acb721537474d6e8847202d42e1bb6062efcc4ff58e0193258e038fdd1363f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACAGCA",
+      "letters": "A",
+      "sha256_after": "bd9cf4a9b335f6bf48c71fb944d19a7eaa68bc298198f49798adfc6582b4d895",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCAAGCA",
+      "letters": "A",
+      "sha256_after": "e898aa24884dd308e1c8bb9fb56dcbfd807bf503ad9646943ad1280f95e4701c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CGAACCA",
+      "letters": "A",
+      "sha256_after": "4b36cc37e12f62270c1d6f7df7960e14447a4b288019b2ef2056cba9af72f391",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "8a6577f834083bb97185c4b484eeb0fa758cef4af5b0d3df6a4c7049655a4fa4",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGCAGG",
+      "letters": "A",
+      "sha256_after": "6d692aa2815dad4893159f3aef470a519f7aa3ceb1c403d59afb99a588b1923f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CACACCA",
+      "letters": "A",
+      "sha256_after": "2cdf2869ac95648f669b9c8454b7a86df60e17be86926d86b4331ef9400dc589",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "9ae12721182b180d0b1e2c3fa0376f43a0878bab03a8d742d8f3fe6a35dfbb6a",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAGA",
+      "letters": "A",
+      "sha256_after": "6cb43e9b3ab96a567b8c2dd4bf67f1e422b0c30c7c1dfe8e9afd20addd02fc33",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "a1c7e43e3f216880d2aea1b0822ee94bcbd2b8b3fad3ada22eea2861a0e341df",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "09ff275c73d0742d9d73d8804e944ec86f3520950c598c00003f70c5e7517e7e",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCTGAG",
+      "letters": "T",
+      "sha256_after": "a533e2d396d2b27f4da7cdc93ab8bd8d7fc99a09d7baac25fef5537e2bbeeadf",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCGGGAG",
+      "letters": "T",
+      "sha256_after": "098e3a514a831eae646d8f91d464f63aa902dd4bf000336c93880b85336f7654",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGAGCTA",
+      "letters": "AC",
+      "sha256_after": "1a6351703528b6a11a33d2088df72d3e4c0599859885d64a1ae2e2885371fd2c",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCACG",
+      "letters": "A",
+      "sha256_after": "ddf6670c82dbd38c5dcd8732b0b6e06e79b574af06847bebb29545a1a5cfbe05",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "197613d1942cf87f059f5c97051b5911eaf349269ac7ee2ef97493f2104ff3fa",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GCGAGCC",
+      "letters": "A",
+      "sha256_after": "3101f432856eac2a5e0c351338cadf9f58126186232b6e1938ab91a494b5a52f",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "CCCCCCC",
+      "letters": "A",
+      "sha256_after": "d0dc476f356d34d73f7265e8a0b1ce44cec087342d545db196234af8f745a912",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACACAGA",
+      "letters": "A",
+      "sha256_after": "78402de60edb47c446bb29a8502187c9c9698e46aa725eb6dc59b1278c561c51",
+      "L_after": 113
+    },
+    {
+      "type": "signed_switch",
+      "u": "ACAAAGA",
+      "letters": "A",
+      "sha256_after": "5ee1399dae7c1edc51b7d4cb9f24e469a5f84d6b47ced92386f6b08bbb040a1e",
+      "L_after": 112
+    },
+    {
+      "type": "signed_switch",
+      "u": "AGCTGAG",
+      "letters": "T",
+      "sha256_after": "0694bbe4cfba17fdea2fa55db61b616c38386aa40e7d1c89899034f222507f3d",
+      "L_after": 111
+    },
+    {
+      "type": "signed_switch",
+      "u": "GGACGCC",
+      "letters": "A",
+      "sha256_after": "ff0f4e3a27611ff4669351fb532c4917ee977990594f1341d46169350349e163",
+      "L_after": 111
+    },
+    {
+      "type": "retiming",
+      "target": "witnesses/M107.words.txt",
+      "certificate": "certificates/retime_final_sector0.json",
+      "sha256_after": "4e0c44d87ea9782f261cf3ed2c0e918784fa404bbf0f57041b494509ff7d5edc",
+      "L_after": 107
+    }
+  ],
+  "final": "witnesses/M107.words.txt"
+}

@@ -1,0 +1,364 @@
+\section{Technical supplement: wall proofs, regressions, and finite evidence}
+
+\subsection{An exact bounded DNA chamber atlas}
+\label{sec:finite-atlas}
+
+We retain the original thirty-row regression result alongside the complete
+order-eight classification in \Cref{thm:complete-atlas}. It uses the DNA family
+\eqref{eq:dna-weights}, the complete catalog of \Cref{def:decision-catalog},
+exact algebraic sign evaluation, and the deterministic selector of
+\Cref{thm:imported-selector}.  The range is exactly thirty rows: every
+interval and critical point for $k=4,6$, and four named weights for $k=8$.
+
+The landmarks are
+\[
+  \begin{array}{c|c}
+  \role{rat2} & 2\\
+  \role{gold5} & (7+3\sqrt5)/2\\
+  \role{quad13} & \sqrt{13}\\
+  \role{cubic2} & \sqrt[3]{2}.
+  \end{array}
+\]
+
+\begin{proposition}[Exact small DNA chamber atlas]
+\label{prop:finite-atlas}
+Under the conventions above:
+\begin{enumerate}
+  \item The complete $k=4$ diagram has three cells and two terminal/residual
+        classes.  Its sole critical ratio is $\rho=3$; the class for
+        $1<\rho\le3$ differs in sixteen selected words from the class for
+        $\rho>3$.  Both have longest residual path $17$.
+  \item The complete $k=6$ diagram has the eleven ordered critical ratios
+  \[
+    \frac75,\frac32,\frac53,2,\frac73,3,4,5,7,9,11,
+  \]
+  hence twenty-three point/interval cells and seventeen terminal/residual
+  classes.  Its longest-path phase is
+  \[
+    \begin{array}{c|c}
+    1<\rho\le7/3 & 63\\
+    7/3<\rho\le3 & 65\\
+    3<\rho<4 & 59\\
+    \rho\ge4 & 57.
+    \end{array}
+  \]
+  Except at $\rho=3$, every cell has $144$ lower zeros and $220$ physical
+  firings; at $\rho=3$ the counts are $176$ and $212$.
+  \item At $k=8$, the four declared landmarks give four distinct terminal
+        sets, midpoint ideals, and residual digraphs, although all four have
+        $256$ zero-embedding words, $70$ zero PCRs, $576$ lower-zero states,
+        $3952$ firings, and minimum cardinality $8230$.  Their longest paths
+        are respectively $147,143,141,161$ in the landmark order above.
+  \item Every unequal pair in the frozen landmark comparisons differs outside
+        zero-PCR tie representatives.  No equal complete covector produced
+        two different terminal payloads.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}[Computer-assisted proof]
+All thirty cells were generated with exact arithmetic over rational and
+represented real algebraic numbers.  For each row, the producer enumerated all labelled words,
+constructed the seed and midpoint ideal, formed the direct terminal, and
+checked literal reverse-complement invariance, one representative per PCR,
+and acyclicity.  It then computed the labelled residual digraph and longest
+path.
+
+An independent checker reconstructed the complete decision covector,
+terminal, legal firing replay, residual arcs, topological order, path
+histogram, and all pairwise comparisons.  Two sequential producer runs and
+normal/optimized checker runs had identical canonical scientific payloads.
+The assurance layer rejected twenty-nine typed semantic mutations, including
+reversed gradients, omitted decision forms, floating zero tests, changed tie
+rules, incomplete cell sets, and altered path statistics.  The canonical
+producer and validator payload hashes are recorded in
+\Cref{app:finite-evidence}.
+\end{proof}
+
+This regression proposition alone does not prove the complete $k=8$
+diagram; \Cref{thm:complete-atlas} supplies that extension.
+The incompatibility of optimal weights is resolved in
+\Cref{prop:family-optima}.  In fact the $k=6$ landmark ranking favors \role{gold5},
+whereas among the four $k=8$ controls \role{quad13} is shorter.  Equal zero
+counts can coexist with thousands of selected-word changes, showing why
+zero-sector extremality and residual geometry are distinct objectives.
+
+\subsection{Wall geometry and the complete DNA atlas}
+\label{sec:walls-atlas}
+Write $\theta=\RC$ on lower vertices, $J=\RC$ on arcs, and
+$\alpha=2\pi/k$. We use the gradient convention \eqref{eq:gradient}.
+The basic identity, also used in \Cref{ext:thm:paths}, is
+\begin{equation}
+ r_s(v)-r_s(u)=\tan(\pi/k)\bigl(\lambda_s(u)+\lambda_s(v)\bigr)
+ \quad (u\to v).
+ \label{eq:wall-increment}
+\end{equation}
+
+\subsubsection{Regular midpoint walls}
+Consider an admissible affine weight path $s_t=s_0+t\dot s$. Call its
+wall at zero \emph{regular} if every lambda form either vanishes
+identically on this path or is nonzero at zero. Restrict to a sufficiently
+small neighborhood with no other roots. Let
+\[
+ S=\{u:\lambda_{s_0}(u)>0,\ r_{s_0}(u)=0,\ \dot r(u)\ne0\}.
+\]
+Subscripts $-,0,+$ denote the two exact side germs and the point.
+
+\begin{theorem}[Regular wall locality]\label{thm:regular-wall}
+The set $S$ is RC-stable and no two of its vertices are adjacent.
+The seed is constant and
+\[
+ m_+-m_-=\nabla f,\qquad
+ f(u)=-\sgn\dot r(u)\ \ (u\in S),\quad f=0\ \text{otherwise}.
+\]
+Thus $|M_+\triangle M_-|=2q|S|$. Between any two of the three
+germs the same formula holds using only the vertices whose midpoint
+indicator changes. Their three lower residual lengths lie in an
+interval of width at most two.
+\end{theorem}
+\begin{proof}
+The two-family formula makes the seed constant. Only vertices of $S$
+can change $a_s$, with the stated signs. Identity
+\eqref{eq:wall-increment} rules out adjacent vertices of $S$; it also
+rules out loops there. The incident stars are disjoint. On each star
+both endpoint indicators are Boolean, so the change exchanges all
+$q$ incoming and $q$ outgoing arcs. In each residual a changing
+vertex is a source or a sink. A path meets these vertices only at
+its endpoints. Deleting them leaves a path in the same induced
+residual outside $S$; hence every length lies between the longest
+path there and that length plus two. Finally
+$\lambda(\theta u)=\lambda(u)$, $r(\theta u)=-r(u)$ and
+$a(u)+a(\theta u)=1$ on $S$, including the frozen point tie.
+This proves RC stability and all point comparisons.
+\end{proof}
+The bound two is attained at $k=8$, $\rho=4\sqrt2-1$, where the
+lengths are $(145,143,143)$. It does not apply to a mixed wall.
+
+\subsubsection{Singular vertices and mixed walls}
+Put $Z=\{z:\lambda_{s_0}(z)=0\}$, including identically zero forms.
+For a letter $c$ define
+\[
+ x_c(z)=\Re P_{s_0}(zc).
+\]
+If $y_c$ is the tail of $cz$ and $v_c$ the head of $zc$, rotation gives
+\[
+ \lambda(y_c)=x_c(z)\sin\alpha,\qquad
+ \lambda(v_c)=-x_c(z)\sin\alpha.                     \tag{W1}
+\]
+
+\begin{lemma}[Singular subgraph]\label{lem:singular-subgraph}
+The original graph induced on $Z$ is a disjoint union of isolated
+vertices and zero-embedding PCR cycles. Each cycle has length dividing
+$k$, and its midpoint potential is constant, equal to $-W_s(w)$.
+A zero PCR with nonzero embedding derivative along the weight path
+has period exactly $k$.
+\end{lemma}
+\begin{proof}
+Since $x_c(z)$ is a fixed real number plus $s_0(c)$, injectivity
+allows at most one letter with $x_c(z)=0$. Equation (W1) shows that
+this letter gives both the unique incoming and the unique outgoing
+internal arc. Thus internal indegree and outdegree are either both
+zero or both one. Rotation of a zero embedding supplies the
+successor, so the cycles are precisely the zero PCRs, without tails.
+Their total letter weight is rotation invariant, proving the
+potential formula. A word of proper period $d\mid k$ has embedding
+zero for every weight, by the geometric sum across repeats; its
+derivative cannot be nonzero.
+\end{proof}
+
+For any two germs $\sigma,\tau\in\{-,0,+\}$, put
+$\Delta a=a_\tau-a_\sigma$ and
+$\Delta h=\ind_{\lambda_\tau>0}-\ind_{\lambda_\sigma>0}$. For
+$x_c(z)\ne0$ define
+\[
+ \gamma_c(z)=\Delta a(z)-\Delta h(z)\ind_{x_c(z)<0}.
+\]
+Let $e_\tau(C)$ be the unique arc of a singular PCR $C$ selected
+by terminal $\tau$. Keep the definition of $S$ from the regular case.
+
+\begin{theorem}[Disjoint mixed-wall formula]\label{thm:mixed-wall}
+One has the exact cochain identity
+\begin{align}
+ m_\tau-m_\sigma={}&\nabla(\ind_S\Delta a)
+ +\sum_{\substack{z\in Z,\ c\in\A\\x_c(z)\ne0}}
+       \gamma_c(z)(\ind_{zc}-\ind_{cz}) \notag\\
+ &+\sum_{C\subset G[Z]}(\ind_{e_\tau(C)}-\ind_{e_\sigma(C)}).
+ \label{eq:mixed-wall}
+\end{align}
+All nonzero summands have disjoint supports, except for the
+incoming/outgoing arcs already grouped into one star. In particular,
+\[
+ |M_\tau\triangle M_\sigma|=2q\,s_{\sigma\tau}
+                       +2e_{\sigma\tau}+2c_{\sigma\tau},
+\]
+where $s$ counts changed midpoint vertices in $S$,
+$e=\sum_{z,c}|\gamma_c(z)|$, and $c$ counts singular PCRs whose
+selected representative changes.
+\end{theorem}
+\begin{proof}
+Outside $Z$, only midpoint indicators at $S$ change. On $zc$ with
+$x_c(z)\ne0$, the seed is $(1-h_\tau(z))h(v_c)$. After separating
+a possible midpoint change at $v_c$, its difference is
+$\Delta a(z)-\Delta h(z)h(v_c)=\gamma_c(z)$ by (W1).
+The companion $cz$ has the negative difference. The inequalities
+$0\le a_\tau\le h_\tau\le1$ give $\gamma_c(z)\in\{-1,0,1\}$.
+
+For the boundary check, if $u\in S$ and $u\to z$ with $z\in Z$,
+\eqref{eq:wall-increment} gives $r(z)>0$, so $a_\tau(z)=0$
+in all germs and the singular contribution on that arc vanishes.
+If $z\to u$, then $r(z)<0$, so $a_\tau(z)=h_\tau(z)$ and the
+same conclusion holds. Thus nonzero singular contributions do not
+overlap midpoint stars. Each external arc has only one endpoint
+in $Z$; a companion coincidence is a homopolymer loop and has
+$x_c(z)=0$, hence is excluded. Internal arcs belong to the disjoint
+PCRs of \Cref{lem:singular-subgraph}, each with one selected arc.
+All other arcs are unchanged. Summing absolute values proves the count.
+\end{proof}
+Freezing $a_\tau$ to $a_0$ on $S$ performs commuting complete
+source/sink moves and gives an RC MDS within two length units of
+each original germ. This does not bound the difference between
+distinct singular germs. Nor does \eqref{eq:mixed-wall} assert
+that its partial companion exchanges are individually legal moves:
+Boolean membership and acyclicity must be checked on any proposed
+intermediate state.
+
+
+\subsection{Ancillary atlas properties and wall examples}
+\begin{proposition}[Embedding spectrum in the quadratic slice]
+\label{prop:quadratic-embedding}
+At $k=8$ the accidental DNA embedding ratios are
+\[
+ \sqrt2,\quad 2\sqrt2-1,\quad1+\sqrt2,\quad
+ 1+2\sqrt2,\quad3+2\sqrt2.
+\]
+Their total zero-word counts are respectively $288,352,648,352,576$,
+including 256 structural words. At $k=2^b$, $b\ge3$, restricted
+to $\rho\in\Q(\sqrt2)$, the same list is complete and
+\[
+ Z_{2^b}(\rho)=Z_8(\rho)^{2^{b-3}}.
+\]
+\end{proposition}
+\begin{proof}
+Antipodal pairing reduces the embedding to four entries of $D$.
+The exact enumeration of $9^4$ tuples, with ordered-letter
+multiplicities, checks both real and imaginary coordinates and
+agrees with all $4^8$ positional words. If a zero is accidental,
+at least one nonstructural coordinate is nonzero as a form, so
+its ratio lies in $\Q(\sqrt2)$; no additional real ratio is omitted.
+For the lift, $\{1,\zeta_{2^b},\ldots,\zeta_{2^b}^{r-1}\}$ is a
+basis over $\Q(\zeta_8)$, where $r=2^{b-3}$. Separating exponents
+modulo $r$ gives $r$ independent eight-position words. Scalar
+and componentwise vanishing hold exactly block by block, proving
+the spectrum and count. Other subfields at higher order are not
+classified by this argument.
+\end{proof}
+
+\begin{proposition}[Exact family optima and a failed Galois quotient]
+\label{prop:family-optima}
+For the fixed selector,
+\[
+ \min_{\rho>1}L_6(\rho)=57,\quad
+ \operatorname*{argmin}L_6=[4,\infty),
+\]
+\[
+ \min_{\rho>1}L_8(\rho)=141,\quad
+ \operatorname*{argmin}L_8=[3,1+2\sqrt2).
+\]
+Consequently no fixed ratio minimizes this family at every even order.
+Moreover, Galois conjugation does not define an operation on terminal
+equivalence classes, even when all four ratios remain admissible.
+\end{proposition}
+\begin{proof}
+Upper ranks and attaining paths give the exact length on each
+stratum. The ten optimal $k=6$ strata and sixteen optimal $k=8$
+strata join to the displayed intervals; the excluded right endpoint
+at $k=8$ has length 155. Since $1+2\sqrt2<4$, these loci are disjoint.
+
+For the last assertion let
+$x=5-\sqrt2$ and $y=(17+6\sqrt2)/7$.
+Exact evaluation gives the same terminal at $x$ and $y$, but
+their conjugates under $\sqrt2\mapsto-\sqrt2$ have residual lengths
+143 and 161 and hence different terminals. All ratios exceed one.
+This disproves descent to terminal classes without contradicting
+the typed equality-certificate covariance.
+\end{proof}
+
+The length bound in \Cref{ext:thm:paths} is attained on all 199 strata
+at $k=4,6,8$; no all-order equality is inferred. The mixed-wall
+formula is checked on all 33 comparisons at eleven walls.
+For example at $k=8$, $\rho=3+2\sqrt2$, the side difference is
+\[
+2056=8\cdot112+2\cdot540+2\cdot40,
+\]
+while the lengths are $(143,163,143)$. After freezing regular
+midpoint changes they are $(145,163,143)$, so a width-20 excursion
+persists. At $(1+2\sqrt2)/3$ the embedding-zero count remains 256
+but the component changes: new zero PCRs alone cannot detect all
+component changes. At $(5+4\sqrt2)/7$ the three lengths are all
+149 while the components are distinct. Equal length is therefore
+not a complete component invariant.
+
+
+\subsection{Technical normalization details}
+\label{app:component-details}
+
+The prime-sine independence argument is proved once in \Cref{lem:prime-sines}; that proof supplies the normalization used here.
+
+\subsubsection{Decision traces and sufficient forms}
+The five-role catalogue retains a transparent branch trace. Structural forms
+are registered separately from nonzero hyperplanes. The two-family theorem
+(\Cref{ext:thm:two}) proves that the lambda and midpoint signs suffice;
+retaining all five roles is an audit choice, not a minimality claim.
+A point stratum is retained separately from its adjacent intervals.
+
+\subsubsection{Certificate height}
+Raw positional polynomials have coefficients in $\{-1,0,1\}$, with one
+signed one-hot letter per position. The role-transformed Laurent
+polynomials $A,B$ need not have these coefficients. For example the
+midpoint polynomial of $TTT$ at $k=4$ contains the constant coefficient
+$-6$, since $A(z)=\sum_{e=1}^3(z^e+z^{-e}-2)$.
+For a word of length $n$, all five role templates satisfy the safe bounds
+\[
+ \|A\|_1,\|B\|_1\le4n,\qquad
+ \|UA+dB\|_1\le4n(\|U\|_1+d)\quad(d>0).
+\]
+A common Laurent shift preserves this bound. The cleared degree is
+$O(k+\deg U)$. These polynomial height bounds suffice for the bit
+complexity statement, without asserting that every bounded polynomial
+has a positional realization.
+
+\subsection{Finite evidence and reproducibility boundary}
+\label{app:finite-evidence}
+
+The original regression proposition uses a canonical thirty-row payload.  Its frozen
+identities are
+\begin{align*}
+  \text{producer payload prefix: }&aca5d5fc81c839c218b6eefaaf00acdc\ldots,\\
+  \text{validator payload prefix: }&b79051b4190d6f13b9bb183fe1299fb6\ldots.
+\end{align*}
+The full SHA-256 values, schemas, exact row table, independent reconstruction
+code, and replay instructions are included in the public finite-assurance
+capsule distributed with this article.
+
+\Cref{thm:twice-prime-embedding} has a separate finite arithmetic checker with payload prefix
+\texttt{9ed015120913ea30}.  It verifies selected composition identities, word
+counts and the $k=12$ orbit count, and uses $k=30$ only as an out-of-domain
+negative control.  It is not a premise of the all-order proof.
+
+The finite range is:
+\[
+  3\text{ rows at }k=4,
+  \qquad 23\text{ rows at }k=6,
+  \qquad 4\text{ named landmarks at }k=8.
+\]
+No floating-point decision enters the scientific payload.  Every row checks
+the direct formula against a legal firing replay, literal RC invariance,
+one-per-PCR cardinality, and acyclicity by both Kahn elimination and an
+independent depth-first search.  Longest paths are counted in edges; the
+corresponding vertex length is one larger for a nonempty path.
+
+This regression capsule is exact inside its declared range. The extended
+capsules supply the complete $k=8$ atlas, component classification, retiming
+certificates and the 131 construction, as described in
+\Cref{sec:construction-131}. Neither capsule claims a terminal atlas at
+$k\ge10$, biological performance or a deduction of uniform theorems
+from finite rows.

@@ -1,0 +1,831 @@
+{
+  "status": "PASS",
+  "scope": "new formulas, source exact sign oracle reused",
+  "rows_checked": 30,
+  "selected_word_decisions_checked": 357120,
+  "checks": 303,
+  "seconds": 6.5940258502960205,
+  "rows": [
+    {
+      "row_id": "ATLAS-K4-I000",
+      "k": 4,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 2
+        }
+      },
+      "matches_original": true,
+      "selected_count": 70,
+      "lower_states": 64,
+      "global_structural_lambda_states": 16,
+      "symmetry_reduced_form_count": 24,
+      "lower_graph_longest_edges": 17,
+      "positive_block_longest_edges": 2,
+      "nonpositive_core_longest_edges": 11,
+      "block_upper_bound": 17,
+      "maxplus_exact": 17,
+      "upper_graph_longest_edges_direct_k4": 16
+    },
+    {
+      "row_id": "ATLAS-K4-P000",
+      "k": 4,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 3
+        }
+      },
+      "matches_original": true,
+      "selected_count": 70,
+      "lower_states": 64,
+      "global_structural_lambda_states": 16,
+      "symmetry_reduced_form_count": 24,
+      "lower_graph_longest_edges": 17,
+      "positive_block_longest_edges": 2,
+      "nonpositive_core_longest_edges": 11,
+      "block_upper_bound": 17,
+      "maxplus_exact": 17,
+      "upper_graph_longest_edges_direct_k4": 16
+    },
+    {
+      "row_id": "ATLAS-K4-I001",
+      "k": 4,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 4
+        }
+      },
+      "matches_original": true,
+      "selected_count": 70,
+      "lower_states": 64,
+      "global_structural_lambda_states": 16,
+      "symmetry_reduced_form_count": 24,
+      "lower_graph_longest_edges": 17,
+      "positive_block_longest_edges": 2,
+      "nonpositive_core_longest_edges": 11,
+      "block_upper_bound": 17,
+      "maxplus_exact": 17,
+      "upper_graph_longest_edges_direct_k4": 16
+    },
+    {
+      "row_id": "ATLAS-K6-I000",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 5,
+          "numerator": 6
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P000",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 5,
+          "numerator": 7
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I001",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 20,
+          "numerator": 29
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P001",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 2,
+          "numerator": 3
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I002",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 12,
+          "numerator": 19
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P002",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 3,
+          "numerator": 5
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I003",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 6,
+          "numerator": 11
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P003",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 2
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I004",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 6,
+          "numerator": 13
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P004",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 3,
+          "numerator": 7
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 63,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 63,
+      "maxplus_exact": 63,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I005",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 3,
+          "numerator": 8
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 65,
+      "positive_block_longest_edges": 10,
+      "nonpositive_core_longest_edges": 43,
+      "block_upper_bound": 65,
+      "maxplus_exact": 65,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P005",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 3
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 65,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 47,
+      "block_upper_bound": 65,
+      "maxplus_exact": 65,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I006",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 2,
+          "numerator": 7
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 59,
+      "positive_block_longest_edges": 9,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 59,
+      "maxplus_exact": 59,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P006",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 4
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I007",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 2,
+          "numerator": 9
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P007",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 5
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I008",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 6
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P008",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 7
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I009",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 8
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P009",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 9
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I010",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 10
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-P010",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 11
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K6-I011",
+      "k": 6,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 12
+        }
+      },
+      "matches_original": true,
+      "selected_count": 700,
+      "lower_states": 1024,
+      "global_structural_lambda_states": 144,
+      "symmetry_reduced_form_count": 440,
+      "lower_graph_longest_edges": 57,
+      "positive_block_longest_edges": 8,
+      "nonpositive_core_longest_edges": 39,
+      "block_upper_bound": 57,
+      "maxplus_exact": 57,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K8-L000-RAT2",
+      "k": 8,
+      "weight": {
+        "kind": "RATIONAL",
+        "value": {
+          "denominator": 1,
+          "numerator": 2
+        }
+      },
+      "matches_original": true,
+      "selected_count": 8230,
+      "lower_states": 16384,
+      "global_structural_lambda_states": 576,
+      "symmetry_reduced_form_count": 7904,
+      "lower_graph_longest_edges": 147,
+      "positive_block_longest_edges": 33,
+      "nonpositive_core_longest_edges": 79,
+      "block_upper_bound": 147,
+      "maxplus_exact": 147,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K8-L001-GOLD5",
+      "k": 8,
+      "weight": {
+        "isolating_interval": {
+          "left": {
+            "denominator": 1,
+            "numerator": 6
+          },
+          "right": {
+            "denominator": 1,
+            "numerator": 7
+          }
+        },
+        "kind": "REAL_ALGEBRAIC",
+        "polynomial_coefficients_ascending": [
+          1,
+          -7,
+          1
+        ],
+        "root_selector": "UNIQUE_REAL_ROOT_IN_OPEN_INTERVAL"
+      },
+      "matches_original": true,
+      "selected_count": 8230,
+      "lower_states": 16384,
+      "global_structural_lambda_states": 576,
+      "symmetry_reduced_form_count": 7904,
+      "lower_graph_longest_edges": 143,
+      "positive_block_longest_edges": 28,
+      "nonpositive_core_longest_edges": 85,
+      "block_upper_bound": 143,
+      "maxplus_exact": 143,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K8-L002-QUAD13",
+      "k": 8,
+      "weight": {
+        "isolating_interval": {
+          "left": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "right": {
+            "denominator": 1,
+            "numerator": 4
+          }
+        },
+        "kind": "REAL_ALGEBRAIC",
+        "polynomial_coefficients_ascending": [
+          -13,
+          0,
+          1
+        ],
+        "root_selector": "UNIQUE_REAL_ROOT_IN_OPEN_INTERVAL"
+      },
+      "matches_original": true,
+      "selected_count": 8230,
+      "lower_states": 16384,
+      "global_structural_lambda_states": 576,
+      "symmetry_reduced_form_count": 7904,
+      "lower_graph_longest_edges": 141,
+      "positive_block_longest_edges": 27,
+      "nonpositive_core_longest_edges": 85,
+      "block_upper_bound": 141,
+      "maxplus_exact": 141,
+      "upper_graph_longest_edges_direct_k4": null
+    },
+    {
+      "row_id": "ATLAS-K8-L003-CUBIC2",
+      "k": 8,
+      "weight": {
+        "isolating_interval": {
+          "left": {
+            "denominator": 4,
+            "numerator": 5
+          },
+          "right": {
+            "denominator": 10,
+            "numerator": 13
+          }
+        },
+        "kind": "REAL_ALGEBRAIC",
+        "polynomial_coefficients_ascending": [
+          -2,
+          0,
+          0,
+          1
+        ],
+        "root_selector": "UNIQUE_REAL_ROOT_IN_OPEN_INTERVAL"
+      },
+      "matches_original": true,
+      "selected_count": 8230,
+      "lower_states": 16384,
+      "global_structural_lambda_states": 576,
+      "symmetry_reduced_form_count": 7904,
+      "lower_graph_longest_edges": 161,
+      "positive_block_longest_edges": 33,
+      "nonpositive_core_longest_edges": 93,
+      "block_upper_bound": 161,
+      "maxplus_exact": 161,
+      "upper_graph_longest_edges_direct_k4": null
+    }
+  ],
+  "minimal_one_parameter_root_locations": {
+    "4": {
+      "roots": [
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": false
+        }
+      ],
+      "essential_count": 1,
+      "minimum_root_partition_cells": 3,
+      "distinct_terminal_classes": 2
+    },
+    "6": {
+      "roots": [
+        {
+          "ratio": {
+            "denominator": 5,
+            "numerator": 7
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": false
+        },
+        {
+          "ratio": {
+            "denominator": 2,
+            "numerator": 3
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": true
+        },
+        {
+          "ratio": {
+            "denominator": 3,
+            "numerator": 5
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": true
+        },
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 2
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": false
+        },
+        {
+          "ratio": {
+            "denominator": 3,
+            "numerator": 7
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": true
+        },
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 3
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": true
+        },
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 4
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": false
+        },
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 5
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": true
+        },
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 7
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": false
+        },
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 9
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": false
+        },
+        {
+          "ratio": {
+            "denominator": 1,
+            "numerator": 11
+          },
+          "essential": true,
+          "point_only_anomaly": false,
+          "three_different": false
+        }
+      ],
+      "essential_count": 11,
+      "minimum_root_partition_cells": 23,
+      "distinct_terminal_classes": 17
+    }
+  }
+}

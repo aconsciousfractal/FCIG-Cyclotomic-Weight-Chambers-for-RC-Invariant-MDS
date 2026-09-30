@@ -1,0 +1,255 @@
+\section{Balanced loads and finite-pool closure}
+
+\subsection{Balanced closed-walk loads and the exact closure of a finite pool}
+\label{sec:balanced-loads}
+The complete endpoint charts above retain Boolean and acyclicity constraints.
+We now isolate a weaker necessary test: nonnegative combinations of a fixed
+pool of closed-walk inequalities whose exterior incidence is invariant under
+real gradients. This test has an exact finite linear-programming description.
+Its scope is a real-gradient class on the nonstable arcs, rather than an
+ordinary complete-move component on the full graph.
+
+Let $k\ge2$ be even and let the alphabet have a fixed-point-free complement.
+In $G=B(q,k-1)$ write $S$ for the union of RC-stable PCRs,
+$E_0=E\setminus S$, and $N_S$ for their number. Fix an integer $T\ge k$.
+For $b\ge0$ define the aggregate stable budget
+\[
+ \mathcal B_b=\{c\in\R^{N_S}:c_P\ge1,\ \sum_Pc_P\le N_S+b\}.
+\]
+This relaxation has no upper bounds $c_P\le|P|$, Boolean constraints or
+acyclicity requirement. All projections below refer to this stated budget.
+For an exterior $y:E_0\to\R$, its real-gradient class is
+$y+\nabla f|_{E_0}$ with $f:V\to\R$ and
+$\nabla f(e)=f(\tail e)-f(\head e)$, as in \Cref{sec:base}.
+
+\begin{lemma}[Closed-walk counting inequality]\label{lem:walk-budget}
+If $M$ is an RC feedback set with $L(M)\le T-1$ and $n=\ind_M$,
+then every nonempty closed walk $W$, with multiplicity vector $\chi_W$, satisfies
+\begin{equation}
+ \langle\chi_W,n\rangle\ge\ceil{|W|/T}.\label{eq:walk-budget}
+\end{equation}
+\end{lemma}
+\begin{proof}
+The walk meets $M$, since a nonempty residual closed walk contains a cycle.
+Cut its circular sequence at the selected occurrences. Each piece has one
+selected arc followed by at most $T-1$ residual arcs: a residual stretch
+cannot repeat a vertex and is bounded by $L(M)$. Thus $r$ selected
+occurrences give $|W|\le Tr$. Repetitions are counted with multiplicity.
+\end{proof}
+
+\begin{proposition}[Stable-load criterion and aggregate normal form]
+\label{prop:balanced-normal-form}
+The stable subgraph consists of vertex-disjoint directed PCR cycles.
+Let $F=\sum_j\lambda_j\chi_{W_j}$ with $\lambda_j\ge0$, and put $A=F|_{E_0}$.
+Then $A(\nabla f)=0$ for every real potential $f$ if and only if $F$ has a
+constant load $m_P$ on the arcs of each stable PCR $P$.
+For such a combination set
+\[
+ K=\sum_j\lambda_j\ceil{|W_j|/T},\qquad M_* =\max_Pm_P.
+\]
+Its exact aggregate projection is
+\begin{equation}
+ A(y)\ge K-\sum_Pm_P-bM_* .\label{eq:balanced-projection}
+\end{equation}
+If $M_*>0$, adjoining nonnegative weighted stable PCR cycles makes all
+positive stable loads equal to $M_*$ without changing this projected
+inequality. Rational weights remain rational and can be cleared to integers.
+\end{proposition}
+\begin{proof}
+A word in a stable PCR has equal counts in every complementary letter pair,
+because RC is a rotation of that word. A fixed $(k-1)$-letter prefix can be
+completed to balanced counts by at most one letter: distinct letters add
+distinct signed unit vectors to its imbalance. The same argument applies to
+suffixes. Hence each vertex has stable indegree and outdegree at most one;
+rotation closure gives vertex-disjoint cycles. This argument uses necessity
+of balanced counts, not a converse characterization of RC stability.
+
+An arc vector annihilates all gradients exactly when its divergence is zero,
+as testing the potentials supported at individual vertices shows. The full
+vector $F$ is a circulation. Thus $A$ is a circulation exactly when $F|_S$
+is one; on the disjoint stable cycles this means constant loads.
+Summing \eqref{eq:walk-budget} yields
+$A(n|_{E_0})+\sum_Pm_Pc_P\ge K$. Over $\mathcal B_b$ the maximum stable
+term is $\sum_Pm_P+bM_*$: place all excess on a largest-load coordinate.
+This proves the exact projection of this single combined row and the budget;
+it is not a simultaneous projection of all original walk rows.
+
+For $U=\{P:m_P>0\}$ adjoin weight $M_*-m_P$ of the PCR cycle $P$.
+Its length is at most $k\le T$, so its counting right side is one.
+The new right side is $K'=K+\sum_{P\in U}(M_*-m_P)$ and its stable maximum
+is $M_*(|U|+b)$; subtraction gives precisely \eqref{eq:balanced-projection}.
+If every load vanishes no normalization is needed. Clearing denominators
+proves the last assertion.
+\end{proof}
+The circulation and normalization argument works on any finite graph whose
+distinguished subgraph is a union of vertex-disjoint cycles of length at most
+$T$. The RC de Bruijn geometry supplies this hypothesis.
+
+\begin{theorem}[Exact finite-pool closure]\label{thm:finite-pool-closure}
+Fix a finite pool of mixed closed walks $W_1,\ldots,W_J$, each containing a
+stable arc. Write $s_{ej}=\chi_{W_j}(e)$ for $e\in S$,
+$A_j(y)=\sum_{e\in E_0}\chi_{W_j}(e)y_e$ and $d_j=\ceil{|W_j|/T}$.
+Let $F_*(y)$ be the maximum of
+\begin{equation}
+ \sum_j\lambda_j(d_j-A_j(y))-\sum_Pm_P\label{eq:pool-primal}
+\end{equation}
+subject to $\lambda_j\ge0$, $0\le m_P\le1$ and
+$\sum_js_{ej}\lambda_j=m_P$ for every $e\in P$, every stable $P$.
+For every $b\ge0$, the following are equivalent:
+\begin{enumerate}
+\item No nonnegative combination from this pool with gradient-invariant
+exterior incidence excludes $y$ by \eqref{eq:balanced-projection}.
+\item $F_*(y)\le b$.
+\item There are signed real coefficients $\gamma_e$, $e\in S$, such that
+\begin{align}
+ A_j(y)+\sum_{e\in S}s_{ej}\gamma_e&\ge d_j &&(1\le j\le J),\label{eq:pool-extension}\\
+ \Gamma_P:=\sum_{e\in P}\gamma_e&\ge1 &&(P\text{ stable}),\notag\\
+ \sum_{e\in S}\gamma_e&\le N_S+b.\notag
+\end{align}
+\end{enumerate}
+If $y$ is RC invariant and the pool is RC closed, the lift $\gamma$ can be
+required to be RC invariant. Individual lift coordinates have no sign,
+integrality, Boolean or upper-bound restrictions.
+\end{theorem}
+\begin{proof}
+The primal is nonempty because zero is feasible. Every $\lambda_j\le1$:
+choose a stable arc in $W_j$, whose positive integer multiplicity contributes
+to a total load at most one. Thus the feasible set is compact and the maximum
+is finite and attained. Its equalities impose exactly the circulation
+criterion of \Cref{prop:balanced-normal-form}.
+
+A feasible objective larger than $b$ is larger than $b\max_Pm_P$ because
+$b\ge0$ and $m_P\le1$, and hence separates $y$. Conversely a separating
+combination has $M_*>0$: in a mixed pool, a nonzero nonnegative combination
+cannot have all stable loads zero. Divide its weights and loads by $M_*$.
+The normalized feasible primal point has objective larger than $b$.
+This proves the first equivalence.
+
+We explicitly derive the dual, using classical finite LP strong duality
+\cite[Chapter 5]{BoydVandenberghe2004}. Put free multipliers $\gamma_e$ on
+$m_P-\sum_js_{ej}\lambda_j=0$ and nonnegative $t_P$ on $m_P\le1$.
+The Lagrangian is
+\[
+ \sum_Pt_P+\sum_j\lambda_j\left[d_j-A_j(y)-\sum_es_{ej}\gamma_e\right]
+ +\sum_Pm_P[-1+\Gamma_P-t_P].
+\]
+Its supremum over nonnegative $\lambda,m$ is finite precisely when
+\[
+ \sum_es_{ej}\gamma_e\ge d_j-A_j(y),\qquad
+ t_P\ge\Gamma_P-1,\quad t_P\ge0.
+\]
+The dual objective is $\sum_Pt_P$, and a feasible primal of finite value has
+an attaining dual of equal value.
+
+Formally add every stable PCR cycle as a column. This leaves the primal
+maximum unchanged. If its coefficient is $\eta_P$, remove it and replace
+$m_P$ by $m_P-\eta_P$; the remaining loads are nonnegative and at most one,
+and both right-side contribution and subtracted mass drop by $\eta_P$.
+Conversely add zero coefficients. These columns impose $\Gamma_P\ge1$ in
+the dual because their right sides are one. Its minimum is at most $b$
+exactly when $\Gamma_P\ge1$ and $\sum_P\Gamma_P\le N_S+b$, taking
+$t_P=\Gamma_P-1$ for sufficiency. This is \eqref{eq:pool-extension}.
+Finally RC permutes the mixed rows and preserves each stable PCR set.
+Averaging $\gamma$ with $\gamma\circ\theta$ preserves feasibility and budget.
+\end{proof}
+
+The convention can also be checked directly. If an endpoint satisfies
+$n|_{E_0}=y+\nabla f|_{E_0}$, take
+$\gamma=n|_S-\nabla f|_S$. The full cochain $y+\gamma=n-\nabla f$
+has the same closed-walk and PCR evaluations as $n$. It satisfies the
+extension whenever the endpoint satisfies its stable budget. Data using
+$\delta f= f(\head e)-f(\tail e)$ require $\delta=-\nabla$;
+transport $y=x+\delta a$ then transports the lift by
+$\gamma_y=\gamma_x+\delta a=\gamma_x-\nabla a$.
+
+\begin{corollary}[The MDS budget]\label{cor:mds-pool}
+At $b=0$, \eqref{eq:pool-extension} forces $\Gamma_P=1$ on every stable PCR.
+Every balanced row reduces to $A(y)\ge K-\sum_Pm_P$.
+\end{corollary}
+\begin{proof}
+Each of the $N_S$ masses is at least one and their total is at most $N_S$.
+Substitute $c_P=1$ in the combined row.
+\end{proof}
+This specialization remains a necessary test on the exterior. Pure $E_0$
+walks must be checked separately, and feasibility of a signed lift does not
+imply a Boolean stable completion, a clock or a full endpoint. Adding mixed
+walks can strictly strengthen the test, as the following single example shows.
+
+\begin{proposition}[An exterior passing one pool and excluded by new returns]
+\label{prop:core-pool-strictness}
+There is an RC exterior $Y$ of 8102 nonstable DNA8 arcs, one per nonstable PCR,
+whose residual core $(V,E_0\setminus Y)$ is a DAG of length exactly 106.
+At $T=107$ a specified pool of 1804 mixed walks admits an RC signed rational
+lift of total stable mass 128 for $y=\ind_Y$. Thus this entire balanced-pool
+closure passes at both $b=0$ and $b=1$. Nevertheless every RC feedback set
+$M$ with $L(M)\le106$ and
+\[
+ \ind_M|_{E_0}=\ind_Y+\nabla f|_{E_0},\qquad f:V\to\R,
+\]
+has $|M|\ge8235$. Attainment of 8235 in this class is not asserted.
+\end{proposition}
+\begin{proof}[Finite certificate reduction]
+Encode $A,C,G,T$ by $0,1,2,3$. A length-eight word has ID $e<65536$,
+tail $\floor{e/4}$ and head $e\bmod16384$; RC reverses the digits and
+replaces $d$ by $3-d$. Rotation partitions the arcs into 8230 PCRs.
+Exactly 128 PCRs are stable, containing 988 arcs. The other 8102 PCRs
+form 4051 RC pairs.
+
+All paths in this proof are relative to \pathfile{evidence/balanced_loads/}.
+The literal witness and exact payload are
+\pathfile{results/joint_core106.words.txt} and
+\pathfile{results/joint_core106.json.gz}.
+The companion verifier \pathfile{verify_case.py}
+uses the declared shared exact kernel to reconstruct the carrier and check
+all selections, RC, nonstable PCR counts,
+and a rank equal to the longest incoming core distance. Every residual core
+arc increases this rank, whose maximum is 106; a listed 106-arc residual
+path proves equality. The core omits every stable arc freely and is not a
+complete feedback-set witness.
+
+The mixed pool is reconstructed from the literal sources and declared
+alphabet images, joined walks and their RC images, deduplicating by arc
+multiplicity. Its 1804 walks compress to 902 mixed rows on 622 stable RC
+arc orbits. The exported rational lift has denominators one or two.
+Exact row evaluation checks all mixed lowers, each of the 128 PCR masses
+$\Gamma_P=1$, and total mass 128. By \Cref{thm:finite-pool-closure}, no
+balanced combination of this pool and the stable PCR cycles separates $Y$.
+
+For the stronger bound, forty further walks supply a return $Q_e$ entirely
+in $E_0$ from $\head e$ to $\tail e$ for every arc $e$ of five stable PCRs.
+Each $eQ_e$ is closed. Put
+\[
+ K_P=\sum_{e\in P}\ceil{(1+|Q_e|)/107},\qquad
+ A_P(z)=\sum_{e\in P}\sum_{a\in Q_e}z(a).
+\]
+Their stable restriction is the incidence of the PCR cycle, so their external
+incidence is a circulation. Hence $A_P(\nabla f)=0$ and
+\eqref{eq:walk-budget} gives $c_P\ge K_P-A_P(\ind_Y)$.
+The checked closed-walk lengths range from 53 to 111, with the following values:
+\begin{center}
+\begin{tabular}{lrrr}\toprule
+PCR representative & $K_P$ & $A_P(\ind_Y)$ & lower on $c_P$\\\midrule
+\texttt{ATCCCGGG} & 10 & 8 & 2\\
+\texttt{ATCGCGCG} & 9 & 7 & 2\\
+\texttt{CCCGGGCG} & 9 & 7 & 2\\
+\texttt{CCGCGCGG} & 9 & 7 & 2\\
+\texttt{CCGCGGCG} & 9 & 7 & 2\\\bottomrule
+\end{tabular}
+\end{center}
+The verifier checks adjacency, closure, $E_0$ support, complete PCR coverage,
+ceilings, multiplicities, circulation and evaluation. The remaining 123
+stable PCRs require one hit each, so stable cost is at least 133.
+A gradient telescopes on each nonstable PCR, preserving its selected count
+one. Nonstable cost is therefore 8102, proving $|M|\ge8102+133=8235$ for
+arbitrary real $f$.
+\end{proof}
+
+Summing the five return rows gives $A(y)+\sum_{P\in U}c_P\ge46$.
+For an RC endpoint of cost at most 8231, nonstable surplus is even and must
+vanish. Its stable budget is at most 129; after the other 123 mandatory hits,
+$\sum_{P\in U}c_P\le6$. Thus $A(y)\ge40$, or $A(y)\ge41$ in the MDS branch.
+On $Y$ the value is 36. These are weighted occurrence thresholds, not counts
+of distinct newly selected words. The example proves strictness relative to
+the stated pool, without asserting independence from every retained historical
+row. It leaves $8230\le\tau_{\RC}(106)\le8232$ unchanged and gives no global
+lower bound or attained optimum in the new real-gradient class.

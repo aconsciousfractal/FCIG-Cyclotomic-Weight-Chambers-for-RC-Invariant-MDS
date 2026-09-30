@@ -1,0 +1,160 @@
+{
+  "$id": "https://github.com/aconsciousfractal/FCIG-Cyclotomic-Weight-Chambers-for-RC-Invariant-MDS/schemas/terminal-atlas-v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Exact small-DNA terminal atlas",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "scope",
+    "claim_boundary",
+    "critical_skeleton_sha256",
+    "atlas_row_schema_sha256",
+    "assurance_scope",
+    "weights",
+    "orders",
+    "rows"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "FCIG_CWC_TERMINAL_ATLAS_V1"
+    },
+    "scope": {
+      "const": "EXACT_SMALL_DNA_TERMINAL_ATLAS"
+    },
+    "claim_boundary": {
+      "const": "EXACT_30_ROW_ATLAS_COMPLETE_K4_K6_FOUR_K8_LANDMARKS_NO_COMPLETE_K8_OR_ALL_ORDER_INFERENCE"
+    },
+    "critical_skeleton_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "atlas_row_schema_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "assurance_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "row_count",
+        "max_word_states_per_row",
+        "complete_k4_k6",
+        "complete_k8",
+        "k8_landmark_count"
+      ],
+      "properties": {
+        "row_count": {
+          "const": 30
+        },
+        "max_word_states_per_row": {
+          "const": 65536
+        },
+        "complete_k4_k6": {
+          "const": true
+        },
+        "complete_k8": {
+          "const": false
+        },
+        "k8_landmark_count": {
+          "const": 4
+        }
+      }
+    },
+    "weights": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "landmark_id",
+          "weight",
+          "evaluation_weight_identity_sha256"
+        ],
+        "properties": {
+          "landmark_id": {
+            "enum": [
+              "RAT2",
+              "GOLD5",
+              "QUAD13",
+              "CUBIC2"
+            ]
+          },
+          "weight": {
+            "type": "object"
+          },
+          "evaluation_weight_identity_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "orders": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "k",
+          "complete_declared_range",
+          "ordered_row_ids",
+          "landmark_links",
+          "terminal_geometry_groups",
+          "unique_terminal_geometry_count",
+          "same_covector_different_payload_mismatch_count"
+        ],
+        "properties": {
+          "k": {
+            "enum": [
+              4,
+              6,
+              8
+            ]
+          },
+          "complete_declared_range": {
+            "type": "boolean"
+          },
+          "ordered_row_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "landmark_links": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "terminal_geometry_groups": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "unique_terminal_geometry_count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "same_covector_different_payload_mismatch_count": {
+            "const": 0
+          }
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 30,
+      "maxItems": 30,
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

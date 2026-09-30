@@ -1,0 +1,28 @@
+{
+  "schema": "rc-mds-finite-cut-lp-v1",
+  "baseline_sha256": "2dd0ccd2deed9bf5c9166cecaf10dd0e149337d876ca8c6cdff2c8dae3ed3f56",
+  "bound": 110,
+  "cut_source": "certificates/radius4_M111.json.gz",
+  "optimum": "1/2",
+  "primal": [
+    {
+      "group": 2505,
+      "option": 1,
+      "value": "1/2"
+    }
+  ],
+  "dual": [
+    {
+      "cut": 0,
+      "weight": "1/2"
+    },
+    {
+      "cut": 324,
+      "weight": "2"
+    },
+    {
+      "cut": 1750,
+      "weight": "1"
+    }
+  ]
+}

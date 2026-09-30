@@ -1,0 +1,375 @@
+{
+  "$id": "https://github.com/aconsciousfractal/FCIG-Cyclotomic-Weight-Chambers-for-RC-Invariant-MDS/schemas/atlas-row-v1.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "histogram": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "bucket": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "count": {
+            "minimum": 1,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "bucket",
+          "count"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "nonnegative": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "comparisons": {
+      "additionalProperties": false,
+      "properties": {
+        "a_star_pairwise": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "equal": {
+                "type": "boolean"
+              },
+              "other_row_id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "symmetric_difference": {
+                "$ref": "#/$defs/nonnegative"
+              }
+            },
+            "required": [
+              "other_row_id",
+              "equal",
+              "symmetric_difference"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "seed_terminal_symmetric_difference": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "terminal_pairwise": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "confined_to_zero_pcr_ties": {
+                "type": "boolean"
+              },
+              "other_row_id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "symmetric_difference": {
+                "$ref": "#/$defs/nonnegative"
+              }
+            },
+            "required": [
+              "other_row_id",
+              "symmetric_difference",
+              "confined_to_zero_pcr_ties"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "seed_terminal_symmetric_difference",
+        "terminal_pairwise",
+        "a_star_pairwise"
+      ],
+      "type": "object"
+    },
+    "construction_identity": {
+      "additionalProperties": false,
+      "properties": {
+        "alphabet_identity_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "cell_id": {
+          "pattern": "^K(4|6|8)-(I|P|L)[0-9]{3}$",
+          "type": "string"
+        },
+        "cell_kind": {
+          "enum": [
+            "OPEN_INTERVAL",
+            "CRITICAL_POINT",
+            "LANDMARK"
+          ]
+        },
+        "complete_covector_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "decision_form_catalog_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "evaluation_weight_identity_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "k": {
+          "enum": [
+            4,
+            6,
+            8
+          ]
+        },
+        "landmark_id": {
+          "enum": [
+            "NONE",
+            "RAT2",
+            "GOLD5",
+            "QUAD13",
+            "CUBIC2"
+          ]
+        },
+        "q": {
+          "const": 4
+        },
+        "selector_identity_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "required": [
+        "q",
+        "k",
+        "cell_kind",
+        "cell_id",
+        "landmark_id",
+        "evaluation_weight_identity_sha256",
+        "alphabet_identity_sha256",
+        "selector_identity_sha256",
+        "decision_form_catalog_sha256",
+        "complete_covector_sha256"
+      ],
+      "type": "object"
+    },
+    "phase_diagram": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_nonzero_form_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "cell_adjacency_valid": {
+          "const": true
+        },
+        "complete_declared_range": {
+          "type": "boolean"
+        },
+        "ordered_critical_ratio_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "raw_critical_occurrence_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "raw_form_occurrence_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "same_covector_different_payload_mismatch_count": {
+          "const": 0
+        },
+        "structural_zero_occurrence_count": {
+          "$ref": "#/$defs/nonnegative"
+        }
+      },
+      "required": [
+        "raw_form_occurrence_count",
+        "structural_zero_occurrence_count",
+        "canonical_nonzero_form_count",
+        "raw_critical_occurrence_count",
+        "ordered_critical_ratio_sha256",
+        "cell_adjacency_valid",
+        "complete_declared_range",
+        "same_covector_different_payload_mismatch_count"
+      ],
+      "type": "object"
+    },
+    "residual_dag": {
+      "additionalProperties": false,
+      "properties": {
+        "arc_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "dfs_acyclic": {
+          "const": true
+        },
+        "kahn_acyclic": {
+          "const": true
+        },
+        "longest_path_edges": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "longest_path_histogram": {
+          "$ref": "#/$defs/histogram"
+        },
+        "longest_path_vertices": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "maximum_indegree": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "maximum_outdegree": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "residual_arc_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "sink_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "source_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "topological_order_valid": {
+          "const": true
+        },
+        "vertex_count": {
+          "$ref": "#/$defs/nonnegative"
+        }
+      },
+      "required": [
+        "vertex_count",
+        "arc_count",
+        "kahn_acyclic",
+        "dfs_acyclic",
+        "topological_order_valid",
+        "longest_path_edges",
+        "longest_path_vertices",
+        "longest_path_histogram",
+        "source_count",
+        "sink_count",
+        "maximum_indegree",
+        "maximum_outdegree",
+        "residual_arc_sha256"
+      ],
+      "type": "object"
+    },
+    "row_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "FCIG_CWC_ATLAS_ROW_V1"
+    },
+    "terminal": {
+      "additionalProperties": false,
+      "properties": {
+        "a_star_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "a_star_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "direct_firing_mismatch_count": {
+          "const": 0
+        },
+        "minimum_cardinality": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "non_boolean_membership_count": {
+          "const": 0
+        },
+        "pcr_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "pcr_overselection_count": {
+          "const": 0
+        },
+        "pcr_underselection_count": {
+          "const": 0
+        },
+        "rc_mismatch_count": {
+          "const": 0
+        },
+        "selected_word_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "selected_word_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      },
+      "required": [
+        "minimum_cardinality",
+        "pcr_count",
+        "selected_word_count",
+        "selected_word_sha256",
+        "a_star_count",
+        "a_star_sha256",
+        "rc_mismatch_count",
+        "non_boolean_membership_count",
+        "pcr_underselection_count",
+        "pcr_overselection_count",
+        "direct_firing_mismatch_count"
+      ],
+      "type": "object"
+    },
+    "zero_and_descent": {
+      "additionalProperties": false,
+      "properties": {
+        "a_star_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "exact_firing_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "lower_zero_state_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "positive_lower_support_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "stable_zero_pcr_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "zero_embedding_paired_pcr_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "zero_embedding_pcr_count": {
+          "$ref": "#/$defs/nonnegative"
+        },
+        "zero_embedding_word_count": {
+          "$ref": "#/$defs/nonnegative"
+        }
+      },
+      "required": [
+        "zero_embedding_word_count",
+        "zero_embedding_pcr_count",
+        "zero_embedding_paired_pcr_count",
+        "stable_zero_pcr_count",
+        "lower_zero_state_count",
+        "positive_lower_support_count",
+        "exact_firing_count",
+        "a_star_count"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "row_id",
+    "construction_identity",
+    "zero_and_descent",
+    "terminal",
+    "residual_dag",
+    "comparisons",
+    "phase_diagram"
+  ],
+  "title": "Exact terminal-atlas row",
+  "type": "object"
+}

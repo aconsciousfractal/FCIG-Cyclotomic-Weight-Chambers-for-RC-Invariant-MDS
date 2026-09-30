@@ -1,0 +1,69 @@
+{
+  "rows": [
+    {
+      "class_stratum_sizes": [
+        3
+      ],
+      "components": 1,
+      "distinct_literal_terminals": 2,
+      "k": 4,
+      "max_geodesic_length": 1,
+      "maximum_separator_length": 0,
+      "negative_cycles": 0,
+      "paired_moves_replayed": 1,
+      "positive_certificates": 3,
+      "strata": 3
+    },
+    {
+      "class_stratum_sizes": [
+        11,
+        1,
+        11
+      ],
+      "components": 3,
+      "distinct_literal_terminals": 17,
+      "k": 6,
+      "max_geodesic_length": 18,
+      "maximum_separator_length": 10,
+      "negative_cycles": 3,
+      "paired_moves_replayed": 146,
+      "positive_certificates": 23,
+      "strata": 23
+    },
+    {
+      "class_stratum_sizes": [
+        15,
+        1,
+        11,
+        1,
+        9,
+        1,
+        7,
+        1,
+        9,
+        1,
+        21,
+        1,
+        15,
+        1,
+        15,
+        1,
+        19,
+        1,
+        21,
+        1,
+        21
+      ],
+      "components": 21,
+      "distinct_literal_terminals": 114,
+      "k": 8,
+      "max_geodesic_length": 79,
+      "maximum_separator_length": 14,
+      "negative_cycles": 210,
+      "paired_moves_replayed": 3710,
+      "positive_certificates": 173,
+      "strata": 173
+    }
+  ],
+  "status": "PASS"
+}

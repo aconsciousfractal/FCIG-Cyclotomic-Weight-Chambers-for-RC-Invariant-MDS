@@ -1,0 +1,11 @@
+{
+  "baseline": "M109",
+  "radius": 3,
+  "period": 109,
+  "excluded_bound": 108,
+  "all_cuts_are_closed_walks": true,
+  "ordinary_components_after_perturbation": true,
+  "pre_retiming_not_included": true,
+  "untrimmed_cut_count": 1866,
+  "retained_cut_count": 1069
+}

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "mutations_rejected": 18,
+  "mutations": [
+    {
+      "mutation": "omit_one_critical_root",
+      "output": "ROOT_COMPLETENESS_ORDER",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "swap_first_two_roots",
+      "output": "ROOT_COMPLETENESS_ORDER",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "replace_by_admissible_field_nonroot",
+      "output": "ROOT_COMPLETENESS_ORDER",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "omit_point_stratum",
+      "output": "CELL_COVERAGE",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "sample_on_domain_boundary",
+      "output": "INTERVAL_SAMPLE",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "inactive_midpoint_witness",
+      "output": "ACTIVE_WITNESS",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "erase_lambda_resonance_tag",
+      "output": "LAMBDA_ROOT_TAG",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "alter_embedding_multiplicity",
+      "output": "EMBEDDING_SPECTRUM",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "field_gate_as_realizability",
+      "output": "EMBEDDING_SPECTRUM",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "structural_embedding_witness",
+      "output": "EMBEDDING_WITNESS",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "coherently_rehashed_terminal_bit",
+      "output": "SELECTOR_MISMATCH",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "lowered_longest_path",
+      "output": "LEVEL_BOUNDS",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "coherently_rehashed_edge_level",
+      "output": "LEVEL_EDGE_INEQUALITY",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "repeat_path_vertex",
+      "output": "PATH_SIZE_OR_REPEAT",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "wrong_zero_count",
+      "output": "ZERO_EMBEDDING_COUNT",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "wrong_minimum_cardinality",
+      "output": "CARDINALITY",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "wrong_positive_block_length",
+      "output": "BLOCK_LENGTHS",
+      "status": "REJECTED"
+    },
+    {
+      "mutation": "confuse_upper_and_lower_edge_units",
+      "output": "LINE_GRAPH_UNITS",
+      "status": "REJECTED"
+    }
+  ]
+}

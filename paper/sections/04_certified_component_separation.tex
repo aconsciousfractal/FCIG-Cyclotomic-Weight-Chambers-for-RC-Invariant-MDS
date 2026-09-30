@@ -1,0 +1,210 @@
+\section{The certified 141/107 component separation}
+Throughout the DNA atlas and weighted-component statements in this section, the parameter domain is exactly $\mathcal W$, with fixed labels and $A<C<G<T$ ties. The complete atlas does not classify other labelled antisymmetric weight maps.
+
+\subsection{The complete fixed-family order-eight atlas}
+The selector reduction of \Cref{ext:thm:two} makes the exact chamber classification finite. The wall-locality and mixed-wall formulas are \Cref{thm:regular-wall,thm:mixed-wall}; their technical arguments and the small-order regression are retained in the supplement (\Cref{sec:finite-atlas,sec:walls-atlas}). The component coverage is \Cref{prop:family-components}. We now give the complete fixed-$\mathcal W$ atlas, followed directly by its component optima and the separate 107 construction.
+
+The alphabet is $A<C<G<T$ with weights $(-\rho,-1,1,\rho)$,
+$\rho>1$. Zero-PCR ties are fixed: the smallest RC-fixed word in
+a stable PCR, and the smallest word in a paired union together
+with its RC mate.
+
+Here is an explicit finite reduction for the root list. Let $V=\{\pm
+e_1,\pm e_2\}$ and $D=V+V$, a nine-element alphabet. For a lower
+word of seven letters write
+\[
+ x_1=v_0+v_6,\quad x_2=v_1+v_5,\quad
+ x_3=v_2+v_4,\quad z=v_3.
+\]
+Its vector midpoint form satisfies
+\[
+ 2r=\sqrt2(x_1-x_3)-2(x_1+x_2+x_3+2z).
+\]
+Enumerating $D^3\times V$ is exhaustive and positionally reversible.
+For lambda use the same word, with $d_i$ the three paired differences:
+$\lambda=(d_1+\sqrt2d_2+d_3)/\sqrt2$.
+An affine scalar form $(a+c\sqrt2)\rho+b+d\sqrt2$ has, when its
+slope is nonzero, the unique root
+\[
+ \rho=\frac{-ab+2cd+(bc-ad)\sqrt2}{a^2-2c^2}.
+\]
+Activity must be tested on one and the same positional word; independently
+choosing pair sums and pair differences would be an invalid relaxation.
+
+\begin{theorem}[Complete DNA terminal atlas]\label{thm:complete-atlas}
+At $k=8$ there are exactly 86 distinct terminal walls in $\rho>1$:
+87 open intervals and 86 point strata. They give 114 different
+labelled terminal sets. All 86 walls separate different adjacent
+terminals; at 27 walls the point is a third terminal, and at the
+other 59 it equals one side. Each terminal has 8230 words.
+The minimum number of a fixed dictionary of homogeneous linear
+forms whose ternary signs determine the terminal is exactly 86.
+\end{theorem}
+\begin{proof}[Exact certificates and real-parameter reduction]
+The reduction above enumerates every candidate; the exact comparison
+and activity filters produce 86 midpoint roots, including all ten
+lambda roots. The certificate stores each root and a realizing
+word. On each open interval all signs are fixed, and structural
+ties are fixed, so \Cref{ext:thm:two} proves constancy for every real
+ratio, including transcendental ratios. Rational representatives
+are chosen by exact dyadic bisection; point roots are evaluated
+in $\Q(\sqrt2)$.
+
+The producer and a separate verifier compare all membership bits;
+the latter reconstructs the original seed in $\Q[X]/\Phi_8$.
+Integer levels certify acyclicity, and explicit paths certify the
+reported longest lengths. PCR and RC checks are literal. Terminals
+are grouped by equality of bit vectors, not by assuming hash
+injectivity. A separating word at each wall proves necessity.
+A nonzero homogeneous linear form has at most one root on the
+normalized line, so at least one form per indispensable wall is
+necessary. Conversely one midpoint form at each of the 86 roots
+distinguishes all strata. The files and replay commands are listed
+in \pathfile{evidence/extended/README.md}.
+\end{proof}
+The minimum 86 concerns a fixed linear sign dictionary. It is not a
+lower bound for adaptive queries, arbitrary nonlinear encodings,
+or graph isomorphism classes.
+
+\subsection{The optimum over the weighted component union}
+\label{sec:weighted-component-union}
+The complete atlas and \Cref{prop:family-components} supply 21
+ordinary components at $k=8$. These are only the components
+encountered by $\mathcal W$, with fixed labels and ties.
+The next result optimizes their complete union, rather than only the
+terminals of $\mathcal W$. \Cref{thm:construction-107} then separates this union
+from the wider RC MDS space.
+
+\begin{proposition}[Exact optima in the 21 components]
+\label{prop:component-optima}
+In each row of \Cref{tab:component-optima}, the ordinary optimum
+and both RC-sector optima equal the displayed value. Hence the
+minimum over the union of these entire components encountered by $\mathcal W$ is 141.
+\end{proposition}
+\begin{proof}[Exact certificates]
+For each component, a simple cycle with one selected arc gives
+the lower bound throughout that component. Two explicit MDS,
+one per RC sector, attain it. The checker verifies the clock
+inequalities, mate sums, gradients, Boolean membership, every PCR,
+RC, ranks, paths and cycle intersections. A separate sink-removal
+dynamic program confirms each length. The 42 sector solutions
+are also reconstructed from ordinary clock solutions by tight-SCC
+rounding. The proof does not enumerate each entire component.
+\end{proof}
+
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{rrrrr}
+\toprule
+Component & Base row & Best weighted & Component optimum & Cycle/hits\\
+\midrule
+0 & c000 &161&161&162/1\\
+1 & c015 &157&157&158/1\\
+2 & c016 &153&153&154/1\\
+3 & c027 &153&153&154/1\\
+4 & c028 &149&149&150/1\\
+5 & c037 &149&149&150/1\\
+6 & c038 &149&149&150/1\\
+7 & c045 &147&143&144/1\\
+8 & c046 &149&149&150/1\\
+9 & c055 &161&157&158/1\\
+10& c056 &147&147&148/1\\
+11& c077 &163&161&162/1\\
+12& c078 &145&145&146/1\\
+13& c093 &141&141&142/1\\
+14& c094 &141&141&142/1\\
+15& c109 &155&155&156/1\\
+16& c119 &143&143&144/1\\
+17& c129 &163&161&162/1\\
+18& c130 &143&143&144/1\\
+19& c151 &155&155&156/1\\
+20& c152 &161&161&162/1\\
+\bottomrule
+\end{tabular}
+\caption{DNA $k=8$. Row identifiers have prefix \texttt{k8\_}.
+The optimum is attained in both paired RC sectors.}
+\label{tab:component-optima}
+\end{table}
+Thus no sequence of complete moves and inverses starting at a
+terminal of $\mathcal W$ can go below 141, even if RC is abandoned in
+the intermediate states. Changing component is necessary.
+The corresponding small regression optima are 17 at $k=4$ and
+$63,65,57$ for the three $k=6$ components.
+
+\subsection{Sharp parity cost and a shorter DNA construction}
+\label{sec:construction-107}
+The atlas of $\mathcal W$ is a starting family within the space of MDS. Other labelled antisymmetric weight maps are not classified here.
+We now give finite witnesses outside it. All lengths in this and the
+following sections count residual arcs in $B(q,k-1)$.
+
+\begin{proposition}[The one-unit sector cost is attained]
+\label{prop:sharp-parity}
+For DNA at $k=8$ there is an RC MDS $M_*$ whose ordinary component
+optimum is 124, while the optima in $\mathcal C_0(M_*)$ and
+$\mathcal C_1(M_*)$ are respectively 125 and 124.
+\end{proposition}
+\begin{proof}[Proof with finite witnesses]
+The directory \pathfile{evidence/advances/r1/witnesses/} supplies
+\pathfile{Mstar125.words.txt} and \pathfile{M124_sector1.words.txt},
+each an RC set of 8230 words.
+Direct DAG reconstruction gives lengths 125 and 124. Their difference
+is the integer gradient stored in
+\pathfile{r1/certificates/retiming_Mstar125_to_M124.json}, whose mate
+sum is odd, so they are in the indicated sectors of one component.
+
+The parity certificate supplies a residual path $P:A^7\leadsto T^7$
+of length 71 and a return path $Q$ of length 54 containing exactly
+one selected arc of $M_*$. Their concatenation is a simple cycle
+of length 125 with one selected arc. It gives the ordinary lower
+bound 124. At period $T=125$, the two clock inequalities force
+\[
+ H(T^7)-H(A^7)=71.
+\]
+Sector zero requires $H(T^7)+H(A^7)=124$, hence
+$2H(A^7)=53$, impossible for an integer clock. The length-125
+endpoint attains the next possible value, whereas the other endpoint
+attains 124. The independent verifier checks all arc differences,
+both paths, the cycle and both DAGs.
+\end{proof}
+This resolves sharpness for a prescribed sector. It does not show that
+the union of the two RC sectors ever has a worse optimum than the
+ordinary component.
+
+\begin{theorem}[Certified DNA upper bound 107]
+\label{thm:construction-107}
+There is an RC DNA MDS $M_{107}$ of cardinality 8230 with
+$L(M_{107})=107$. Its ordinary component has exact optimum 107.
+Consequently the global RC MDS optimum at $k=8$ is at most 107.
+The upper-graph residual has length 106; a longest avoiding DNA
+word has 114 letters, and every DNA word of length 115 contains
+a selected eight-letter window.
+\end{theorem}
+\begin{proof}[Exact certificates]
+The canonical witness is \pathfile{r5/witnesses/M107.words.txt}.
+Its sorted ASCII lines, including the final newline, have SHA-256
+\begin{center}\ttfamily\small
+4e0c44d87ea9782f261cf3ed2c0e918784fa404bbf0f57041b494509ff7d5edc.
+\end{center}
+The checker enumerates all 65,536 arcs and 16,384 vertices, verifies
+RC and one selection in each of the 8230 PCRs, and checks a rank
+in $[0,107]$ increasing along each residual arc. A residual path
+of 107 arcs attains the bound. A simple cycle of 108 arcs has
+exactly one selected arc, proving the component lower bound by
+\Cref{thm:unit-retiming}. Both path and cycle are included in
+\pathfile{r5/certificates/M107.json}. The length conversions follow
+from overlapping consecutive eight-letter words.
+\end{proof}
+
+Earlier component-optimal endpoints and their one-hit cycles are retained
+in the companion; the first explicit escape is described in
+\Cref{sec:construction-131}. A four-witness panel at length 107 certifies
+two ordinary components with both parity sectors represented in each.
+The complete stable fibre in \Cref{prop:stable-fibre} supplies further
+components. Neither finite panel exhausts the global component space.
+
+The 108-cycle forces any improvement to $L\le106$ to meet that
+cycle at least twice, hence to leave this ordinary component.
+Changing the intersection with one old critical cycle is only a
+necessary condition: \Cref{prop:local-exclusions} includes examples
+where all old critical cycles are repaired but the result is cyclic
+or belongs to a component with a worse optimum.

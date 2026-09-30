@@ -1,0 +1,226 @@
+{
+  "byte_identical_runs": 2,
+  "bytes": 397138,
+  "claim_labels": {
+    "cor:dna-field-gate": {
+      "number": "A.2",
+      "page": 28
+    },
+    "cor:excess-one-oracle": {
+      "number": "5.4",
+      "page": 16
+    },
+    "cor:global-upper-131": {
+      "number": "B.2",
+      "page": 48
+    },
+    "cor:mds-pool": {
+      "number": "6.4",
+      "page": 23
+    },
+    "cor:rational-lower-energy": {
+      "number": "A.10",
+      "page": 31
+    },
+    "cor:surplus-two-arm": {
+      "number": "5.6",
+      "page": 17
+    },
+    "cor:uniform-radical": {
+      "number": "A.4",
+      "page": 28
+    },
+    "ext:thm:algebraic": {
+      "number": "A.28",
+      "page": 44
+    },
+    "ext:thm:count": {
+      "number": "A.24",
+      "page": 39
+    },
+    "ext:thm:farey": {
+      "number": "A.20",
+      "page": 38
+    },
+    "ext:thm:freiman": {
+      "number": "A.22",
+      "page": 38
+    },
+    "ext:thm:mid": {
+      "number": "A.26",
+      "page": 42
+    },
+    "ext:thm:paths": {
+      "number": "A.30",
+      "page": 45
+    },
+    "ext:thm:two": {
+      "number": "2.2",
+      "page": 5
+    },
+    "lem:one-fixed-arc": {
+      "number": "5.1",
+      "page": 15
+    },
+    "lem:signed-reconstruction": {
+      "number": "5.8",
+      "page": 18
+    },
+    "lem:stable-pcr-parity": {
+      "number": "5.7",
+      "page": 18
+    },
+    "lem:walk-budget": {
+      "number": "6.1",
+      "page": 21
+    },
+    "prop:8232": {
+      "number": "5.11",
+      "page": 20
+    },
+    "prop:affine-pruning": {
+      "number": "5.12",
+      "page": 20
+    },
+    "prop:balanced-normal-form": {
+      "number": "6.2",
+      "page": 21
+    },
+    "prop:boolean-ranks": {
+      "number": "5.5",
+      "page": 17
+    },
+    "prop:component-optima": {
+      "number": "4.2",
+      "page": 13
+    },
+    "prop:construction-131": {
+      "number": "B.1",
+      "page": 47
+    },
+    "prop:core-pool-strictness": {
+      "number": "6.5",
+      "page": 24
+    },
+    "prop:family-components": {
+      "number": "3.9",
+      "page": 11
+    },
+    "prop:family-optima": {
+      "number": "D.6",
+      "page": 54
+    },
+    "prop:finite-atlas": {
+      "number": "D.1",
+      "page": 51
+    },
+    "prop:local-exclusions": {
+      "number": "C.1",
+      "page": 49
+    },
+    "prop:quadratic-embedding": {
+      "number": "D.5",
+      "page": 54
+    },
+    "prop:sharp-parity": {
+      "number": "4.3",
+      "page": 14
+    },
+    "prop:stable-fibre": {
+      "number": "5.3",
+      "page": 16
+    },
+    "thm:bounded-chart": {
+      "number": "5.9",
+      "page": 18
+    },
+    "thm:complete-atlas": {
+      "number": "4.1",
+      "page": 12
+    },
+    "thm:component-field": {
+      "number": "A.1",
+      "page": 27
+    },
+    "thm:construction-107": {
+      "number": "4.4",
+      "page": 14
+    },
+    "thm:dna-certificate": {
+      "number": "A.12",
+      "page": 33
+    },
+    "thm:finite-pool-closure": {
+      "number": "6.3",
+      "page": 22
+    },
+    "thm:galois-certificate": {
+      "number": "A.13",
+      "page": 33
+    },
+    "thm:headline-separation": {
+      "number": "1.1",
+      "page": 2
+    },
+    "thm:height-formulation": {
+      "number": "5.10",
+      "page": 19
+    },
+    "thm:membership-complexity": {
+      "number": "A.17",
+      "page": 36
+    },
+    "thm:mixed-wall": {
+      "number": "D.4",
+      "page": 53
+    },
+    "thm:rational-twice-prime": {
+      "number": "A.15",
+      "page": 34
+    },
+    "thm:rc-retiming": {
+      "number": "3.5",
+      "page": 10
+    },
+    "thm:rc-rounding": {
+      "number": "3.6",
+      "page": 10
+    },
+    "thm:regular-wall": {
+      "number": "D.2",
+      "page": 52
+    },
+    "thm:stable-completion": {
+      "number": "5.2",
+      "page": 15
+    },
+    "thm:terminal-covector": {
+      "number": "2.5",
+      "page": 6
+    },
+    "thm:twice-prime-embedding": {
+      "number": "A.9",
+      "page": 30
+    },
+    "thm:twice-prime-structural": {
+      "number": "A.7",
+      "page": 30
+    },
+    "thm:two-rc-sectors": {
+      "number": "3.8",
+      "page": 11
+    },
+    "thm:unit-retiming": {
+      "number": "3.3",
+      "page": 8
+    }
+  },
+  "output": "paper/Cyclotomic_Weight_Chambers_for_RC_Invariant_MDS.pdf",
+  "pages": 57,
+  "schema": "fcig-cwc-paper-build-v1",
+  "sha256": "34c1304872baa4f1df4f363b497389de296496738d6ee6316cf72c5315cbe7d8",
+  "source_date_epoch": "1786924800",
+  "source_tree_sha256": "d5b3813e4ed871466cc1b6d939bd3f084c9cbe21e217a8eb559b56882e7bac29",
+  "status": "PASS_DETERMINISTIC_PAPER_BUILD",
+  "toolchain": "Tectonic 0.16.9"
+}

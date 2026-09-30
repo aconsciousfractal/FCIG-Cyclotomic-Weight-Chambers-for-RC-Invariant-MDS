@@ -1,0 +1,66 @@
+[
+  {
+    "op": [
+      "AAAAAAAG",
+      "CTTTTTTT"
+    ],
+    "cyclic": true,
+    "L": null
+  },
+  {
+    "op": [
+      "AAAAAAGA",
+      "TCTTTTTT"
+    ],
+    "cyclic": true,
+    "L": null
+  },
+  {
+    "op": [
+      "AAAAAGAA",
+      "TTCTTTTT"
+    ],
+    "cyclic": true,
+    "L": null
+  },
+  {
+    "op": [
+      "AAAAGAAA",
+      "TTTCTTTT"
+    ],
+    "cyclic": false,
+    "L": 107
+  },
+  {
+    "op": [
+      "AAAGAAAA",
+      "TTTTCTTT"
+    ],
+    "cyclic": false,
+    "L": 115
+  },
+  {
+    "op": [
+      "AAGAAAAA",
+      "TTTTTCTT"
+    ],
+    "cyclic": true,
+    "L": null
+  },
+  {
+    "op": [
+      "AGAAAAAA",
+      "TTTTTTCT"
+    ],
+    "cyclic": true,
+    "L": null
+  },
+  {
+    "op": [
+      "GAAAAAAA",
+      "TTTTTTTC"
+    ],
+    "cyclic": true,
+    "L": null
+  }
+]

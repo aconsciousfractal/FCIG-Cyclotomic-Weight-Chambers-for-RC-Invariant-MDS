@@ -1,0 +1,53 @@
+{
+  "classes": [
+    [
+      "k4_c000",
+      "k4_c001",
+      "k4_c002"
+    ]
+  ],
+  "component_count": 1,
+  "k": 4,
+  "negative_cycles": [],
+  "positive_geodesics": [
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 0,
+      "minimum_paired_moves": 0,
+      "moves": [],
+      "source": "k4_c000",
+      "target": "k4_c000"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 0,
+      "minimum_paired_moves": 0,
+      "moves": [],
+      "source": "k4_c000",
+      "target": "k4_c001"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 1,
+      "moves": [
+        53
+      ],
+      "source": "k4_c000",
+      "target": "k4_c002"
+    }
+  ],
+  "representative_ratios": [
+    [
+      5,
+      0,
+      2
+    ]
+  ],
+  "row_component": {
+    "k4_c000": 0,
+    "k4_c001": 0,
+    "k4_c002": 0
+  },
+  "row_count": 3
+}

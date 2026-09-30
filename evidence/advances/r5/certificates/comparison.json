@@ -1,0 +1,7 @@
+{
+  "changed_RC_PCR_groups": 3027,
+  "changed_PCRs": 5926,
+  "symmetric_difference": 11852,
+  "old_cycle_length": 110,
+  "old_cycle_hits_final": 7
+}

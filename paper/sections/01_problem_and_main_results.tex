@@ -1,0 +1,48 @@
+\section{Problem and main results}
+\label{sec:introduction}
+Minimum decycling sets (MDS) remove all directed cycles from a de Bruijn graph at minimum cardinality. They support sequence sketching; the ordinary minimum follows from Mykkeltveit's construction and the unavoidable-set formulation of Champarnaud, Hansel and Perrin \cite{Mykkeltveit1972,ChamparnaudHanselPerrin2004}. Recent work studies residual paths, move components and reverse-complement-aware sketches \cite{ZhengKingsfordMarcais2021,PellowEtAl2023,MarcaisDeBlasioKingsford2024,MarcaisElderKingsford2024}.
+
+The imported parity construction \cite{Babanskyy2026Parity} admits arbitrary injective, nonzero, antisymmetric real weights. Our complete DNA atlas and its 141 bound concern precisely the fixed labelled family
+\[
+ \mathcal W=\{(s(A),s(C),s(G),s(T))=(-\rho,-1,1,\rho):\rho>1\},
+\]
+with the fixed lexicographic tie order $A<C<G<T$. The general labelled weight domain is larger and is not classified here. Length $L$ counts residual arcs in the lower graph $B(q,k-1)$; \Cref{sec:base} specifies the equivalent upper-graph and avoiding-word conventions.
+
+\begin{theorem}[Fixed-family separation at DNA order eight]
+\label{thm:headline-separation}
+With these labels and ties, the terminals of $\mathcal W$ meet exactly 21 ordinary complete-move components. The minimum of $L$ over the union of these entire components is 141, including non-RC endpoints. A reverse-complement-invariant MDS with 8230 words instead has $L=107$, lies in a different component, and attains that component's optimum. There are also RC feedback sets with 8232 words and $L=105$. If $\tau_{\RC}(106)$ is the minimum cardinality of an RC feedback set at residual path bound 106, then
+\[
+ 8230\le\tau_{\RC}(106)\le8232.
+\]
+Neither the global minimum length of an RC MDS nor the exact value of $\tau_{\RC}(106)$ is determined.
+\end{theorem}
+\begin{proof}
+The atlas and component coverage are \Cref{prop:family-components}; the complete-component optima are \Cref{prop:component-optima}. The 107 witness and its component certificate are \Cref{thm:construction-107}. The cardinality statements and their evidence are developed in \Cref{prop:8232}. Since 107 is below 141, its component is outside the union.
+\end{proof}
+
+\begin{center}
+\begin{tabular}{lll}
+\toprule Domain & Cardinality & Certified residual length\\
+\midrule Union of 21 components from $\mathcal W$ & 8230 & optimum 141\\
+Separate RC MDS component & 8230 & optimum 107\\
+RC feedback sets & 8232 & attaining 105\\
+Global RC problem at bound 106 & $8230$--$8232$ & exact cost open\\
+\bottomrule
+\end{tabular}
+\end{center}
+Thus varying $\rho$ in $\mathcal W$ and then applying complete moves and inverses cannot reach the 107 witness. This does not exclude all other antisymmetric weight assignments.
+
+\paragraph{Why the labels matter.}
+At $k=4$, keep the same ties and compare $s_0=(-2,-1,1,2)$ with $s_1=(-2,1,-1,2)$. On the simple directed cycle
+\[
+\texttt{AAAC}\to\texttt{AACA}\to\texttt{ACAG}\to\texttt{CAGA}\to\texttt{AGAA}\to\texttt{GAAA}\to\texttt{AAAC},
+\]
+the first terminal selects only \texttt{AGAA}; the second selects \texttt{ACAG} and \texttt{AGAA}. Cycle sums of a gradient telescope, so these terminals belong to different ordinary complete-move components. A weight relabelling cannot silently be absorbed into $\mathcal W$ while the ties stay fixed.
+
+\paragraph{Contribution and mathematical dependencies.}
+The chain is weights, selector, chambers, components, escape from the fixed-family union, and limits of exterior relaxations. The two-family selector includes equality strata. Cycle-signature component invariance is due to Mar\c cais, DeBlasio and Kingsford \cite{MarcaisDeBlasioKingsford2024}; our component optimization specializes classical retiming \cite{LeisersonSaxe1991}. The two RC sectors use the tight-edge SCC criterion for UTVPI systems \cite{LahiriMusuvathi2005}, with Boolean endpoint reconstruction and legal paired moves. Stable completion specializes classical 2-SAT \cite{AspvallPlassTarjan1979}. Finite-pool closure specializes classical LP duality \cite{BoydVandenberghe2004} and yields signed real lifts, rather than Boolean endpoints. Polynomial complexity concerns the explicitly represented graph, whose size is exponential in word order.
+
+The arithmetic results use classical cyclotomic tensor relations \cite{MartinReiner2005,DeCarliLaporta2026} and bounded signed-one-hot realization to obtain an all-order rational Farey spectrum and eventual algebraic realization. These are positional embedding statements: raw equalities need not be active selector walls. We use exact algebraic sign evaluation \cite{EmirisTsigaridas2005} and realizable sign arrangements \cite{BjornerEtAl1999}. General root-of-unity relations provide context \cite{Mann1965,ConwayJones1976,LamLeung2000,Steinberger2008,KoleyArikatla2019,ChristieDykemaKlep2020,KissEtAl2026}; these targeted comparisons do not certify exhaustive novelty.
+
+\paragraph{Reading path.}
+Section 2 fixes the construction and chambers; Section 3 gives retiming and RC sectors; Section 4 proves the finite separation. Sections 5 and 6 develop completions, heights and balanced loads. Section 7 states the arithmetic interfaces, with full proofs and ancillary counts in the technical supplement. Section 8 records limitations and evidence access. Earlier escapes and finite local exclusions remain in the same complete PDF.

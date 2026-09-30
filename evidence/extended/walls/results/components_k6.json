@@ -1,0 +1,530 @@
+{
+  "classes": [
+    [
+      "k6_c000",
+      "k6_c001",
+      "k6_c002",
+      "k6_c003",
+      "k6_c004",
+      "k6_c005",
+      "k6_c006",
+      "k6_c007",
+      "k6_c008",
+      "k6_c009",
+      "k6_c010"
+    ],
+    [
+      "k6_c011"
+    ],
+    [
+      "k6_c012",
+      "k6_c013",
+      "k6_c014",
+      "k6_c015",
+      "k6_c016",
+      "k6_c017",
+      "k6_c018",
+      "k6_c019",
+      "k6_c020",
+      "k6_c021",
+      "k6_c022"
+    ]
+  ],
+  "component_count": 3,
+  "k": 6,
+  "negative_cycles": [
+    {
+      "edge_codes": [
+        1,
+        5,
+        21,
+        84,
+        338,
+        1352,
+        1312,
+        1152,
+        512,
+        2048
+      ],
+      "hits_source": 1,
+      "hits_target": 2,
+      "length": 10,
+      "source": "k6_c000",
+      "source_class": 0,
+      "target": "k6_c011",
+      "target_class": 1,
+      "words": [
+        "AAAAAC",
+        "AAAACC",
+        "AAACCC",
+        "AACCCA",
+        "ACCCAG",
+        "CCCAGA",
+        "CCAGAA",
+        "CAGAAA",
+        "AGAAAA",
+        "GAAAAA"
+      ]
+    },
+    {
+      "edge_codes": [
+        2,
+        8,
+        33,
+        133,
+        533,
+        2132,
+        336,
+        1344,
+        1280,
+        1024
+      ],
+      "hits_source": 2,
+      "hits_target": 1,
+      "length": 10,
+      "source": "k6_c000",
+      "source_class": 0,
+      "target": "k6_c012",
+      "target_class": 2,
+      "words": [
+        "AAAAAG",
+        "AAAAGA",
+        "AAAGAC",
+        "AAGACC",
+        "AGACCC",
+        "GACCCA",
+        "ACCCAA",
+        "CCCAAA",
+        "CCAAAA",
+        "CAAAAA"
+      ]
+    },
+    {
+      "edge_codes": [
+        1,
+        5,
+        21,
+        84,
+        338,
+        1352,
+        1312,
+        1152,
+        512,
+        2048
+      ],
+      "hits_source": 2,
+      "hits_target": 1,
+      "length": 10,
+      "source": "k6_c011",
+      "source_class": 1,
+      "target": "k6_c012",
+      "target_class": 2,
+      "words": [
+        "AAAAAC",
+        "AAAACC",
+        "AAACCC",
+        "AACCCA",
+        "ACCCAG",
+        "CCCAGA",
+        "CCAGAA",
+        "CAGAAA",
+        "AGAAAA",
+        "GAAAAA"
+      ]
+    }
+  ],
+  "positive_geodesics": [
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 0,
+      "minimum_paired_moves": 0,
+      "moves": [],
+      "source": "k6_c000",
+      "target": "k6_c000"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 0,
+      "minimum_paired_moves": 0,
+      "moves": [],
+      "source": "k6_c000",
+      "target": "k6_c001"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 2,
+      "moves": [
+        885,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c002"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 4,
+      "moves": [
+        629,
+        884,
+        885,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c003"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 6,
+      "moves": [
+        629,
+        727,
+        884,
+        885,
+        982,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c004"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 7,
+      "moves": [
+        628,
+        629,
+        727,
+        884,
+        885,
+        982,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c005"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 8,
+      "moves": [
+        628,
+        629,
+        726,
+        727,
+        884,
+        885,
+        982,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c006"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 8,
+      "moves": [
+        628,
+        629,
+        726,
+        727,
+        884,
+        885,
+        982,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c007"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 13,
+      "moves": [
+        628,
+        629,
+        726,
+        727,
+        821,
+        881,
+        884,
+        885,
+        919,
+        979,
+        981,
+        982,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c008"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 14,
+      "moves": [
+        372,
+        628,
+        629,
+        726,
+        727,
+        821,
+        881,
+        884,
+        885,
+        919,
+        979,
+        981,
+        982,
+        983
+      ],
+      "source": "k6_c000",
+      "target": "k6_c009"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 18,
+      "moves": [
+        372,
+        628,
+        629,
+        725,
+        726,
+        727,
+        821,
+        881,
+        884,
+        885,
+        470,
+        919,
+        979,
+        980,
+        981,
+        982,
+        983,
+        860
+      ],
+      "source": "k6_c000",
+      "target": "k6_c010"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 0,
+      "minimum_paired_moves": 0,
+      "moves": [],
+      "source": "k6_c011",
+      "target": "k6_c011"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 0,
+      "minimum_paired_moves": 0,
+      "moves": [],
+      "source": "k6_c012",
+      "target": "k6_c012"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 2,
+      "moves": [
+        213,
+        468
+      ],
+      "source": "k6_c012",
+      "target": "k6_c013"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 2,
+      "moves": [
+        213,
+        468
+      ],
+      "source": "k6_c012",
+      "target": "k6_c014"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 3,
+      "moves": [
+        213,
+        369,
+        468
+      ],
+      "source": "k6_c012",
+      "target": "k6_c015"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 7,
+      "moves": [
+        213,
+        369,
+        467,
+        468,
+        857,
+        917,
+        977
+      ],
+      "source": "k6_c012",
+      "target": "k6_c016"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 8,
+      "moves": [
+        212,
+        213,
+        369,
+        467,
+        468,
+        857,
+        917,
+        977
+      ],
+      "source": "k6_c012",
+      "target": "k6_c017"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 8,
+      "moves": [
+        212,
+        213,
+        369,
+        467,
+        468,
+        857,
+        917,
+        977
+      ],
+      "source": "k6_c012",
+      "target": "k6_c018"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 8,
+      "moves": [
+        212,
+        213,
+        369,
+        467,
+        468,
+        857,
+        917,
+        977
+      ],
+      "source": "k6_c012",
+      "target": "k6_c019"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 9,
+      "moves": [
+        212,
+        213,
+        369,
+        467,
+        468,
+        854,
+        857,
+        917,
+        977
+      ],
+      "source": "k6_c012",
+      "target": "k6_c020"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 9,
+      "moves": [
+        212,
+        213,
+        369,
+        467,
+        468,
+        854,
+        857,
+        917,
+        977
+      ],
+      "source": "k6_c012",
+      "target": "k6_c021"
+    },
+    {
+      "cut_constant": 0,
+      "max_abs_antisymmetric_potential": 1,
+      "minimum_paired_moves": 10,
+      "moves": [
+        212,
+        213,
+        369,
+        467,
+        468,
+        853,
+        854,
+        857,
+        917,
+        977
+      ],
+      "source": "k6_c012",
+      "target": "k6_c022"
+    }
+  ],
+  "representative_ratios": [
+    [
+      5,
+      0,
+      4
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      29,
+      0,
+      8
+    ]
+  ],
+  "row_component": {
+    "k6_c000": 0,
+    "k6_c001": 0,
+    "k6_c002": 0,
+    "k6_c003": 0,
+    "k6_c004": 0,
+    "k6_c005": 0,
+    "k6_c006": 0,
+    "k6_c007": 0,
+    "k6_c008": 0,
+    "k6_c009": 0,
+    "k6_c010": 0,
+    "k6_c011": 1,
+    "k6_c012": 2,
+    "k6_c013": 2,
+    "k6_c014": 2,
+    "k6_c015": 2,
+    "k6_c016": 2,
+    "k6_c017": 2,
+    "k6_c018": 2,
+    "k6_c019": 2,
+    "k6_c020": 2,
+    "k6_c021": 2,
+    "k6_c022": 2
+  },
+  "row_count": 23
+}

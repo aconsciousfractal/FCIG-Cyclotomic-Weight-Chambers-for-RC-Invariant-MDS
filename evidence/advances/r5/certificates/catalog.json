@@ -1,0 +1,34 @@
+{
+  "M109": {
+    "words": "inputs/M109.words.txt",
+    "certificate": "inputs/M109.json"
+  },
+  "M109_rephased": {
+    "words": "witnesses/M109_rephased.words.txt",
+    "certificate": "certificates/M109_rephased.json"
+  },
+  "M111_before_retiming": {
+    "words": "witnesses/M111_before_retiming.words.txt",
+    "certificate": "certificates/M111_before_retiming.json"
+  },
+  "M107": {
+    "words": "witnesses/M107.words.txt",
+    "certificate": "certificates/M107.json"
+  },
+  "M107_sector1": {
+    "words": "witnesses/M107_sector1.words.txt",
+    "certificate": "certificates/M107_sector1.json"
+  },
+  "M107_alternative0": {
+    "words": "witnesses/M107_alternative0.words.txt",
+    "certificate": "certificates/M107_alternative0.json"
+  },
+  "M107_alternative1": {
+    "words": "witnesses/M107_alternative1.words.txt",
+    "certificate": "certificates/M107_alternative1.json"
+  },
+  "Acyclic_trap_111": {
+    "words": "witnesses/critical_repair_acyclic_trap.words.txt",
+    "certificate": "certificates/critical_repair_acyclic_trap.json"
+  }
+}

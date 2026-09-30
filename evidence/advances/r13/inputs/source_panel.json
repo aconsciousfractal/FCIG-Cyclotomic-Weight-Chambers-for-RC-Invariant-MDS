@@ -1,0 +1,128 @@
+[
+  {
+    "index": 0,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/inputs/M107.words.txt",
+      "sha256": "4e0c44d87ea9782f261cf3ed2c0e918784fa404bbf0f57041b494509ff7d5edc",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 1,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/certificates/box2.words.txt",
+      "sha256": "06f43e3a8db31ede44c87f6c2a6c60d52c4cf2a24883402ec4a439a1c15d7445",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 2,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/M107_alternative0.words.txt",
+      "sha256": "aab8cdfdc63f7f3921a2cb62ffa11d8085fa5307cc4204a40d1d8a381ff9b328",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 3,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/M107_alternative1.words.txt",
+      "sha256": "a4ed7fe10683a323e6ae6f2aeb84f4aa85bc1df170a9937d9391b7e89800dc11",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 4,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/M107_sector1.words.txt",
+      "sha256": "fcd9e406a0b5bdf09dedcf26e9851816c819ca18af1622a4f54e9fcfe1dbb93b",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 5,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/stable_027_L107.words.txt",
+      "sha256": "5828d4cdd4fc5e157f12afa84c369280f850944cf66668693f8c972b287aa1db",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 6,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/stable_058_L107.words.txt",
+      "sha256": "e122758460dd4610e39436747594b5988bbc67de35073a900ef1bf57e3d79a35",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 7,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/stable_099_L107.words.txt",
+      "sha256": "cc8a4091763fdc21e81b22045144e23a51c1255a858e0bbaf9c4ba56702dcd0f",
+      "archive_sha256": "f7b530dda7473aa8301f5290948323f61f53dcf506c3b85a3176ff1060808198"
+    }
+  },
+  {
+    "index": 8,
+    "source": {
+      "archive": "RC_MDS_K8_Round5_109_to_107_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round5_2026-09-20/discovery/runs/frontier84/best.words.txt",
+      "sha256": "1d795cdac8e5e1e8335d3d1f23242d2458981aef2571bfcbd63e40b879648d02",
+      "archive_sha256": "41a52bcebe6d6039703ca81ff8ab6dc862937548e18791a96349f919635b84db"
+    }
+  },
+  {
+    "index": 9,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier611/best.words.txt",
+      "sha256": "9a295931f0c7db8becaad4674346b3b30db5e3a380f020d656c5ec76ab47e1d1",
+      "archive_sha256": "751dce9a156e11fbc31fc14dea10f5230d85833b8f97f00aa101131efb73bae8"
+    }
+  },
+  {
+    "index": 10,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier612/best.words.txt",
+      "sha256": "6e63fc9b9d6e352d4a39fbd505dedcf946235f503b8433c4d3141ab610ee181f",
+      "archive_sha256": "751dce9a156e11fbc31fc14dea10f5230d85833b8f97f00aa101131efb73bae8"
+    }
+  },
+  {
+    "index": 11,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier621/best.words.txt",
+      "sha256": "f6b94943c93ca84d97cc676e47d6e94fb7630378f892dcaef7fde919f942da50",
+      "archive_sha256": "751dce9a156e11fbc31fc14dea10f5230d85833b8f97f00aa101131efb73bae8"
+    }
+  },
+  {
+    "index": 12,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier622/best.words.txt",
+      "sha256": "d754217ea2b57228cf8cdd3ffad984f04c8e985e24f9a70e6c010a00f3431a7b",
+      "archive_sha256": "751dce9a156e11fbc31fc14dea10f5230d85833b8f97f00aa101131efb73bae8"
+    }
+  },
+  {
+    "index": 13,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier623/best.words.txt",
+      "sha256": "fa06899115b6a125c25ae544ddabb50e05019b2022a1113e53957b5d59b32fde",
+      "archive_sha256": "751dce9a156e11fbc31fc14dea10f5230d85833b8f97f00aa101131efb73bae8"
+    }
+  }
+]

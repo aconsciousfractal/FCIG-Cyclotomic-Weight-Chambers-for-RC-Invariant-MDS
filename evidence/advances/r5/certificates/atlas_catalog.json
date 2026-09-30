@@ -1,0 +1,14 @@
+[
+  {
+    "name": "M109",
+    "words": "inputs/M109.words.txt",
+    "certificate": "inputs/M109.json",
+    "atlas": "inputs/M109_atlas.json"
+  },
+  {
+    "name": "M107",
+    "words": "witnesses/M107.words.txt",
+    "certificate": "certificates/M107.json",
+    "atlas": "certificates/M107_atlas.json"
+  }
+]

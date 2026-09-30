@@ -1,0 +1,272 @@
+\section{Construction, the two-family selector, and finite chambers}
+
+\subsection{Imported construction and normalized coordinates}
+\label{sec:base}
+
+Let $\A$ be an alphabet of cardinality $q=2m$, with a fixed-point-free
+involution $a\mapsto\bar a$.  For a word $w=w_0\cdots w_{k-1}$, define
+\[
+  \RC(w)_j=\overline{w_{k-1-j}}.
+\]
+The directed vertex de Bruijn graph $B(q,k)$ has vertex set $\A^k$ and an arc
+$u\to v$ when $u_1\cdots u_{k-1}=v_0\cdots v_{k-2}$.  A decycling set is a
+set of vertices whose deletion leaves a directed acyclic graph.  An ordinary
+minimum decycling set is abbreviated to MDS.
+
+Rotation $R(w_0\cdots w_{k-1})=w_1\cdots w_{k-1}w_0$ partitions $\A^k$ into
+pure cycling registers (PCRs).  Their number is the necklace count
+\begin{equation}
+  N_q(k)=\frac1k\sum_{d\mid k}\varphi(d)q^{k/d}.
+  \label{eq:necklace-count}
+\end{equation}
+Every MDS has size $N_q(k)$ and contains exactly one distinct representative
+from each PCR~\cite{Mykkeltveit1972,ChamparnaudHanselPerrin2004}.  The converse
+is false: a one-per-PCR set can leave a cycle that traverses multiple PCRs.
+
+We use the line-graph representation.  A length-$k$ word is the labelled arc
+\[
+  \tail(w)=w_0\cdots w_{k-2}\longrightarrow
+  \head(w)=w_1\cdots w_{k-1}
+\]
+of $B(q,k-1)$.  For an integer function $f$ on lower states, set
+\begin{equation}
+  (\nabla f)(w)=f(\tail(w))-f(\head(w)).
+  \label{eq:gradient}
+\end{equation}
+
+Let $k\ge4$ be even.  Choose distinct positive magnitudes
+$\beta_1,\ldots,\beta_m$ and label each complement pair so that
+\[
+  s(a_i)=\beta_i,\qquad s(\bar a_i)=-\beta_i.
+\]
+Thus $s$ is real, injective, nonzero, and antisymmetric.  Put
+$\zetaK=e^{2\pi i/k}$ and
+\begin{align}
+  P_s(w)&=\sum_{j=0}^{k-1}s(w_j)\zetaK^{j+1},                            \label{eq:embedding}\\
+  W_s(w)&=\sum_{j=0}^{k-1}s(w_j),                                        \label{eq:weight-sum}\\
+  \lambda_s(u)&=\sum_{j=0}^{k-2}s(u_j)
+       \sin\!\left(\frac{2\pi(j+1)}k\right).                            \label{eq:lambda}
+\end{align}
+The weighted seed $M_0$ selects, on every nonzero embedded PCR, the negative
+real vertex if present and otherwise the unique strict lower-to-upper
+crossing.  On a zero-embedding PCR it uses the fixed deterministic
+reverse-complement-equivariant tie rule of~\cite{Babanskyy2026Parity}.
+
+For a lower word $u$, define
+\begin{align}
+  \psi_s(u)&=\sum_{j=0}^{k-2}s(u_j)(\zetaK^{j+1}-1),                     \label{eq:psi}\\
+  r_s(u)&=\operatorname{Re}\psi_s(u),                                    \label{eq:midpoint}\\
+  U_s&=\{u:\lambda_s(u)>0\},\qquad \vartheta(u)=\RC(u).                  \label{eq:positive-support}
+\end{align}
+Fix a lexicographic order on lower words and put
+\begin{equation}
+  \begin{aligned}
+  a_s(u)=1\quad\Longleftrightarrow\quad&
+  u\in U_s\ \text{and}\\
+  &\bigl(r_s(u)<0\ \text{or}\ [r_s(u)=0\ \text{and}\ u<\vartheta(u)]\bigr).
+  \end{aligned}
+  \label{eq:as}
+\end{equation}
+
+We use the following theorem as an imported interface.
+
+\begin{theorem}[Imported parity-selector interface]
+\label{thm:imported-selector}
+For every fixed-point-free complemented alphabet and every even $k\ge4$,
+the seed $M_0$ is an ordinary MDS.  The function
+\begin{equation}
+  m_s(w)=m_0(w)+a_s(\tail(w))-a_s(\head(w))                               \label{eq:terminal-selector}
+\end{equation}
+is the indicator of a literal reverse-complement-invariant ordinary MDS.
+The construction and proof require only real linearity, injectivity,
+nonvanishing, and antisymmetry of $s$.
+\end{theorem}
+
+The seed statement is Theorem~4.3, the weighted selector is Theorem~6.3,
+and its literal reverse-complement invariance and minimum-cardinality
+consequences are Theorem~7.2 and Corollary~7.3 of
+\cite{Babanskyy2026Parity}.  Their legal-descent and acyclicity proofs are not
+repeated here.  We use only the formulas above and the fact that every
+weight-dependent branch is a sign or zero test of an explicitly named real
+linear form.
+
+\subsubsection{Residual length convention}
+Throughout, $L(M)$ counts edges in $B(q,k-1)-M$, viewing selected
+length-$k$ words as arcs. Its line graph is $B(q,k)\setminus M$.
+When $L(M)\ge1$, the longest upper residual path has $L(M)-1$ edges.
+A longest word avoiding selected $k$-mers has $L(M)+k-1$ letters.
+
+\subsubsection{Component notation}
+
+For each letter write
+\[
+  s(x)=\sum_{i=1}^m \beta_i\varepsilon_i(x),
+  \qquad \varepsilon_i(x)\in\{-1,0,1\},
+\]
+with exactly one nonzero component.  Define
+\begin{align}
+  X_i(w)&=\sum_{j=0}^{k-1}\varepsilon_i(w_j)\zetaK^{j+1},                 \label{eq:Xi}\\
+  L_i(u)&=\sum_{j=0}^{k-2}\varepsilon_i(u_j)
+    \frac{\sin(2\pi(j+1)/k)}{\sin(2\pi/k)}.                             \label{eq:Li}
+\end{align}
+Then
+\begin{equation}
+  P_s(w)=\sum_i\beta_iX_i(w),\qquad
+  \lambda_s(u)=\sin(2\pi/k)\sum_i\beta_iL_i(u).                         \label{eq:component-decomp}
+\end{equation}
+If $K_k=\Q(\zetaK)$ and $K_k^+=\Q(\zetaK+\zetaK^{-1})$, then
+$X_i(w)\in K_k$ and $L_i(u)\in K_k^+$.  The normalization by the common
+positive sine in~\eqref{eq:Li} is essential; the sine itself need not lie in
+the real cyclotomic subfield used for the coefficient test.
+
+\subsection{Only two families are needed for the terminal}\label{ext:sec:two}
+Write $V_m=\{\pm e_1,\ldots,\pm e_m\}$ for the signed one-hot
+alphabet. For DNA take $T=e_1,A=-e_1,G=e_2,C=-e_2$ and
+$\pi_\rho(h,l)=\rho h+l$. Structural vanishing means componentwise
+vanishing. All path lengths below count edges of the lower residual
+$D_s=B(q,k-1)-M_s$.
+Let $w:u\to v$ be a lower-graph arc, $\alpha=2\pi/k$, and $b(w)$ the fixed zero-PCR seed membership rule, used only when $P_s(w)=0$.
+
+\begin{theorem}[Two-family selector]\label{ext:thm:two}
+For every admissible weight map and even $k\ge4$,
+\[
+ m_0(w)=
+ \begin{cases}
+ b(w),&\lambda_s(u)=\lambda_s(v)=0,\\
+ 1,&\lambda_s(u)\le0<\lambda_s(v),\\
+ 0,&\text{otherwise}.
+ \end{cases}
+\]
+Consequently the signs of the two lower-word families $\lambda_s,r_s$, together with the frozen combinatorial tie rules, determine the seed, midpoint ideal, terminal, and labelled residual graph.
+\end{theorem}
+\begin{proof}
+The suffix letter has exponent $k$ and contributes no imaginary part, so
+\[
+\lambda_s(u)=\Im P_s(w),\qquad
+\lambda_s(v)=\Im(e^{-i\alpha}P_s(w)).
+\]
+Writing $P_s(w)=x+iy$, the second coordinate equals $y\cos\alpha-x\sin\alpha$. Since $\sin\alpha>0$, both lower coordinates vanish exactly when $x=y=0$. If $y=0$ and the embedding is nonzero, the next imaginary coordinate is positive exactly when $x<0$. This is the negative-real seed branch. Otherwise the seed is the strict lower-to-upper crossing, giving the displayed rule. The midpoint indicator remains
+\[
+a_s(u)=1\iff\lambda_s(u)>0\ \text{and}\
+[r_s(u)<0\ \text{or}\ (r_s(u)=0\text{ and }u<\RC(u))].
+\]
+Substitute into $m_s(w)=m_0(w)+a_s(u)-a_s(v)$.
+\end{proof}
+This is a sufficient decision interface, not a claim that arbitrary raw seed-real signs can be recovered everywhere. The five-role certificate catalogue remains useful for classification and audit. The five-role trace is not an irredundant decision interface: the identities above supply the explicit aliases.
+
+\begin{corollary}[Symmetry compression]\label{ext:cor:compression}
+Let $Z^{\rm str}_\lambda$ count globally structural lower-lambda words. The terminal is determined by at most
+\[
+\frac{q^{k-1}-Z^{\rm str}_\lambda}{2}
+\]
+labelled real-form occurrences, in addition to the structural registry and fixed ties.
+\end{corollary}
+\begin{proof}
+Let $C$ complement letters and $J$ reverse positions. The pairs $(\lambda,r)$ transform under $1,C,J,CJ$ with signs $(+,+),(-,-),(-,+),(+,-)$ respectively. A $J$-fixed lower word is palindromic and has componentwise zero lambda. Neither $C$ nor $CJ$ fixes an odd-length word over a fixed-point-free complemented alphabet. Thus the nonstructural-lambda lower words form free four-element orbits. Retain $\lambda$ and $r$ at one representative per orbit and restore all signs. A globally structural-lambda word always has $a_s=0$, so its midpoint sign is unnecessary.
+\end{proof}
+For DNA at $k=4,6,8$, the bound is respectively $24,440,7904$. These are occurrence counts before proportional-form deduplication, not minimum hyperplane counts.
+
+\subsection{Complete decision covectors and terminal chambers}
+\label{sec:covectors}
+
+At fixed $\A$ and $k$, the selector has finitely many labelled branch
+occurrences.  We retain the occurrence tags rather than deduplicating
+coincident linear forms.  This makes branch completeness auditable.
+
+\begin{definition}[Complete decision catalog]
+\label{def:decision-catalog}
+The catalog $\mathcal D_{\A,k}$ contains every weight-linear real form tested
+by the deterministic construction, with its labelled word, rotation, and
+branch role.  The roles are:
+\[
+  \role{seed-real},\quad \role{seed-imag},\quad
+  \role{embedding-zero},\quad \role{lower-lambda},\quad
+  \role{lower-midpoint}.
+\]
+The embedding-zero role records both real coordinates needed to decide
+$P_s(w)=0$.  A form that is identically zero in weight space is retained as a
+structural tie and is not treated as a hyperplane.  The \emph{complete
+covector} $\sigma(s)$ is the sign in $\{-,0,+\}$ of every nonidentically-zero
+catalog occurrence, together with the structural-tie registry.
+\end{definition}
+
+The catalog can be exponentially large in $k$; this section claims
+finiteness and completeness, not a small irredundant arrangement.
+
+\begin{theorem}[Terminal sign-covector factorization]
+\label{thm:terminal-covector}
+Fix a complemented alphabet, even $k\ge4$, the deterministic zero-PCR rule,
+and the lexicographic midpoint tie rule.  If two admissible weight maps $s,t$
+have the same complete decision covector, then they have identical:
+\begin{enumerate}
+  \item seed indicators and zero-PCR representatives;
+  \item positive lower support and midpoint ideal;
+  \item terminal indicators $m_s=m_t$ word by word;
+  \item labelled residual digraphs; and
+  \item deterministic statistics computed from those labelled digraphs.
+\end{enumerate}
+Consequently the complete terminal payload is constant on every relatively
+open face of the realizable arrangement defined by $\mathcal D_{\A,k}$ and is
+invariant under positive scaling of all magnitudes.
+\end{theorem}
+
+\begin{proof}
+The signs of the tagged seed-real and seed-imag occurrences determine the
+negative-ray and strict-crossing branches on every nonzero PCR.  The paired
+coordinates tagged embedding-zero determine exactly which PCRs use the
+fixed, weight-independent zero rule.  Hence the seed indicators agree.
+
+The lower-lambda signs determine the same set $U_s=U_t$.  On that set, the
+lower-midpoint signs, followed only when zero by the fixed lexicographic rule,
+determine the same function $a_s=a_t$.  Substitution in the endpoint formula
+\eqref{eq:terminal-selector} gives $m_s=m_t$ on every labelled word.  Deleting
+the same labelled vertices gives the same residual digraph, so any
+deterministic statistic of it is identical.
+
+The sign covectors are constant on relatively open faces of a finite real
+hyperplane arrangement~\cite{BjornerEtAl1999}.  Every catalog form is
+homogeneous of degree one in the magnitudes, so multiplication by a positive
+scalar preserves all signs and all tie decisions.
+\end{proof}
+
+The five-role trace is sufficient but not irredundant.
+\Cref{ext:thm:two} reduces it to two lower-word families with fixed ties.
+Equal aggregate zero counts alone still do not determine the terminal.
+
+\begin{remark}[Resonance strata versus terminal strata]
+\label{rem:resonance-terminal-strata}
+The resonance stratification records only which selector equalities vanish.
+The terminal decision arrangement records the full sign of every labelled
+catalog occurrence.  It therefore refines the resonance stratification:
+equal zero loci need not determine equal seed choices, midpoint ideals, or
+terminals.  The bounded atlas of \Cref{prop:finite-atlas} exhibits strict
+refinement in its declared rows; no all-order irredundancy claim is inferred
+from that finite witness.
+\end{remark}
+
+\begin{corollary}[Exact one-parameter DNA diagram]
+\label{cor:dna-phase}
+For DNA weights
+\begin{equation}
+  s(A)=-\rho,\quad s(C)=-1,\quad s(G)=1,\quad s(T)=\rho,
+  \qquad \rho>1,                                                        \label{eq:dna-weights}
+\end{equation}
+every catalog form is $a\rho+b$ with real algebraic coefficients $a,b$.
+After structural forms are removed, the exact phase diagram is the ordered
+finite set of realized critical ratios $-b/a>1$, the intervening open
+intervals, and the critical points evaluated with the frozen tie rules.  The
+complete terminal payload is constant on every such cell.
+\end{corollary}
+
+\begin{proof}
+Every selector form is real-linear in the weight table.  Substitution of
+\eqref{eq:dna-weights} leaves an affine function of $\rho$.  A nonzero affine
+form can change sign only at its unique root.  Exact algebraic comparison
+orders the finitely many admissible roots.  The conclusion follows from
+\Cref{thm:terminal-covector}; point cells are kept separate because their
+zero branches need not agree with either adjacent interval.
+\end{proof}
+
+This corollary proves a complete diagram only after the entire catalog has
+been generated.  Omitting a branch family can merge cells whose terminals
+are different.

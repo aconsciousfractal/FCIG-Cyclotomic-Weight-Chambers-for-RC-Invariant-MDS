@@ -1,0 +1,327 @@
+[
+  {
+    "L": 17,
+    "component": 0,
+    "input_path": "inputs/k4_c000.bits",
+    "input_sha256": "059fe934d0e10ccb91b97f6195c0384c05b82f0efa3816c85e5df915d17c3bdd",
+    "k": 4,
+    "ratio": [
+      5,
+      0,
+      2
+    ],
+    "row": "k4_c000"
+  },
+  {
+    "L": 63,
+    "component": 0,
+    "input_path": "inputs/k6_c000.bits",
+    "input_sha256": "fcc3478f4b13ecd9c118de0f2bc0717e5d45987d0ed2c22c8f8de9f07f3b3ed0",
+    "k": 6,
+    "ratio": [
+      5,
+      0,
+      4
+    ],
+    "row": "k6_c000"
+  },
+  {
+    "L": 65,
+    "component": 1,
+    "input_path": "inputs/k6_c011.bits",
+    "input_sha256": "0b97d64daf02efa0723d175cdb462315a8c3347b66eb91c8357f2ecc9203bf66",
+    "k": 6,
+    "ratio": [
+      3,
+      0,
+      1
+    ],
+    "row": "k6_c011"
+  },
+  {
+    "L": 57,
+    "component": 2,
+    "input_path": "inputs/k6_c013.bits",
+    "input_sha256": "b237767013e375aae01a2ead120a3835d7565b2c2e9aa13e62f085602a054b6b",
+    "k": 6,
+    "ratio": [
+      4,
+      0,
+      1
+    ],
+    "row": "k6_c013"
+  },
+  {
+    "L": 161,
+    "component": 0,
+    "input_path": "inputs/k8_c000.bits",
+    "input_sha256": "5f5a34f4ff99b1e064f070ce818c2147ad7a1ad2b3048c32f3e1f8e62277479b",
+    "k": 8,
+    "ratio": [
+      9,
+      0,
+      8
+    ],
+    "row": "k8_c000"
+  },
+  {
+    "L": 157,
+    "component": 1,
+    "input_path": "inputs/k8_c015.bits",
+    "input_sha256": "1e50a199610f215f1df64e90e83f8e9cf4065f936dff2490af2c4c62b0b124fd",
+    "k": 8,
+    "ratio": [
+      1,
+      2,
+      3
+    ],
+    "row": "k8_c015"
+  },
+  {
+    "L": 153,
+    "component": 2,
+    "input_path": "inputs/k8_c016.bits",
+    "input_sha256": "9410b00b6b8ecba0faee49a3eb39b297a0c25d01fab235755815877d2066ff0a",
+    "k": 8,
+    "ratio": [
+      41,
+      0,
+      32
+    ],
+    "row": "k8_c016"
+  },
+  {
+    "L": 153,
+    "component": 3,
+    "input_path": "inputs/k8_c027.bits",
+    "input_sha256": "045376d70010822f4789cee82d429a25eb9031f176d7df772f765be0e359b798",
+    "k": 8,
+    "ratio": [
+      0,
+      1,
+      1
+    ],
+    "row": "k8_c027"
+  },
+  {
+    "L": 149,
+    "component": 4,
+    "input_path": "inputs/k8_c028.bits",
+    "input_sha256": "a0f638dd05b85c32bff9f87e78692073b08846e42630cca4289495b445ad137e",
+    "k": 8,
+    "ratio": [
+      91,
+      0,
+      64
+    ],
+    "row": "k8_c028"
+  },
+  {
+    "L": 149,
+    "component": 5,
+    "input_path": "inputs/k8_c037.bits",
+    "input_sha256": "66330139e73e1660c2c76684146e5358f53e98876b4c26a07820ea8dddc3981c",
+    "k": 8,
+    "ratio": [
+      5,
+      4,
+      7
+    ],
+    "row": "k8_c037"
+  },
+  {
+    "L": 149,
+    "component": 6,
+    "input_path": "inputs/k8_c038.bits",
+    "input_sha256": "e156b4c9f9db89b0487f147d0abff3f1dd7404fbfc08078badcca7c3c1fa2961",
+    "k": 8,
+    "ratio": [
+      49,
+      0,
+      32
+    ],
+    "row": "k8_c038"
+  },
+  {
+    "L": 147,
+    "component": 7,
+    "input_path": "inputs/k8_c045.bits",
+    "input_sha256": "c6bd18698e3ff560d6c1ff1cd05c209374a0a8c3a5844da493a1687baacb5417",
+    "k": 8,
+    "ratio": [
+      3,
+      6,
+      7
+    ],
+    "row": "k8_c045"
+  },
+  {
+    "L": 149,
+    "component": 8,
+    "input_path": "inputs/k8_c046.bits",
+    "input_sha256": "c7e662db8316e0d13b26d1ddb97243f42bf020e449a570c817282c742aba5097",
+    "k": 8,
+    "ratio": [
+      53,
+      0,
+      32
+    ],
+    "row": "k8_c046"
+  },
+  {
+    "L": 161,
+    "component": 9,
+    "input_path": "inputs/k8_c055.bits",
+    "input_sha256": "18397493cd86ce37fa810654dc06fadbb416165889110063ee0fb59bfa91c7cc",
+    "k": 8,
+    "ratio": [
+      -1,
+      2,
+      1
+    ],
+    "row": "k8_c055"
+  },
+  {
+    "L": 147,
+    "component": 10,
+    "input_path": "inputs/k8_c056.bits",
+    "input_sha256": "1037ac3548f58d5ed7fbf750c971fa226b55eefc8dd0d8b76a59b0597ee26f2d",
+    "k": 8,
+    "ratio": [
+      15,
+      0,
+      8
+    ],
+    "row": "k8_c056"
+  },
+  {
+    "L": 163,
+    "component": 11,
+    "input_path": "inputs/k8_c077.bits",
+    "input_sha256": "08ea978f5e6ccc17cb620322696acb937a87a120f6112ddf49b1c28dc18db521",
+    "k": 8,
+    "ratio": [
+      1,
+      1,
+      1
+    ],
+    "row": "k8_c077"
+  },
+  {
+    "L": 145,
+    "component": 12,
+    "input_path": "inputs/k8_c078.bits",
+    "input_sha256": "3db1147f64576e0c5182765d745d7f209352b015ddff2e5456bfe679418f053d",
+    "k": 8,
+    "ratio": [
+      157,
+      0,
+      64
+    ],
+    "row": "k8_c078"
+  },
+  {
+    "L": 141,
+    "component": 13,
+    "input_path": "inputs/k8_c093.bits",
+    "input_sha256": "5a5baf826d11a84ebe244a99533fb883b4dd9cc008c9f3ae50038f4d24e0edd2",
+    "k": 8,
+    "ratio": [
+      3,
+      0,
+      1
+    ],
+    "row": "k8_c093"
+  },
+  {
+    "L": 141,
+    "component": 14,
+    "input_path": "inputs/k8_c094.bits",
+    "input_sha256": "26317abb6cd5e6cab9d07f4e74e57a697ecac89fc3b6a5f8b99ce21ea9d490b5",
+    "k": 8,
+    "ratio": [
+      49,
+      0,
+      16
+    ],
+    "row": "k8_c094"
+  },
+  {
+    "L": 155,
+    "component": 15,
+    "input_path": "inputs/k8_c109.bits",
+    "input_sha256": "1f5e1cb90d9cf183e27f072ba5bf4f1ce6b9f402af659476a4999ac6d8cdfa77",
+    "k": 8,
+    "ratio": [
+      1,
+      2,
+      1
+    ],
+    "row": "k8_c109"
+  },
+  {
+    "L": 143,
+    "component": 16,
+    "input_path": "inputs/k8_c119.bits",
+    "input_sha256": "56ba437647fb65349e8c0fa93d676025b21715889f464915312b431b7a2a451b",
+    "k": 8,
+    "ratio": [
+      -1,
+      4,
+      1
+    ],
+    "row": "k8_c119"
+  },
+  {
+    "L": 163,
+    "component": 17,
+    "input_path": "inputs/k8_c129.bits",
+    "input_sha256": "46663927bd548de149477a819eb16903ae05146dc32aa2d5b803d17497730a1f",
+    "k": 8,
+    "ratio": [
+      3,
+      2,
+      1
+    ],
+    "row": "k8_c129"
+  },
+  {
+    "L": 143,
+    "component": 18,
+    "input_path": "inputs/k8_c130.bits",
+    "input_sha256": "4b34e2fef0e0d4a11337aef689998aebb9f043c9012f46c20062f6117acbc221",
+    "k": 8,
+    "ratio": [
+      25,
+      0,
+      4
+    ],
+    "row": "k8_c130"
+  },
+  {
+    "L": 155,
+    "component": 19,
+    "input_path": "inputs/k8_c151.bits",
+    "input_sha256": "71da218228a6952f2311353fe6ec7e71f697484ede69c5956eea669b83a3812d",
+    "k": 8,
+    "ratio": [
+      5,
+      4,
+      1
+    ],
+    "row": "k8_c151"
+  },
+  {
+    "L": 161,
+    "component": 20,
+    "input_path": "inputs/k8_c152.bits",
+    "input_sha256": "05b3287f176e96a26423b94fe9dfed9c1a64e08adfa493e2542b65de12725535",
+    "k": 8,
+    "ratio": [
+      181,
+      0,
+      16
+    ],
+    "row": "k8_c152"
+  }
+]

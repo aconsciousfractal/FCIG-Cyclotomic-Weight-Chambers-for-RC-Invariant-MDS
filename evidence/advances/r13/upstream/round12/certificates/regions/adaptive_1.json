@@ -1,0 +1,237 @@
+{
+  "schema": "R12-DOMAIN-TRACE-1",
+  "label": "adaptive_1",
+  "target_L": 106,
+  "base_sha256": "817baa3c8aff7d7c6d2bb3bb401c8ed4cb7c2fa0d31508779bb3cc5c0047dc6c",
+  "free_groups": [
+    "ACACACAG"
+  ],
+  "scope": "nonstable PCRs single; all stable arcs deleted; outside free groups frozen to base",
+  "steps": [
+    {
+      "group": "ACACACAG",
+      "option": [
+        "ACACACAG",
+        "CTGTGTGT"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCG",
+        "TTCTTCGT",
+        "TCTTCGTG",
+        "CTTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTG",
+        "GTGTCTGT",
+        "TGTCTGTT",
+        "GTCTGTTC",
+        "TCTGTTCT",
+        "CTGTTCTT"
+      ]
+    },
+    {
+      "group": "ACACACAG",
+      "option": [
+        "ACACAGAC",
+        "GTCTGTGT"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCG",
+        "TTCTTCGT",
+        "TCTTCGTG",
+        "CTTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTG",
+        "GTGTCTGT",
+        "TGTCTGTT",
+        "GTCTGTTC",
+        "TCTGTTCT",
+        "CTGTTCTT"
+      ]
+    },
+    {
+      "group": "ACACACAG",
+      "option": [
+        "ACAGACAC",
+        "GTGTCTGT"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCT",
+        "TTCTTCTG",
+        "TCTTCTGT",
+        "CTTCTGTG",
+        "TTCTGTGT",
+        "TCTGTGTG",
+        "CTGTGTGT",
+        "TGTGTGTT",
+        "GTGTGTTC",
+        "TGTGTTCT",
+        "GTGTTCTT"
+      ]
+    },
+    {
+      "group": "ACACACAG",
+      "option": [
+        "AGACACAC",
+        "GTGTGTCT"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCG",
+        "TTCTTCGT",
+        "TCTTCGTG",
+        "CTTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTG",
+        "GTGTCTGT",
+        "TGTCTGTT",
+        "GTCTGTTC",
+        "TCTGTTCT",
+        "CTGTTCTT"
+      ]
+    },
+    {
+      "group": "ACACACAG",
+      "option": [
+        "CACACAGA",
+        "TCTGTGTG"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCG",
+        "TTCTTCGT",
+        "TCTTCGTG",
+        "CTTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTG",
+        "GTGTCTGT",
+        "TGTCTGTT",
+        "GTCTGTTC",
+        "TCTGTTCT",
+        "CTGTTCTT"
+      ]
+    },
+    {
+      "group": "ACACACAG",
+      "option": [
+        "CACAGACA",
+        "TGTCTGTG"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCG",
+        "TTCTTCGT",
+        "TCTTCGTG",
+        "CTTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTG",
+        "GTGTCTGT",
+        "TGTCTGTT",
+        "GTCTGTTC",
+        "TCTGTTCT",
+        "CTGTTCTT"
+      ]
+    },
+    {
+      "group": "ACACACAG",
+      "option": [
+        "CAGACACA",
+        "TGTGTCTG"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCG",
+        "TTCTTCGT",
+        "TCTTCGTG",
+        "CTTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTG",
+        "GTGTCTGT",
+        "TGTCTGTT",
+        "GTCTGTTC",
+        "TCTGTTCT",
+        "CTGTTCTT"
+      ]
+    },
+    {
+      "group": "ACACACAG",
+      "option": [
+        "GACACACA",
+        "TGTGTGTC"
+      ],
+      "kind": "cycle",
+      "walk": [
+        "TGTTCTTC",
+        "GTTCTTCG",
+        "TTCTTCGT",
+        "TCTTCGTG",
+        "CTTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTG",
+        "GTGTCTGT",
+        "TGTCTGTT",
+        "GTCTGTTC",
+        "TCTGTTCT",
+        "CTGTTCTT"
+      ]
+    }
+  ],
+  "empty_group": "ACACACAG",
+  "result": "EMPTY_DOMAIN",
+  "boundary_words": [
+    "AACACACA",
+    "AACAGACA",
+    "AAGAACAC",
+    "AAGAACAG",
+    "ACACAGAA",
+    "ACACGAAG",
+    "ACAGAAGA",
+    "ACGAAGAA",
+    "AGAACACA",
+    "AGAACAGA",
+    "AGAAGAAC",
+    "AGACACGA",
+    "CACAGAAG",
+    "CACGAAGA",
+    "CAGAAGAA",
+    "CAGACACG",
+    "CGAAGAAC",
+    "GAACACAC",
+    "GAACAGAC",
+    "GAAGAACA",
+    "GACACGAA"
+  ],
+  "boundary_groups": [
+    "AAACACAC",
+    "AAACACAG",
+    "AAACAGAC",
+    "AAACGAAG",
+    "AACACAAG",
+    "AACACACG",
+    "AACAGAAG",
+    "AACAGACG",
+    "AACCGAAG",
+    "AAGACACG",
+    "AAGCACAG",
+    "ACACGCAG"
+  ],
+  "single_assumptions": [
+    "ACACACAG"
+  ]
+}

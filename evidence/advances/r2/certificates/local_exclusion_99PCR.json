@@ -1,0 +1,5931 @@
+{
+  "bound": 120,
+  "active_edges": [
+    "AAAAAAAC",
+    "AAAAAACA",
+    "AAAAACAA",
+    "AAAACAAA",
+    "AAAACAAC",
+    "AAAAGAAC",
+    "AAACAAAA",
+    "AAACAAAG",
+    "AAACAACA",
+    "AAAGAAAC",
+    "AAAGAACA",
+    "AAAGAACC",
+    "AACAAAAA",
+    "AACAAAAC",
+    "AACAAAAG",
+    "AACAAAGA",
+    "AACAACAA",
+    "AACAACAC",
+    "AACAAGAC",
+    "AACACAAC",
+    "AACACAAG",
+    "AACAGAAG",
+    "AACCAAAG",
+    "AACCACAC",
+    "AACCCAAG",
+    "AACCCAAT",
+    "AACGCAAT",
+    "AACGCACT",
+    "AACTACCT",
+    "AAGAAACA",
+    "AAGAACAA",
+    "AAGAACAC",
+    "AAGAACAG",
+    "AAGAACCA",
+    "AAGAACCC",
+    "AAGACAAC",
+    "AAGACAGC",
+    "AAGACCAC",
+    "AAGACCAG",
+    "AAGCACGC",
+    "AAGCCGAT",
+    "AATAACCC",
+    "AATAACGC",
+    "AATACCAG",
+    "AATACCAT",
+    "AATACGAT",
+    "AATCCGAT",
+    "ACAAAAAA",
+    "ACAAAACA",
+    "ACAAAAGA",
+    "ACAAAGAA",
+    "ACAACAAA",
+    "ACAACAAC",
+    "ACAACAAG",
+    "ACAACACA",
+    "ACAACCAC",
+    "ACAAGAAC",
+    "ACAAGACA",
+    "ACAAGACC",
+    "ACACAACA",
+    "ACACAACC",
+    "ACACAAGA",
+    "ACACCACC",
+    "ACAGAAGA",
+    "ACAGCAAG",
+    "ACAGCACG",
+    "ACCAAAGA",
+    "ACCACAAG",
+    "ACCACACA",
+    "ACCACACC",
+    "ACCACCAC",
+    "ACCACCCC",
+    "ACCAGAAG",
+    "ACCAGAAT",
+    "ACCATAAT",
+    "ACCCAAGA",
+    "ACCCAATA",
+    "ACCCCACC",
+    "ACCCCCCC",
+    "ACCGCACT",
+    "ACCTAACT",
+    "ACCTACCT",
+    "ACCTACGG",
+    "ACCTACGT",
+    "ACCTCACT",
+    "ACGACAGC",
+    "ACGATAAT",
+    "ACGCAAGC",
+    "ACGCAATA",
+    "ACGCACGC",
+    "ACGCACTA",
+    "ACGCACTC",
+    "ACGCCAGC",
+    "ACGGACCT",
+    "ACGGCCCT",
+    "ACGGCCGG",
+    "ACGGCCGT",
+    "ACGTACCT",
+    "ACGTAGGT",
+    "ACTAACGC",
+    "ACTACCGC",
+    "ACTACCTA",
+    "ACTACCTC",
+    "ACTATAGG",
+    "ACTCACGC",
+    "ACTCCTAT",
+    "AGAAACAA",
+    "AGAACAAA",
+    "AGAACACA",
+    "AGAACAGA",
+    "AGAACCAA",
+    "AGAACCCA",
+    "AGAAGAAC",
+    "AGAAGACC",
+    "AGAATACC",
+    "AGACAACA",
+    "AGACAGCA",
+    "AGACCACA",
+    "AGACCAGA",
+    "AGCAAGAC",
+    "AGCACGAC",
+    "AGCACGCA",
+    "AGCACGCC",
+    "AGCATAGG",
+    "AGCCCAGG",
+    "AGCCCCCC",
+    "AGCCCCCG",
+    "AGCCCCGG",
+    "AGCCGATA",
+    "AGCCTAGG",
+    "AGGACTAT",
+    "AGGAGCAT",
+    "AGGAGCCC",
+    "AGGAGCCT",
+    "AGGAGTAT",
+    "AGGCCGAT",
+    "AGGCCTAT",
+    "AGGCTCCT",
+    "AGGGCCGT",
+    "AGGTACGT",
+    "AGGTAGGT",
+    "AGGTAGTG",
+    "AGGTAGTT",
+    "AGGTCCGT",
+    "AGTATAGG",
+    "AGTCCTAT",
+    "AGTGAGGT",
+    "AGTGCGGT",
+    "AGTGCGTG",
+    "AGTGCGTT",
+    "AGTTAGGT",
+    "ATAACCCA",
+    "ATAACGCA",
+    "ATAAGCCG",
+    "ATAATACC",
+    "ATAATACG",
+    "ATAATCCG",
+    "ATACCAGA",
+    "ATACCATA",
+    "ATACGATA",
+    "ATACTCCT",
+    "ATAGGACT",
+    "ATAGGAGC",
+    "ATAGGAGT",
+    "ATAGGCCG",
+    "ATAGGCCT",
+    "ATAGTCCT",
+    "ATCCGATA",
+    "ATCGGATT",
+    "ATCGGCCT",
+    "ATCGGCTT",
+    "ATCGTATT",
+    "ATGCTCCT",
+    "ATGGTATT",
+    "ATTATCGG",
+    "ATTATCGT",
+    "ATTATGGT",
+    "ATTCTGGT",
+    "ATTGCGTT",
+    "ATTGGGTT",
+    "CAAAAAAA",
+    "CAAAACAA",
+    "CAAAAGAA",
+    "CAAAGAAA",
+    "CAAAGAAC",
+    "CAACAAAA",
+    "CAACAACA",
+    "CAACAAGA",
+    "CAACACAA",
+    "CAACCACA",
+    "CAAGAACA",
+    "CAAGAACC",
+    "CAAGACAA",
+    "CAAGACAG",
+    "CAAGACCA",
+    "CAAGCACG",
+    "CAATAACC",
+    "CAATAACG",
+    "CACAACAA",
+    "CACAACCA",
+    "CACAAGAA",
+    "CACAAGAC",
+    "CACACAAC",
+    "CACACCAC",
+    "CACCACAC",
+    "CACCACCA",
+    "CACCACCC",
+    "CACCCCAC",
+    "CACCCCCC",
+    "CACGACAG",
+    "CACGCAAG",
+    "CACGCACG",
+    "CACGCACT",
+    "CACGCCAG",
+    "CACTAACG",
+    "CACTACCG",
+    "CACTACCT",
+    "CACTCACG",
+    "CAGAAGAA",
+    "CAGAAGAC",
+    "CAGAATAC",
+    "CAGCAAGA",
+    "CAGCACGA",
+    "CAGCACGC",
+    "CAGCCCCC",
+    "CAGGAGCC",
+    "CATAATAC",
+    "CATAGGAG",
+    "CCAAAGAA",
+    "CCAAGAAC",
+    "CCAATAAC",
+    "CCACAAGA",
+    "CCACACAA",
+    "CCACACCA",
+    "CCACCACA",
+    "CCACCACC",
+    "CCACCCCA",
+    "CCACCCCC",
+    "CCAGAAGA",
+    "CCAGAATA",
+    "CCAGCACG",
+    "CCAGCCCC",
+    "CCAGGAGC",
+    "CCATAATA",
+    "CCCAAGAA",
+    "CCCAATAA",
+    "CCCACCAC",
+    "CCCACCCC",
+    "CCCAGCCC",
+    "CCCAGGAG",
+    "CCCCACCA",
+    "CCCCACCC",
+    "CCCCAGCC",
+    "CCCCCACC",
+    "CCCCCAGC",
+    "CCCCCCAC",
+    "CCCCCCAG",
+    "CCCCCCCA",
+    "CCCCCCCG",
+    "CCCCCCGC",
+    "CCCCCGAG",
+    "CCCCCGCC",
+    "CCCCGAGC",
+    "CCCCGCCC",
+    "CCCCGGAG",
+    "CCCGAGCC",
+    "CCCGCCCC",
+    "CCCGGAGC",
+    "CCCTACGG",
+    "CCGAGCCC",
+    "CCGATAAG",
+    "CCGATAAT",
+    "CCGATAGG",
+    "CCGCACTA",
+    "CCGCCCCC",
+    "CCGGACGG",
+    "CCGGAGCC",
+    "CCGGCCGG",
+    "CCGGCCGT",
+    "CCGGGGCT",
+    "CCGTACGG",
+    "CCGTAGGG",
+    "CCGTAGGT",
+    "CCGTCCGG",
+    "CCTAACTA",
+    "CCTACCTA",
+    "CCTACGGA",
+    "CCTACGGC",
+    "CCTACGTA",
+    "CCTAGGAG",
+    "CCTAGGCT",
+    "CCTATACT",
+    "CCTATAGG",
+    "CCTATAGT",
+    "CCTATCGG",
+    "CCTATGCT",
+    "CCTCACTA",
+    "CCTGGGCT",
+    "CGACAGCA",
+    "CGAGCCCC",
+    "CGATAAGC",
+    "CGATAATA",
+    "CGATAATC",
+    "CGATAGGC",
+    "CGCAAGCA",
+    "CGCAATAA",
+    "CGCACGCA",
+    "CGCACTAA",
+    "CGCACTAC",
+    "CGCACTCA",
+    "CGCCAGCA",
+    "CGCCCCCC",
+    "CGGACCTA",
+    "CGGACGGC",
+    "CGGAGCCC",
+    "CGGATTAT",
+    "CGGCCCTA",
+    "CGGCCGGA",
+    "CGGCCGGC",
+    "CGGCCGTA",
+    "CGGCCGTC",
+    "CGGCCTAT",
+    "CGGCTTAT",
+    "CGGGGCTC",
+    "CGGGGGCT",
+    "CGGGGGGG",
+    "CGGTAGTG",
+    "CGTACCTA",
+    "CGTACGGC",
+    "CGTAGGGC",
+    "CGTAGGTA",
+    "CGTAGGTC",
+    "CGTATTAT",
+    "CGTCCGGC",
+    "CGTGAGTG",
+    "CGTGCGTG",
+    "CGTGCTGG",
+    "CGTGCTGT",
+    "CGTGCTTG",
+    "CGTTAGTG",
+    "CGTTATTG",
+    "CTAACGCA",
+    "CTAACTAC",
+    "CTACCGCA",
+    "CTACCTAA",
+    "CTACCTAC",
+    "CTACCTCA",
+    "CTACGGAC",
+    "CTACGGCC",
+    "CTACGTAC",
+    "CTAGGAGC",
+    "CTAGGCTC",
+    "CTATACTC",
+    "CTATAGGA",
+    "CTATAGGC",
+    "CTATAGTC",
+    "CTATCGGC",
+    "CTATGCTC",
+    "CTCACGCA",
+    "CTCACTAC",
+    "CTCCGGGG",
+    "CTCCTAGG",
+    "CTCCTATA",
+    "CTCCTATG",
+    "CTCCTGGG",
+    "CTCGGGGG",
+    "CTGGCGTG",
+    "CTGGGCTC",
+    "CTGGGGGG",
+    "CTGGTATT",
+    "CTGGTCTT",
+    "CTGTCGTG",
+    "CTGTCTTG",
+    "CTGTTCTT",
+    "CTTATCGG",
+    "CTTCTGGT",
+    "CTTCTGTT",
+    "CTTGCGTG",
+    "CTTGCTGT",
+    "CTTGGGTT",
+    "CTTGTGGT",
+    "CTTGTGTT",
+    "CTTGTTGT",
+    "CTTTGGTT",
+    "CTTTGTTT",
+    "CTTTTGTT",
+    "GAAACAAA",
+    "GAACAAAA",
+    "GAACACAA",
+    "GAACAGAA",
+    "GAACCAAA",
+    "GAACCCAA",
+    "GAAGAACA",
+    "GAAGACCA",
+    "GAATACCA",
+    "GACAACAA",
+    "GACAGCAA",
+    "GACAGCAC",
+    "GACCACAA",
+    "GACCAGAA",
+    "GACCTACG",
+    "GACGGCCG",
+    "GACTATAG",
+    "GAGCATAG",
+    "GAGCCCAG",
+    "GAGCCCCC",
+    "GAGCCCCG",
+    "GAGCCTAG",
+    "GAGGTAGT",
+    "GAGTATAG",
+    "GAGTGCGT",
+    "GATAAGCC",
+    "GATAATAC",
+    "GATAATCC",
+    "GATAGGCC",
+    "GATTATCG",
+    "GCAAGACA",
+    "GCAAGCAC",
+    "GCAATAAC",
+    "GCACGACA",
+    "GCACGCAA",
+    "GCACGCAC",
+    "GCACGCCA",
+    "GCACTAAC",
+    "GCACTACC",
+    "GCACTCAC",
+    "GCATAGGA",
+    "GCCAGCAC",
+    "GCCCAGGA",
+    "GCCCCCCA",
+    "GCCCCCCC",
+    "GCCCCCGA",
+    "GCCCCGGA",
+    "GCCCTACG",
+    "GCCGATAA",
+    "GCCGATAG",
+    "GCCGGACG",
+    "GCCGGCCG",
+    "GCCGTACG",
+    "GCCGTAGG",
+    "GCCGTCCG",
+    "GCCTAGGA",
+    "GCCTATAG",
+    "GCCTATCG",
+    "GCGGGGGG",
+    "GCGGTAGT",
+    "GCGTGAGT",
+    "GCGTGCGT",
+    "GCGTGCTG",
+    "GCGTGCTT",
+    "GCGTTAGT",
+    "GCGTTATT",
+    "GCTCCGGG",
+    "GCTCCTAG",
+    "GCTCCTAT",
+    "GCTCCTGG",
+    "GCTCGGGG",
+    "GCTGGCGT",
+    "GCTGGGGG",
+    "GCTGTCGT",
+    "GCTGTCTT",
+    "GCTTATCG",
+    "GCTTGCGT",
+    "GGACCTAC",
+    "GGACGGCC",
+    "GGACTATA",
+    "GGAGCATA",
+    "GGAGCCCA",
+    "GGAGCCCC",
+    "GGAGCCTA",
+    "GGAGTATA",
+    "GGATTATC",
+    "GGCCCTAC",
+    "GGCCGATA",
+    "GGCCGGAC",
+    "GGCCGGCC",
+    "GGCCGTAC",
+    "GGCCGTAG",
+    "GGCCGTCC",
+    "GGCCTATA",
+    "GGCCTATC",
+    "GGCGGGGG",
+    "GGCGTGCT",
+    "GGCTCCGG",
+    "GGCTCCTA",
+    "GGCTCCTG",
+    "GGCTCGGG",
+    "GGCTGGGG",
+    "GGCTTATC",
+    "GGGCCGTA",
+    "GGGCGGGG",
+    "GGGCTCCG",
+    "GGGCTCCT",
+    "GGGCTCGG",
+    "GGGCTGGG",
+    "GGGGCGGG",
+    "GGGGCTCC",
+    "GGGGCTCG",
+    "GGGGCTGG",
+    "GGGGGCGG",
+    "GGGGGCTC",
+    "GGGGGCTG",
+    "GGGGGGCG",
+    "GGGGGGCT",
+    "GGGGGGGC",
+    "GGGGGGGT",
+    "GGGGGGTG",
+    "GGGGGTGG",
+    "GGGGTGGG",
+    "GGGGTGGT",
+    "GGGTGGGG",
+    "GGGTGGTG",
+    "GGGTTATT",
+    "GGGTTCTT",
+    "GGTACGTA",
+    "GGTAGGTA",
+    "GGTAGTGA",
+    "GGTAGTGC",
+    "GGTAGTTA",
+    "GGTATTAT",
+    "GGTATTCT",
+    "GGTCCGTA",
+    "GGTCTTCT",
+    "GGTCTTGT",
+    "GGTGGGGG",
+    "GGTGGGGT",
+    "GGTGGTGG",
+    "GGTGGTGT",
+    "GGTGTGGT",
+    "GGTTATTG",
+    "GGTTCTTG",
+    "GGTTCTTT",
+    "GGTTGTGT",
+    "GTACCTAC",
+    "GTACGGCC",
+    "GTACGTAG",
+    "GTAGGGCC",
+    "GTAGGTAC",
+    "GTAGGTAG",
+    "GTAGGTCC",
+    "GTAGTGAG",
+    "GTAGTGCG",
+    "GTAGTTAG",
+    "GTATAGGA",
+    "GTATTATC",
+    "GTATTATG",
+    "GTATTCTG",
+    "GTCCGGCC",
+    "GTCCGTAG",
+    "GTCCTATA",
+    "GTCGTGCT",
+    "GTCTTCTG",
+    "GTCTTGCT",
+    "GTCTTGTG",
+    "GTCTTGTT",
+    "GTGAGGTA",
+    "GTGAGTGC",
+    "GTGCGGTA",
+    "GTGCGTGA",
+    "GTGCGTGC",
+    "GTGCGTTA",
+    "GTGCTGGC",
+    "GTGCTGTC",
+    "GTGCTTGC",
+    "GTGGGGGG",
+    "GTGGGGTG",
+    "GTGGTCTT",
+    "GTGGTGGG",
+    "GTGGTGGT",
+    "GTGGTGTG",
+    "GTGGTTGT",
+    "GTGTGGTG",
+    "GTGTGGTT",
+    "GTGTTCTT",
+    "GTGTTGTT",
+    "GTTAGGTA",
+    "GTTAGTGC",
+    "GTTATTGC",
+    "GTTATTGG",
+    "GTTCTTCT",
+    "GTTCTTGG",
+    "GTTCTTGT",
+    "GTTCTTTG",
+    "GTTCTTTT",
+    "GTTGTCTT",
+    "GTTGTGTG",
+    "GTTGTGTT",
+    "GTTGTTGT",
+    "GTTGTTTT",
+    "GTTTCTTT",
+    "GTTTTGTT",
+    "GTTTTTTT",
+    "TAACCCAA",
+    "TAACGCAA",
+    "TAACGCAC",
+    "TAACTACC",
+    "TAAGCCGA",
+    "TAATACCA",
+    "TAATACGA",
+    "TAATCCGA",
+    "TACCAGAA",
+    "TACCATAA",
+    "TACCGCAC",
+    "TACCTAAC",
+    "TACCTACC",
+    "TACCTACG",
+    "TACCTCAC",
+    "TACGATAA",
+    "TACGGACC",
+    "TACGGCCC",
+    "TACGGCCG",
+    "TACGTACC",
+    "TACGTAGG",
+    "TACTCCTA",
+    "TAGGACTA",
+    "TAGGAGCA",
+    "TAGGAGCC",
+    "TAGGAGTA",
+    "TAGGCCGA",
+    "TAGGCCTA",
+    "TAGGCTCC",
+    "TAGGGCCG",
+    "TAGGTACG",
+    "TAGGTAGG",
+    "TAGGTAGT",
+    "TAGGTCCG",
+    "TAGTCCTA",
+    "TAGTGAGG",
+    "TAGTGCGG",
+    "TAGTGCGT",
+    "TAGTTAGG",
+    "TATACTCC",
+    "TATAGGAC",
+    "TATAGGAG",
+    "TATAGGCC",
+    "TATAGTCC",
+    "TATCGGAT",
+    "TATCGGCC",
+    "TATCGGCT",
+    "TATCGTAT",
+    "TATGCTCC",
+    "TATGGTAT",
+    "TATTATCG",
+    "TATTATGG",
+    "TATTCTGG",
+    "TATTGCGT",
+    "TATTGGGT",
+    "TCACGCAC",
+    "TCACTACC",
+    "TCCGATAA",
+    "TCCGGCCG",
+    "TCCGGGGC",
+    "TCCGTAGG",
+    "TCCTAGGC",
+    "TCCTATAC",
+    "TCCTATAG",
+    "TCCTATGC",
+    "TCCTGGGC",
+    "TCGGATTA",
+    "TCGGCCTA",
+    "TCGGCTTA",
+    "TCGGGGGC",
+    "TCGTATTA",
+    "TCGTGCTG",
+    "TCTGGTAT",
+    "TCTGGTCT",
+    "TCTGTTCT",
+    "TCTTCTGG",
+    "TCTTCTGT",
+    "TCTTGCTG",
+    "TCTTGGGT",
+    "TCTTGTGG",
+    "TCTTGTGT",
+    "TCTTGTTG",
+    "TCTTTGGT",
+    "TCTTTGTT",
+    "TCTTTTGT",
+    "TGAGGTAG",
+    "TGAGTGCG",
+    "TGCGGTAG",
+    "TGCGTGAG",
+    "TGCGTGCG",
+    "TGCGTGCT",
+    "TGCGTTAG",
+    "TGCGTTAT",
+    "TGCTCCTA",
+    "TGCTGGCG",
+    "TGCTGTCG",
+    "TGCTGTCT",
+    "TGCTTGCG",
+    "TGGCGTGC",
+    "TGGGCTCC",
+    "TGGGGGGC",
+    "TGGGGGGG",
+    "TGGGGTGG",
+    "TGGGTTAT",
+    "TGGGTTCT",
+    "TGGTATTA",
+    "TGGTATTC",
+    "TGGTCTTC",
+    "TGGTCTTG",
+    "TGGTGGGG",
+    "TGGTGGTG",
+    "TGGTGTGG",
+    "TGGTTCTT",
+    "TGGTTGTG",
+    "TGTCGTGC",
+    "TGTCTTGC",
+    "TGTCTTGT",
+    "TGTGGTCT",
+    "TGTGGTGG",
+    "TGTGGTTG",
+    "TGTGTGGT",
+    "TGTGTTCT",
+    "TGTGTTGT",
+    "TGTTCTTC",
+    "TGTTCTTG",
+    "TGTTCTTT",
+    "TGTTGTCT",
+    "TGTTGTGT",
+    "TGTTGTTG",
+    "TGTTGTTT",
+    "TGTTTCTT",
+    "TGTTTTGT",
+    "TGTTTTTT",
+    "TTAGGTAG",
+    "TTAGTGCG",
+    "TTATCGGA",
+    "TTATCGGC",
+    "TTATCGTA",
+    "TTATGGTA",
+    "TTATTGCG",
+    "TTATTGGG",
+    "TTCTGGTA",
+    "TTCTGGTC",
+    "TTCTGTTC",
+    "TTCTTCTG",
+    "TTCTTGGG",
+    "TTCTTGTG",
+    "TTCTTTGG",
+    "TTCTTTGT",
+    "TTCTTTTG",
+    "TTGCGTGC",
+    "TTGCGTTA",
+    "TTGCTGTC",
+    "TTGGGTTA",
+    "TTGGGTTC",
+    "TTGGTTCT",
+    "TTGTCTTG",
+    "TTGTGGTC",
+    "TTGTGTGG",
+    "TTGTGTTC",
+    "TTGTGTTG",
+    "TTGTTCTT",
+    "TTGTTGTC",
+    "TTGTTGTG",
+    "TTGTTGTT",
+    "TTGTTTCT",
+    "TTGTTTTG",
+    "TTGTTTTT",
+    "TTTCTTTG",
+    "TTTGGTTC",
+    "TTTGTTCT",
+    "TTTGTTGT",
+    "TTTGTTTC",
+    "TTTGTTTT",
+    "TTTTGTTC",
+    "TTTTGTTG",
+    "TTTTGTTT",
+    "TTTTTGTT",
+    "TTTTTTGT",
+    "TTTTTTTG"
+  ],
+  "active_necklaces": 99,
+  "groups": [
+    [
+      [
+        "AAAAAAAC",
+        "GTTTTTTT"
+      ],
+      [
+        "AAAAAACA",
+        "TGTTTTTT"
+      ],
+      [
+        "AAAAACAA",
+        "TTGTTTTT"
+      ],
+      [
+        "AAAACAAA",
+        "TTTGTTTT"
+      ],
+      [
+        "AAACAAAA",
+        "TTTTGTTT"
+      ],
+      [
+        "AACAAAAA",
+        "TTTTTGTT"
+      ],
+      [
+        "ACAAAAAA",
+        "TTTTTTGT"
+      ],
+      [
+        "CAAAAAAA",
+        "TTTTTTTG"
+      ]
+    ],
+    [
+      [
+        "AAAACAAC",
+        "GTTGTTTT"
+      ],
+      [
+        "AAACAACA",
+        "TGTTGTTT"
+      ],
+      [
+        "AACAAAAC",
+        "GTTTTGTT"
+      ],
+      [
+        "AACAACAA",
+        "TTGTTGTT"
+      ],
+      [
+        "ACAAAACA",
+        "TGTTTTGT"
+      ],
+      [
+        "ACAACAAA",
+        "TTTGTTGT"
+      ],
+      [
+        "CAAAACAA",
+        "TTGTTTTG"
+      ],
+      [
+        "CAACAAAA",
+        "TTTTGTTG"
+      ]
+    ],
+    [
+      [
+        "AAAAGAAC",
+        "GTTCTTTT"
+      ],
+      [
+        "AAAGAACA",
+        "TGTTCTTT"
+      ],
+      [
+        "AACAAAAG",
+        "CTTTTGTT"
+      ],
+      [
+        "AAGAACAA",
+        "TTGTTCTT"
+      ],
+      [
+        "ACAAAAGA",
+        "TCTTTTGT"
+      ],
+      [
+        "AGAACAAA",
+        "TTTGTTCT"
+      ],
+      [
+        "CAAAAGAA",
+        "TTCTTTTG"
+      ],
+      [
+        "GAACAAAA",
+        "TTTTGTTC"
+      ]
+    ],
+    [
+      [
+        "AAACAAAG",
+        "CTTTGTTT"
+      ],
+      [
+        "AAAGAAAC",
+        "GTTTCTTT"
+      ],
+      [
+        "AACAAAGA",
+        "TCTTTGTT"
+      ],
+      [
+        "AAGAAACA",
+        "TGTTTCTT"
+      ],
+      [
+        "ACAAAGAA",
+        "TTCTTTGT"
+      ],
+      [
+        "AGAAACAA",
+        "TTGTTTCT"
+      ],
+      [
+        "CAAAGAAA",
+        "TTTCTTTG"
+      ],
+      [
+        "GAAACAAA",
+        "TTTGTTTC"
+      ]
+    ],
+    [
+      [
+        "AAAGAACC",
+        "GGTTCTTT"
+      ],
+      [
+        "AACCAAAG",
+        "CTTTGGTT"
+      ],
+      [
+        "AAGAACCA",
+        "TGGTTCTT"
+      ],
+      [
+        "ACCAAAGA",
+        "TCTTTGGT"
+      ],
+      [
+        "AGAACCAA",
+        "TTGGTTCT"
+      ],
+      [
+        "CAAAGAAC",
+        "GTTCTTTG"
+      ],
+      [
+        "CCAAAGAA",
+        "TTCTTTGG"
+      ],
+      [
+        "GAACCAAA",
+        "TTTGGTTC"
+      ]
+    ],
+    [
+      [
+        "AACAACAC",
+        "GTGTTGTT"
+      ],
+      [
+        "AACACAAC",
+        "GTTGTGTT"
+      ],
+      [
+        "ACAACAAC",
+        "GTTGTTGT"
+      ],
+      [
+        "ACAACACA",
+        "TGTGTTGT"
+      ],
+      [
+        "ACACAACA",
+        "TGTTGTGT"
+      ],
+      [
+        "CAACAACA",
+        "TGTTGTTG"
+      ],
+      [
+        "CAACACAA",
+        "TTGTGTTG"
+      ],
+      [
+        "CACAACAA",
+        "TTGTTGTG"
+      ]
+    ],
+    [
+      [
+        "AACAAGAC",
+        "GTCTTGTT"
+      ],
+      [
+        "AAGACAAC",
+        "GTTGTCTT"
+      ],
+      [
+        "ACAACAAG",
+        "CTTGTTGT"
+      ],
+      [
+        "ACAAGACA",
+        "TGTCTTGT"
+      ],
+      [
+        "AGACAACA",
+        "TGTTGTCT"
+      ],
+      [
+        "CAACAAGA",
+        "TCTTGTTG"
+      ],
+      [
+        "CAAGACAA",
+        "TTGTCTTG"
+      ],
+      [
+        "GACAACAA",
+        "TTGTTGTC"
+      ]
+    ],
+    [
+      [
+        "AACACAAG",
+        "CTTGTGTT"
+      ],
+      [
+        "AAGAACAC",
+        "GTGTTCTT"
+      ],
+      [
+        "ACAAGAAC",
+        "GTTCTTGT"
+      ],
+      [
+        "ACACAAGA",
+        "TCTTGTGT"
+      ],
+      [
+        "AGAACACA",
+        "TGTGTTCT"
+      ],
+      [
+        "CAAGAACA",
+        "TGTTCTTG"
+      ],
+      [
+        "CACAAGAA",
+        "TTCTTGTG"
+      ],
+      [
+        "GAACACAA",
+        "TTGTGTTC"
+      ]
+    ],
+    [
+      [
+        "AACAGAAG",
+        "CTTCTGTT"
+      ],
+      [
+        "AAGAACAG",
+        "CTGTTCTT"
+      ],
+      [
+        "ACAGAAGA",
+        "TCTTCTGT"
+      ],
+      [
+        "AGAACAGA",
+        "TCTGTTCT"
+      ],
+      [
+        "AGAAGAAC",
+        "GTTCTTCT"
+      ],
+      [
+        "CAGAAGAA",
+        "TTCTTCTG"
+      ],
+      [
+        "GAACAGAA",
+        "TTCTGTTC"
+      ],
+      [
+        "GAAGAACA",
+        "TGTTCTTC"
+      ]
+    ],
+    [
+      [
+        "AACCACAC",
+        "GTGTGGTT"
+      ],
+      [
+        "ACAACCAC",
+        "GTGGTTGT"
+      ],
+      [
+        "ACACAACC",
+        "GGTTGTGT"
+      ],
+      [
+        "ACCACACA",
+        "TGTGTGGT"
+      ],
+      [
+        "CAACCACA",
+        "TGTGGTTG"
+      ],
+      [
+        "CACAACCA",
+        "TGGTTGTG"
+      ],
+      [
+        "CACACAAC",
+        "GTTGTGTG"
+      ],
+      [
+        "CCACACAA",
+        "TTGTGTGG"
+      ]
+    ],
+    [
+      [
+        "AACCCAAG",
+        "CTTGGGTT"
+      ],
+      [
+        "AAGAACCC",
+        "GGGTTCTT"
+      ],
+      [
+        "ACCCAAGA",
+        "TCTTGGGT"
+      ],
+      [
+        "AGAACCCA",
+        "TGGGTTCT"
+      ],
+      [
+        "CAAGAACC",
+        "GGTTCTTG"
+      ],
+      [
+        "CCAAGAAC",
+        "GTTCTTGG"
+      ],
+      [
+        "CCCAAGAA",
+        "TTCTTGGG"
+      ],
+      [
+        "GAACCCAA",
+        "TTGGGTTC"
+      ]
+    ],
+    [
+      [
+        "AACCCAAT",
+        "ATTGGGTT"
+      ],
+      [
+        "AATAACCC",
+        "GGGTTATT"
+      ],
+      [
+        "ACCCAATA",
+        "TATTGGGT"
+      ],
+      [
+        "ATAACCCA",
+        "TGGGTTAT"
+      ],
+      [
+        "CAATAACC",
+        "GGTTATTG"
+      ],
+      [
+        "CCAATAAC",
+        "GTTATTGG"
+      ],
+      [
+        "CCCAATAA",
+        "TTATTGGG"
+      ],
+      [
+        "TAACCCAA",
+        "TTGGGTTA"
+      ]
+    ],
+    [
+      [
+        "AACGCAAT",
+        "ATTGCGTT"
+      ],
+      [
+        "AATAACGC",
+        "GCGTTATT"
+      ],
+      [
+        "ACGCAATA",
+        "TATTGCGT"
+      ],
+      [
+        "ATAACGCA",
+        "TGCGTTAT"
+      ],
+      [
+        "CAATAACG",
+        "CGTTATTG"
+      ],
+      [
+        "CGCAATAA",
+        "TTATTGCG"
+      ],
+      [
+        "GCAATAAC",
+        "GTTATTGC"
+      ],
+      [
+        "TAACGCAA",
+        "TTGCGTTA"
+      ]
+    ],
+    [
+      [
+        "AACGCACT",
+        "AGTGCGTT"
+      ],
+      [
+        "ACGCACTA",
+        "TAGTGCGT"
+      ],
+      [
+        "ACTAACGC",
+        "GCGTTAGT"
+      ],
+      [
+        "CACTAACG",
+        "CGTTAGTG"
+      ],
+      [
+        "CGCACTAA",
+        "TTAGTGCG"
+      ],
+      [
+        "CTAACGCA",
+        "TGCGTTAG"
+      ],
+      [
+        "GCACTAAC",
+        "GTTAGTGC"
+      ],
+      [
+        "GTGCGTTA",
+        "TAACGCAC"
+      ]
+    ],
+    [
+      [
+        "AACTACCT",
+        "AGGTAGTT"
+      ],
+      [
+        "ACCTAACT",
+        "AGTTAGGT"
+      ],
+      [
+        "ACTACCTA",
+        "TAGGTAGT"
+      ],
+      [
+        "CCTAACTA",
+        "TAGTTAGG"
+      ],
+      [
+        "CTAACTAC",
+        "GTAGTTAG"
+      ],
+      [
+        "CTACCTAA",
+        "TTAGGTAG"
+      ],
+      [
+        "GGTAGTTA",
+        "TAACTACC"
+      ],
+      [
+        "GTTAGGTA",
+        "TACCTAAC"
+      ]
+    ],
+    [
+      [
+        "AAGACAGC",
+        "GCTGTCTT"
+      ],
+      [
+        "ACAGCAAG",
+        "CTTGCTGT"
+      ],
+      [
+        "AGACAGCA",
+        "TGCTGTCT"
+      ],
+      [
+        "AGCAAGAC",
+        "GTCTTGCT"
+      ],
+      [
+        "CAAGACAG",
+        "CTGTCTTG"
+      ],
+      [
+        "CAGCAAGA",
+        "TCTTGCTG"
+      ],
+      [
+        "GACAGCAA",
+        "TTGCTGTC"
+      ],
+      [
+        "GCAAGACA",
+        "TGTCTTGC"
+      ]
+    ],
+    [
+      [
+        "AAGACCAC",
+        "GTGGTCTT"
+      ],
+      [
+        "ACAAGACC",
+        "GGTCTTGT"
+      ],
+      [
+        "ACCACAAG",
+        "CTTGTGGT"
+      ],
+      [
+        "AGACCACA",
+        "TGTGGTCT"
+      ],
+      [
+        "CAAGACCA",
+        "TGGTCTTG"
+      ],
+      [
+        "CACAAGAC",
+        "GTCTTGTG"
+      ],
+      [
+        "CCACAAGA",
+        "TCTTGTGG"
+      ],
+      [
+        "GACCACAA",
+        "TTGTGGTC"
+      ]
+    ],
+    [
+      [
+        "AAGACCAG",
+        "CTGGTCTT"
+      ],
+      [
+        "ACCAGAAG",
+        "CTTCTGGT"
+      ],
+      [
+        "AGAAGACC",
+        "GGTCTTCT"
+      ],
+      [
+        "AGACCAGA",
+        "TCTGGTCT"
+      ],
+      [
+        "CAGAAGAC",
+        "GTCTTCTG"
+      ],
+      [
+        "CCAGAAGA",
+        "TCTTCTGG"
+      ],
+      [
+        "GAAGACCA",
+        "TGGTCTTC"
+      ],
+      [
+        "GACCAGAA",
+        "TTCTGGTC"
+      ]
+    ],
+    [
+      [
+        "AAGCACGC",
+        "GCGTGCTT"
+      ],
+      [
+        "ACGCAAGC",
+        "GCTTGCGT"
+      ],
+      [
+        "AGCACGCA",
+        "TGCGTGCT"
+      ],
+      [
+        "CAAGCACG",
+        "CGTGCTTG"
+      ],
+      [
+        "CACGCAAG",
+        "CTTGCGTG"
+      ],
+      [
+        "CGCAAGCA",
+        "TGCTTGCG"
+      ],
+      [
+        "GCAAGCAC",
+        "GTGCTTGC"
+      ],
+      [
+        "GCACGCAA",
+        "TTGCGTGC"
+      ]
+    ],
+    [
+      [
+        "AAGCCGAT",
+        "ATCGGCTT"
+      ],
+      [
+        "AGCCGATA",
+        "TATCGGCT"
+      ],
+      [
+        "ATAAGCCG",
+        "CGGCTTAT"
+      ],
+      [
+        "CCGATAAG",
+        "CTTATCGG"
+      ],
+      [
+        "CGATAAGC",
+        "GCTTATCG"
+      ],
+      [
+        "GATAAGCC",
+        "GGCTTATC"
+      ],
+      [
+        "GCCGATAA",
+        "TTATCGGC"
+      ],
+      [
+        "TAAGCCGA",
+        "TCGGCTTA"
+      ]
+    ],
+    [
+      [
+        "AATACCAG",
+        "CTGGTATT"
+      ],
+      [
+        "ACCAGAAT",
+        "ATTCTGGT"
+      ],
+      [
+        "AGAATACC",
+        "GGTATTCT"
+      ],
+      [
+        "ATACCAGA",
+        "TCTGGTAT"
+      ],
+      [
+        "CAGAATAC",
+        "GTATTCTG"
+      ],
+      [
+        "CCAGAATA",
+        "TATTCTGG"
+      ],
+      [
+        "GAATACCA",
+        "TGGTATTC"
+      ],
+      [
+        "TACCAGAA",
+        "TTCTGGTA"
+      ]
+    ],
+    [
+      [
+        "AATACCAT",
+        "ATGGTATT"
+      ],
+      [
+        "ACCATAAT",
+        "ATTATGGT"
+      ],
+      [
+        "ATAATACC",
+        "GGTATTAT"
+      ],
+      [
+        "ATACCATA",
+        "TATGGTAT"
+      ],
+      [
+        "CATAATAC",
+        "GTATTATG"
+      ],
+      [
+        "CCATAATA",
+        "TATTATGG"
+      ],
+      [
+        "TAATACCA",
+        "TGGTATTA"
+      ],
+      [
+        "TACCATAA",
+        "TTATGGTA"
+      ]
+    ],
+    [
+      [
+        "AATACGAT",
+        "ATCGTATT"
+      ],
+      [
+        "ACGATAAT",
+        "ATTATCGT"
+      ],
+      [
+        "ATAATACG",
+        "CGTATTAT"
+      ],
+      [
+        "ATACGATA",
+        "TATCGTAT"
+      ],
+      [
+        "CGATAATA",
+        "TATTATCG"
+      ],
+      [
+        "GATAATAC",
+        "GTATTATC"
+      ],
+      [
+        "TAATACGA",
+        "TCGTATTA"
+      ],
+      [
+        "TACGATAA",
+        "TTATCGTA"
+      ]
+    ],
+    [
+      [
+        "AATCCGAT",
+        "ATCGGATT"
+      ],
+      [
+        "ATAATCCG",
+        "CGGATTAT"
+      ],
+      [
+        "ATCCGATA",
+        "TATCGGAT"
+      ],
+      [
+        "ATTATCGG",
+        "CCGATAAT"
+      ],
+      [
+        "CGATAATC",
+        "GATTATCG"
+      ],
+      [
+        "GATAATCC",
+        "GGATTATC"
+      ],
+      [
+        "TAATCCGA",
+        "TCGGATTA"
+      ],
+      [
+        "TCCGATAA",
+        "TTATCGGA"
+      ]
+    ],
+    [
+      [
+        "ACACCACC",
+        "GGTGGTGT"
+      ],
+      [
+        "ACCACACC",
+        "GGTGTGGT"
+      ],
+      [
+        "ACCACCAC",
+        "GTGGTGGT"
+      ],
+      [
+        "CACACCAC",
+        "GTGGTGTG"
+      ],
+      [
+        "CACCACAC",
+        "GTGTGGTG"
+      ],
+      [
+        "CACCACCA",
+        "TGGTGGTG"
+      ],
+      [
+        "CCACACCA",
+        "TGGTGTGG"
+      ],
+      [
+        "CCACCACA",
+        "TGTGGTGG"
+      ]
+    ],
+    [
+      [
+        "ACAGCACG",
+        "CGTGCTGT"
+      ],
+      [
+        "ACGACAGC",
+        "GCTGTCGT"
+      ],
+      [
+        "AGCACGAC",
+        "GTCGTGCT"
+      ],
+      [
+        "CACGACAG",
+        "CTGTCGTG"
+      ],
+      [
+        "CAGCACGA",
+        "TCGTGCTG"
+      ],
+      [
+        "CGACAGCA",
+        "TGCTGTCG"
+      ],
+      [
+        "GACAGCAC",
+        "GTGCTGTC"
+      ],
+      [
+        "GCACGACA",
+        "TGTCGTGC"
+      ]
+    ],
+    [
+      [
+        "ACCACCCC",
+        "GGGGTGGT"
+      ],
+      [
+        "ACCCCACC",
+        "GGTGGGGT"
+      ],
+      [
+        "CACCACCC",
+        "GGGTGGTG"
+      ],
+      [
+        "CACCCCAC",
+        "GTGGGGTG"
+      ],
+      [
+        "CCACCACC",
+        "GGTGGTGG"
+      ],
+      [
+        "CCACCCCA",
+        "TGGGGTGG"
+      ],
+      [
+        "CCCACCAC",
+        "GTGGTGGG"
+      ],
+      [
+        "CCCCACCA",
+        "TGGTGGGG"
+      ]
+    ],
+    [
+      [
+        "ACCCCCCC",
+        "GGGGGGGT"
+      ],
+      [
+        "CACCCCCC",
+        "GGGGGGTG"
+      ],
+      [
+        "CCACCCCC",
+        "GGGGGTGG"
+      ],
+      [
+        "CCCACCCC",
+        "GGGGTGGG"
+      ],
+      [
+        "CCCCACCC",
+        "GGGTGGGG"
+      ],
+      [
+        "CCCCCACC",
+        "GGTGGGGG"
+      ],
+      [
+        "CCCCCCAC",
+        "GTGGGGGG"
+      ],
+      [
+        "CCCCCCCA",
+        "TGGGGGGG"
+      ]
+    ],
+    [
+      [
+        "ACCGCACT",
+        "AGTGCGGT"
+      ],
+      [
+        "ACTACCGC",
+        "GCGGTAGT"
+      ],
+      [
+        "CACTACCG",
+        "CGGTAGTG"
+      ],
+      [
+        "CCGCACTA",
+        "TAGTGCGG"
+      ],
+      [
+        "CGCACTAC",
+        "GTAGTGCG"
+      ],
+      [
+        "CTACCGCA",
+        "TGCGGTAG"
+      ],
+      [
+        "GCACTACC",
+        "GGTAGTGC"
+      ],
+      [
+        "GTGCGGTA",
+        "TACCGCAC"
+      ]
+    ],
+    [
+      [
+        "ACCTACCT",
+        "AGGTAGGT"
+      ],
+      [
+        "CCTACCTA",
+        "TAGGTAGG"
+      ],
+      [
+        "CTACCTAC",
+        "GTAGGTAG"
+      ],
+      [
+        "GGTAGGTA",
+        "TACCTACC"
+      ]
+    ],
+    [
+      [
+        "ACCTACGG",
+        "CCGTAGGT"
+      ],
+      [
+        "ACGGACCT",
+        "AGGTCCGT"
+      ],
+      [
+        "CCTACGGA",
+        "TCCGTAGG"
+      ],
+      [
+        "CGGACCTA",
+        "TAGGTCCG"
+      ],
+      [
+        "CGTAGGTC",
+        "GACCTACG"
+      ],
+      [
+        "CTACGGAC",
+        "GTCCGTAG"
+      ],
+      [
+        "GGACCTAC",
+        "GTAGGTCC"
+      ],
+      [
+        "GGTCCGTA",
+        "TACGGACC"
+      ]
+    ],
+    [
+      [
+        "ACCTACGT",
+        "ACGTAGGT"
+      ],
+      [
+        "ACGTACCT",
+        "AGGTACGT"
+      ],
+      [
+        "CCTACGTA",
+        "TACGTAGG"
+      ],
+      [
+        "CGTACCTA",
+        "TAGGTACG"
+      ],
+      [
+        "CGTAGGTA",
+        "TACCTACG"
+      ],
+      [
+        "CTACGTAC",
+        "GTACGTAG"
+      ],
+      [
+        "GGTACGTA",
+        "TACGTACC"
+      ],
+      [
+        "GTACCTAC",
+        "GTAGGTAC"
+      ]
+    ],
+    [
+      [
+        "ACCTCACT",
+        "AGTGAGGT"
+      ],
+      [
+        "ACTACCTC",
+        "GAGGTAGT"
+      ],
+      [
+        "AGGTAGTG",
+        "CACTACCT"
+      ],
+      [
+        "CCTCACTA",
+        "TAGTGAGG"
+      ],
+      [
+        "CTACCTCA",
+        "TGAGGTAG"
+      ],
+      [
+        "CTCACTAC",
+        "GTAGTGAG"
+      ],
+      [
+        "GGTAGTGA",
+        "TCACTACC"
+      ],
+      [
+        "GTGAGGTA",
+        "TACCTCAC"
+      ]
+    ],
+    [
+      [
+        "ACGCACGC",
+        "GCGTGCGT"
+      ],
+      [
+        "CACGCACG",
+        "CGTGCGTG"
+      ],
+      [
+        "CGCACGCA",
+        "TGCGTGCG"
+      ],
+      [
+        "GCACGCAC",
+        "GTGCGTGC"
+      ]
+    ],
+    [
+      [
+        "ACGCACTC",
+        "GAGTGCGT"
+      ],
+      [
+        "ACTCACGC",
+        "GCGTGAGT"
+      ],
+      [
+        "AGTGCGTG",
+        "CACGCACT"
+      ],
+      [
+        "CACTCACG",
+        "CGTGAGTG"
+      ],
+      [
+        "CGCACTCA",
+        "TGAGTGCG"
+      ],
+      [
+        "CTCACGCA",
+        "TGCGTGAG"
+      ],
+      [
+        "GCACTCAC",
+        "GTGAGTGC"
+      ],
+      [
+        "GTGCGTGA",
+        "TCACGCAC"
+      ]
+    ],
+    [
+      [
+        "ACGCCAGC",
+        "GCTGGCGT"
+      ],
+      [
+        "AGCACGCC",
+        "GGCGTGCT"
+      ],
+      [
+        "CACGCCAG",
+        "CTGGCGTG"
+      ],
+      [
+        "CAGCACGC",
+        "GCGTGCTG"
+      ],
+      [
+        "CCAGCACG",
+        "CGTGCTGG"
+      ],
+      [
+        "CGCCAGCA",
+        "TGCTGGCG"
+      ],
+      [
+        "GCACGCCA",
+        "TGGCGTGC"
+      ],
+      [
+        "GCCAGCAC",
+        "GTGCTGGC"
+      ]
+    ],
+    [
+      [
+        "ACGGCCCT",
+        "AGGGCCGT"
+      ],
+      [
+        "CCCTACGG",
+        "CCGTAGGG"
+      ],
+      [
+        "CCTACGGC",
+        "GCCGTAGG"
+      ],
+      [
+        "CGGCCCTA",
+        "TAGGGCCG"
+      ],
+      [
+        "CGTAGGGC",
+        "GCCCTACG"
+      ],
+      [
+        "CTACGGCC",
+        "GGCCGTAG"
+      ],
+      [
+        "GGCCCTAC",
+        "GTAGGGCC"
+      ],
+      [
+        "GGGCCGTA",
+        "TACGGCCC"
+      ]
+    ],
+    [
+      [
+        "ACGGCCGG",
+        "CCGGCCGT"
+      ],
+      [
+        "CCGGACGG",
+        "CCGTCCGG"
+      ],
+      [
+        "CGGACGGC",
+        "GCCGTCCG"
+      ],
+      [
+        "CGGCCGGA",
+        "TCCGGCCG"
+      ],
+      [
+        "CGGCCGTC",
+        "GACGGCCG"
+      ],
+      [
+        "CGTCCGGC",
+        "GCCGGACG"
+      ],
+      [
+        "GGACGGCC",
+        "GGCCGTCC"
+      ],
+      [
+        "GGCCGGAC",
+        "GTCCGGCC"
+      ]
+    ],
+    [
+      [
+        "ACGGCCGT"
+      ],
+      [
+        "CCGTACGG"
+      ]
+    ],
+    [
+      [
+        "ACTATAGG",
+        "CCTATAGT"
+      ],
+      [
+        "AGGACTAT",
+        "ATAGTCCT"
+      ],
+      [
+        "AGTCCTAT",
+        "ATAGGACT"
+      ],
+      [
+        "CTATAGGA",
+        "TCCTATAG"
+      ],
+      [
+        "CTATAGTC",
+        "GACTATAG"
+      ],
+      [
+        "GGACTATA",
+        "TATAGTCC"
+      ],
+      [
+        "GTCCTATA",
+        "TATAGGAC"
+      ],
+      [
+        "TAGGACTA",
+        "TAGTCCTA"
+      ]
+    ],
+    [
+      [
+        "ACTCCTAT",
+        "ATAGGAGT"
+      ],
+      [
+        "AGGAGTAT",
+        "ATACTCCT"
+      ],
+      [
+        "AGTATAGG",
+        "CCTATACT"
+      ],
+      [
+        "CTATACTC",
+        "GAGTATAG"
+      ],
+      [
+        "CTCCTATA",
+        "TATAGGAG"
+      ],
+      [
+        "GGAGTATA",
+        "TATACTCC"
+      ],
+      [
+        "GTATAGGA",
+        "TCCTATAC"
+      ],
+      [
+        "TACTCCTA",
+        "TAGGAGTA"
+      ]
+    ],
+    [
+      [
+        "AGCATAGG",
+        "CCTATGCT"
+      ],
+      [
+        "AGGAGCAT",
+        "ATGCTCCT"
+      ],
+      [
+        "ATAGGAGC",
+        "GCTCCTAT"
+      ],
+      [
+        "CATAGGAG",
+        "CTCCTATG"
+      ],
+      [
+        "CTATGCTC",
+        "GAGCATAG"
+      ],
+      [
+        "GCATAGGA",
+        "TCCTATGC"
+      ],
+      [
+        "GGAGCATA",
+        "TATGCTCC"
+      ],
+      [
+        "TAGGAGCA",
+        "TGCTCCTA"
+      ]
+    ],
+    [
+      [
+        "AGCCCAGG",
+        "CCTGGGCT"
+      ],
+      [
+        "AGGAGCCC",
+        "GGGCTCCT"
+      ],
+      [
+        "CAGGAGCC",
+        "GGCTCCTG"
+      ],
+      [
+        "CCAGGAGC",
+        "GCTCCTGG"
+      ],
+      [
+        "CCCAGGAG",
+        "CTCCTGGG"
+      ],
+      [
+        "CTGGGCTC",
+        "GAGCCCAG"
+      ],
+      [
+        "GCCCAGGA",
+        "TCCTGGGC"
+      ],
+      [
+        "GGAGCCCA",
+        "TGGGCTCC"
+      ]
+    ],
+    [
+      [
+        "AGCCCCCC",
+        "GGGGGGCT"
+      ],
+      [
+        "CAGCCCCC",
+        "GGGGGCTG"
+      ],
+      [
+        "CCAGCCCC",
+        "GGGGCTGG"
+      ],
+      [
+        "CCCAGCCC",
+        "GGGCTGGG"
+      ],
+      [
+        "CCCCAGCC",
+        "GGCTGGGG"
+      ],
+      [
+        "CCCCCAGC",
+        "GCTGGGGG"
+      ],
+      [
+        "CCCCCCAG",
+        "CTGGGGGG"
+      ],
+      [
+        "GCCCCCCA",
+        "TGGGGGGC"
+      ]
+    ],
+    [
+      [
+        "AGCCCCCG",
+        "CGGGGGCT"
+      ],
+      [
+        "CCCCCGAG",
+        "CTCGGGGG"
+      ],
+      [
+        "CCCCGAGC",
+        "GCTCGGGG"
+      ],
+      [
+        "CCCGAGCC",
+        "GGCTCGGG"
+      ],
+      [
+        "CCGAGCCC",
+        "GGGCTCGG"
+      ],
+      [
+        "CGAGCCCC",
+        "GGGGCTCG"
+      ],
+      [
+        "GAGCCCCC",
+        "GGGGGCTC"
+      ],
+      [
+        "GCCCCCGA",
+        "TCGGGGGC"
+      ]
+    ],
+    [
+      [
+        "AGCCCCGG",
+        "CCGGGGCT"
+      ],
+      [
+        "CCCCGGAG",
+        "CTCCGGGG"
+      ],
+      [
+        "CCCGGAGC",
+        "GCTCCGGG"
+      ],
+      [
+        "CCGGAGCC",
+        "GGCTCCGG"
+      ],
+      [
+        "CGGAGCCC",
+        "GGGCTCCG"
+      ],
+      [
+        "CGGGGCTC",
+        "GAGCCCCG"
+      ],
+      [
+        "GCCCCGGA",
+        "TCCGGGGC"
+      ],
+      [
+        "GGAGCCCC",
+        "GGGGCTCC"
+      ]
+    ],
+    [
+      [
+        "AGCCTAGG",
+        "CCTAGGCT"
+      ],
+      [
+        "AGGAGCCT",
+        "AGGCTCCT"
+      ],
+      [
+        "CCTAGGAG",
+        "CTCCTAGG"
+      ],
+      [
+        "CTAGGAGC",
+        "GCTCCTAG"
+      ],
+      [
+        "CTAGGCTC",
+        "GAGCCTAG"
+      ],
+      [
+        "GCCTAGGA",
+        "TCCTAGGC"
+      ],
+      [
+        "GGAGCCTA",
+        "TAGGCTCC"
+      ],
+      [
+        "GGCTCCTA",
+        "TAGGAGCC"
+      ]
+    ],
+    [
+      [
+        "AGGCCGAT",
+        "ATCGGCCT"
+      ],
+      [
+        "ATAGGCCG",
+        "CGGCCTAT"
+      ],
+      [
+        "CCGATAGG",
+        "CCTATCGG"
+      ],
+      [
+        "CGATAGGC",
+        "GCCTATCG"
+      ],
+      [
+        "CTATCGGC",
+        "GCCGATAG"
+      ],
+      [
+        "GATAGGCC",
+        "GGCCTATC"
+      ],
+      [
+        "GGCCGATA",
+        "TATCGGCC"
+      ],
+      [
+        "TAGGCCGA",
+        "TCGGCCTA"
+      ]
+    ],
+    [
+      [
+        "CCTATAGG"
+      ],
+      [
+        "TAGGCCTA"
+      ]
+    ],
+    [
+      [
+        "CCCCCCCG",
+        "CGGGGGGG"
+      ],
+      [
+        "CCCCCCGC",
+        "GCGGGGGG"
+      ],
+      [
+        "CCCCCGCC",
+        "GGCGGGGG"
+      ],
+      [
+        "CCCCGCCC",
+        "GGGCGGGG"
+      ],
+      [
+        "CCCGCCCC",
+        "GGGGCGGG"
+      ],
+      [
+        "CCGCCCCC",
+        "GGGGGCGG"
+      ],
+      [
+        "CGCCCCCC",
+        "GGGGGGCG"
+      ],
+      [
+        "GCCCCCCC",
+        "GGGGGGGC"
+      ]
+    ],
+    [
+      [
+        "CCGGCCGG"
+      ],
+      [
+        "GGCCGGCC"
+      ]
+    ]
+  ],
+  "cuts": [
+    {
+      "kind": "cycle",
+      "words": [
+        "AATAAGCC",
+        "ATAAGCCC",
+        "TAAGCCCG",
+        "AAGCCCGA",
+        "AGCCCGAT",
+        "GCCCGATA",
+        "CCCGATAG",
+        "CCGATAGG",
+        "CGATAGGC",
+        "GATAGGCA",
+        "ATAGGCAA",
+        "TAGGCAAA",
+        "AGGCAAAA",
+        "GGCAAAAA",
+        "GCAAAAAA",
+        "CAAAAAAT",
+        "AAAAAATA",
+        "AAAAATAA",
+        "AAAATAAG",
+        "AAATAAGC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CGATAGGC",
+        "GATAGGCG",
+        "ATAGGCGG",
+        "TAGGCGGC",
+        "AGGCGGCG",
+        "GGCGGCGA",
+        "GCGGCGAT",
+        "CGGCGATA",
+        "GGCGATAG",
+        "GCGATAGG"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGAAAT",
+        "AAGAAATA",
+        "AGAAATAA",
+        "GAAATAAG",
+        "AAATAAGC",
+        "AATAAGCC",
+        "ATAAGCCC",
+        "TAAGCCCC",
+        "AAGCCCCG",
+        "AGCCCCGC",
+        "GCCCCGCC",
+        "CCCCGCCC",
+        "CCCGCCCC",
+        "CCGCCCCA",
+        "CGCCCCAA",
+        "GCCCCAAA",
+        "CCCCAAAA",
+        "CCCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "GGGGCGGG",
+        "GGGCGGGC",
+        "GGCGGGCT",
+        "GCGGGCTC",
+        "CGGGCTCT",
+        "GGGCTCTC",
+        "GGCTCTCT",
+        "GCTCTCTG",
+        "CTCTCTGG",
+        "TCTCTGGG",
+        "CTCTGGGG",
+        "TCTGGGGC",
+        "CTGGGGCG",
+        "TGGGGCGG"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAG",
+        "AAACAAGA",
+        "AACAAGAA",
+        "ACAAGAAC",
+        "CAAGAACA",
+        "AAGAACAA",
+        "AGAACAAA",
+        "GAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAACAAGA",
+        "AACAAGAA",
+        "ACAAGAAC",
+        "CAAGAACA",
+        "AAGAACAA",
+        "AGAACAAA",
+        "GAACAAAC",
+        "AACAAACA",
+        "ACAAACAA",
+        "CAAACAAG"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AACAAGAA",
+        "ACAAGAAC",
+        "CAAGAACA",
+        "AAGAACAA",
+        "AGAACAAG",
+        "GAACAAGA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AACAGAAG",
+        "ACAGAAGA",
+        "CAGAAGAA",
+        "AGAAGAAA",
+        "GAAGAAAA",
+        "AAGAAAAC",
+        "AGAAAACA",
+        "GAAAACAG",
+        "AAAACAGA",
+        "AAACAGAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "GAATACCA",
+        "AATACCAA",
+        "ATACCAAA",
+        "TACCAAAA",
+        "ACCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGA",
+        "AAGAAGAG",
+        "AGAAGAGA",
+        "GAAGAGAA",
+        "AAGAGAAT",
+        "AGAGAATA",
+        "GAGAATAC",
+        "AGAATACC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "ACGAATAC",
+        "CGAATACC",
+        "GAATACCA",
+        "AATACCAA",
+        "ATACCAAA",
+        "TACCAAAA",
+        "ACCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAC",
+        "AAAAGACA",
+        "AAAGACAC",
+        "AAGACACG",
+        "AGACACGA",
+        "GACACGAA",
+        "ACACGAAT",
+        "CACGAATA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAACAAA",
+        "AAACAAAA",
+        "AACAAAAC",
+        "ACAAAACA",
+        "CAAAACAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGAAAT",
+        "AAGAAATA",
+        "AGAAATAA",
+        "GAAATAAC",
+        "AAATAACT",
+        "AATAACTA",
+        "ATAACTAA",
+        "TAACTAAT",
+        "AACTAATC",
+        "ACTAATCC",
+        "CTAATCCG",
+        "TAATCCGA",
+        "AATCCGAA",
+        "ATCCGAAA",
+        "TCCGAAAA",
+        "CCGAAAAA",
+        "CGAAAAAA",
+        "GAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGAAAT",
+        "AAGAAATA",
+        "AGAAATAC",
+        "GAAATACG",
+        "AAATACGA",
+        "AATACGAT",
+        "ATACGATA",
+        "TACGATAA",
+        "ACGATAAA",
+        "CGATAAAA",
+        "GATAAAAA",
+        "ATAAAAAA",
+        "TAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AACTACCG",
+        "ACTACCGC",
+        "CTACCGCA",
+        "TACCGCAA",
+        "ACCGCAAA",
+        "CCGCAAAA",
+        "CGCAAAAA",
+        "GCAAAAAC",
+        "CAAAAACC",
+        "AAAAACCA",
+        "AAAACCAA",
+        "AAACCAAC",
+        "AACCAACT",
+        "ACCAACTA",
+        "CCAACTAC",
+        "CAACTACC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AACGACAT",
+        "ACGACATA",
+        "CGACATAA",
+        "GACATAAT",
+        "ACATAATA",
+        "CATAATAC",
+        "ATAATACA",
+        "TAATACAA",
+        "AATACAAA",
+        "ATACAAAA",
+        "TACAAAAA",
+        "ACAAAAAC",
+        "CAAAAACC",
+        "AAAAACCA",
+        "AAAACCAA",
+        "AAACCAAC",
+        "AACCAACG",
+        "ACCAACGA",
+        "CCAACGAC",
+        "CAACGACA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAC",
+        "AAAGAACC",
+        "AAGAACCA",
+        "AGAACCAA",
+        "GAACCAAA",
+        "AACCAAAA",
+        "ACCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGAAGA",
+        "AAGAAGAC",
+        "AGAAGACC",
+        "GAAGACCA",
+        "AAGACCAC",
+        "AGACCACA",
+        "GACCACAA",
+        "ACCACAAA",
+        "CCACAAAA",
+        "CACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAGACCAC",
+        "AGACCACA",
+        "GACCACAA",
+        "ACCACAAA",
+        "CCACAAAA",
+        "CACAAAAA",
+        "ACAAAAAC",
+        "CAAAAACC",
+        "AAAAACCA",
+        "AAAACCAA",
+        "AAACCAAG",
+        "AACCAAGA",
+        "ACCAAGAC",
+        "CCAAGACC",
+        "CAAGACCA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AACACAAT",
+        "ACACAATA",
+        "CACAATAA",
+        "ACAATAAC",
+        "CAATAACC",
+        "AATAACCA",
+        "ATAACCAA",
+        "TAACCAAA",
+        "AACCAAAA",
+        "ACCAAAAC",
+        "CCAAAACA",
+        "CAAAACAC",
+        "AAAACACA",
+        "AAACACAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CAGCCCCC",
+        "AGCCCCCA",
+        "GCCCCCAA",
+        "CCCCCAAA",
+        "CCCCAAAA",
+        "CCCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGC",
+        "AAGAAGCA",
+        "AGAAGCAG",
+        "GAAGCAGC",
+        "AAGCAGCC",
+        "AGCAGCCC",
+        "GCAGCCCC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGACAG",
+        "AAGACAGC",
+        "AGACAGCA",
+        "GACAGCAA",
+        "ACAGCAAA",
+        "CAGCAAAA",
+        "AGCAAAAA",
+        "GCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAC",
+        "AAAAGACA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGAAAT",
+        "AAGAAATA",
+        "AGAAATAA",
+        "GAAATAAC",
+        "AAATAACG",
+        "AATAACGC",
+        "ATAACGCA",
+        "TAACGCAA",
+        "AACGCAAA",
+        "ACGCAAAA",
+        "CGCAAAAA",
+        "GCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AACAACAA",
+        "ACAACAAC",
+        "CAACAACA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "GCACTCAC",
+        "CACTCACG",
+        "ACTCACGA",
+        "CTCACGAA",
+        "TCACGAAA",
+        "CACGAAAA",
+        "ACGAAAAA",
+        "CGAAAAAA",
+        "GAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGC",
+        "AAGAAGCA",
+        "AGAAGCAC",
+        "GAAGCACT",
+        "AAGCACTC",
+        "AGCACTCA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CACTCACG",
+        "ACTCACGA",
+        "CTCACGAA",
+        "TCACGAAA",
+        "CACGAAAA",
+        "ACGAAAAA",
+        "CGAAAAAA",
+        "GAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAC",
+        "AAAAGACA",
+        "AAAGACAC",
+        "AAGACACT",
+        "AGACACTC",
+        "GACACTCA",
+        "ACACTCAC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGAAAT",
+        "AAGAAATA",
+        "AGAAATAC",
+        "GAAATACA",
+        "AAATACAT",
+        "AATACATA",
+        "ATACATAC",
+        "TACATACC",
+        "ACATACCT",
+        "CATACCTA",
+        "ATACCTAC",
+        "TACCTACC",
+        "ACCTACCA",
+        "CCTACCAA",
+        "CTACCAAA",
+        "TACCAAAA",
+        "ACCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAACACA",
+        "AAACACAA",
+        "AACACAAC",
+        "ACACAACA",
+        "CACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAC",
+        "ACAAAACA",
+        "CAAAACAC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "ACAACACA",
+        "CAACACAA",
+        "AACACAAC",
+        "ACACAACA",
+        "CACAACAC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CAAGACAA",
+        "AAGACAAA",
+        "AGACAAAA",
+        "GACAAAAA",
+        "ACAAAAAC",
+        "CAAAAACC",
+        "AAAAACCA",
+        "AAAACCAA",
+        "AAACCAAG",
+        "AACCAAGA",
+        "ACCAAGAC",
+        "CCAAGACA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AACCCAAG",
+        "ACCCAAGA",
+        "CCCAAGAA",
+        "CCAAGAAA",
+        "CAAGAAAA",
+        "AAGAAAAA",
+        "AGAAAAAC",
+        "GAAAAACC",
+        "AAAAACCC",
+        "AAAACCCA",
+        "AAACCCAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AGCACGAC",
+        "GCACGACA",
+        "CACGACAA",
+        "ACGACAAA",
+        "CGACAAAA",
+        "GACAAAAA",
+        "ACAAAAAC",
+        "CAAAAACC",
+        "AAAAACCA",
+        "AAAACCAC",
+        "AAACCACA",
+        "AACCACAG",
+        "ACCACAGC",
+        "CCACAGCA",
+        "CACAGCAC",
+        "ACAGCACG",
+        "CAGCACGA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "TTCTGTCG",
+        "TCTGTCGT",
+        "CTGTCGTG",
+        "TGTCGTGC",
+        "GTCGTGCT",
+        "TCGTGCTT",
+        "CGTGCTTC",
+        "GTGCTTCT",
+        "TGCTTCTG",
+        "GCTTCTGT",
+        "CTTCTGTC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "ACCACCAC",
+        "CCACCACA",
+        "CACCACAA",
+        "ACCACAAA",
+        "CCACAAAA",
+        "CACAAAAA",
+        "ACAAAAAC",
+        "CAAAAACC",
+        "AAAAACCA",
+        "AAAACCAC",
+        "AAACCACC",
+        "AACCACCA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CACGCACT",
+        "ACGCACTA",
+        "CGCACTAA",
+        "GCACTAAA",
+        "CACTAAAA",
+        "ACTAAAAA",
+        "CTAAAAAA",
+        "TAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGC",
+        "AAGAAGCC",
+        "AGAAGCCA",
+        "GAAGCCAC",
+        "AAGCCACG",
+        "AGCCACGC",
+        "GCCACGCA",
+        "CCACGCAC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CACTAGCC",
+        "ACTAGCCT",
+        "CTAGCCTA",
+        "TAGCCTAG",
+        "AGCCTAGG",
+        "GCCTAGGA",
+        "CCTAGGAA",
+        "CTAGGAAA",
+        "TAGGAAAA",
+        "AGGAAAAA",
+        "GGAAAAAA",
+        "GAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAC",
+        "AAAAGACA",
+        "AAAGACAC",
+        "AAGACACT",
+        "AGACACTA",
+        "GACACTAG",
+        "ACACTAGC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "TTTATCCT",
+        "TTATCCTA",
+        "TATCCTAG",
+        "ATCCTAGG",
+        "TCCTAGGC",
+        "CCTAGGCG",
+        "CTAGGCGG",
+        "TAGGCGGC",
+        "AGGCGGCT",
+        "GGCGGCTC",
+        "GCGGCTCG",
+        "CGGCTCGT",
+        "GGCTCGTA",
+        "GCTCGTAT",
+        "CTCGTATT",
+        "TCGTATTT",
+        "CGTATTTA",
+        "GTATTTAT",
+        "TATTTATC",
+        "ATTTATCC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAGACCAG",
+        "AGACCAGA",
+        "GACCAGAA",
+        "ACCAGAAA",
+        "CCAGAAAA",
+        "CAGAAAAA",
+        "AGAAAAAA",
+        "GAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGA",
+        "AAGAAGAC",
+        "AGAAGACC",
+        "GAAGACCA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAGACCAG",
+        "AGACCAGA",
+        "GACCAGAA",
+        "ACCAGAAA",
+        "CCAGAAAA",
+        "CAGAAAAA",
+        "AGAAAAAA",
+        "GAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAC",
+        "AAAAGACC",
+        "AAAGACCA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GCCGGCCT",
+        "CCGGCCTC",
+        "CGGCCTCG",
+        "GGCCTCGC",
+        "GCCTCGCT",
+        "CCTCGCTC",
+        "CTCGCTCG",
+        "TCGCTCGG",
+        "CGCTCGGG",
+        "GCTCGGGG",
+        "CTCGGGGG",
+        "TCGGGGGG",
+        "CGGGGGGT",
+        "GGGGGGTC",
+        "GGGGGTCT",
+        "GGGGTCTG",
+        "GGGTCTGG",
+        "GGTCTGGT",
+        "GTCTGGTG",
+        "TCTGGTGG",
+        "CTGGTGGT",
+        "TGGTGGTG",
+        "GGTGGTGT",
+        "GTGGTGTG",
+        "TGGTGTGT",
+        "GGTGTGTT",
+        "GTGTGTTC",
+        "TGTGTTCT",
+        "GTGTTCTT",
+        "TGTTCTTG",
+        "GTTCTTGT",
+        "TTCTTGTT",
+        "TCTTGTTT",
+        "CTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTT",
+        "TTTGTTTG",
+        "TTGTTTGT",
+        "TGTTTGTT",
+        "GTTTGTTG",
+        "TTTGTTGT",
+        "TTGTTGTG",
+        "TGTTGTGT",
+        "GTTGTGTG",
+        "TTGTGTGG",
+        "TGTGTGGT",
+        "GTGTGGTG",
+        "TGTGGTGC",
+        "GTGGTGCT",
+        "TGGTGCTG",
+        "GGTGCTGG",
+        "GTGCTGGG",
+        "TGCTGGGC",
+        "GCTGGGCG",
+        "CTGGGCGT",
+        "TGGGCGTA",
+        "GGGCGTAG",
+        "GGCGTAGG",
+        "GCGTAGGC",
+        "CGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAC",
+        "AACAAACA",
+        "ACAAACAA",
+        "CAAACAAA",
+        "AAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAG",
+        "AAACAAGA",
+        "AACAAGAA",
+        "ACAAGAAC",
+        "CAAGAACA",
+        "AAGAACAC",
+        "AGAACACA",
+        "GAACACAC",
+        "AACACACA",
+        "ACACACAG",
+        "CACACAGA",
+        "ACACAGAC",
+        "CACAGACA",
+        "ACAGACAT",
+        "CAGACATA",
+        "AGACATAA",
+        "GACATAAG",
+        "ACATAAGG",
+        "CATAAGGA",
+        "ATAAGGAC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AAAGAAAT",
+        "AAGAAATA",
+        "AGAAATAC",
+        "GAAATACA",
+        "AAATACAT",
+        "AATACATA",
+        "ATACATAC",
+        "TACATACG",
+        "ACATACGG",
+        "CATACGGC",
+        "ATACGGCC",
+        "TACGGCCC",
+        "ACGGCCCA",
+        "CGGCCCAA",
+        "GGCCCAAA",
+        "GCCCAAAA",
+        "CCCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "TAAGGCAG",
+        "AAGGCAGT",
+        "AGGCAGTA",
+        "GGCAGTAC",
+        "GCAGTACG",
+        "CAGTACGT",
+        "AGTACGTA",
+        "GTACGTAG",
+        "TACGTAGA",
+        "ACGTAGAA",
+        "CGTAGAAA",
+        "GTAGAAAA",
+        "TAGAAAAA",
+        "AGAAAAAA",
+        "GAAAAAAT",
+        "AAAAAATA",
+        "AAAAATAA",
+        "AAAATAAG",
+        "AAATAAGG",
+        "AATAAGGC",
+        "ATAAGGCA"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GCCGGCCT",
+        "CCGGCCTC",
+        "CGGCCTCG",
+        "GGCCTCGC",
+        "GCCTCGCT",
+        "CCTCGCTC",
+        "CTCGCTCG",
+        "TCGCTCGG",
+        "CGCTCGGG",
+        "GCTCGGGG",
+        "CTCGGGGG",
+        "TCGGGGGG",
+        "CGGGGGGT",
+        "GGGGGGTC",
+        "GGGGGTCT",
+        "GGGGTCTG",
+        "GGGTCTGG",
+        "GGTCTGGT",
+        "GTCTGGTG",
+        "TCTGGTGG",
+        "CTGGTGGT",
+        "TGGTGGTG",
+        "GGTGGTGT",
+        "GTGGTGTG",
+        "TGGTGTGT",
+        "GGTGTGTT",
+        "GTGTGTTC",
+        "TGTGTTCT",
+        "GTGTTCTT",
+        "TGTTCTTT",
+        "GTTCTTTG",
+        "TTCTTTGT",
+        "TCTTTGTT",
+        "CTTTGTTT",
+        "TTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGG",
+        "TTGTTGGT",
+        "TGTTGGTG",
+        "GTTGGTGT",
+        "TTGGTGTC",
+        "TGGTGTCT",
+        "GGTGTCTG",
+        "GTGTCTGG",
+        "TGTCTGGC",
+        "GTCTGGCT",
+        "TCTGGCTC",
+        "CTGGCTCT",
+        "TGGCTCTA",
+        "GGCTCTAG",
+        "GCTCTAGT",
+        "CTCTAGTA",
+        "TCTAGTAG",
+        "CTAGTAGG",
+        "TAGTAGGC",
+        "AGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAA",
+        "AAACAAAG",
+        "AACAAAGA",
+        "ACAAAGAA",
+        "CAAAGAAC",
+        "AAAGAACA",
+        "AAGAACAC",
+        "AGAACACA",
+        "GAACACAC",
+        "AACACACC",
+        "ACACACCA",
+        "CACACCAC",
+        "ACACCACC",
+        "CACCACCA",
+        "ACCACCAG",
+        "CCACCAGC",
+        "CACCAGCA",
+        "ACCAGCAG",
+        "CCAGCAGA",
+        "CAGCAGAT",
+        "AGCAGATA",
+        "GCAGATAA",
+        "CAGATAAT",
+        "AGATAATC",
+        "GATAATCA",
+        "ATAATCAG",
+        "TAATCAGC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GCCGGCCT",
+        "CCGGCCTC",
+        "CGGCCTCG",
+        "GGCCTCGC",
+        "GCCTCGCT",
+        "CCTCGCTC",
+        "CTCGCTCG",
+        "TCGCTCGG",
+        "CGCTCGGG",
+        "GCTCGGGG",
+        "CTCGGGGG",
+        "TCGGGGGG",
+        "CGGGGGGT",
+        "GGGGGGTC",
+        "GGGGGTCT",
+        "GGGGTCTG",
+        "GGGTCTGG",
+        "GGTCTGGT",
+        "GTCTGGTG",
+        "TCTGGTGG",
+        "CTGGTGGT",
+        "TGGTGGTG",
+        "GGTGGTGT",
+        "GTGGTGTG",
+        "TGGTGTGT",
+        "GGTGTGTG",
+        "GTGTGTGG",
+        "TGTGTGGT",
+        "GTGTGGTT",
+        "TGTGGTTG",
+        "GTGGTTGT",
+        "TGGTTGTT",
+        "GGTTGTTT",
+        "GTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGG",
+        "TTGTTGGT",
+        "TGTTGGTG",
+        "GTTGGTGT",
+        "TTGGTGTC",
+        "TGGTGTCT",
+        "GGTGTCTG",
+        "GTGTCTGG",
+        "TGTCTGGC",
+        "GTCTGGCT",
+        "TCTGGCTC",
+        "CTGGCTCT",
+        "TGGCTCTA",
+        "GGCTCTAG",
+        "GCTCTAGT",
+        "CTCTAGTA",
+        "TCTAGTAG",
+        "CTAGTAGG",
+        "TAGTAGGC",
+        "AGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAC",
+        "AAACAACC",
+        "AACAACCA",
+        "ACAACCAC",
+        "CAACCACA",
+        "AACCACAC",
+        "ACCACACA",
+        "CCACACAC",
+        "CACACACC",
+        "ACACACCA",
+        "CACACCAC",
+        "ACACCACC",
+        "CACCACCA",
+        "ACCACCAG",
+        "CCACCAGA",
+        "CACCAGAC",
+        "ACCAGACC",
+        "CCAGACCC",
+        "CAGACCCC",
+        "AGACCCCC",
+        "GACCCCCA",
+        "ACCCCCAT",
+        "CCCCCATA",
+        "CCCCATAC",
+        "CCCATACG",
+        "CCATACGC",
+        "CATACGCC",
+        "ATACGCCG"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "CTCATCGC",
+        "TCATCGCC",
+        "CATCGCCT",
+        "ATCGCCTG",
+        "TCGCCTGA",
+        "CGCCTGAT",
+        "GCCTGATG",
+        "CCTGATGG",
+        "CTGATGGC",
+        "TGATGGCG",
+        "GATGGCGT",
+        "ATGGCGTG",
+        "TGGCGTGG",
+        "GGCGTGGC",
+        "GCGTGGCT",
+        "CGTGGCTT",
+        "GTGGCTTC",
+        "TGGCTTCG",
+        "GGCTTCGT",
+        "GCTTCGTT",
+        "CTTCGTTC",
+        "TTCGTTCT",
+        "TCGTTCTT",
+        "CGTTCTTG",
+        "GTTCTTGT",
+        "TTCTTGTG",
+        "TCTTGTGT",
+        "CTTGTGTT",
+        "TTGTGTTG",
+        "TGTGTTGT",
+        "GTGTTGTT",
+        "TGTTGTTT",
+        "GTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGT",
+        "TTGTTGTG",
+        "TGTTGTGT",
+        "GTTGTGTG",
+        "TTGTGTGG",
+        "TGTGTGGT",
+        "GTGTGGTG",
+        "TGTGGTGC",
+        "GTGGTGCT",
+        "TGGTGCTG",
+        "GGTGCTGG",
+        "GTGCTGGG",
+        "TGCTGGGC",
+        "GCTGGGCG",
+        "CTGGGCGT",
+        "TGGGCGTA",
+        "GGGCGTAG",
+        "GGCGTAGG",
+        "GCGTAGGC",
+        "CGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAC",
+        "AAACAACA",
+        "AACAACAC",
+        "ACAACACA",
+        "CAACACAA",
+        "AACACAAG",
+        "ACACAAGA",
+        "CACAAGAA",
+        "ACAAGAAC",
+        "CAAGAACC",
+        "AAGAACCC",
+        "AGAACCCA",
+        "GAACCCAA",
+        "AACCCAAT",
+        "ACCCAATA",
+        "CCCAATAA",
+        "CCAATAAG",
+        "CAATAAGG",
+        "AATAAGGA",
+        "ATAAGGAC",
+        "TAAGGACC",
+        "AAGGACCT",
+        "AGGACCTA",
+        "GGACCTAA",
+        "GACCTAAT",
+        "ACCTAATG",
+        "CCTAATGA",
+        "CTAATGAC",
+        "TAATGACG"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GCCGGCCT",
+        "CCGGCCTC",
+        "CGGCCTCG",
+        "GGCCTCGC",
+        "GCCTCGCT",
+        "CCTCGCTC",
+        "CTCGCTCG",
+        "TCGCTCGG",
+        "CGCTCGGG",
+        "GCTCGGGG",
+        "CTCGGGGG",
+        "TCGGGGGG",
+        "CGGGGGGT",
+        "GGGGGGTC",
+        "GGGGGTCT",
+        "GGGGTCTG",
+        "GGGTCTGG",
+        "GGTCTGGT",
+        "GTCTGGTG",
+        "TCTGGTGG",
+        "CTGGTGGT",
+        "TGGTGGTG",
+        "GGTGGTGT",
+        "GTGGTGTG",
+        "TGGTGTGG",
+        "GGTGTGGT",
+        "GTGTGGTT",
+        "TGTGGTTG",
+        "GTGGTTGT",
+        "TGGTTGTT",
+        "GGTTGTTT",
+        "GTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGG",
+        "TTGTTGGT",
+        "TGTTGGTG",
+        "GTTGGTGT",
+        "TTGGTGTC",
+        "TGGTGTCT",
+        "GGTGTCTG",
+        "GTGTCTGG",
+        "TGTCTGGC",
+        "GTCTGGCT",
+        "TCTGGCTC",
+        "CTGGCTCT",
+        "TGGCTCTA",
+        "GGCTCTAG",
+        "GCTCTAGT",
+        "CTCTAGTA",
+        "TCTAGTAG",
+        "CTAGTAGG",
+        "TAGTAGGC",
+        "AGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAG",
+        "CTACTAGA",
+        "TACTAGAG",
+        "ACTAGAGG",
+        "CTAGAGGA",
+        "TAGAGGAA",
+        "AGAGGAAT",
+        "GAGGAATA",
+        "AGGAATAC",
+        "GGAATACA",
+        "GAATACAC",
+        "AATACACC",
+        "ATACACCA",
+        "TACACCAA",
+        "ACACCAAC",
+        "CACCAACA",
+        "ACCAACAA",
+        "CCAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAC",
+        "AAACAACC",
+        "AACAACCA",
+        "ACAACCAC",
+        "CAACCACA",
+        "AACCACAC",
+        "ACCACACC",
+        "CCACACCA",
+        "CACACCAC",
+        "ACACCACC",
+        "CACCACCA",
+        "ACCACCAG",
+        "CCACCAGA",
+        "CACCAGAC",
+        "ACCAGACG",
+        "CCAGACGA",
+        "CAGACGAC",
+        "AGACGACC",
+        "GACGACCC",
+        "ACGACCCG",
+        "CGACCCGA",
+        "GACCCGAC",
+        "ACCCGACT",
+        "CCCGACTA",
+        "CCGACTAC",
+        "CGACTACG",
+        "GACTACGC",
+        "ACTACGCG",
+        "CTACGCGC",
+        "TACGCGCC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GCCGGCCT",
+        "CCGGCCTC",
+        "CGGCCTCG",
+        "GGCCTCGC",
+        "GCCTCGCT",
+        "CCTCGCTC",
+        "CTCGCTCG",
+        "TCGCTCGG",
+        "CGCTCGGG",
+        "GCTCGGGG",
+        "CTCGGGGG",
+        "TCGGGGGG",
+        "CGGGGGGT",
+        "GGGGGGTC",
+        "GGGGGTCT",
+        "GGGGTCTG",
+        "GGGTCTGG",
+        "GGTCTGGT",
+        "GTCTGGTG",
+        "TCTGGTGG",
+        "CTGGTGGT",
+        "TGGTGGTG",
+        "GGTGGTGT",
+        "GTGGTGTG",
+        "TGGTGTGT",
+        "GGTGTGTT",
+        "GTGTGTTC",
+        "TGTGTTCT",
+        "GTGTTCTT",
+        "TGTTCTTG",
+        "GTTCTTGT",
+        "TTCTTGTT",
+        "TCTTGTTT",
+        "CTTGTTTC",
+        "TTGTTTCT",
+        "TGTTTCTT",
+        "GTTTCTTT",
+        "TTTCTTTT",
+        "TTCTTTTT",
+        "TCTTTTTT",
+        "CTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGT",
+        "TTGTTGTG",
+        "TGTTGTGT",
+        "GTTGTGTG",
+        "TTGTGTGG",
+        "TGTGTGGT",
+        "GTGTGGTG",
+        "TGTGGTGC",
+        "GTGGTGCT",
+        "TGGTGCTG",
+        "GGTGCTGG",
+        "GTGCTGGG",
+        "TGCTGGGC",
+        "GCTGGGCG",
+        "CTGGGCGT",
+        "TGGGCGTA",
+        "GGGCGTAG",
+        "GGCGTAGG",
+        "GCGTAGGC",
+        "CGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAA",
+        "AAAGAAAC",
+        "AAGAAACA",
+        "AGAAACAA",
+        "GAAACAAG",
+        "AAACAAGA",
+        "AACAAGAA",
+        "ACAAGAAC",
+        "CAAGAACA",
+        "AAGAACAC",
+        "AGAACACA",
+        "GAACACAC",
+        "AACACACA",
+        "ACACACAG",
+        "CACACAGA",
+        "ACACAGAC",
+        "CACAGACA",
+        "ACAGACAT",
+        "CAGACATA",
+        "AGACATAA",
+        "GACATAAG",
+        "ACATAAGG",
+        "CATAAGGA",
+        "ATAAGGAC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "AGACCCCG",
+        "GACCCCGA",
+        "ACCCCGAG",
+        "CCCCGAGC",
+        "CCCGAGCC",
+        "CCGAGCCC",
+        "CGAGCCCA",
+        "GAGCCCAA",
+        "AGCCCAAA",
+        "GCCCAAAA",
+        "CCCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGA",
+        "AAGAAGAC",
+        "AGAAGACC",
+        "GAAGACCC",
+        "AAGACCCC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CCCGAGCC",
+        "CCGAGCCC",
+        "CGAGCCCA",
+        "GAGCCCAA",
+        "AGCCCAAA",
+        "GCCCAAAA",
+        "CCCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGA",
+        "AAGAAGAC",
+        "AGAAGACC",
+        "GAAGACCC",
+        "AAGACCCG",
+        "AGACCCGA",
+        "GACCCGAG",
+        "ACCCGAGC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "cycle",
+      "words": [
+        "CCGAGCCC",
+        "CGAGCCCA",
+        "GAGCCCAA",
+        "AGCCCAAA",
+        "GCCCAAAA",
+        "CCCAAAAA",
+        "CCAAAAAA",
+        "CAAAAAAG",
+        "AAAAAAGA",
+        "AAAAAGAA",
+        "AAAAGAAG",
+        "AAAGAAGA",
+        "AAGAAGAC",
+        "AGAAGACC",
+        "GAAGACCG",
+        "AAGACCGA",
+        "AGACCGAG",
+        "GACCGAGC",
+        "ACCGAGCC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GATGAGTA",
+        "ATGAGTAT",
+        "TGAGTATA",
+        "GAGTATAT",
+        "AGTATATG",
+        "GTATATGC",
+        "TATATGCT",
+        "ATATGCTC",
+        "TATGCTCG",
+        "ATGCTCGT",
+        "TGCTCGTA",
+        "GCTCGTAT",
+        "CTCGTATT",
+        "TCGTATTC",
+        "CGTATTCG",
+        "GTATTCGT",
+        "TATTCGTG",
+        "ATTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTT",
+        "GTGTCTTG",
+        "TGTCTTGG",
+        "GTCTTGGG",
+        "TCTTGGGT",
+        "CTTGGGTT",
+        "TTGGGTTG",
+        "TGGGTTGT",
+        "GGGTTGTT",
+        "GGTTGTTT",
+        "GTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGT",
+        "TTGTTGTG",
+        "TGTTGTGT",
+        "GTTGTGTG",
+        "TTGTGTGG",
+        "TGTGTGGT",
+        "GTGTGGTG",
+        "TGTGGTGC",
+        "GTGGTGCT",
+        "TGGTGCTG",
+        "GGTGCTGG",
+        "GTGCTGGG",
+        "TGCTGGGC",
+        "GCTGGGCG",
+        "CTGGGCGT",
+        "TGGGCGTA",
+        "GGGCGTAG",
+        "GGCGTAGG",
+        "GCGTAGGC",
+        "CGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAC",
+        "AAACAACA",
+        "AACAACAC",
+        "ACAACACA",
+        "CAACACAC",
+        "AACACACC",
+        "ACACACCA",
+        "CACACCAC",
+        "ACACCACC",
+        "CACCACCA",
+        "ACCACCAG",
+        "CCACCAGA",
+        "CACCAGAC",
+        "ACCAGACG",
+        "CCAGACGA",
+        "CAGACGAC",
+        "AGACGACG",
+        "GACGACGA",
+        "ACGACGAG",
+        "CGACGAGC",
+        "GACGAGCA",
+        "ACGAGCAT",
+        "CGAGCATA",
+        "GAGCATAT",
+        "AGCATATA",
+        "GCATATAC",
+        "CATATACT",
+        "ATATACTC",
+        "TATACTCA",
+        "ATACTCAT",
+        "TACTCATC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GATGAGTA",
+        "ATGAGTAT",
+        "TGAGTATA",
+        "GAGTATAT",
+        "AGTATATG",
+        "GTATATGC",
+        "TATATGCT",
+        "ATATGCTC",
+        "TATGCTCG",
+        "ATGCTCGT",
+        "TGCTCGTA",
+        "GCTCGTAT",
+        "CTCGTATT",
+        "TCGTATTC",
+        "CGTATTCG",
+        "GTATTCGT",
+        "TATTCGTG",
+        "ATTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTT",
+        "GTGTCTTG",
+        "TGTCTTGT",
+        "GTCTTGTG",
+        "TCTTGTGT",
+        "CTTGTGTT",
+        "TTGTGTTG",
+        "TGTGTTGT",
+        "GTGTTGTT",
+        "TGTTGTTT",
+        "GTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGT",
+        "TTGTTGTG",
+        "TGTTGTGT",
+        "GTTGTGTG",
+        "TTGTGTGG",
+        "TGTGTGGT",
+        "GTGTGGTG",
+        "TGTGGTGC",
+        "GTGGTGCT",
+        "TGGTGCTG",
+        "GGTGCTGG",
+        "GTGCTGGG",
+        "TGCTGGGC",
+        "GCTGGGCG",
+        "CTGGGCGT",
+        "TGGGCGTA",
+        "GGGCGTAG",
+        "GGCGTAGG",
+        "GCGTAGGC",
+        "CGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAC",
+        "AAACAACA",
+        "AACAACAC",
+        "ACAACACA",
+        "CAACACAA",
+        "AACACAAG",
+        "ACACAAGA",
+        "CACAAGAA",
+        "ACAAGAAG",
+        "CAAGAAGA",
+        "AAGAAGAG",
+        "AGAAGAGA",
+        "GAAGAGAA",
+        "AAGAGAAT",
+        "AGAGAATA",
+        "GAGAATAC",
+        "AGAATACG",
+        "GAATACGA",
+        "AATACGAG",
+        "ATACGAGC",
+        "TACGAGCA",
+        "ACGAGCAT",
+        "CGAGCATA",
+        "GAGCATAT",
+        "AGCATATA",
+        "GCATATAC",
+        "CATATACT",
+        "ATATACTC",
+        "TATACTCA",
+        "ATACTCAT",
+        "TACTCATC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GATGAGTA",
+        "ATGAGTAT",
+        "TGAGTATA",
+        "GAGTATAT",
+        "AGTATATG",
+        "GTATATGC",
+        "TATATGCT",
+        "ATATGCTC",
+        "TATGCTCG",
+        "ATGCTCGT",
+        "TGCTCGTA",
+        "GCTCGTAT",
+        "CTCGTATT",
+        "TCGTATTC",
+        "CGTATTCG",
+        "GTATTCGT",
+        "TATTCGTG",
+        "ATTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTT",
+        "GTGTCTTG",
+        "TGTCTTGT",
+        "GTCTTGTG",
+        "TCTTGTGT",
+        "CTTGTGTT",
+        "TTGTGTTG",
+        "TGTGTTGT",
+        "GTGTTGTT",
+        "TGTTGTTT",
+        "GTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGT",
+        "TTGTTGTG",
+        "TGTTGTGT",
+        "GTTGTGTG",
+        "TTGTGTGG",
+        "TGTGTGGT",
+        "GTGTGGTG",
+        "TGTGGTGC",
+        "GTGGTGCT",
+        "TGGTGCTG",
+        "GGTGCTGG",
+        "GTGCTGGG",
+        "TGCTGGGC",
+        "GCTGGGCG",
+        "CTGGGCGT",
+        "TGGGCGTA",
+        "GGGCGTAG",
+        "GGCGTAGG",
+        "GCGTAGGC",
+        "CGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAC",
+        "AAACAACA",
+        "AACAACAC",
+        "ACAACACA",
+        "CAACACAC",
+        "AACACACC",
+        "ACACACCA",
+        "CACACCAC",
+        "ACACCACC",
+        "CACCACCA",
+        "ACCACCAG",
+        "CCACCAGA",
+        "CACCAGAC",
+        "ACCAGACC",
+        "CCAGACCC",
+        "CAGACCCC",
+        "AGACCCCC",
+        "GACCCCCC",
+        "ACCCCCCG",
+        "CCCCCCGA",
+        "CCCCCGAG",
+        "CCCCGAGC",
+        "CCCGAGCC",
+        "CCGAGCCG",
+        "CGAGCCGC",
+        "GAGCCGCC",
+        "AGCCGCCG",
+        "GCCGCCGC",
+        "CCGCCGCG",
+        "CGCCGCGC",
+        "GCCGCGCC"
+      ],
+      "rhs": 1
+    },
+    {
+      "kind": "path",
+      "words": [
+        "GATGAGTA",
+        "ATGAGTAT",
+        "TGAGTATA",
+        "GAGTATAT",
+        "AGTATATG",
+        "GTATATGC",
+        "TATATGCT",
+        "ATATGCTC",
+        "TATGCTCG",
+        "ATGCTCGT",
+        "TGCTCGTA",
+        "GCTCGTAT",
+        "CTCGTATT",
+        "TCGTATTC",
+        "CGTATTCG",
+        "GTATTCGT",
+        "TATTCGTG",
+        "ATTCGTGT",
+        "TTCGTGTC",
+        "TCGTGTCT",
+        "CGTGTCTT",
+        "GTGTCTTG",
+        "TGTCTTGG",
+        "GTCTTGGT",
+        "TCTTGGTT",
+        "CTTGGTTG",
+        "TTGGTTGT",
+        "TGGTTGTG",
+        "GGTTGTGT",
+        "GTTGTGTT",
+        "TTGTGTTG",
+        "TGTGTTGT",
+        "GTGTTGTT",
+        "TGTTGTTT",
+        "GTTGTTTT",
+        "TTGTTTTT",
+        "TGTTTTTT",
+        "GTTTTTTT",
+        "TTTTTTTG",
+        "TTTTTTGT",
+        "TTTTTGTT",
+        "TTTTGTTG",
+        "TTTGTTGG",
+        "TTGTTGGT",
+        "TGTTGGTG",
+        "GTTGGTGT",
+        "TTGGTGTC",
+        "TGGTGTCT",
+        "GGTGTCTG",
+        "GTGTCTGG",
+        "TGTCTGGC",
+        "GTCTGGCT",
+        "TCTGGCTC",
+        "CTGGCTCT",
+        "TGGCTCTA",
+        "GGCTCTAG",
+        "GCTCTAGT",
+        "CTCTAGTA",
+        "TCTAGTAG",
+        "CTAGTAGG",
+        "TAGTAGGC",
+        "AGTAGGCG",
+        "GTAGGCGC",
+        "TAGGCGCC",
+        "AGGCGCCT",
+        "GGCGCCTA",
+        "GCGCCTAC",
+        "CGCCTACT",
+        "GCCTACTA",
+        "CCTACTAC",
+        "CTACTACG",
+        "TACTACGA",
+        "ACTACGAG",
+        "CTACGAGA",
+        "TACGAGAC",
+        "ACGAGACG",
+        "CGAGACGA",
+        "GAGACGAA",
+        "AGACGAAG",
+        "GACGAAGA",
+        "ACGAAGAC",
+        "CGAAGACA",
+        "GAAGACAA",
+        "AAGACAAC",
+        "AGACAACA",
+        "GACAACAA",
+        "ACAACAAA",
+        "CAACAAAA",
+        "AACAAAAA",
+        "ACAAAAAA",
+        "CAAAAAAA",
+        "AAAAAAAC",
+        "AAAAAACA",
+        "AAAAACAA",
+        "AAAACAAC",
+        "AAACAACA",
+        "AACAACAC",
+        "ACAACACA",
+        "CAACACAA",
+        "AACACAAC",
+        "ACACAACC",
+        "CACAACCA",
+        "ACAACCAA",
+        "CAACCAAG",
+        "AACCAAGA",
+        "ACCAAGAC",
+        "CCAAGACA",
+        "CAAGACAC",
+        "AAGACACG",
+        "AGACACGA",
+        "GACACGAA",
+        "ACACGAAT",
+        "CACGAATA",
+        "ACGAATAG",
+        "CGAATAGA",
+        "GAATAGAC",
+        "AATAGACT",
+        "ATAGACTA",
+        "TAGACTAA",
+        "AGACTAAT",
+        "GACTAATC"
+      ],
+      "rhs": 1
+    }
+  ],
+  "eliminations": [
+    {
+      "cut": 0,
+      "group": 47,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 0,
+      "group": 47,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 0,
+      "group": 47,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 0,
+      "group": 47,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 0,
+      "group": 47,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 0,
+      "group": 47,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 1,
+      "group": 47,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 2,
+      "group": 49,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 2,
+      "group": 49,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 2,
+      "group": 49,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 2,
+      "group": 49,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 2,
+      "group": 49,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 2,
+      "group": 49,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 3,
+      "group": 49,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 7,
+      "group": 8,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 7,
+      "group": 8,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 7,
+      "group": 8,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 7,
+      "group": 8,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 7,
+      "group": 8,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 8,
+      "group": 20,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 8,
+      "group": 20,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 8,
+      "group": 20,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 8,
+      "group": 20,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 8,
+      "group": 20,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 8,
+      "group": 20,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 9,
+      "group": 20,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 11,
+      "group": 23,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 11,
+      "group": 23,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 11,
+      "group": 23,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 11,
+      "group": 23,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 11,
+      "group": 23,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 11,
+      "group": 23,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 11,
+      "group": 23,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 12,
+      "group": 22,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 12,
+      "group": 22,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 12,
+      "group": 22,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 12,
+      "group": 22,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 12,
+      "group": 22,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 13,
+      "group": 28,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 13,
+      "group": 28,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 13,
+      "group": 28,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 13,
+      "group": 28,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 13,
+      "group": 28,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 13,
+      "group": 28,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 14,
+      "group": 21,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 14,
+      "group": 21,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 14,
+      "group": 21,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 14,
+      "group": 21,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 14,
+      "group": 21,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 14,
+      "group": 21,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 14,
+      "group": 21,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 17,
+      "group": 16,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 17,
+      "group": 16,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 17,
+      "group": 16,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 17,
+      "group": 16,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 18,
+      "group": 11,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 18,
+      "group": 11,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 18,
+      "group": 11,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 18,
+      "group": 11,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 18,
+      "group": 11,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 18,
+      "group": 11,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 18,
+      "group": 11,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 19,
+      "group": 43,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 19,
+      "group": 43,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 19,
+      "group": 43,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 19,
+      "group": 43,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 19,
+      "group": 43,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 19,
+      "group": 43,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 19,
+      "group": 43,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 20,
+      "group": 15,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 20,
+      "group": 15,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 20,
+      "group": 15,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 20,
+      "group": 15,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 20,
+      "group": 15,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 21,
+      "group": 12,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 21,
+      "group": 12,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 21,
+      "group": 12,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 21,
+      "group": 12,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 21,
+      "group": 12,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 23,
+      "group": 34,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 23,
+      "group": 34,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 23,
+      "group": 34,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 23,
+      "group": 34,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 23,
+      "group": 34,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 23,
+      "group": 34,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 24,
+      "group": 34,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 25,
+      "group": 29,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 25,
+      "group": 29,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 25,
+      "group": 29,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 27,
+      "group": 5,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 27,
+      "group": 5,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 27,
+      "group": 5,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 27,
+      "group": 5,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 28,
+      "group": 6,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 28,
+      "group": 6,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 28,
+      "group": 6,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 28,
+      "group": 6,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 28,
+      "group": 6,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 28,
+      "group": 6,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 28,
+      "group": 6,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 29,
+      "group": 10,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 29,
+      "group": 10,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 29,
+      "group": 10,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 29,
+      "group": 10,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 29,
+      "group": 10,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 30,
+      "group": 25,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 30,
+      "group": 25,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 30,
+      "group": 25,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 30,
+      "group": 25,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 31,
+      "group": 25,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 31,
+      "group": 25,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 32,
+      "group": 24,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 32,
+      "group": 24,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 32,
+      "group": 24,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 32,
+      "group": 24,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 32,
+      "group": 24,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 32,
+      "group": 24,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 33,
+      "group": 13,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 33,
+      "group": 13,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 33,
+      "group": 13,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 33,
+      "group": 13,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 33,
+      "group": 13,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 33,
+      "group": 13,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 34,
+      "group": 46,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 34,
+      "group": 46,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 34,
+      "group": 46,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 34,
+      "group": 46,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 34,
+      "group": 46,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 34,
+      "group": 46,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 35,
+      "group": 46,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 36,
+      "group": 17,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 36,
+      "group": 17,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 36,
+      "group": 17,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 37,
+      "group": 17,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 37,
+      "group": 17,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 39,
+      "group": 36,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 39,
+      "group": 36,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 39,
+      "group": 36,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 39,
+      "group": 36,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 39,
+      "group": 36,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 39,
+      "group": 36,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 39,
+      "group": 36,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 40,
+      "group": 31,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 40,
+      "group": 31,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 40,
+      "group": 31,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 40,
+      "group": 31,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 40,
+      "group": 31,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 40,
+      "group": 31,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 40,
+      "group": 31,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 46,
+      "group": 44,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 46,
+      "group": 44,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 46,
+      "group": 44,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 46,
+      "group": 44,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 46,
+      "group": 44,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 47,
+      "group": 44,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 48,
+      "group": 44,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 22,
+      "group": 1,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 22,
+      "group": 1,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 22,
+      "group": 1,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 22,
+      "group": 1,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 22,
+      "group": 1,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 22,
+      "group": 1,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 22,
+      "group": 1,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 26,
+      "group": 5,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 26,
+      "group": 5,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 10,
+      "group": 0,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 10,
+      "group": 0,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 10,
+      "group": 0,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 10,
+      "group": 0,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 10,
+      "group": 0,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 10,
+      "group": 0,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 16,
+      "group": 16,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 42,
+      "group": 9,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 42,
+      "group": 9,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 42,
+      "group": 9,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 42,
+      "group": 9,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 44,
+      "group": 9,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 52,
+      "group": 5,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 43,
+      "group": 7,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 43,
+      "group": 7,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 43,
+      "group": 7,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 43,
+      "group": 7,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 49,
+      "group": 10,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 50,
+      "group": 7,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 51,
+      "group": 7,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 4,
+      "group": 2,
+      "option": 0,
+      "upper": 0
+    },
+    {
+      "cut": 4,
+      "group": 2,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 4,
+      "group": 2,
+      "option": 2,
+      "upper": 0
+    },
+    {
+      "cut": 4,
+      "group": 2,
+      "option": 4,
+      "upper": 0
+    },
+    {
+      "cut": 4,
+      "group": 2,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 5,
+      "group": 2,
+      "option": 7,
+      "upper": 0
+    },
+    {
+      "cut": 6,
+      "group": 2,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 15,
+      "group": 4,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 15,
+      "group": 4,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 15,
+      "group": 4,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 15,
+      "group": 4,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 38,
+      "group": 0,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 41,
+      "group": 3,
+      "option": 1,
+      "upper": 0
+    },
+    {
+      "cut": 41,
+      "group": 3,
+      "option": 3,
+      "upper": 0
+    },
+    {
+      "cut": 41,
+      "group": 3,
+      "option": 5,
+      "upper": 0
+    },
+    {
+      "cut": 41,
+      "group": 3,
+      "option": 6,
+      "upper": 0
+    },
+    {
+      "cut": 41,
+      "group": 3,
+      "option": 7,
+      "upper": 0
+    }
+  ],
+  "contradiction": {
+    "cut": 45,
+    "upper": 0,
+    "rhs": 1
+  },
+  "source_cuts": 4806,
+  "checked_all_source_cuts": true,
+  "elapsed": 9.121898651123047,
+  "baseline_sha256": "31041ef85b00871b6d4f13e71a3427f168f5559b68cb07d897dc1b861f3a9140",
+  "trigger_cycle": [
+    "AAAAAAAC",
+    "AAAAAACA",
+    "AAAAACAA",
+    "AAAACAAA",
+    "AAACAAAG",
+    "AACAAAGA",
+    "ACAAAGAA",
+    "CAAAGAAC",
+    "AAAGAACC",
+    "AAGAACCC",
+    "AGAACCCA",
+    "GAACCCAA",
+    "AACCCAAT",
+    "ACCCAATA",
+    "CCCAATAA",
+    "CCAATAAC",
+    "CAATAACG",
+    "AATAACGC",
+    "ATAACGCA",
+    "TAACGCAC",
+    "AACGCACT",
+    "ACGCACTA",
+    "CGCACTAC",
+    "GCACTACC",
+    "CACTACCT",
+    "ACTACCTA",
+    "CTACCTAC",
+    "TACCTACG",
+    "ACCTACGG",
+    "CCTACGGC",
+    "CTACGGCC",
+    "TACGGCCG",
+    "ACGGCCGG",
+    "CGGCCGGC",
+    "GGCCGGCC",
+    "GCCGGCCG",
+    "CCGGCCGT",
+    "CGGCCGTA",
+    "GGCCGTAG",
+    "GCCGTAGG",
+    "CCGTAGGT",
+    "CGTAGGTA",
+    "GTAGGTAG",
+    "TAGGTAGT",
+    "AGGTAGTG",
+    "GGTAGTGC",
+    "GTAGTGCG",
+    "TAGTGCGT",
+    "AGTGCGTG",
+    "GTGCGTGC",
+    "TGCGTGCT",
+    "GCGTGCTG",
+    "CGTGCTGT",
+    "GTGCTGTC",
+    "TGCTGTCT",
+    "GCTGTCTT",
+    "CTGTCTTG",
+    "TGTCTTGT",
+    "GTCTTGTG",
+    "TCTTGTGT",
+    "CTTGTGTT",
+    "TTGTGTTG",
+    "TGTGTTGT",
+    "GTGTTGTT",
+    "TGTTGTTT",
+    "GTTGTTTT",
+    "TTGTTTTT",
+    "TGTTTTTT",
+    "GTTTTTTT",
+    "TTTTTTTG",
+    "TTTTTTGT",
+    "TTTTTGTT",
+    "TTTTGTTC",
+    "TTTGTTCT",
+    "TTGTTCTT",
+    "TGTTCTTC",
+    "GTTCTTCT",
+    "TTCTTCTG",
+    "TCTTCTGG",
+    "CTTCTGGT",
+    "TTCTGGTA",
+    "TCTGGTAT",
+    "CTGGTATT",
+    "TGGTATTA",
+    "GGTATTAT",
+    "GTATTATC",
+    "TATTATCG",
+    "ATTATCGG",
+    "TTATCGGC",
+    "TATCGGCC",
+    "ATCGGCCT",
+    "TCGGCCTA",
+    "CGGCCTAT",
+    "GGCCTATA",
+    "GCCTATAG",
+    "CCTATAGG",
+    "CTATAGGA",
+    "TATAGGAG",
+    "ATAGGAGC",
+    "TAGGAGCC",
+    "AGGAGCCC",
+    "GGAGCCCC",
+    "GAGCCCCC",
+    "AGCCCCCC",
+    "GCCCCCCC",
+    "CCCCCCCA",
+    "CCCCCCAC",
+    "CCCCCACC",
+    "CCCCACCA",
+    "CCCACCAC",
+    "CCACCACA",
+    "CACCACAC",
+    "ACCACACA",
+    "CCACACAA",
+    "CACACAAC",
+    "ACACAACA",
+    "CACAACAA",
+    "ACAACAAA",
+    "CAACAAAA",
+    "AACAAAAA",
+    "ACAAAAAA",
+    "CAAAAAAA"
+  ],
+  "schema": "rc-mds-frozen-PCR-propagation-v1"
+}

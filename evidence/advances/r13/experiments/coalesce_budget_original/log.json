@@ -1,0 +1,266 @@
+[
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "ACACACAG",
+      "CTGTGTGT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 1.0541607870000007
+  },
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "ACACAGAC",
+      "GTCTGTGT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.020662803999925927
+  },
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "ACAGACAC",
+      "GTGTCTGT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.022447451999937584
+  },
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "AGACACAC",
+      "GTGTGTCT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.02737772600005428
+  },
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "CACACAGA",
+      "TCTGTGTG"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.021670703000040703
+  },
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "CACAGACA",
+      "TGTCTGTG"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.022989829000039208
+  },
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "CAGACACA",
+      "TGTGTCTG"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.020723685999996633
+  },
+  {
+    "tag": "old",
+    "input_file": "inputs/S8232.words.txt",
+    "option": [
+      "GACACACA",
+      "TGTGTGTC"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.025379446999977517
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "AAAAAAAG",
+      "CTTTTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.021690372999955798
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "AAAAAAGA",
+      "TCTTTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.020025283999984822
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "AAAAAGAA",
+      "TTCTTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.019600355000079617
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "AAAAGAAA",
+      "TTTCTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.02221153699997558
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "AAAGAAAA",
+      "TTTTCTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.019300633000057132
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "AAGAAAAA",
+      "TTTTTCTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.018491365000045334
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "AGAAAAAA",
+      "TTTTTTCT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.020659649999970497
+  },
+  {
+    "tag": "alt2",
+    "input_file": "experiments/reuse_107/extension_002_000.words.txt",
+    "option": [
+      "GAAAAAAA",
+      "TTTTTTTC"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.01768993899997895
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "AAAAAAAG",
+      "CTTTTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.01912502899995161
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "AAAAAAGA",
+      "TCTTTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.018990676000044004
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "AAAAAGAA",
+      "TTCTTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.02023995800004741
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "AAAAGAAA",
+      "TTTCTTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.018212155000014718
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "AAAGAAAA",
+      "TTTTCTTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.021537211000008938
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "AAGAAAAA",
+      "TTTTTCTT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.019520214000067426
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "AGAAAAAA",
+      "TTTTTTCT"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.019239862000063113
+  },
+  {
+    "tag": "alt3",
+    "input_file": "experiments/reuse_107/extension_003_000.words.txt",
+    "option": [
+      "GAAAAAAA",
+      "TTTTTTTC"
+    ],
+    "status": 2,
+    "operations": 8000001,
+    "seconds": 0.0169171740000138
+  }
+]

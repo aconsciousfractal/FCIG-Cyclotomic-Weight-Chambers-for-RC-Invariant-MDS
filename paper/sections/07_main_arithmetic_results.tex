@@ -1,0 +1,13 @@
+\section{Main arithmetic results}
+\label{sec:arithmetic-interface}
+The arithmetic theory explains which positional cancellations can occur before one asks whether they change a terminal or its component. Its complete proofs, including all ancillary structural and orbit counts, are in the technical supplement, \Cref{sec:components,sec:twice-prime-structural,sec:dna-certificates,sec:rational-classification,sec:complexity,ext:sec:blocks}.
+
+For even $k\ge4$ with $t$ distinct odd prime divisors, the accidental DNA embedding spectrum in $\mathcal W$ is exactly
+\[
+ \E_t=\left\{\frac{v+u}{v-u}:0<u<v\le2^t,\ (u,v)=1\right\}.
+\]
+This is \Cref{ext:thm:farey}: prime-power splitting and the rational tensor kernel reduce necessity to a bounded mixed difference, and the signed-one-hot realization supplies actual labelled words for sufficiency. The result depends on the number of distinct odd primes, not their values or multiplicities. It is an embedding spectrum, not a terminal-wall classification.
+
+A real algebraic ratio $\rho>1$ has an accidental positional DNA embedding at some even order if and only if it belongs to a cyclotomic field (\Cref{ext:thm:algebraic}). The constructive sufficiency allows the order to grow. Field membership at a prescribed order is only a necessary gate (\Cref{thm:component-field,cor:dna-field-gate}); minimal realizing orders and active algebraic midpoint realization remain open.
+
+At twice-prime orders the structural formula and rational lower-resonance classification are \Cref{thm:twice-prime-structural,thm:rational-twice-prime}. Exact certificate transport, the two-odd-prime counts, rational seed and midpoint classifications, and direct-membership bit complexity are retained in \Cref{thm:dna-certificate,thm:galois-certificate,ext:thm:count,ext:thm:seed,ext:thm:mid,thm:membership-complexity}. The proofs keep the positional alphabet restrictions separate from unrestricted root-of-unity relations. The residual three-block interface in \Cref{ext:thm:paths} connects this arithmetic to the wall geometry of Section 4.

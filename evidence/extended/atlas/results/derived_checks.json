@@ -1,0 +1,628 @@
+{
+  "status": "PASS",
+  "quadratic_field_lift_checks": [
+    {
+      "ratio": [
+        0,
+        1,
+        1
+      ],
+      "word_length_16": "CACCCTCCCACGCACG",
+      "embedding_identity_mod_X8_plus_1": true,
+      "total_zero_words_k16_by_proved_block_formula": 82944,
+      "structural_zero_words_k16": 65536
+    },
+    {
+      "ratio": [
+        -1,
+        2,
+        1
+      ],
+      "word_length_16": "CACACGCCCCCCCCCG",
+      "embedding_identity_mod_X8_plus_1": true,
+      "total_zero_words_k16_by_proved_block_formula": 123904,
+      "structural_zero_words_k16": 65536
+    },
+    {
+      "ratio": [
+        1,
+        1,
+        1
+      ],
+      "word_length_16": "CACACCCCCCCACACG",
+      "embedding_identity_mod_X8_plus_1": true,
+      "total_zero_words_k16_by_proved_block_formula": 419904,
+      "structural_zero_words_k16": 65536
+    },
+    {
+      "ratio": [
+        1,
+        2,
+        1
+      ],
+      "word_length_16": "CACCCCCCCACGCACG",
+      "embedding_identity_mod_X8_plus_1": true,
+      "total_zero_words_k16_by_proved_block_formula": 123904,
+      "structural_zero_words_k16": 65536
+    },
+    {
+      "ratio": [
+        3,
+        2,
+        1
+      ],
+      "word_length_16": "CACACCCACCCACACG",
+      "embedding_identity_mod_X8_plus_1": true,
+      "total_zero_words_k16_by_proved_block_formula": 331776,
+      "structural_zero_words_k16": 65536
+    }
+  ],
+  "regression_count": 30,
+  "regression": [
+    {
+      "inherited_row": "ATLAS-K4-I000",
+      "new_cell": "k4_c000",
+      "location_certificate": {
+        "exact_rational": [
+          2,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K4-P000",
+      "new_cell": "k4_c001",
+      "location_certificate": {
+        "exact_rational": [
+          3,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K4-I001",
+      "new_cell": "k4_c002",
+      "location_certificate": {
+        "exact_rational": [
+          4,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I000",
+      "new_cell": "k6_c000",
+      "location_certificate": {
+        "exact_rational": [
+          6,
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P000",
+      "new_cell": "k6_c001",
+      "location_certificate": {
+        "exact_rational": [
+          7,
+          0,
+          5
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I001",
+      "new_cell": "k6_c002",
+      "location_certificate": {
+        "exact_rational": [
+          29,
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P001",
+      "new_cell": "k6_c003",
+      "location_certificate": {
+        "exact_rational": [
+          3,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I002",
+      "new_cell": "k6_c004",
+      "location_certificate": {
+        "exact_rational": [
+          19,
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P002",
+      "new_cell": "k6_c005",
+      "location_certificate": {
+        "exact_rational": [
+          5,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I003",
+      "new_cell": "k6_c006",
+      "location_certificate": {
+        "exact_rational": [
+          11,
+          0,
+          6
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P003",
+      "new_cell": "k6_c007",
+      "location_certificate": {
+        "exact_rational": [
+          2,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I004",
+      "new_cell": "k6_c008",
+      "location_certificate": {
+        "exact_rational": [
+          13,
+          0,
+          6
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P004",
+      "new_cell": "k6_c009",
+      "location_certificate": {
+        "exact_rational": [
+          7,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I005",
+      "new_cell": "k6_c010",
+      "location_certificate": {
+        "exact_rational": [
+          8,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P005",
+      "new_cell": "k6_c011",
+      "location_certificate": {
+        "exact_rational": [
+          3,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I006",
+      "new_cell": "k6_c012",
+      "location_certificate": {
+        "exact_rational": [
+          7,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P006",
+      "new_cell": "k6_c013",
+      "location_certificate": {
+        "exact_rational": [
+          4,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I007",
+      "new_cell": "k6_c014",
+      "location_certificate": {
+        "exact_rational": [
+          9,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P007",
+      "new_cell": "k6_c015",
+      "location_certificate": {
+        "exact_rational": [
+          5,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I008",
+      "new_cell": "k6_c016",
+      "location_certificate": {
+        "exact_rational": [
+          6,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P008",
+      "new_cell": "k6_c017",
+      "location_certificate": {
+        "exact_rational": [
+          7,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I009",
+      "new_cell": "k6_c018",
+      "location_certificate": {
+        "exact_rational": [
+          8,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P009",
+      "new_cell": "k6_c019",
+      "location_certificate": {
+        "exact_rational": [
+          9,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I010",
+      "new_cell": "k6_c020",
+      "location_certificate": {
+        "exact_rational": [
+          10,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-P010",
+      "new_cell": "k6_c021",
+      "location_certificate": {
+        "exact_rational": [
+          11,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K6-I011",
+      "new_cell": "k6_c022",
+      "location_certificate": {
+        "exact_rational": [
+          12,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K8-L000-RAT2",
+      "new_cell": "k8_c063",
+      "location_certificate": {
+        "exact_rational": [
+          2,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K8-L001-GOLD5",
+      "new_cell": "k8_c136",
+      "location_certificate": {
+        "polynomial": [
+          1,
+          -7,
+          1
+        ],
+        "isolating_left": [
+          219,
+          0,
+          32
+        ],
+        "isolating_right": [
+          55,
+          0,
+          8
+        ],
+        "derivative_nonzero_on_original_interval": true
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K8-L002-QUAD13",
+      "new_cell": "k8_c104",
+      "location_certificate": {
+        "polynomial": [
+          -13,
+          0,
+          1
+        ],
+        "isolating_left": [
+          115,
+          0,
+          32
+        ],
+        "isolating_right": [
+          29,
+          0,
+          8
+        ],
+        "derivative_nonzero_on_original_interval": true
+      }
+    },
+    {
+      "inherited_row": "ATLAS-K8-L003-CUBIC2",
+      "new_cell": "k8_c014",
+      "location_certificate": {
+        "polynomial": [
+          -2,
+          0,
+          0,
+          1
+        ],
+        "isolating_left": [
+          201,
+          0,
+          160
+        ],
+        "isolating_right": [
+          101,
+          0,
+          80
+        ],
+        "derivative_nonzero_on_original_interval": true
+      }
+    }
+  ],
+  "galois": {
+    "admissible_critical_ratios": 33,
+    "rational_fixed_ratios": 5,
+    "two_element_orbits": 14,
+    "critical_root_permutation": [
+      [
+        0,
+        39
+      ],
+      [
+        1,
+        67
+      ],
+      [
+        3,
+        52
+      ],
+      [
+        8,
+        43
+      ],
+      [
+        10,
+        77
+      ],
+      [
+        20,
+        58
+      ],
+      [
+        23,
+        23
+      ],
+      [
+        24,
+        83
+      ],
+      [
+        26,
+        41
+      ],
+      [
+        30,
+        63
+      ],
+      [
+        31,
+        31
+      ],
+      [
+        35,
+        71
+      ],
+      [
+        39,
+        0
+      ],
+      [
+        40,
+        81
+      ],
+      [
+        41,
+        26
+      ],
+      [
+        43,
+        8
+      ],
+      [
+        46,
+        46
+      ],
+      [
+        49,
+        78
+      ],
+      [
+        51,
+        65
+      ],
+      [
+        52,
+        3
+      ],
+      [
+        53,
+        84
+      ],
+      [
+        58,
+        20
+      ],
+      [
+        61,
+        61
+      ],
+      [
+        63,
+        30
+      ],
+      [
+        65,
+        51
+      ],
+      [
+        67,
+        1
+      ],
+      [
+        68,
+        68
+      ],
+      [
+        71,
+        35
+      ],
+      [
+        77,
+        10
+      ],
+      [
+        78,
+        49
+      ],
+      [
+        81,
+        40
+      ],
+      [
+        83,
+        24
+      ],
+      [
+        84,
+        53
+      ]
+    ],
+    "nondescending_source_values": [
+      [
+        5,
+        -1,
+        1
+      ],
+      [
+        17,
+        6,
+        7
+      ]
+    ],
+    "nondescending_target_values": [
+      [
+        5,
+        1,
+        1
+      ],
+      [
+        17,
+        -6,
+        7
+      ]
+    ],
+    "cell_ids": [
+      "k8_c103",
+      "k8_c105",
+      "k8_c131",
+      "k8_c007"
+    ],
+    "source_terminal_literal_equality": true,
+    "target_terminal_literal_inequality": true,
+    "target_longest_lengths": [
+      143,
+      161
+    ],
+    "first_target_separating_word_code": 516
+  },
+  "exact_optima": {
+    "k6": {
+      "minimum": 57,
+      "lower_inclusive": [
+        4,
+        0,
+        1
+      ],
+      "upper_exclusive": null
+    },
+    "k8": {
+      "minimum": 141,
+      "lower_inclusive": [
+        3,
+        0,
+        1
+      ],
+      "upper_exclusive": [
+        1,
+        2,
+        1
+      ]
+    }
+  },
+  "disjoint_optima": true
+}

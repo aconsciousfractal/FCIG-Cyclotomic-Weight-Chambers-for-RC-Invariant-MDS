@@ -1,0 +1,166 @@
+{
+  "censuses": [
+    {
+      "components": 1,
+      "directed_simple_cycles": 3,
+      "k": 2,
+      "ordinary_mds": 2,
+      "q": 2,
+      "rc_feasibility_comparisons": 8,
+      "rows": [
+        {
+          "component_size": 2,
+          "ordinary_min": 1,
+          "ratio": [
+            2,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            1,
+            1
+          ]
+        }
+      ],
+      "subsets_scanned": 16
+    },
+    {
+      "components": 3,
+      "directed_simple_cycles": 19,
+      "k": 4,
+      "ordinary_mds": 30,
+      "q": 2,
+      "rc_feasibility_comparisons": 24,
+      "rows": [
+        {
+          "component_size": 8,
+          "ordinary_min": 7,
+          "ratio": [
+            8,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            7,
+            7
+          ]
+        },
+        {
+          "component_size": 14,
+          "ordinary_min": 5,
+          "ratio": [
+            6,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            5,
+            5
+          ]
+        },
+        {
+          "component_size": 8,
+          "ordinary_min": 7,
+          "ratio": [
+            8,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            7,
+            7
+          ]
+        }
+      ],
+      "subsets_scanned": 65536
+    },
+    {
+      "components": 6,
+      "directed_simple_cycles": 24,
+      "k": 2,
+      "ordinary_mds": 24,
+      "q": 4,
+      "rc_feasibility_comparisons": 32,
+      "rows": [
+        {
+          "component_size": 4,
+          "ordinary_min": 3,
+          "ratio": [
+            4,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            3,
+            3
+          ]
+        },
+        {
+          "component_size": 4,
+          "ordinary_min": 3,
+          "ratio": [
+            4,
+            1
+          ],
+          "rc_count": 0
+        },
+        {
+          "component_size": 4,
+          "ordinary_min": 3,
+          "ratio": [
+            4,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            3,
+            3
+          ]
+        },
+        {
+          "component_size": 4,
+          "ordinary_min": 3,
+          "ratio": [
+            4,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            3,
+            3
+          ]
+        },
+        {
+          "component_size": 4,
+          "ordinary_min": 3,
+          "ratio": [
+            4,
+            1
+          ],
+          "rc_count": 0
+        },
+        {
+          "component_size": 4,
+          "ordinary_min": 3,
+          "ratio": [
+            4,
+            1
+          ],
+          "rc_count": 2,
+          "sector_minima": [
+            3,
+            3
+          ]
+        }
+      ],
+      "subsets_scanned": 65536
+    }
+  ],
+  "scope": "finite exact controls only",
+  "self_dual_ranks": {
+    "anti_invariant_graphs": 256,
+    "dags": 65,
+    "integer_rank_checks": 260
+  },
+  "status": "PASS"
+}

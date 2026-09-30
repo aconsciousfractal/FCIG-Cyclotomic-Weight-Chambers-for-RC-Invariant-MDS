@@ -1,0 +1,21 @@
+{
+  "removed": 22,
+  "added": 20,
+  "changed_PCRs": 20,
+  "changed_nonstable_groups": 10,
+  "changed_stable_groups": 0,
+  "changed_group_representatives": [
+    "AAACAAAG",
+    "AAACACAC",
+    "AAACACAG",
+    "AAAGACAC",
+    "AAGACACC",
+    "AAGACACG",
+    "ACACACAC",
+    "ACACACAG",
+    "ACAGACAG",
+    "ACAGCCAG"
+  ],
+  "changed_height_pairs": 562,
+  "max_height_change": 30
+}

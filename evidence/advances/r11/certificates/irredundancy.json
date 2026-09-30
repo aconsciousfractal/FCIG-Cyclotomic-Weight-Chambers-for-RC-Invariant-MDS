@@ -1,0 +1,91 @@
+{
+  "scope": "ordinary inclusion-minimality of exact DS8232",
+  "overselected_PCRs": [
+    {
+      "representative": "ACACACAG",
+      "words": [
+        "ACACACAG",
+        "ACACAGAC",
+        "ACAGACAC",
+        "AGACACAC",
+        "CACACAGA",
+        "CACAGACA",
+        "CAGACACA",
+        "GACACACA"
+      ],
+      "selected": [
+        "ACACACAG",
+        "ACAGACAC"
+      ]
+    },
+    {
+      "representative": "CTGTGTGT",
+      "words": [
+        "CTGTGTGT",
+        "GTCTGTGT",
+        "GTGTCTGT",
+        "GTGTGTCT",
+        "TCTGTGTG",
+        "TGTCTGTG",
+        "TGTGTCTG",
+        "TGTGTGTC"
+      ],
+      "selected": [
+        "CTGTGTGT",
+        "GTGTCTGT"
+      ]
+    }
+  ],
+  "cycles": [
+    {
+      "selected_edge": "ACACACAG",
+      "cycle": [
+        "ACACACAG",
+        "CACACAGA",
+        "ACACAGAA",
+        "CACAGAAC",
+        "ACAGAACA",
+        "CAGAACAC",
+        "AGAACACA",
+        "GAACACAC",
+        "AACACACA"
+      ]
+    },
+    {
+      "selected_edge": "ACAGACAC",
+      "cycle": [
+        "ACAGACAC",
+        "CAGACACA",
+        "AGACACAG",
+        "GACACAGA",
+        "ACACAGAC",
+        "CACAGACA"
+      ]
+    },
+    {
+      "selected_edge": "CTGTGTGT",
+      "cycle": [
+        "CTGTGTGT",
+        "TGTGTGTT",
+        "GTGTGTTC",
+        "TGTGTTCT",
+        "GTGTTCTG",
+        "TGTTCTGT",
+        "GTTCTGTG",
+        "TTCTGTGT",
+        "TCTGTGTG"
+      ]
+    },
+    {
+      "selected_edge": "GTGTCTGT",
+      "cycle": [
+        "GTGTCTGT",
+        "TGTCTGTG",
+        "GTCTGTGT",
+        "TCTGTGTC",
+        "CTGTGTCT",
+        "TGTGTCTG"
+      ]
+    }
+  ]
+}

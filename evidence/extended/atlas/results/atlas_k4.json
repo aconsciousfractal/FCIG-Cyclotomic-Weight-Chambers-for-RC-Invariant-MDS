@@ -1,0 +1,240 @@
+{
+  "k": 4,
+  "roots": [
+    {
+      "id": 0,
+      "value": [
+        3,
+        0,
+        1
+      ],
+      "families": [
+        "midpoint"
+      ],
+      "active_midpoint_word_code": 40,
+      "active_midpoint_word": "GGA",
+      "left_to_right": {
+        "symmetric_difference": 16,
+        "first_witness_code": 40,
+        "first_witness_word": "AGGA"
+      },
+      "left_to_point": {
+        "symmetric_difference": 0,
+        "first_witness_code": null,
+        "first_witness_word": null
+      },
+      "point_to_right": {
+        "symmetric_difference": 16,
+        "first_witness_code": 40,
+        "first_witness_word": "AGGA"
+      },
+      "essential": true,
+      "point_only_anomaly": false,
+      "three_distinct": false
+    }
+  ],
+  "family_counts": {
+    "lower_lambda": {
+      "word_occurrences": 64,
+      "distinct_forms": 9,
+      "structural_occurrences": 16,
+      "positive_roots": 0
+    },
+    "midpoint": {
+      "word_occurrences": 64,
+      "distinct_forms": 25,
+      "structural_occurrences": 4,
+      "positive_roots": 1
+    },
+    "seed_real": {
+      "word_occurrences": 256,
+      "distinct_forms": 9,
+      "structural_occurrences": 64,
+      "positive_roots": 0
+    },
+    "seed_imag": {
+      "word_occurrences": 256,
+      "distinct_forms": 9,
+      "structural_occurrences": 64,
+      "positive_roots": 0
+    }
+  },
+  "structural_embedding_words": 16,
+  "embedding_spectrum": [],
+  "status": "PRODUCED_EXACT",
+  "rows": [
+    {
+      "id": "k4_c000",
+      "kind": "interval",
+      "ratio": [
+        5,
+        0,
+        2
+      ],
+      "terminal_sha256": "2bffd660e82589669f62f21c8a641b128d499ecf612cc07e64aaf9279fd07964",
+      "bitset_sha256": "059fe934d0e10ccb91b97f6195c0384c05b82f0efa3816c85e5df915d17c3bdd",
+      "level_sha256": "e232e6ad2209c0335bbefa77fa5310944ff226482020ac0ef665555683a1f7c6",
+      "selected_count": 70,
+      "zero_embedding_words": 16,
+      "zero_lower_words": 16,
+      "positive_lower_words": 24,
+      "ideal_count": 12,
+      "midpoint_active_ties": 0,
+      "midpoint_active_accidental_ties": 0,
+      "lower_longest_edges": 17,
+      "upper_longest_edges": 16,
+      "block_lengths": {
+        "-1": 2,
+        "0": 11,
+        "1": 2
+      },
+      "block_upper_bound": 17,
+      "block_bound_saturated": true,
+      "residual_arcs": 186,
+      "longest_path_lower_vertex_codes": [
+        37,
+        20,
+        16,
+        0,
+        1,
+        4,
+        18,
+        8,
+        35,
+        13,
+        55,
+        30,
+        59,
+        47,
+        63,
+        62,
+        58,
+        40
+      ]
+    },
+    {
+      "id": "k4_c001",
+      "kind": "point",
+      "ratio": [
+        3,
+        0,
+        1
+      ],
+      "terminal_sha256": "2bffd660e82589669f62f21c8a641b128d499ecf612cc07e64aaf9279fd07964",
+      "bitset_sha256": "059fe934d0e10ccb91b97f6195c0384c05b82f0efa3816c85e5df915d17c3bdd",
+      "level_sha256": "e232e6ad2209c0335bbefa77fa5310944ff226482020ac0ef665555683a1f7c6",
+      "selected_count": 70,
+      "zero_embedding_words": 16,
+      "zero_lower_words": 16,
+      "positive_lower_words": 24,
+      "ideal_count": 12,
+      "midpoint_active_ties": 2,
+      "midpoint_active_accidental_ties": 2,
+      "lower_longest_edges": 17,
+      "upper_longest_edges": 16,
+      "block_lengths": {
+        "-1": 2,
+        "0": 11,
+        "1": 2
+      },
+      "block_upper_bound": 17,
+      "block_bound_saturated": true,
+      "residual_arcs": 186,
+      "longest_path_lower_vertex_codes": [
+        37,
+        20,
+        16,
+        0,
+        1,
+        4,
+        18,
+        8,
+        35,
+        13,
+        55,
+        30,
+        59,
+        47,
+        63,
+        62,
+        58,
+        40
+      ]
+    },
+    {
+      "id": "k4_c002",
+      "kind": "interval",
+      "ratio": [
+        4,
+        0,
+        1
+      ],
+      "terminal_sha256": "ca17281fd0eeaf5b1d6e24899b6f2ff961b1664e9386bc141941b665ec1f0327",
+      "bitset_sha256": "2c77425d562a258207f67dbc1c888ea589d1ee6faac96714c3758dde8d0c07f4",
+      "level_sha256": "2b4288baadd8085ad8a9071d7e3d3366551689293c42b7c6a9acd4ebda45af20",
+      "selected_count": 70,
+      "zero_embedding_words": 16,
+      "zero_lower_words": 16,
+      "positive_lower_words": 24,
+      "ideal_count": 12,
+      "midpoint_active_ties": 0,
+      "midpoint_active_accidental_ties": 0,
+      "lower_longest_edges": 17,
+      "upper_longest_edges": 16,
+      "block_lengths": {
+        "-1": 2,
+        "0": 11,
+        "1": 2
+      },
+      "block_upper_bound": 17,
+      "block_bound_saturated": true,
+      "residual_arcs": 186,
+      "longest_path_lower_vertex_codes": [
+        37,
+        20,
+        16,
+        0,
+        1,
+        4,
+        18,
+        8,
+        35,
+        13,
+        55,
+        30,
+        59,
+        47,
+        63,
+        62,
+        58,
+        41
+      ]
+    }
+  ],
+  "terminal_classes": [
+    [
+      "k4_c000",
+      "k4_c001"
+    ],
+    [
+      "k4_c002"
+    ]
+  ],
+  "distinct_terminals": 2,
+  "open_intervals": 2,
+  "point_strata": 1,
+  "essential_roots": 1,
+  "optimum_lower_longest_edges": 17,
+  "optimum_cells": [
+    "k4_c000",
+    "k4_c001",
+    "k4_c002"
+  ],
+  "maximum_lower_longest_edges": 17,
+  "length_histogram": {
+    "17": 3
+  },
+  "block_bound_nonsaturated_cells": [],
+  "one_per_pcr": 70,
+  "scope": "DNA s=(-rho,-1,1,rho), rho>1, fixed zero-PCR and lex midpoint ties; exact lower-edge path units"
+}

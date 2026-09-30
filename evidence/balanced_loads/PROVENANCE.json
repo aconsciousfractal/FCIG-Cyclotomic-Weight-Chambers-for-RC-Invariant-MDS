@@ -1,0 +1,56 @@
+{
+  "source_capsule_manifest_sha256": "3c3edffe5a07deed4709c0523273c96b9402ca87e73d6c92f93ef8bb7d4c62cc",
+  "sources": [
+    {
+      "path": "code/exact_kernel.py",
+      "source": "Shared exact graph and certificate kernel",
+      "sha256": "0a221c5088a08bf3f762ef418ae1442a85d1839100dc044466bc93ca497c72d0",
+      "bytes": 11419,
+      "copy": "byte-exact"
+    },
+    {
+      "path": "inputs/return_sources.json.gz",
+      "source": "Return-source families",
+      "sha256": "d7ee524f6a51d10babe4de8f4b95ee2de637032422b4eec0e241fe92d389ea91",
+      "bytes": 24130,
+      "copy": "byte-exact"
+    },
+    {
+      "path": "inputs/returns.json.gz",
+      "source": "Transformed return families",
+      "sha256": "a5fbe6cd28bf92be9c0d6753506fe2b5aaa07ce79658748f168ea66a3976dee7",
+      "bytes": 276461,
+      "copy": "byte-exact"
+    },
+    {
+      "path": "inputs/blocks.json.gz",
+      "source": "Joined mixed-walk blocks",
+      "sha256": "077b2d486cb09addbce3cea306e2a590cecb00ef60ba32bd606c4ad25a3a917e",
+      "bytes": 12878,
+      "copy": "byte-exact"
+    },
+    {
+      "path": "inputs/compact_module.json.gz",
+      "source": "Compiled old signed-lift module",
+      "sha256": "ca4692041e04426d3874a6676f5e3911634f524ff35a33d18735496951d0afbd",
+      "bytes": 105573,
+      "copy": "byte-exact"
+    },
+    {
+      "path": "results/joint_core106.json.gz",
+      "source": "Selected core, lift, and balanced-return certificate",
+      "sha256": "037ea514a5ecc9e879e1367cda01aa8c4bb004acec6c6f9fffbce23044ada6f1",
+      "bytes": 46223,
+      "copy": "byte-exact"
+    },
+    {
+      "path": "results/joint_core106.words.txt",
+      "source": "Selected core word list",
+      "sha256": "d299f12b8d216b974e17f8541c2647f8fbcd351d5242d7ee6b189ae5f2911e04",
+      "bytes": 72918,
+      "copy": "byte-exact"
+    }
+  ],
+  "shared_kernel_independence": "not an independent second graph implementation",
+  "source_description": "Seven unchanged payloads from the selected DNA8 compact certificate capsule."
+}

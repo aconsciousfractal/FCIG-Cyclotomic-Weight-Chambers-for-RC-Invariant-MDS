@@ -1,0 +1,23 @@
+{
+  "finite_assurance": {
+    "advances_provenance_sha256": "69f7dae79fd98c7a4f35ae8e0b3be79c59ee5cae37697897fadd53f963d18c98",
+    "atlas_payload_sha256": "aca5d5fc81c839c218b6eefaaf00acdc733b6e86c342e3d13546c82b0ce07f1f",
+    "balanced_loads_provenance_sha256": "4c5de43533432b61425ce7ff8b9ff1c10423e5ccd98fedeeac28d86ad2e456fc",
+    "single_odd_prime_embedding_payload_sha256": "9ed015120913ea30aeff4bac1a59d4d1cca9911b1a5965257a54a0e024a1e880",
+    "validation_payload_sha256": "b79051b4190d6f13b9bb183fe1299fb67b34a1eef21bbed5bf09c516f243ce46"
+  },
+  "manifest": {
+    "entries": 1120,
+    "sha256": "dce288a78369dcf4122a4f9a53ea5f4320938b3615b738e91f7797b09891e16d",
+    "tree_sha256": "174a7fa0541720636f89c32a6f97b0d6042292ddd69c85c02474971122638c4f"
+  },
+  "paper": {
+    "bytes": 397138,
+    "path": "paper/Cyclotomic_Weight_Chambers_for_RC_Invariant_MDS.pdf",
+    "sha256": "34c1304872baa4f1df4f363b497389de296496738d6ee6316cf72c5315cbe7d8"
+  },
+  "publication_status": "OUT_OF_SCOPE_NOT_ASSERTED",
+  "schema": "fcig-cwc-release-attestation-v1",
+  "status": "PASS_STANDALONE_RELEASE_ATTESTATION",
+  "version": "3.2.0"
+}

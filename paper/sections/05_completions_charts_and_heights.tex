@@ -1,0 +1,446 @@
+\section{Completions, bounded charts, and cardinality heights}
+
+\subsection{Exact completion of the stable choices}
+\label{sec:stable-completion}
+Let a finite digraph have an involution $\theta$ on vertices reversing
+arcs. An individually fixed arc has the form $e:u\to\theta u$.
+Let $D$ be an RC-invariant DAG from which all such candidate arcs
+have been removed. Write $a_D(v)$ and $b_D(v)$ for its longest
+incoming and outgoing path lengths and $L_D$ for its longest path.
+Reachability below includes paths of length zero.
+
+\begin{lemma}[At most one fixed arc on a path]
+\label{lem:one-fixed-arc}
+An RC-invariant DAG has no directed path containing two
+individually fixed arcs.
+\end{lemma}
+\begin{proof}
+If $e:u\to\theta u$ and $f:v\to\theta v$ occur in that order,
+let $P\colon\theta u\leadsto v$ be the intervening path. Then
+$e,P,f,\RC(P)$ is a nonempty closed directed walk, a contradiction.
+The argument includes an empty $P$.
+\end{proof}
+
+\begin{theorem}[Stable completion by 2-SAT]
+\label{thm:stable-completion}
+For a subset $R$ of the removed fixed arcs, $D\cup R$ is acyclic
+if and only if it satisfies the following prohibitions:
+\begin{enumerate}
+\item Do not restore $e:u\to\theta u$ if $D$ has a path
+      $\theta u\leadsto u$.
+\item Do not restore distinct $e:u\to\theta u$ and
+      $f:v\to\theta v$ together if $D$ has a path
+      $\theta u\leadsto v$.
+\end{enumerate}
+For every acyclic completion,
+\begin{equation}
+ L(D\cup R)=\max\{L_D,\ \max_{e:u\to\theta u\in R}(2a_D(u)+1)\}.
+ \label{eq:stable-length}
+\end{equation}
+Thus, after fixing the nonstable PCR selections in an even-order
+RC de Bruijn graph, existence of an MDS completion with $L\le\ell$
+is decided by 2-SAT in polynomial time in the explicit graph size.
+\end{theorem}
+\begin{proof}
+Each prohibition is necessary by closing one fixed arc or applying
+\Cref{lem:one-fixed-arc}. Conversely a cycle must use a restored
+arc. If it uses exactly one it violates the first prohibition;
+otherwise two consecutive restored arcs on the cycle violate the
+second. For the length formula, every path uses at most one such
+arc. The longest prefix ending at $u$ and suffix starting at
+$\theta u$ can be concatenated with it: any repeated vertex would
+give a cycle. RC gives $b_D(\theta u)=a_D(u)$, proving equality.
+
+For MDS completion delete the fixed nonstable selections and all
+individually fixed arcs to form $D$. If $D$ is cyclic or $L_D>\ell$,
+reject. Otherwise introduce a variable for restoring each fixed
+arc, require exactly one per stable pair, and add the two types of
+prohibition as unary and binary clauses. Also forbid any restored
+arc with $2a_D(u)+1>\ell$. These are exactly the necessary and
+sufficient constraints. Reachability and DAG distances are polynomial.
+The implication graph decides 2-SAT by checking that no variable
+and its negation belong to one strongly connected component.
+\end{proof}
+The implication-graph algorithm is classical
+\cite{AspvallPlassTarjan1979}; the complete RC reachability and
+length reductions are proved above. The algorithm fixes the
+nonstable selections first; it is not a polynomial algorithm for
+the global MDS optimization problem or for counting all 2-SAT models.
+For $\ell=106$, a restored fixed arc must have $a_D(u)\le52$.
+
+\begin{proposition}[The complete stable fibre of $M_{107}$]
+\label{prop:stable-fibre}
+Keeping all nonstable selections of the canonical $M_{107}$ fixed
+leaves exactly 128 RC MDS: 121 of the 128 stable choices are forced
+and seven are free. The resulting cube has ordinary-component
+minimum profile
+\[
+ 107:8,\qquad109:8,\qquad111:16,\qquad113:32,\qquad115:64.
+\]
+The 128 endpoints belong to distinct ordinary components. None of
+these fixed-exterior completions has $L\le106$.
+\end{proposition}
+\begin{proof}[Exact certificates]
+The stable-cube certificate reconstructs all fixed arcs, all
+reachability prohibitions and all costs in \eqref{eq:stable-length}.
+It verifies the 128 DAGs and, for each, a one-hit cycle one arc
+longer than its length. These certify the component minima, not
+just the fibre minima. Distinct stable assignments in this cube
+are neither equal nor global complements, since 121 bits are
+fixed. \Cref{lem:stable-pcr-parity} separates their components.
+A 107-arc path using only nonstable PCRs remains after every stable
+change, and independently obstructs the target 106.
+\end{proof}
+
+\subsubsection{Allowing one extra selected arc}
+Let $N$ be the number of PCRs. At cost at most $N+1$, an RC
+feedback set has exactly one selection in every nonstable PCR:
+surplus there comes in RC pairs and costs at least two. At cost
+$N+1$, exactly one stable PCR is double. Its selected pair is
+either its two individually fixed arcs or a nonfixed RC pair.
+
+\begin{corollary}[Complete fixed-exterior oracle for excess at most one]
+\label{cor:excess-one-oracle}
+For even $q,k$ and free alphabet complement, fix an RC selection
+of one arc per nonstable PCR. Existence of an RC feedback set
+extending it with cost at most $N+1$ and $L\le\ell$ is decided
+by at most $1+\sum_{P\ \mathrm{stable}}|P|/2$ instances of 2-SAT.
+This is polynomial in the explicit graph size. For DNA $k=8$
+the number of branches is $1+128+366=495$.
+\end{corollary}
+\begin{proof}
+The preceding classification is exhaustive because every PCR
+must be hit. Take one branch with no exceptional PCR, or choose
+the exceptional PCR and its double selection. A stable PCR of
+period $p$ has one fixed pair and $(p-2)/2$ nonfixed pairs, giving
+$p/2$ exceptional branches. Construct $D$ by deleting the fixed
+nonstable selections, the chosen exceptional nonfixed pair if any,
+and all individually fixed arcs. Reject cyclic or overlong $D$.
+Ordinary stable pairs require exactly one restored fixed arc.
+For the exceptional pair, force both restoration variables to zero
+if both fixed arcs were selected, or both to one if a nonfixed
+pair was selected. All constraints are 2-CNF.
+\Cref{thm:stable-completion} applies to any subset of restored
+fixed arcs, including these forced cases, and gives exact clauses.
+Their union over the branches is precisely the desired family.
+The stable PCRs have 988 arcs at DNA order eight, yielding 495.
+\end{proof}
+This corollary combines the completion theorem with the surplus
+classification; it does not choose the 4051 nonstable RC-PCR
+groups of the global problem. Its finite regression includes
+satisfiable and unsatisfiable 2-SAT branches, not just cases
+rejected before the SAT step.
+
+\subsubsection{Rank projection and cuts with the correct surplus}
+\begin{proposition}[Continuous ranks for Boolean endpoints]
+\label{prop:boolean-ranks}
+For a Boolean arc indicator $n$ and integer $\ell\ge0$, the residual
+is a DAG with $L\le\ell$ if and only if there is a real rank
+$r\in[0,\ell]^V$ such that
+\[
+ r(h(e))-r(t(e))\ge1-(\ell+1)n(e).
+\]
+If $n$ is RC invariant the rank may have mate sum $\ell$.
+\end{proposition}
+\begin{proof}
+An integral longest-path rank proves necessity, including on
+selected arcs where the right side is $-\ell$. Conversely summing
+along zero arcs excludes cycles and paths longer than $\ell$.
+Replace $r(v)$ by $(r(v)+\ell-r(\theta v))/2$ for the last claim.
+\end{proof}
+Integrality of the signed clock in \Cref{thm:bounded-chart} remains
+essential; this proposition assumes Boolean $n$.
+
+The rank system can be projected exactly to a boundary $B$ of
+variable arcs, retaining every variable-arc inequality on its
+boundary endpoints. Let $D$ be the fixed residual DAG and keep all
+inequalities $r(v)-r(u)\ge d_D(u,v)$ for reachable boundary pairs,
+where $d_D$ is the longest path distance. Also keep
+$a_D(v)\le r(v)\le\ell-b_D(v)$ and check $L_D\le\ell$.
+To extend feasible boundary values, set the rank of any vertex
+$v$ to the maximum of $a_D(v)$ and all
+$r(u)+d_D(u,v)$ with $u\in B$ reaching $v$.
+The boundary values are preserved; the suffix bounds keep every
+extended rank at most $\ell$, and all fixed arc inequalities hold.
+This proves exact elimination. It may create many boundary-pair
+constraints and is not an automatic reduction in total model size.
+
+\begin{corollary}[Two-arm inequality with stable surplus]
+\label{cor:surplus-two-arm}
+Let a stable PCR $P$ have fixed arcs $e_i:u_i\to\theta u_i$,
+$i=0,1$. For each $i$ choose a path of $h$ nonfixed arcs ending
+at $u_i$, and let $U$ be the union of their arc sets. Every RC
+feedback set $M$ with $L(M)\le2h$ satisfies
+\[
+ \sum_{e\in U}\ind_M(e)+\bigl(|M\cap P|-1\bigr)\ge1.
+\]
+\end{corollary}
+\begin{proof}
+The PCR is hit. If it is hit at least twice the inequality is
+immediate. Otherwise RC forces its sole selected arc to be fixed,
+so the other $e_i$ is residual. If $M$ avoided both arms, RC
+would also leave both reflected arms residual. The arm ending
+at $u_i$, followed by $e_i$ and its reflected arm, would be a
+residual walk of $2h+1$ arcs. It is either an overlong path or
+contains a cycle, both impossible.
+\end{proof}
+The sum uses the full arc universe, including arcs that become
+selectable when surplus is allowed. The surplus belongs to the
+\emph{stable} PCR $P$. At MDS cost it vanishes; at cost $N+1$
+it can legitimately deactivate a clause. Omitting it is false:
+for binary $k=4$, the RC feedback set
+\[
+ \{0000,0011,0100,0101,1000,1100,1101,1110,1111\}
+\]
+has $L=2$. The stable PCR $\{0011,0110,1001,1100\}$ is hit twice,
+while neither one-arc arm $0001$ or $0110$ is selected. The
+unlifted inequality would read $0\ge1$.
+
+\subsection{A complete bounded chart of RC endpoints}
+\label{sec:signed-chart}
+Assume throughout this section that $q$ and $k\ge2$ are even,
+the alphabet complement has no fixed letter, and a base indicator
+$m$ is RC invariant with exactly one selection per PCR. Lower
+vertices have odd length and occur in distinct pairs $\{u,\theta u\}$.
+The base need not be acyclic for the algebraic representation below.
+
+\begin{lemma}[Stable PCRs and a parity restriction]
+\label{lem:stable-pcr-parity}
+Every RC-stable PCR has exactly two individually RC-fixed arcs.
+An RC selection of one arc in that PCR chooses one of them.
+Every integral combination of paired transfers
+\[
+ g_{u,a}=\ind_{ua}-\ind_{au}
+             +\ind_{\RC(ua)}-\ind_{\RC(au)}
+\]
+preserves the parity of each individually fixed arc coefficient.
+If two RC MDS differ by an integral gradient, all their fixed-arc
+bits are either unchanged or simultaneously complemented.
+\end{lemma}
+\begin{proof}
+Write $\RC(w)=\rot^j w$ on an orbit of primitive period $p$.
+The induced reflection of letter positions cannot fix a position,
+since a letter is different from its complement. Thus $p$ is even
+and $j$ is even. Fixed rotations solve $2i=j\pmod p$, giving two
+solutions. A one-element RC-invariant selection must be fixed.
+At a fixed arc the two summands in each RC pair in $g_{u,a}$
+coincide, so its coefficient is even.
+For $n-m=\nabla f$, comparison of mate arcs makes
+$f(v)+f(\theta v)=C$ constant. On $e:u\to\theta u$,
+$n(e)-m(e)=2f(u)-C\equiv C\pmod2$; Boolean endpoints prove the claim.
+\end{proof}
+For DNA $k=8$, the 128 stable choices, modulo simultaneous
+complementation, yield a 127-bit ambient label for ordinary
+components. This is neither a complete invariant nor a claim that
+all labels are realized. Omitting independent stable corrections
+therefore imposes a genuine restriction on an integral transfer search.
+
+\begin{lemma}[Reconstruction from a signed cochain]
+\label{lem:signed-reconstruction}
+Let $x:E\to\Z$ be RC invariant and sum to one on every PCR.
+If $T\ge1$ and an integral $H$ satisfy
+\begin{equation}
+ H(h(e))-H(t(e))+Tx(e)\ge1,\qquad
+ H(v)+H(\theta v)=T-1,
+ \label{eq:signed-clock}
+\end{equation}
+then
+\[
+ n(e)=x(e)-\floor{H(t(e))/T}+\floor{H(h(e))/T}
+\]
+is an RC MDS indicator and $L(n)\le T-1$.
+\end{lemma}
+\begin{proof}
+Write $H=Ta+r$, $0\le r<T$. Then
+$Tn(e)+r(h(e))-r(t(e))\ge1$, so integrality gives $n(e)\ge0$.
+Its sum on each PCR is one by telescoping. Since the PCRs partition
+the arcs, these conditions force $n(e)\in\{0,1\}$. Rank $r$
+increases along each zero arc. The mate sum gives
+$r(v)+r(\theta v)=T-1$ and $a(v)+a(\theta v)=0$, making
+$n=x-\nabla a$ RC invariant. Its cardinality attains the PCR lower
+bound. This includes $T=1$.
+\end{proof}
+
+Choose one representative of each lower-vertex pair and a reference
+letter $a_*$. In each stable PCR $P$, let $f_P^0$ be the selected
+fixed arc of $m$ and $f_P^1$ the other, and set
+$\eta_P=\ind_{f_P^1}-\ind_{f_P^0}$. Put
+\[
+ x=m+\sum_{u,\,a\ne a_*}z_{u,a}g_{u,a}
+                         +\sum_{P\ \mathrm{stable}}\gamma_P\eta_P.
+\]
+\begin{theorem}[Complete bounded endpoint chart]
+\label{thm:bounded-chart}
+An RC MDS of residual length at most $T-1$ exists if and only if
+\eqref{eq:signed-clock} has a solution with
+\[
+ z_{u,a}\in\{-2,-1,0,1,2\},\quad \gamma_P\in\{0,1\},\quad
+ -T\le H(v)\le2T-1,
+\]
+all coordinates integral. There is no restriction on the number
+of nonzero sites $u$.
+\end{theorem}
+\begin{proof}
+Each generator preserves RC and each PCR sum, so sufficiency is
+\Cref{lem:signed-reconstruction}. For necessity, take a required
+endpoint $n$. In one PCR of each nonstable RC pair, transport the
+selection of $m$ to that of $n$ along a rotation path shorter than
+a full turn, and add its RC companion. After canonicalizing $u$,
+this gives transfer coefficients $t_{u,a}\in\{-1,0,1\}$: a
+coordinate can arise only from a rotation step or its reversed RC
+companion in the other PCR, and different PCR pairs cannot share it.
+Treat stable PCRs directly with $\gamma_P\eta_P$.
+
+The identities
+\[
+ g_{\theta u,\bar a}=-g_{u,a},\qquad
+ \sum_a g_{u,a}=\nabla(\ind_u-\ind_{\theta u})
+\]
+allow elimination of the reference coordinate. Set $b_u=t_{u,a_*}$
+and $z_{u,a}=t_{u,a}-b_u$. Then $n=x+\nabla f$, where
+$f=\sum_u b_u(\ind_u-\ind_{\theta u})$ takes values in
+$\{-1,0,1\}$ and is antisymmetric. Thus $|z_{u,a}|\le2$.
+The bounded autodual-rank proof in \Cref{lem:autodual-rank} applies
+also here at $k=2$: take an integral rank $r\in[0,T-1]$ for the
+residual of $n$, with mate sum $T-1$. Setting $H=r-Tf$ gives the
+stated bounds and all inequalities.
+\end{proof}
+At DNA order eight the chart uses $8192\cdot3=24576$ transfer
+coordinates, 128 stable bits and 8192 independent clock coordinates,
+for 32,896 integer variables. A signed $x$ need not be Boolean or
+acyclic. The theorem concerns its reconstructed endpoint, not the
+legality of intermediate local moves. The three-site exclusion below
+allows arbitrary integer coefficients on those sites and arbitrary
+retiming; its local scope is not a limitation of this complete chart.
+
+\subsection{Bounded heights and cardinality above the PCR minimum}
+\label{sec:height-excess}
+The MDS objective fixes cardinality first. A complementary question fixes
+the path bound and minimizes cardinality. Write
+\[
+ \tau_{\RC}(\ell)=\min\{|M|:M\text{ is an RC feedback set and }L(M)\le\ell\}.
+\]
+For DNA $k=8$, every such set has at least 8230 arcs. A set of
+8232 arcs is not an MDS, even when it is inclusion-minimal.
+
+\begin{theorem}[Exact antisymmetric height formulation]
+\label{thm:height-formulation}
+Let $G$ be a finite digraph with a vertex involution $\theta$ reversing
+arcs, and let $H\ge0$ be an integer. The minimum cardinality of an
+RC feedback set with residual length at most $2H$ is
+\[
+ \min_{\substack{h:V\to\Z,\ |h(v)|\le H\\h(\theta v)=-h(v)}}
+       |\{e:u\to v:h(v)\le h(u)\}|.
+\]
+The statement allows fixed vertices of $\theta$.
+\end{theorem}
+\begin{proof}
+For a feasible height $h$, retain only strictly increasing arcs.
+This is an RC DAG of path length at most $2H$, proving one
+inequality. Conversely take a feasible feedback set and its
+residual longest incoming rank $d$. The half-integral height
+$c(v)=(d(v)-d(\theta v))/2$ lies in $[-H,H]$, is antisymmetric,
+and increases by at least one on residual arcs. Round nonintegral
+values away from zero, keeping integers fixed. For endpoints on
+one side of zero their rounding increments agree if both are
+half-integral; across zero the gap grows. With exactly one
+half-integral endpoint an integral lower gap bound of one means
+the original gap is at least $3/2$, so losing at most $1/2$
+is harmless. Thus the resulting integral $h$ still increases
+on all residual arcs. It stays in $[-H,H]$ and is zero on fixed
+vertices. Its nonincreasing arcs form a subset of the given
+feedback set, proving the reverse inequality.
+\end{proof}
+Without antisymmetry, maximizing the increasing arcs is the
+classical Max-$k$-Ordering formulation, here with $2H+1$ labels
+\cite{KenkreEtAl2015}. The statement above supplies the exact
+RC restriction for an even path bound, with a proof rather than
+a continuous-relaxation assumption.
+
+\begin{proposition}[Cost 8232 at length 105]
+\label{prop:8232}
+There is an RC feedback set $S$ with $|S|=8232$ and $L(S)=105$.
+It is inclusion-minimal even among feedback sets without RC.
+It hits 8228 PCRs once and two nonstable companion PCRs twice.
+In particular
+\[
+ 8230\le\tau_{\RC}(106)\le8232.
+\]
+The same upper bound holds for $\tau_{\RC}(105)$.
+\end{proposition}
+\begin{proof}[Exact certificates]
+The word list \pathfile{r11/certificates/S8232.words.txt}, height
+certificate, rank and attaining path verify the first two numbers.
+The checker reconstructs the PCR partition and the stated
+multiplicities. For each singly hit PCR, its rotation cycle
+certifies necessity of its selected arc. For the four selected
+arcs in the double PCRs, four explicitly stored one-hit cycles
+of lengths six or nine provide the missing necessity witnesses.
+Removing any selected arc therefore restores a directed cycle.
+The PCR count proves the lower bound 8230 independently of this
+construction. Neither inclusion-minimality nor these short cycles
+prove that 8232 is a minimum at the required length.
+\end{proof}
+
+There are two further cost-8232 witnesses $S_A,S_B$ of length 105
+in \pathfile{r13/certificates/}. They arise by adding the RC pair
+$\{\texttt{GAAAAAAA},\texttt{TTTTTTTC}\}$ to the two length-107
+MDS \pathfile{M107_panel_02.words.txt} and
+\pathfile{M107_panel_03.words.txt}. Those MDS are in one ordinary
+component and opposite sectors. In this component, two is the
+minimum number of RC additions needed to reach length at most 106:
+the supplied simple 108-cycle has one selected arc and no
+individually fixed arcs. Any single RC addition would have to be
+fixed, so it cannot repair that cycle. Gradients preserve its
+intersection count. The two displayed additions attain length 105.
+For the original canonical $M_{107}$, a separate exact census
+instead gives minimum RC augmentation cost four. These are
+fixed-base or fixed-component augmentation statements, not
+global cardinality lower bounds.
+
+Adding either word of the displayed pair alone gives a set of
+8231 arcs with $L=106$, but that set is not RC invariant. This
+separates an ordinary construction from the still-open RC target.
+
+\begin{proposition}[Affine pruning is exhausted for three bases]
+\label{prop:affine-pruning}
+For each of $S,S_A,S_B$, no smaller Boolean RC feedback indicator
+of the form
+\[
+ n=\ind_S-a+\nabla f,\qquad
+ a:E\to\Z_{\ge0},\quad a\ne0,\quad a\text{ RC invariant},
+ \quad f:V\to\R,
+\]
+has residual length at most 106 (replace $S$ by the chosen base).
+For the first base no smaller feedback endpoint of this form
+exists at any length. For $S_A,S_B$ the smallest attainable
+length in this family is 107.
+\end{proposition}
+\begin{proof}[Reduction and exact cycle certificates]
+On each PCR, gradients telescope and a feedback indicator has
+positive integral sum. Hence $a$ vanishes on every singly hit
+PCR, including the stable ones. Each base has just one doubled
+nonstable PCR pair. In each of its two PCRs, $a$ has sum at most
+one. RC and $a\ne0$ force the sums to be one, so $a$ is one
+RC pair of arcs chosen from this orbit pair. There are exactly
+eight possibilities, including arcs not selected in the base.
+The whole de Bruijn graph is balanced, so $\sum_e\nabla f(e)=0$;
+any endpoint then has cardinality 8230.
+
+For the first base all eight choices have a certified closed
+walk of nonpositive $\ind_S-a$ weight. Its weight cannot change
+under a gradient; a Boolean feedback indicator must have positive
+weight on every nonempty closed walk. For each of the other two
+bases there is one negative and six zero-weight obstructions.
+The final case has a 108-cycle of weight one, forcing $L\ge107$.
+In that case subtracting the pair actually gives the corresponding
+length-107 MDS, so the bound is attained. All 24 walks and their
+integer weights are checked in
+\pathfile{r13/certificates/affine_pruning.json}.
+\end{proof}
+Allowing real $f$ does not weaken the cycle obstructions. Between
+Boolean endpoints an integral gradient also has an integral
+potential after a constant normalization, by propagation along
+the connected graph. This exhaustion concerns subtraction and
+retiming. It does not allow arbitrary new inserted arcs, which
+are a separate research direction.

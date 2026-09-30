@@ -1,0 +1,276 @@
+[
+  {
+    "index": 0,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/inputs/M107.words.txt",
+      "sha256": "4e0c44d87ea9782f261cf3ed2c0e918784fa404bbf0f57041b494509ff7d5edc"
+    },
+    "critical_edges": 1076,
+    "critical_fixed": 6,
+    "critical_pairs": 535,
+    "tested_extensions_le2": 556,
+    "histogram_L": {
+      "107": 556
+    },
+    "successes": []
+  },
+  {
+    "index": 1,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/certificates/box2.words.txt",
+      "sha256": "06f43e3a8db31ede44c87f6c2a6c60d52c4cf2a24883402ec4a439a1c15d7445"
+    },
+    "critical_edges": 1076,
+    "critical_fixed": 6,
+    "critical_pairs": 535,
+    "tested_extensions_le2": 556,
+    "histogram_L": {
+      "107": 556
+    },
+    "successes": []
+  },
+  {
+    "index": 2,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/M107_alternative0.words.txt",
+      "sha256": "aab8cdfdc63f7f3921a2cb62ffa11d8085fa5307cc4204a40d1d8a381ff9b328"
+    },
+    "critical_edges": 1207,
+    "critical_fixed": 9,
+    "critical_pairs": 599,
+    "tested_extensions_le2": 644,
+    "histogram_L": {
+      "107": 643,
+      "105": 1
+    },
+    "successes": [
+      {
+        "cardinality": 8232,
+        "L": 105,
+        "sha256": "18c23ffa238881a305e4f6a4f05faf62568ed90df64f661f1c7f65acdf950fee",
+        "center_count": 1,
+        "B21_hits": [
+          "AACAGACA",
+          "ACACAGAA",
+          "AGACACGA"
+        ],
+        "overselected_groups": [
+          {
+            "group": "AAAAAAAG",
+            "stable": false,
+            "selected_count_full_group": 4
+          }
+        ],
+        "add": [
+          "GAAAAAAA",
+          "TTTTTTTC"
+        ],
+        "file": "extension_002_000.words.txt"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/M107_alternative1.words.txt",
+      "sha256": "a4ed7fe10683a323e6ae6f2aeb84f4aa85bc1df170a9937d9391b7e89800dc11"
+    },
+    "critical_edges": 1136,
+    "critical_fixed": 6,
+    "critical_pairs": 565,
+    "tested_extensions_le2": 586,
+    "histogram_L": {
+      "107": 585,
+      "105": 1
+    },
+    "successes": [
+      {
+        "cardinality": 8232,
+        "L": 105,
+        "sha256": "0390e3d94c4190c08f1a6a0faef56b2ea9feefceceafe3a8401715518c9dc1e8",
+        "center_count": 1,
+        "B21_hits": [
+          "AACAGACA",
+          "ACACAGAA",
+          "AGACACGA"
+        ],
+        "overselected_groups": [
+          {
+            "group": "AAAAAAAG",
+            "stable": false,
+            "selected_count_full_group": 4
+          }
+        ],
+        "add": [
+          "GAAAAAAA",
+          "TTTTTTTC"
+        ],
+        "file": "extension_003_000.words.txt"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/M107_sector1.words.txt",
+      "sha256": "fcd9e406a0b5bdf09dedcf26e9851816c819ca18af1622a4f54e9fcfe1dbb93b"
+    },
+    "critical_edges": 1112,
+    "critical_fixed": 8,
+    "critical_pairs": 552,
+    "tested_extensions_le2": 588,
+    "histogram_L": {
+      "107": 588
+    },
+    "successes": []
+  },
+  {
+    "index": 5,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/stable_027_L107.words.txt",
+      "sha256": "5828d4cdd4fc5e157f12afa84c369280f850944cf66668693f8c972b287aa1db"
+    },
+    "critical_edges": 1076,
+    "critical_fixed": 6,
+    "critical_pairs": 535,
+    "tested_extensions_le2": 556,
+    "histogram_L": {
+      "107": 556
+    },
+    "successes": []
+  },
+  {
+    "index": 6,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/stable_058_L107.words.txt",
+      "sha256": "e122758460dd4610e39436747594b5988bbc67de35073a900ef1bf57e3d79a35"
+    },
+    "critical_edges": 1113,
+    "critical_fixed": 7,
+    "critical_pairs": 553,
+    "tested_extensions_le2": 581,
+    "histogram_L": {
+      "107": 581
+    },
+    "successes": []
+  },
+  {
+    "index": 7,
+    "source": {
+      "archive": "RC_MDS_K8_Round10_Altezze_e_Costo_2026-09-21.zip",
+      "member": "RC_MDS_K8_Round10_2026-09-21/upstream/round9/inputs/stable_099_L107.words.txt",
+      "sha256": "cc8a4091763fdc21e81b22045144e23a51c1255a858e0bbaf9c4ba56702dcd0f"
+    },
+    "critical_edges": 1097,
+    "critical_fixed": 7,
+    "critical_pairs": 545,
+    "tested_extensions_le2": 573,
+    "histogram_L": {
+      "107": 573
+    },
+    "successes": []
+  },
+  {
+    "index": 8,
+    "source": {
+      "archive": "RC_MDS_K8_Round5_109_to_107_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round5_2026-09-20/discovery/runs/frontier84/best.words.txt",
+      "sha256": "1d795cdac8e5e1e8335d3d1f23242d2458981aef2571bfcbd63e40b879648d02"
+    },
+    "critical_edges": 1096,
+    "critical_fixed": 6,
+    "critical_pairs": 545,
+    "tested_extensions_le2": 566,
+    "histogram_L": {
+      "107": 566
+    },
+    "successes": []
+  },
+  {
+    "index": 9,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier611/best.words.txt",
+      "sha256": "9a295931f0c7db8becaad4674346b3b30db5e3a380f020d656c5ec76ab47e1d1"
+    },
+    "critical_edges": 1050,
+    "critical_fixed": 6,
+    "critical_pairs": 522,
+    "tested_extensions_le2": 543,
+    "histogram_L": {
+      "107": 543
+    },
+    "successes": []
+  },
+  {
+    "index": 10,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier612/best.words.txt",
+      "sha256": "6e63fc9b9d6e352d4a39fbd505dedcf946235f503b8433c4d3141ab610ee181f"
+    },
+    "critical_edges": 1129,
+    "critical_fixed": 7,
+    "critical_pairs": 561,
+    "tested_extensions_le2": 589,
+    "histogram_L": {
+      "107": 589
+    },
+    "successes": []
+  },
+  {
+    "index": 11,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier621/best.words.txt",
+      "sha256": "f6b94943c93ca84d97cc676e47d6e94fb7630378f892dcaef7fde919f942da50"
+    },
+    "critical_edges": 1135,
+    "critical_fixed": 7,
+    "critical_pairs": 564,
+    "tested_extensions_le2": 592,
+    "histogram_L": {
+      "107": 592
+    },
+    "successes": []
+  },
+  {
+    "index": 12,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier622/best.words.txt",
+      "sha256": "d754217ea2b57228cf8cdd3ffad984f04c8e985e24f9a70e6c010a00f3431a7b"
+    },
+    "critical_edges": 1333,
+    "critical_fixed": 7,
+    "critical_pairs": 663,
+    "tested_extensions_le2": 691,
+    "histogram_L": {
+      "107": 691
+    },
+    "successes": []
+  },
+  {
+    "index": 13,
+    "source": {
+      "archive": "RC_MDS_K8_Round6_Coordinate_Globali_2026-09-20.zip",
+      "member": "RC_MDS_K8_Round6_Quotient_2026-09-20/discovery/runs/frontier623/best.words.txt",
+      "sha256": "fa06899115b6a125c25ae544ddabb50e05019b2022a1113e53957b5d59b32fde"
+    },
+    "critical_edges": 978,
+    "critical_fixed": 6,
+    "critical_pairs": 486,
+    "tested_extensions_le2": 507,
+    "histogram_L": {
+      "107": 507
+    },
+    "successes": []
+  }
+]

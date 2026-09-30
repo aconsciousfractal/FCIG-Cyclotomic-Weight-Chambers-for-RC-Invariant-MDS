@@ -1,0 +1,10 @@
+{
+  "binary_rc_mds": 6,
+  "component_counts": {
+    "4": 1,
+    "6": 3,
+    "8": 21
+  },
+  "mixed_wall_count": 11,
+  "status": "PASS"
+}

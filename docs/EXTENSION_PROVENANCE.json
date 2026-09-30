@@ -1,0 +1,32 @@
+{
+  "adaptations": [
+    "English integrated proofs; original attachment files unchanged.",
+    "UTF-8/LF output and POSIX member paths for Windows/Unix.",
+    "Direct certificate joins replace nested archive dependencies.",
+    "Independent checker outputs use explicit temporary destinations.",
+    "Internal discovery logs, expired states, review controls and third-party binaries excluded."
+  ],
+  "licence_scope": "Author-supplied material under repository licence; no third-party full text redistributed.",
+  "prior_repository_commit": "860c62243ecc84ccacb36a870d11de277c317048",
+  "schema": "fcig-cwc-extension-provenance-v1",
+  "source_attachments": [
+    {
+      "name": "FCIG_RedTeam_Rafforzamento_2026-09-14.zip",
+      "sha256": "7b1af4beeef2c52904d0bb4dafbc184935314f1202d5ed36ae743c12e9152ba0"
+    },
+    {
+      "name": "FCIG_Round2_Chambers_2026-09-14.zip",
+      "sha256": "187ad3c92075353287977f9e73bdcc033b9df0bdb77966cebc5b3419a6819d86"
+    },
+    {
+      "name": "FCIG_Round3_Mixed_Walls_2026-09-14.zip",
+      "sha256": "6fddde536d1597bf2cc69e2cc88cbbce1aceae999c25c2cdc08e203b3916c5a5"
+    },
+    {
+      "name": "FCIG_Round4_Retiming_RC_2026-09-14.zip",
+      "sha256": "0bfb99e39100cd8d763d40bbbbad8495b32f4ccb99c23e6809bc2156f695ff29"
+    }
+  ],
+  "verification_independence": "AI-assisted and exposed; separate code does not imply specialist acceptance.",
+  "version": "2.0.0"
+}

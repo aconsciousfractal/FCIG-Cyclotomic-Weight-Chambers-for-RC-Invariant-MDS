@@ -1,0 +1,1110 @@
+\section{Technical supplement: arithmetic proofs and exact counts}
+
+\subsection{Component fields, structural zeros, and algebraic designs}
+\label{sec:components}
+
+A zero of a selector form is called \emph{structural} when it holds
+componentwise, and therefore for every choice of positive magnitudes.  A zero
+that is not structural is called \emph{accidental}.  This terminology refers
+to the weight parameter, not to numerical error.
+
+\begin{theorem}[Component-field zero criterion and structural extremality]
+\label{thm:component-field}
+Fix an even $k\ge4$.
+\begin{enumerate}
+  \item If $\beta_1,\ldots,\beta_m$ are linearly independent over $K_k$, then
+  \[
+    P_s(w)=0 \quad\Longleftrightarrow\quad X_i(w)=0\ \text{for every }i.
+  \]
+  \item If $\beta_1,\ldots,\beta_m$ are linearly independent over $K_k^+$,
+  then
+  \[
+    \lambda_s(u)=0 \quad\Longleftrightarrow\quad L_i(u)=0\ \text{for every }i.
+  \]
+  \item For arbitrary admissible magnitudes, every componentwise zero remains
+  zero.  Hence a field-generic table attains the universal structural floor
+  for each of these two zero sectors.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+The decompositions~\eqref{eq:component-decomp} are linear relations in the
+declared coefficient fields.  Under the corresponding field-linear
+independence, the relation can vanish only when every coefficient vanishes.
+The converse is immediate.  Componentwise vanishing does not involve the
+$\beta_i$, so those states remain zero for every admissible table.  Every
+other zero is an additional cancellation, proving the extremal assertion.
+\end{proof}
+
+The lower statement would be false as written without dividing out the
+common factor $\sin(2\pi/k)$.  For example, at $k=6$ that sine is
+$\sqrt3/2$; treating it as a rational coefficient confuses the coefficient
+field with a common nonzero scalar.
+
+\begin{corollary}[DNA field gate]
+\label{cor:dna-field-gate}
+For DNA magnitudes $(\rho,1)$, an accidental embedding zero forces
+$\rho\in K_k$, and an accidental lower zero forces $\rho\in K_k^+$.
+Field membership is necessary, not sufficient, for a realized DNA
+cancellation.
+\end{corollary}
+
+\begin{proof}
+An embedding relation has the form $\rho X_H+X_L=0$.  If it is accidental,
+$X_H\ne0$ and $\rho=-X_L/X_H\in K_k$.  The lower proof is identical with
+$L_H,L_L\in K_k^+$.  Membership alone supplies no labelled word whose two
+component coefficients realize the required quotient.
+\end{proof}
+
+The gate gives exact schedules for probing or avoiding algebraic resonance.
+We record three useful regimes.  All field-theoretic implications below are
+standard consequences of conductor and ramification theory for cyclotomic
+fields~\cite{Washington1997}.
+
+\begin{corollary}[Three exact weight-design regimes]
+\label{cor:weight-designs}
+Let $\rho>1$ be the high DNA magnitude.
+\begin{enumerate}
+  \item Put $\varphi=(1+\sqrt5)/2$ and
+  $\rho_{\mathrm{gold}}=\varphi^4=(7+3\sqrt5)/2$.  Then
+  $\rho_{\mathrm{gold}}\in K_k$ exactly when $5\mid k$.  Thus the family is
+  a conductor-five resonance probe.
+  \item If $\rho$ generates a non-Galois real extension of $\Q$, then
+  $\rho\notin K_k$ for every $k$.  In particular $\rho=\sqrt[3]{2}$ gives a
+  uniform all-order structural-only design for the two sectors of
+  \Cref{thm:component-field}.
+  \item Given a finite horizon $K$, choose a prime $\ell>K$ with
+  $\ell\equiv1\pmod4$ and put $\rho=\sqrt\ell$.  Then
+  $\rho\notin K_k$ for every $4\le k\le K$, so the same two sectors are
+  structural-only throughout the declared horizon.
+\end{enumerate}
+\end{corollary}
+
+\begin{proof}
+The quadratic field $\Q(\sqrt5)$ has conductor $5$, which gives the first
+equivalence.  Every subfield of the abelian extension $K_k/\Q$ is Galois over
+$\Q$; a non-Galois real field therefore cannot be contained in $K_k$.  For
+the last statement, the prime $\ell$ ramifies in $\Q(\sqrt\ell)$, whereas all
+finite ramification in $K_k$ is supported on primes dividing $k$.
+\end{proof}
+
+These regimes do not assert that the golden family resonates whenever
+$5\mid k$.  They separate where resonance is algebraically impossible from
+where a certificate-level realization must still be proved.
+
+\begin{corollary}[Uniform radical magnitude family]
+\label{cor:uniform-radical}
+Fix $m\ge1$, choose an odd prime $d\ge\max\{m,3\}$, put
+$\alpha=2^{1/d}$, and define
+\begin{equation}
+  \beta_i=\alpha^{i-1},\qquad 1\le i\le m.                              \label{eq:uniform-radical}
+\end{equation}
+Then the magnitudes are positive and distinct, and they are linearly
+independent over $K_k$ for every $k$.  Consequently, at every even
+$k\ge4$, the embedding and lower-lambda zero sectors contain only their
+componentwise structural zeros.
+\end{corollary}
+
+\begin{proof}
+The polynomial $x^d-2$ is Eisenstein at $2$, so
+$E=\Q(\alpha)$ has prime degree $d$.  For any cyclotomic field $K_k$, the
+intersection $E\cap K_k$ therefore has degree either $1$ or $d$ over $\Q$.
+The second case would embed $E$ as an intermediate field of the abelian
+Galois extension $K_k/\Q$, forcing $E/\Q$ to be Galois.  This is impossible:
+$E\subset\R$, whereas the irreducible polynomial $x^d-2$ has nonreal roots
+$\alpha\zeta_d^j$ and does not split in $E$.
+
+Thus $E\cap K_k=\Q$.  Since $K_k/\Q$ is Galois, the two fields are linearly
+disjoint, and the degree of $\alpha$ over $K_k$ remains $d$.  No nonzero
+polynomial over $K_k$ of degree below $d$ can vanish at $\alpha$; because
+$m\le d$, the powers $1,\alpha,\ldots,\alpha^{m-1}$ are independent over
+$K_k$.  The conclusion follows from \Cref{thm:component-field}, with
+independence over $K_k$ also implying independence over $K_k^+$.
+\end{proof}
+
+This family is an exact existence design.  It makes no claim about numerical
+conditioning, magnitude range, downstream path quality, or practical
+superiority to a DNA weight table.
+
+\subsection{The twice-prime structural formula}
+\label{sec:twice-prime-structural}
+
+Let $k=2p$ with $p$ an odd prime and put $h=(p-1)/2$.  Identify the letters
+with the vertices
+\[
+  V_m=\{\pm e_1,\ldots,\pm e_m\}\subset\Z^m
+\]
+through the component map $x\mapsto(\varepsilon_1(x),\ldots,
+\varepsilon_m(x))$.
+
+\begin{lemma}[Prime sine basis]
+\label{lem:prime-sines}
+The positive numbers
+\[
+  \sin(\pi/p),\ldots,\sin(h\pi/p)
+\]
+are linearly independent over $\Q$.
+\end{lemma}
+
+\begin{proof}
+Suppose $\sum_{r=1}^h c_r\sin(r\pi/p)=0$ with $c_r\in\Q$, clear
+denominators, and write $\xi=e^{\pi i/p}$.  Then
+\[
+  g(x)=\sum_{r=1}^h c_r(x^{h+r}-x^{h-r})
+\]
+satisfies $g(\xi)=0$ and has degree at most $p-1$.  The minimal polynomial
+$\Phi_{2p}(x)=x^{p-1}-x^{p-2}+\cdots-x+1$ also has degree $p-1$.  Therefore
+$g$ is zero or a scalar multiple of $\Phi_{2p}$.  The former polynomial is
+anti-palindromic and the latter palindromic, so comparison of leading and
+constant coefficients forces the scalar to vanish.  The disjoint coefficient
+pairs of $g$ then give $c_r=0$ for every $r$.
+\end{proof}
+
+For a lower word of length $2p-1$, sine indices $1,\ldots,2p-1$ split into
+the free central index $p$ and, for $1\le r\le h$, the four-position block
+\[
+  \{r,p-r,p+r,2p-r\}.
+\]
+The coefficient of $\sin(r\pi/p)$ is therefore
+\begin{equation}
+  v(u_r)+v(u_{p-r})-v(u_{p+r})-v(u_{2p-r})\in\Z^m.                        \label{eq:block-vector}
+\end{equation}
+
+\begin{lemma}[Cross-polytope additive energy]
+\label{lem:cross-energy}
+\leavevmode\par\noindent
+The number of ordered quadruples $(x_1,x_2,x_3,x_4)\in V_m^4$ satisfying
+$x_1+x_2=x_3+x_4$ is
+\begin{equation}
+  E(V_m)=6m(2m-1).
+  \label{eq:cross-energy}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Count ordered pairs by their sum.  The zero sum has multiplicity $2m$.
+Each sum $\pm2e_i$ has multiplicity one, contributing $2m$.  For each
+unordered pair of distinct coordinate axes and each independent choice of
+signs, a sum $\pm e_i\pm e_j$ has multiplicity two.  There are
+$4\binom m2$ such sums.  Thus
+\[
+  E(V_m)=(2m)^2+2m+4\binom m2\,2^2
+        =6m(2m-1).
+\]
+\end{proof}
+
+\begin{theorem}[Twice-prime structural zeros and firings]
+\label{thm:twice-prime-structural}
+Let $q=2m$, $k=2p$, $p$ an odd prime, and $h=(p-1)/2$.  The number of
+structural lower zeros is
+\begin{equation}
+  Z_{\mathrm{str}}(q,2p)=q\,[6m(2m-1)]^h.                                \label{eq:zstruct}
+\end{equation}
+For a table whose magnitudes are linearly independent over $K_{2p}^+$, this
+is the exact lower-zero count.  The direct descent then has
+\begin{equation}
+  F_{\mathrm{lower}}(q,2p)
+  =\frac{q^{2p-1}-Z_{\mathrm{str}}(q,2p)}4                               \label{eq:firing-count}
+\end{equation}
+physical lower firings.
+\end{theorem}
+
+\begin{proof}
+By \Cref{lem:prime-sines}, componentwise lower vanishing is equivalent to
+the independent vanishing of~\eqref{eq:block-vector} in every one of the $h$
+blocks.  Each block has $E(V_m)=6m(2m-1)$ ordered assignments by
+\Cref{lem:cross-energy}; the central letter has sine coefficient zero and is
+free, giving the factor $q$.  This proves~\eqref{eq:zstruct}.  Field
+genericity turns structural into total lower vanishing by
+\Cref{thm:component-field}.
+
+Letterwise complementation changes the sign of every lower value.  Thus the
+nonzero states split equally between the two signs.  Reverse complement
+acts freely on the positive states and the self-dual ideal chooses exactly
+one state from each pair.  Hence the firing count is one quarter of the
+nonzero lower-state count, proving~\eqref{eq:firing-count}.
+\end{proof}
+
+The factor $q$ in~\eqref{eq:zstruct} is load-bearing: it is the free central
+coordinate.  The count is for ordered letter assignments, and the firing
+denominator is four rather than two.
+
+\begin{corollary}[Closed structural-zero density]
+\label{cor:structural-zero-density}
+Under the hypotheses of \Cref{thm:twice-prime-structural},
+\begin{equation}
+  Z_{\mathrm{str}}(q,2p)=q\,[3q(q-1)]^h,
+  \qquad
+  \frac{Z_{\mathrm{str}}(q,2p)}{q^{2p-1}}
+  =\left(\frac{3(q-1)}{q^3}\right)^h .                                  \label{eq:structural-density}
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+Substitute $q=2m$ into $6m(2m-1)=3q(q-1)$.  Since
+$p=2h+1$, the lower-word length is $2p-1=4h+1$; division by
+$q^{4h+1}$ gives the second identity.
+\end{proof}
+
+\begin{theorem}[Single-odd-prime structural embedding words and PCRs]
+\label{thm:twice-prime-embedding}
+Let $q=2m$, let $p$ be an odd prime, and let
+\[
+  k=2^b p^a,\qquad
+  r=2^{b-1}p^{a-1},\qquad a,b\ge1.
+\]
+Put
+\[
+  M_p(q)=q^p+q+2^{p-1}q(q-2).
+\]
+The number of componentwise structural embedding-zero words is
+\begin{equation}
+  Z_{\mathrm{emb,str}}(q,k)=M_p(q)^r.                                   \label{eq:embedding-word-count}
+\end{equation}
+The number of their rotation orbits is
+\begin{equation}
+  N_{\mathrm{emb,str}}(q,k)
+  =\frac1k\left(
+    M_p(q)^r+
+    \sum_{\substack{d\mid k\\d<k}}\varphi(k/d)q^d
+  \right).                                                              \label{eq:embedding-pcr-count}
+\end{equation}
+In particular, when $a=b=1$, this becomes
+\begin{equation}
+  N_{\mathrm{emb,str}}(q,2p)
+  =\frac{2q^p+pq+(p-1)q^2+2^{p-1}q(q-2)}{2p}.                           \label{eq:embedding-pcr-twice-prime}
+\end{equation}
+If the magnitudes are independent over $K_k$, the formulas count every scalar
+embedding-zero word and PCR.
+\end{theorem}
+
+\begin{proof}
+Set $\zeta=\zeta_k$ and $\xi=\zeta^r$, so that $\xi$ is a primitive
+$2p$th root.  The standard prime-power identity and the degree calculation
+give
+\[
+  \Phi_k(X)=\Phi_{2p}(X^r),\qquad
+  [\Q(\zeta):\Q(\xi)]=r.
+\]
+Thus $1,\zeta,\ldots,\zeta^{r-1}$ is a basis of $\Q(\zeta)$ over
+$\Q(\xi)$.  Writing the component vector at position $s+rt$ as $x_{s,t}$,
+we obtain
+\[
+  \sum_{j=0}^{k-1}x_j\zeta^j
+  =\sum_{s=0}^{r-1}\zeta^s
+     \left(\sum_{t=0}^{2p-1}x_{s,t}\xi^t\right).
+\]
+Consequently the full embedding vanishes componentwise exactly when each of
+the $r$ disjoint length-$2p$ blocks vanishes componentwise.
+
+For one block, $\xi^p=-1$, so vanishing is equivalent to
+\[
+  \sum_{t=0}^{p-1}(x_{s,t}-x_{s,t+p})\xi^t=0.
+\]
+In every coordinate this is a rational polynomial of degree at most $p-1$.
+The minimal polynomial
+$\Phi_{2p}(z)=1-z+\cdots+z^{p-1}$ has the same degree, so there is a vector
+$v$ such that
+\begin{equation}
+  x_{s,t}-x_{s,t+p}=(-1)^t v,\qquad 0\le t<p.                          \label{eq:alternating-difference}
+\end{equation}
+If $n(v)$ counts ordered pairs $(c,d)\in V_m^2$ with $c-d=v$, the block count
+is $\sum_v n(v)^p$.  The difference histogram has multiplicity $q$ at zero,
+multiplicity one at each of the $q$ values $\pm2e_i$, and multiplicity two at
+each of the $q(q-2)/2$ signed two-axis differences.  This gives
+the block count $M_p(q)$.  Independence of the $r$ blocks proves
+\eqref{eq:embedding-word-count}.
+
+For the orbit count, apply Burnside to this rotation-invariant zero set.
+Every word fixed by a nonidentity shift is periodic with period dividing
+$d=\gcd(s,k)<k$; its embedding contains the vanishing geometric factor
+$1+\zeta^d+\cdots+\zeta^{k-d}$.  There are $\varphi(k/d)$ shifts with this
+gcd and each fixes $q^d$ words.  Adding the identity contribution and
+dividing by $k$ proves \eqref{eq:embedding-pcr-count}.  At $k=2p$, the proper
+divisors $1,2,p$ give \eqref{eq:embedding-pcr-twice-prime}.  The final
+assertion is \Cref{thm:component-field}.
+\end{proof}
+
+\begin{corollary}[Rational lower energy and the structural floor]
+\label{cor:rational-lower-energy}
+Under the same twice-prime notation, let the distinct positive magnitudes
+$\beta_i$ be rational.  Put
+\[
+  S_\beta=\{\pm\beta_1,\ldots,\pm\beta_m\}.
+\]
+If
+\[
+  E(S_\beta)=\#\{(a,b,c,d)\in S_\beta^4:a+b=c+d\},
+\]
+then the scalar lower-zero count is
+\begin{equation}
+  Z_{\mathrm{lower}}(\beta,2p)=q\,E(S_\beta)^h.                        \label{eq:rational-energy-count}
+\end{equation}
+It attains the structural floor $q[3q(q-1)]^h$ exactly when the projection
+$\pm e_i\mapsto\pm\beta_i$ creates no new two-sum equality, equivalently
+when it is a Freiman $2$-isomorphism on $V_m$.  In particular,
+$\beta_i=B^{i-1}$ attains the floor for every integer $B\ge4$.  The threshold
+cannot be replaced uniformly by $B=3$.
+\end{corollary}
+
+\begin{proof}
+For rational magnitudes, \Cref{lem:prime-sines} makes lower vanishing
+equivalent to one scalar two-sum equality in each of the $h$ independent
+blocks; the central letter is free.  This proves
+\eqref{eq:rational-energy-count}.  The projection from $V_m$ to $S_\beta$ is
+a bijection and preserves every structural two-sum relation, so equality with
+the structural energy $E(V_m)=3q(q-1)$ holds exactly when it creates no
+additional relation.
+
+Now let $\beta_i=B^{i-1}$ with $B\ge4$.  After cancelling identical signed
+terms from a scalar two-sum equality, a largest uncancelled magnitude on only
+one side exceeds the sum of the at most three smaller terms.  Equal largest
+terms with the same sign would already have cancelled, while opposite largest
+signs require the smaller terms to bridge at least twice that magnitude.
+The only remaining cancellations are the structural opposite-pair relations.
+Thus the projection is a Freiman $2$-isomorphism.  For $B=3$ and $m=2$, the
+nonstructural equality $3+(-1)=1+1$ shows that no uniform base-three statement
+is possible.
+\end{proof}
+
+The corollary is deliberately finite-additive.  Classification of all
+energy hyperplanes, chambers, or optimal magnitude systems lies outside this
+article.
+
+\subsection{Certificate-preserving DNA resonance}
+\label{sec:dna-certificates}
+
+Abstract divisibility by a cyclotomic polynomial is not a DNA word witness.
+To obtain a reversible statement, we retain position, complement pair, sign,
+and selector-family information throughout the translation.
+
+For a DNA word $w=w_0\cdots w_{n-1}$ define signed one-hot coordinates
+$(h_j,\ell_j)$ by
+\[
+  A\mapsto(-1,0),\quad C\mapsto(0,-1),\quad
+  G\mapsto(0,1),\quad T\mapsto(1,0).
+\]
+Thus $|h_j|+|\ell_j|=1$ and $s(w_j)=\rho h_j+\ell_j$.  Put
+\begin{equation}
+  H_w(z)=\sum_{j=0}^{n-1}h_jz^{j+1},\qquad
+  L_w(z)=\sum_{j=0}^{n-1}\ell_jz^{j+1}.                                 \label{eq:HL}
+\end{equation}
+Reverse complement acts transparently:
+\begin{equation}
+  H_{\RC w}(z)=-z^{n+1}H_w(z^{-1}),\qquad
+  L_{\RC w}(z)=-z^{n+1}L_w(z^{-1}).                                     \label{eq:HLrc}
+\end{equation}
+
+Each equality role uses a frozen Laurent coefficient template.  Up to a
+nonzero scalar, the templates are
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+Role & coefficient at position $j$ \\
+\midrule
+embedding zero & $z^{j+1}$ \\
+seed real & $z^{j+1}+z^{-(j+1)}$ \\
+seed imaginary / lower lambda & $z^{j+1}-z^{-(j+1)}$ \\
+lower midpoint & $z^{j+1}+z^{-(j+1)}-2$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+The lower roles use $0\le j\le k-2$; the seed roles use the relevant
+length-$k$ rotation.  Multiplication by a monomial or a fixed nonzero scalar
+does not alter the equality.
+
+\begin{definition}[Realized selector certificate]
+A certificate is the tuple consisting of the labelled word, its equality
+role and rotation, all signed one-hot coordinates, and the resulting Laurent
+polynomials $A(z),B(z)$ obtained by inserting respectively $h_j$ and
+$\ell_j$ into the role template.  Its scalar equality is
+\begin{equation}
+  \rho A(\zetaK)+B(\zetaK)=0.                                            \label{eq:certificate-equality}
+\end{equation}
+\end{definition}
+
+\begin{theorem}[Certificate-preserving DNA translation]
+\label{thm:dna-certificate}
+For every frozen DNA selector equality, the map above has the following
+properties.
+\begin{enumerate}
+  \item The original equality holds exactly when
+        \eqref{eq:certificate-equality} holds.
+  \item It is structural exactly when $A(\zetaK)=B(\zetaK)=0$.
+  \item If $A(\zetaK)=0$ and $B(\zetaK)\ne0$, no ratio satisfies it.
+        Otherwise every nonstructural equality has the unique candidate
+        \[
+          \rho=-\frac{B(\zetaK)}{A(\zetaK)},
+        \]
+        which must additionally be real and greater than one.
+  \item Suppose this candidate belongs to $K_k$ and is represented in a
+        fixed canonical cyclotomic coordinate as
+        $\rho=U(\zetaK)/d$, with $U\in\Z[z,z^{-1}]$ and $d\in\Z_{>0}$.
+        Then, after multiplication by a sufficient monomial to remove
+        negative exponents,
+        \begin{equation}
+          \PhiK(z)\mid z^N\bigl(U(z)A(z)+dB(z)\bigr)\quad\text{in }\Z[z]. \label{eq:certificate-divisibility}
+        \end{equation}
+        Conversely, this divisibility implies the scalar equality for the
+        same retained certificate.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+Substitution $s(w_j)=\rho h_j+\ell_j$ into the role's linear equality gives
+\eqref{eq:certificate-equality} term by term, proving the first assertion.
+The next two assertions are the exhaustive alternatives for the two
+evaluated coefficients.  When $A(\zetaK)\ne0$, solving a linear equation in
+$\rho$ gives the unique candidate.
+
+For the last assertion, multiply
+$\rho A(\zetaK)+B(\zetaK)=0$ by $d$ and substitute the represented value of
+$\rho$.  Clearing Laurent exponents gives an integer polynomial vanishing at
+the primitive root $\zetaK$.  Its minimal polynomial over $\Q$ is $\PhiK$,
+so divisibility follows.  Conversely, divisibility implies vanishing at
+$\zetaK$ and hence the original scalar equality.  Because the certificate is
+retained, the converse returns to the same labelled word and equality role;
+it does not turn an arbitrary divisible polynomial into a DNA witness.
+\end{proof}
+
+\begin{theorem}[Typed Galois covariance of equality certificates]
+\label{thm:galois-certificate}
+Let $\sigma_t\in\operatorname{Gal}(K_k/\Q)$ be defined by
+$\sigma_t(\zetaK)=\zetaK^t$, where $\gcd(t,k)=1$.  Transport a typed
+certificate $C$ by carrying every signed coefficient, role tag, and rotation
+tag at exponent $e$ to the residue $te\bmod k$; denote the resulting typed
+certificate by $D_tC$.  Then
+\begin{equation}
+  A_{D_tC}(\zetaK)=\sigma_t(A_C(\zetaK)),\qquad
+  B_{D_tC}(\zetaK)=\sigma_t(B_C(\zetaK)).                               \label{eq:galois-coefficients}
+\end{equation}
+Whenever $A_C(\zetaK)\ne0$, its equality candidate transforms as
+\begin{equation}
+  -\frac{B_{D_tC}(\zetaK)}{A_{D_tC}(\zetaK)}
+  =\sigma_t\!\left(-\frac{B_C(\zetaK)}{A_C(\zetaK)}\right).            \label{eq:galois-candidate}
+\end{equation}
+Thus the unfiltered set of typed realized equality candidates is closed under
+the Galois action.
+\end{theorem}
+
+\begin{proof}
+For an exponent residue $e$, the four role templates are
+\[
+ z^e,\qquad z^e+z^{-e},\qquad z^e-z^{-e},\qquad
+ z^e+z^{-e}-2.
+\]
+Evaluation of the corresponding template at exponent $te$ is exactly the
+$\sigma_t$-image of its evaluation at $e$; the rational constant $-2$ is
+fixed.  Multiplication by a unit permutes all residues for embedding and seed
+certificates and all nonzero residues for lower certificates, so the
+transport is again typed in the same role.  Integer linearity gives
+\eqref{eq:galois-coefficients}, and division in $K_k$ gives
+\eqref{eq:galois-candidate}.
+\end{proof}
+
+This theorem is intentionally prior to the selector's order tests.  Galois
+automorphisms need not preserve positivity: at $k=10$,
+$1+2\cos(2\pi/5)>1$ is carried by $\sigma_3$ to
+$1+2\cos(6\pi/5)<1$.  Therefore no Galois invariance of the admissible
+$\rho>1$ slice, complete sign covector, or terminal MDS follows.
+
+General divisibility criteria and classifications of abstract root-of-unity
+relations~\cite{Mann1965,ConwayJones1976,LamLeung2000,KoleyArikatla2019,DeCarliLaporta2026}
+can now be applied as filters.  They become word theorems only after their
+coefficient hypotheses are checked against this certificate image.
+
+\subsection{Rational twice-prime lower resonances}
+\label{sec:rational-classification}
+
+We now specialize to DNA, $k=2p$ with $p$ an odd prime, and rational
+$\rho>1$.  The statement concerns only the lower form $\lambda_s$.
+
+In one prime-sine block, the two letters on the positive side and the two on
+the negative side contribute sums of two vertices of
+$V_2=\{\pm e_H,\pm e_L\}$.  Under scalar evaluation
+\[
+  \omega_\rho(x_H,x_L)=\rho x_H+x_L,
+\]
+the possible nonzero absolute pair-sum values are
+\begin{equation}
+  2\rho,\qquad \rho+1,\qquad \rho-1,\qquad 2.                            \label{eq:pair-sum-values}
+\end{equation}
+
+\begin{lemma}[Unique rational block collision]
+\label{lem:rho-three}
+For rational $\rho>1$, two distinct vector sums in $V_2+V_2$ have the same
+scalar value under $\omega_\rho$ only when $\rho=3$.  At $\rho=3$ the only
+new equality in absolute value is $\rho-1=2$.
+\end{lemma}
+
+\begin{proof}
+Apart from zero and sign, distinct scalar pair sums are the four expressions
+in~\eqref{eq:pair-sum-values}.  Pairwise equality among them has no solution
+$\rho>1$ except $\rho-1=2$, which gives $\rho=3$.  Equality to the negative
+of another positive value is impossible.  Direct inspection of the signed
+pair sums proves the claim.
+\end{proof}
+
+At $\rho=3$, the exceptional ordered blocks, including exchange of the two
+sides, are generated by
+\begin{equation}
+  (T,C),(C,T)\ \longleftrightarrow\ (G,G),
+  \qquad
+  (A,G),(G,A)\ \longleftrightarrow\ (C,C).                               \label{eq:exceptional-blocks}
+\end{equation}
+There are eight ordered side-aware patterns in total.
+
+\begin{theorem}[Rational twice-prime lower-resonance classification]
+\label{thm:rational-twice-prime}
+Let $p$ be an odd prime, $k=2p$, $h=(p-1)/2$, and let $\rho>1$ be rational.
+Then every realized lower zero is structural unless $\rho=3$.  At
+$\rho=3$, a lower word is zero exactly when every prime-sine block is either
+structural or one of the eight exceptional blocks in
+\eqref{eq:exceptional-blocks}.  It is accidental exactly when at least one
+block is exceptional.  Consequently
+\begin{align}
+  Z_{\mathrm{str}}(4,2p)&=4\cdot36^h,                                    \label{eq:dna-zstruct}\\
+  Z_{\mathrm{tot}}(3;4,2p)&=4\cdot44^h,                                  \label{eq:dna-ztotal}\\
+  Z_{\mathrm{acc}}(3;4,2p)&=4(44^h-36^h).                                \label{eq:dna-zacc}
+\end{align}
+The corresponding physical firing counts are
+\begin{align}
+  F_{\rho\ne3}(4,2p)&=4^{2p-2}-36^h,                                    \label{eq:dna-fgeneric}\\
+  F_{\rho=3}(4,2p)&=4^{2p-2}-44^h.                                      \label{eq:dna-fthree}
+\end{align}
+\end{theorem}
+
+\begin{proof}
+By \Cref{lem:prime-sines}, the full lower form vanishes exactly when the
+scalar coefficient of every prime-sine block vanishes.  If the two vector
+sums in a block are equal, the block is structural.  If they differ but have
+equal scalar values, \Cref{lem:rho-three} forces $\rho=3$, and direct use of
+the signed one-hot certificate gives exactly
+\eqref{eq:exceptional-blocks}.  This proves the classification without
+forgetting the realizing letters.
+
+For DNA, \Cref{lem:cross-energy} gives $36$ structural ordered assignments
+per block.  At $\rho=3$ there are eight additional assignments, hence $44$.
+The $h$ blocks are independent and the central letter is free, giving
+\eqref{eq:dna-zstruct} and \eqref{eq:dna-ztotal}; subtraction gives
+\eqref{eq:dna-zacc}.  Finally apply the quartering argument of
+\Cref{thm:twice-prime-structural} to the total zero count, yielding
+\eqref{eq:dna-fgeneric} and \eqref{eq:dna-fthree}.
+\end{proof}
+
+For $p=3$, the theorem gives $144$ structural zeros, $176$ total zeros at
+$\rho=3$, and $32$ accidental zeros.  The firing counts are respectively
+$220$ and $212$.  These numbers are checks of the theorem, not its proof.
+The tempting ratio $\rho=2$ is not exceptional: the four positive quantities
+in~\eqref{eq:pair-sum-values} are then $4,3,1,2$, all distinct.
+
+\begin{corollary}[Scoped twice-prime DNA trichotomy]
+\label{cor:twice-prime-dna-trichotomy}
+Fix $k=2p$ with $p$ an odd prime and consider only the DNA
+\role{lower-lambda} equality family.  Then:
+\begin{enumerate}
+  \item if $\rho\notin K_{2p}^+$, every lower zero is structural;
+  \item if $\rho>1$ is rational, an accidental lower zero exists if and only
+        if $\rho=3$; and
+  \item among ratios not decided by these two clauses, only
+        $(K_{2p}^+\setminus\Q)\cap(1,\infty)$ remains.
+\end{enumerate}
+The third clause is an exact residual domain, not an existence assertion.
+\end{corollary}
+
+\begin{proof}
+The first clause is the necessary field gate of
+\Cref{cor:dna-field-gate}.  The second is
+\Cref{thm:rational-twice-prime}.  Partitioning the admissible real ratios
+$\rho>1$ by field membership and rationality leaves precisely the set in the
+third clause; field membership alone remains only necessary.
+\end{proof}
+
+\subsection{Exact direct-membership complexity}
+\label{sec:complexity}
+
+The direct formula~\eqref{eq:terminal-selector} avoids materializing the MDS,
+but an exact complexity statement requires a literal representation of every
+real algebraic input.  We use the following model.
+
+Let a real algebraic number $\alpha$ be supplied by a square-free polynomial
+$f\in\Z[x]$, normalized to have positive leading coefficient, and a rational
+isolating interval selecting $\alpha$.  Put $e=\deg f$.  Each positive
+magnitude is represented by a dense coefficient list as
+\[
+  \beta_i=\frac{b_i(\alpha)}{d_i},\qquad
+  b_i\in\Z[x],\quad \deg b_i<e,\qquad d_i\in\Z_{>0}.
+\]
+The complement table, a total alphabet order, even $k\ge4$, and the queried
+word are explicit.  Let $L$ denote the total bit length of this input.
+Degrees and every coefficient are encoded explicitly; in particular
+$e=O(L)$.
+
+\begin{theorem}[Dense variable-degree polynomial-bit membership]
+\label{thm:membership-complexity}
+Preprocessing time, per-word query time, and working memory for membership in
+the direct MDS of \Cref{thm:imported-selector} are polynomial in $k$, $q$,
+and $L$, even though $e$ is part of the input.  The algorithm is exact and
+stores no table of size $q^{k-1}$ or $q^k$.
+\end{theorem}
+
+\begin{proof}
+Put $c=2\cos(2\pi/k)$.  Its defining polynomial and an isolating interval can
+be computed from $\Phi_k$ in polynomial bit complexity in $k$: the degree is
+at most $\varphi(k)/2\le k/2$, and the required coefficient bit sizes are
+polynomial in $k$.  Write $\mu_k\in\Z[y]$ for the square-free minimal
+polynomial selecting $c$ and $\delta=\deg\mu_k$; thus
+$\delta=\varphi(k)/2$ and $\mu_k$ is monic.  The recurrences
+\[
+  2\cos(j\theta)=C_j(c),\qquad
+  \frac{\sin(j\theta)}{\sin\theta}=U_{j-1}(c/2),
+  \qquad \theta=2\pi/k,
+\]
+where $C_0(x)=2$, $C_1(x)=x$, and
+$C_{j+1}(x)=xC_j(x)-C_{j-1}(x)$; equivalently,
+$C_j(x)=2T_j(x/2)$ for the standard Chebyshev polynomial $T_j$.  Express
+every real, normalized imaginary, lower-lambda, and midpoint branch
+as
+\begin{equation}
+  \operatorname{sgn} G(\alpha,c)                                        \label{eq:bivariate-sign}
+\end{equation}
+after multiplication by known positive denominators.  Here
+$G\in\Z[x,y]$ has degree less than $e$ in $x$, degree $O(k)$ in $y$, and
+coefficient bit length polynomial in $k+L$.  These bounds follow by the
+Chebyshev recurrences and by summing at most $k$ represented weights.
+
+Before invoking the sign routine, reduce $G$ in the two algebraic
+coordinates.  Pseudo-division in $x$ by $f$ replaces $G$ by an integral
+remainder of $x$-degree less than $e=\deg f$, after multiplication by a known
+positive power of the leading coefficient of $f$.  Division in $y$ by
+the monic polynomial $\mu_k$ then gives an integral representative
+$\widetilde G$ of $y$-degree less than $\delta$.  These operations preserve
+the value sign at $(\alpha,c)$, including zero.  The two reductions use a
+number of dense integer-polynomial operations polynomial in $e+k$.
+Standard pseudo-division height bounds, resultant construction of $\mu_k$,
+square-free factorization, and real-root isolation keep all degrees and
+coefficient bit lengths polynomial in $e+k+L$, hence in $k+L$.
+
+Put $d_2=\max(e,\delta)$ and
+$d_1=\max(\deg_x\widetilde G,\deg_y\widetilde G)$; then $d_1<d_2$ unless
+$\widetilde G$ is constant, whose sign is immediate.  The exact equal-degree
+format of the sign theorem can be met without changing the selected value.
+If one variable degree of $\widetilde G$ is below $d_1$, multiply by the
+required power of a rational linear factor that is positive throughout that
+variable's isolating interval, and clear its positive denominator.  The
+resulting polynomial has bidegree exactly $(d_1,d_1)$ and the same sign at
+$(\alpha,c)$.  If $e<d_2$ or $\delta<d_2$, multiply the corresponding
+defining polynomial by enough distinct integral linear factors whose roots
+lie outside its isolating interval.  This preserves square-freeness and the
+selected algebraic number while making both defining degrees exactly $d_2$.
+The added integers can be chosen with polynomial bit length.
+
+Use a common coefficient-height bound $\tau$ for the padded defining
+polynomials, their isolating intervals, and the sign polynomial.  Theorem~37
+of Emiris and Tsigaridas~\cite{EmirisTsigaridas2005} now applies literally;
+its bit bound $\widetilde O(d_1^3d_2^3\tau)$ is polynomial in $k+L$ because
+$d_1,d_2$, and the common height bound $\tau$ are polynomially bounded by the
+dense explicit input.
+
+A nonzero seed query uses a constant number of such branch signs per tested
+rotation.  In the zero-PCR branch, at most $k$ distinct rotations and their
+reverse complements are inspected to apply the deterministic tie rule.  The
+two endpoint values $a_s(\tail(w))$ and $a_s(\head(w))$ each require one
+lower-lambda sign, one midpoint sign, and, only at equality, a lexicographic
+comparison.  Thus only polynomially many polynomial-bit operations are used
+per query, and all stored words and polynomials have polynomial size.
+\end{proof}
+
+The result is a membership theorem in the dense explicit model.  A sparse
+syntax that hides an exponentially large degree, or an unpriced
+transcendental/comparison oracle, is outside the theorem.  Listing all
+selected words necessarily has exponential output size in general, so no
+polynomial-time full materialization or practical-throughput claim follows.
+
+\subsection{Signed cyclotomic blocks}\label{ext:sec:blocks}
+The tensor kernel in this section is classical; compare Martin--Reiner \cite{MartinReiner2005} and the finite-difference criterion of De Carli--Laporta \cite{DeCarliLaporta2026}. The bounded one-hot realization developed from it is stated separately.
+
+Write
+\[
+k=2^b\prod_{i=1}^t p_i^{a_i},\quad
+n=2\prod_{i=1}^t p_i,\quad r=k/n,
+\]
+where the $p_i$ are distinct odd primes. Thus $\Phi_k(X)=\Phi_n(X^r)$ and $[\Q(\zeta_k):\Q(\zeta_n)]=r$. Every rational-coefficient polynomial decomposes uniquely as
+\[
+f(X)=\sum_{a=0}^{r-1}X^a f_a(X^r),\qquad
+f(\zeta_k)=0\iff f_a(\zeta_n)=0\quad\text{for all }a.
+\]
+For a squarefree even block $n=2N$, antipodal pairing gives coefficients in
+\[
+D_m=V_m-V_m=V_m+V_m.
+\]
+Indeed $\zeta_{2N}^j=(-1)^j\zeta_N^{cj}$ for a unit $c$ modulo odd $N$; signs and a coordinate permutation preserve the difference alphabet and its multiplicities. After CRT, the coefficient array is indexed by $\prod_i\{0,\ldots,p_i-1\}$.
+
+\begin{lemma}[Anchored mixed differences]\label{ext:lem:mixed}
+Let $c_{j_1,\ldots,j_t}$ have rational scalar or rational vector coefficients. Its evaluation at the product of primitive $p_i$th roots is zero exactly when every full anchored mixed difference vanishes. Each such difference is an alternating sum of $2^t$ entries, choosing one nonanchor index and the anchor $p_i-1$ in each coordinate.
+\end{lemma}
+\begin{proof}
+For prime $p$, the only relation among $1,\zeta_p,\ldots,\zeta_p^{p-1}$ is their sum. Eliminating the last root replaces coefficients by $c_j-c_{p-1}$. The products of the remaining powers over the distinct primes are a rational basis: their number is $\prod_i(p_i-1)=\varphi(N)$, by the cyclotomic degree and CRT. Repeating elimination yields precisely the full mixed differences. Vector evaluation is componentwise.
+\end{proof}
+
+\begin{lemma}[One-hot realization of a bounded defect]\label{ext:lem:realization}
+Every integer vector $v$ with even $\norm v\le2^{t+1}$ is a full mixed difference of a $D_m$-valued array for which every full anchored difference is the same $v$. Every entry of the array can be assigned to an actual ordered pair of letters. If a projection kills $v$, that scalar block vanishes; if $v\ne0$, it is not componentwise zero.
+\end{lemma}
+\begin{proof}
+Express $v$ as a sum of exactly $2^{t+1}$ vectors in $V_m$: use $\norm v$ signed units and pad by opposite pairs. Group these into $2^t$ pairs and call their sums $d_\epsilon\in D_m$, indexed by $\epsilon\in\{0,1\}^t$. Put $c_\epsilon=(-1)^{|\epsilon|}d_\epsilon$, with the sign convention adjusted uniformly to the chosen difference orientation. Extend to the full grid by mapping each nonanchor coordinate to $0$ and its anchor to $1$. Every mixed difference is $v$. Since $D_m$ is centrally symmetric and consists of ordered letter differences, assign letters to each antipodal pair. No grid entry or word position is omitted.
+\end{proof}
+For $t=0$, this is the single antipodal difference. A block lifts to higher prime powers by putting it in one residue class modulo $r$ and filling each other class by a constant word, which vanishes componentwise.
+
+\subsection{All rational DNA embedding resonances}\label{ext:sec:farey}
+\begin{theorem}[Farey spectrum]\label{ext:thm:farey}
+Let $k\ge4$ be even, with $t$ distinct odd prime divisors. For a reduced rational $\rho=a/b>1$, an accidental DNA embedding zero exists if and only if
+\[
+\begin{cases}
+a+b\le2^{t+1},&a,b\text{ both odd},\\
+a+b\le2^t,&a,b\text{ of opposite parity}.
+\end{cases}                                                    \tag{F}
+\]
+Equivalently,
+\[
+\boxed{\E_t=\left\{\frac{v+u}{v-u}:0<u<v\le2^t,\ (u,v)=1\right\}.}
+\]
+In particular the spectrum depends only on the number of distinct odd primes, not their values or multiplicities.
+\end{theorem}
+\begin{proof}
+Reduce to squarefree blocks. An accidental zero has a nonzero vector mixed difference $v$ killed by $(a,b)$, hence $v=j(b,-a)$ for a nonzero integer $j$. Each mixed difference is a signed sum of $2^t$ elements of $D$, so its $\ell_1$ norm is even and at most $2^{t+1}$. If $a+b$ is even, the least allowed $|j|$ is $1$; otherwise it is $2$. This gives (F). Conversely choose this least $j$ and apply Lemma~\ref{ext:lem:realization}, then the prime-power lift. The resulting one-hot word has scalar embedding zero and a nonzero component embedding. Finally reduce $(a-b)/(a+b)=u/v$. Its denominator is $(a+b)/2$ when both are odd and $a+b$ otherwise. Condition (F) is precisely $v\le2^t$.
+\end{proof}
+\begin{corollary}
+\[
+|\E_t|=\sum_{v=2}^{2^t}\varphi(v),\quad
+\min\E_t=\frac{2^t+1}{2^t-1},\quad
+\max\E_t=2^{t+1}-1\quad(t\ge1).
+\]
+The first spectra are
+\[
+\E_0=\varnothing,\qquad\E_1=\{3\},\qquad
+\E_2=\{5/3,2,3,5,7\};\qquad |\E_3|=21.
+\]
+Every rational DNA ratio is eventually an embedding resonance at some even order. Its minimum required number of distinct odd primes is $\lceil\log_2(a+b)\rceil-1$ for two odd entries, and $\lceil\log_2(a+b)\rceil$ otherwise.
+\end{corollary}
+This closes the rational \emph{embedding} existence question at all even orders. It does not classify the full terminal chamber diagram at these orders.
+
+\subsection{The finite-additive criterion and an exact small arrangement}\label{ext:sec:freiman}
+\begin{theorem}[General rational embedding floor]\label{ext:thm:freiman}
+For rational magnitudes and $t$ distinct odd prime factors, the embedding sector attains its structural floor exactly when $V_m\to\{\pm\beta_1,\ldots,\pm\beta_m\}$ is a Freiman $2^t$-isomorphism: no new equality between two sums of $2^t$ signed units is created. Integer geometric magnitudes $\beta_i=B^{i-1}$ attain the floor whenever $B\ge2^{t+1}$. This uniform integer-base threshold is sharp for $m\ge2$.
+\end{theorem}
+\begin{proof}
+By the mixed-difference lemma, the relevant coefficient defects are exactly the even-norm integer vectors with norm at most $M=2^{t+1}$. They are precisely differences of two $2^t$-term sums from $V_m$; central symmetry and opposite-pair padding prove both directions. Lemma~\ref{ext:lem:realization} proves necessity as well as sufficiency on actual words. For a nonzero relation among powers of $B$, take its largest nonzero index $j$. The lower terms have absolute sum at most $(M-|c_j|)B^{j-1}$, whereas the leading term is at least $|c_j|B^j$. The latter is strictly larger for $B\ge M$. At $B=M-1$, the nonzero relation $B e_1-e_2$ has norm $M$ and even parity, so realization produces an accidental zero.
+\end{proof}
+
+\begin{proposition}[Irredundant additive wall list]\label{ext:prop:normal}
+Put $M=2^{t+1}$. Up to sign, the complete distinct additive walls are $c\cdot\beta=0$, where $c\in\Z^m$ is primitive and nonzero, with
+\[
+\norm c\le M\ \text{if }\norm c\text{ is even};\qquad
+\norm c\le M/2\ \text{if }\norm c\text{ is odd}.
+\]
+A wall meets $0<\beta_1<\cdots<\beta_m$ exactly when the suffix sums $\sum_{i=j}^m c_i$ take both positive and negative values. After this filter the distinct wall list is irredundant for the additive failure locus in that cone.
+\end{proposition}
+\begin{proof}
+The least even-norm multiple of a primitive normal is itself or twice itself according to parity. Write $\beta_i=\delta_1+\cdots+\delta_i$, with all $\delta_j>0$. Then $c\cdot\beta=\sum_j\delta_j\sum_{i=j}^m c_i$. This has a zero in the open positive cone precisely under the stated mixed-sign condition. A distinct intersecting hyperplane has relatively open points not covered by the finitely many other hyperplanes. The rational structure also supplies rational points there.
+\end{proof}
+The equivalence to the cyclotomic embedding floor here assumes rational magnitudes. The additive arrangement itself is defined for real magnitudes, but it must not be substituted for all algebraic cyclotomic equalities.
+
+\paragraph{A complete three-magnitude instance.}
+For Freiman order $2$ and $0<x<y<z$, the walls are exactly
+\[
+y=3x,\quad z=3x,\quad z=3y,\quad 2y=x+z,\quad
+z=2x+y,\quad z=x+2y.
+\]
+Normalize $x=1$, $u=y/x>1$, $v=z/x>u$. Their interior intersections are
+$(2,3),(3,5),(3,7),(3,9)$, of multiplicities $2,3,2,2$. Adding lines inside the convex cone gives
+\[
+1+6+\bigl[(2-1)+(3-1)+(2-1)+(2-1)\bigr]=12
+\]
+open chambers. There are $6+(2+3+2+2)=15$ one-dimensional faces and four vertices. This is an exact additive-floor arrangement (and, by the preceding theorem, the rational lower-floor arrangement at $k=2p,q=6$), not the full terminal arrangement.
+
+\subsection{Exact embedding counts with two odd primes}\label{ext:sec:counts}
+Let $n(d)$ be the number of ordered pairs in $V_m^2$ with difference $d$. For structural counting retain vector $d$. For rational weights aggregate multiplicities after scalar projection.
+
+\begin{theorem}[Rectangular counting formula]\label{ext:thm:count}
+At $k=2p\ell$, with two distinct odd primes, the corresponding number of zero words is
+\[
+Z_{p,\ell}(n)=
+\sum_{(b_1,\ldots,b_\ell)\in D_m^\ell}
+\left(\prod_{j=1}^{\ell}n(b_j)\right)
+\left(\sum_{a\in D_m-D_m}\prod_{j=1}^{\ell}n(a+b_j)\right)^{p-1},                 \tag{C}
+\]
+where $n$ is extended by zero outside its support. For scalar counting the alphabet and difference set in (C) are their projected versions. At $k=2^bp^a\ell^c$ the count is the $(k/(2p\ell))$th power of (C).
+\end{theorem}
+\begin{proof}
+The two-dimensional anchored-difference kernel consists exactly of arrays $c_{ij}=a_i+b_j$. Fix the gauge $a_1=0$, so $b$ is the actual first row and is unique. Each other row independently chooses its unique translating value $a_i$; its number of letter-pair realizations is the product of entry multiplicities. Any feasible shift lies in $D_m-D_m$. Multiply row weights and sum. The rational prime-power block decomposition is independent in each of the $k/(2p\ell)$ position classes, giving the power.
+\end{proof}
+For DNA at $k=30$ this gives:
+\begin{center}\begin{tabular}{lrr}\toprule
+Ratio & Total embedding-zero words & Accidental words\\\midrule
+Structural floor & 21,566,097,316 & 0\\
+$5/3$ & 21,573,498,016 & 7,400,700\\
+$2$ & 27,518,030,956 & 5,951,933,640\\
+$3$ & 288,112,407,796 & 266,546,310,480\\
+$5$ & 22,778,390,836 & 1,212,293,520\\
+$7$ & 21,566,157,256 & 59,940\\\bottomrule
+\end{tabular}\end{center}
+These values were independently evaluated by first-row enumeration and first-row histograms; no enumeration of $4^{30}$ words was used.
+
+\paragraph{One odd prime.}
+For DNA at $k=2p$, structural coefficients must be constant on the prime block. The multiplicities of $D$ are $n(0)=4$, four axis differences with multiplicity $1$, and four diagonals with multiplicity $2$. Thus
+\[
+Z^{\rm str}_{2p}=4^p+4+4\,2^p,\qquad
+Z_{2p}(3)=4^p+2+2\,2^p+2\,3^p.
+\]
+At $2^bp^a$ raise these to the $2^{b-1}p^{a-1}$th power. At other rational ratios the structural count applies.
+
+\paragraph{PCRs at every even order.}
+Every word of proper period $d\mid k$ has componentwise zero embedding, because the geometric sum across repeats vanishes. Burnside therefore gives, for either structural or fixed-ratio total zero-word count $Z_k$,
+\[
+\#\{\text{zero PCRs}\}=\frac1k\left(Z_k+\sum_{d\mid k,\ d<k}\varphi(k/d)q^d\right).
+\]
+The single-odd-prime formula in \Cref{thm:twice-prime-embedding} does not apply at $k=30$; the rectangular formula is its distinct two-prime replacement.
+
+\subsection{Twice-prime rational seed equalities}\label{ext:sec:seed}
+Throughout this and the next section, $k=2p$ with odd prime $p$, and $h=(p-1)/2$. The $h+1$ numbers $1,\cos(\pi/p),\ldots,\cos(h\pi/p)$ have precisely the relation
+\[
+1+2\sum_{j=1}^{h}(-1)^j\cos(j\pi/p)=0.                         \tag{R}
+\]
+Indeed $2\cos(\pi/p)$ has degree $h$; its powers through degree $h-1$ are a basis, and the cosine polynomials are triangular by degree. Relation (R) follows by pairing terms of $\Phi_{2p}(\zeta_{2p})=0$.
+
+\begin{theorem}[Rational raw seed classification]\label{ext:thm:seed}
+The accidental ratios for the raw seed-imaginary form are exactly $\{3\}$. For the raw seed-real form they are exactly
+\[
+\{5/3,2,3,5,7\}.
+\]
+The latter statement concerns raw real equalities, not only negative-ray branch transitions.
+\end{theorem}
+\begin{proof}
+The imaginary form has the same independent prime-sine blocks as the preceding lower-lambda formula, and the two real-axis positions are free. Thus the preceding rational lower classification applies.
+For the real form, pair the two positions on each cosine and on its negative. With a harmless alternating swap, their coefficient differences $C_j$ are sums of four signed units. Let $d$ be the appropriately signed difference of the letters at exponents $0,p$. Relation (R) makes scalar vanishing equivalent to $\pi(C_j)=2\pi(d)$ for all $j$. Each vector defect $C_j-2d$ has even norm at most $8$. A nonzero scalar-killed such vector forces exactly the five ratios of Theorem~\ref{ext:thm:farey} with $t=2$. Conversely the following choices have $C-2d\ne0$ and $\pi_\rho(C-2d)=0$:
+\[
+\begin{array}{c|cc}
+\rho&d&C\\\hline
+5/3&(0,2)&(3,-1)\\
+2&(0,2)&(2,0)\\
+3&(0,0)&(1,-3)\\
+5&(0,2)&(1,-1)\\
+7&(0,2)&(1,-3)
+\end{array}
+\]
+Every $d$ is a two-letter difference and every $C$ a four-letter signed sum; these choices can be repeated in all $h$ independent blocks. This gives actual words at every odd prime $p$.
+\end{proof}
+For reference the exact structural real-form count is
+\[
+Z_{\Re}^{\rm str}=4\,36^h+8\,6^h+4.
+\]
+The total real-form counts at the five resonances, in increasing order, are
+\[
+\begin{array}{c|l}
+5/3&4\,36^h+4\,10^h+4\,6^h+2\,5^h+2\\
+2&4\,36^h+4\,22^h+4\,6^h+2\,17^h+2\\
+3&4\,44^h+6\,31^h+4\,10^h+2\\
+5&4\,36^h+4\,10^h+4\,6^h+2\,25^h+2\\
+7&4\,36^h+8\,6^h+2\,5^h+2.
+\end{array}
+\]
+A finite-sum proof, avoiding reliance on these expansions, is as follows. Let $N_2(d)$ count ordered letter differences and $N_4(c)$ ordered four-letter signed sums. Then
+\[
+Z_{\Re}=\sum_dN_2(d)N_4(2d)^h.
+\]
+Use vector multiplicities for the structural count and scalar multiplicities for a fixed rational ratio. Direct evaluation of the two finite alphabets gives the displayed expansions. Independent positional remainder enumeration checked them at $k=6,10$.
+The imaginary structural count is $16\,36^h$, and its total at $3$ is $16\,44^h$; lower counts are four times smaller.
+
+\subsection{Complete rational midpoint classification at \texorpdfstring{$2p$}{2p}}\label{ext:sec:mid}
+For each $j=1,\ldots,h$, let $A_j$ and $B_j$ be the sums of the two letters at the symmetric positions belonging to $\cos(j\pi/p)$ and $-\cos(j\pi/p)$. Swap the two pairs for odd $j$, and put
+\[
+C_j=A_j-B_j,\qquad D_j=A_j+B_j.
+\]
+Let $s\in V$ be the central letter at exponent $p$. Relation (R) gives an exact scalar criterion:
+\[
+\pi(C_j)=c\ \text{independent of }j,
+\qquad c+2\sum_{j=1}^h\pi(D_j)+4\pi(s)=0.                \tag{M}
+\]
+
+Up to signed coordinate permutations, the possible common vector $C$ and its $D$ values are the following. Multiplicities count ordered four-letter assignments.
+\begin{center}\small\begin{tabular}{c p{9.9cm}}\toprule
+$C$ & $D$ values and multiplicities\\\midrule
+$(0,0)$ & $(0,0)$:16; $(\pm4,0),(0,\pm4)$:1; $(\pm2,\pm2)$:4.\\
+$(2,0)$ & $(\pm2,0),(0,\pm2)$:4.\\
+$(1,1)$ & $(1,1),(-1,-1)$:8; $(3,-1),(-1,3),(1,-3),(-3,1)$:2.\\
+$(4,0)$ & $(0,0)$:1.\\
+$(3,1)$ & $(1,-1),(-1,1)$:2.\\
+$(2,2)$ & $(0,0)$:4; $(2,-2),(-2,2)$:1.\\\bottomrule
+\end{tabular}\end{center}
+This table follows simply by writing $A=(C+D)/2$ and $B=(D-C)/2$ and counting the two signed-unit sums. It is a small exact algebraic identity, not a large-order computational premise.
+
+Define $\Rat(x,y)=\max(|x|,|y|)/\min(|x|,|y|)$ when $xy\ne0$ and $|x|\ne|y|$, and omit it otherwise. For $h=(p-1)/2$, define five finite sets:
+\begin{align*}
+\mathcal R_0={}&\{\Rat(a,b): |a|+|b|\le p,\ |a|+|b|\text{ odd}\},\\
+\mathcal R_{20}={}&\{\Rat(1+2a,2b): |a|+|b|\le h+1,\ a+b\equiv h+1\pmod2\},\\
+\mathcal R_{11}={}&\{\Rat(1+2u+4v+4\epsilon,1+2u-4v):\\
+ &\hspace{18mm} u=-h,-h+2,\ldots,h,\ -h\le v\le h,\ \epsilon=\pm1\},\\
+\mathcal R_{31}={}&\{\Rat(7+2t,1-2t),\Rat(3+2t,5-2t):t=-h,-h+2,\ldots,h\},\\
+\mathcal R_{22}={}&\{\Rat(3+2t,1-2t):-h\le t\le h\}.
+\end{align*}
+All parameters are integers; signs and interchange of coordinates are absorbed by $\Rat$.
+
+\begin{theorem}[Midpoint spectrum and active realization]\label{ext:thm:mid}
+The complete set of rational accidental midpoint ratios at $k=2p$ is
+\[
+\mathcal R_p=\mathcal R_0\cup\mathcal R_{20}\cup\mathcal R_{11}\cup\mathcal R_{31}\cup\mathcal R_{22}.
+\]
+Every ratio in this set is also realized with $\lambda_s(u)>0$. The largest ratio is
+\[
+\max\mathcal R_p=2p+4-(-1)^{(p-1)/2}.
+\]
+There are exactly four structural midpoint words, and all four have $\lambda=0$.
+\end{theorem}
+\begin{proof}
+First assume $\rho\notin\E_2$. Equality of the scalar values of two $C_j$ forces equality of their vectors: a nonzero difference is an even-norm vector of norm at most $8$, whose possible rational annihilators are exactly $\E_2$. Thus all $C_j=C$.
+For $C=0$, the vector $\sum D_j/2+s$ is any sum of $2h+1=p$ signed units, giving $\mathcal R_0$. For $C=(2,0)$, divide the defect in (M) by $2$; it becomes $(1+2a,2b)$ where $(a,b)$ is a sum of $h+1$ units, giving $\mathcal R_{20}$. For $C=(1,1)$, write
+\[
+\sum D_j=u(1,1)+2v(1,-1),\quad u=-h,-h+2,\ldots,h,\quad -h\le v\le h.
+\]
+The choices of $u,v$ are independent by the table. Taking the central letter to be $\epsilon e_1$, and using interchange symmetry for $\epsilon e_2$, gives $\mathcal R_{11}$. For $C=(3,1)$, the sum of the $D$ values is $t(1,-1)$, with $t\equiv h\pmod2$ and $|t|\le h$. Two central signs give ratio $1$ and are excluded; the other two give $\mathcal R_{31}$. For $C=(2,2)$, the sum is $2t(1,-1)$ for any integer $|t|\le h$, giving $\mathcal R_{22}$. The type $(4,0)$ gives either a structural zero or no ratio greater than one. Every listed choice is reversible into its constituent ordered letter pairs, proving sufficiency on actual words.
+
+The excluded exceptional set $\E_2$ adds nothing. Ratio $2$ is in $\mathcal R_{20}$: use $(a,b)=(0,1)$ for even $h$, and $(-1,1)$ for odd $h$. Ratios $3,5$ are in $\mathcal R_{22}$ using $t=0,1$. Ratios $5/3,7$ are in $\mathcal R_{31}$ using $t=0$ for even $h$ and $t=-1$ for odd $h$. Thus every possible exceptional ratio is already in the proposed union.
+
+For structural vanishing, the vector analogue of (M) holds with common $C$. Since each coordinate of $C-D_j$ is even, $C+2\sum D_j+4s\equiv pC\pmod4$. Hence each coordinate of $C$ is divisible by four. The type $C=0$ cannot work: it would make an odd number $p$ of signed units sum to zero. Only $C=\pm4e_i$ remain, with all $D_j=0$ and $s=\mp e_i$. They yield exactly four words and each symmetric pair has identical letters, so its lambda contribution is zero.
+
+To make a nonstructural midpoint equality active, it suffices that some symmetric pair has distinct letters. Swapping those two positions leaves $C,D$, and hence midpoint zero, unchanged; it changes lambda by a nonzero real multiple of their weight difference. At least one of the two words has nonzero lambda; reversal changes its sign while preserving midpoint, yielding positive lambda. Types $20,11,31$ have such a pair in every realization. The set $\mathcal R_0$ is contained in $\mathcal R_{20}$: orient the odd coordinate as $1+2a$, and use its two possible signs to obtain the required parity with $|a|+|b|\le h+1$. For type $22$, if $|t|<h$, use at least one $D=0$ block, whose pairs are distinct. At $t=\pm h$, its ratio is already in $\mathcal R_{11}$ with $u=\mp h,v=0,\epsilon=-1$. Thus all ratios have active witnesses.
+
+Finally, $\mathcal R_{11}$ supplies the maximum. Both coordinates are congruent to $1+2h$ modulo four, and $x+y=2+4u+4\epsilon$. If the smaller absolute coordinate is at least $3$, the ratio is at most $1+(4h+6)/3$. If it is $1$, that coordinate must be $+1$ for even $h$ and $-1$ for odd $h$. The other coordinate is then bounded in absolute value by $4h+5$ or $4h+7$, respectively. These extrema are attained at $u=h$, $\epsilon=1$, and respectively $v=h/2$ or $(h+1)/2$. The other four families have bounds at most $p+6\le2p+3$ (or the smaller $p-1,p+1,p+2$ bounds). This proves the stated maximum.
+\end{proof}
+
+\paragraph{An exact counting transfer.}
+For reduced $\rho=a/b$, use integer scalar letters $S=\{\pm a,\pm b\}$. Put
+\[
+T_c(z)=\sum_{\substack{x_1,x_2,y_1,y_2\in S\\x_1+x_2-y_1-y_2=c}}
+ z^{2(x_1+x_2+y_1+y_2)}.
+\]
+Then the total midpoint count is exactly
+\[
+Z_r(p,\rho)=\sum_c\sum_{s\in S}[z^{-c-4s}]T_c(z)^h.                 \tag{T}
+\]
+For the joint midpoint/lambda-zero count, restrict each summand to
+$x_1-x_2+y_1-y_2=0$. Prime-sine independence makes this restriction necessary and sufficient blockwise for rational weights. Reversal pairs the nonzero lambda values, so the active midpoint count is half the difference between the total and joint counts. RC pairs active midpoint ties and selects exactly half of them in the lexicographic ideal.
+
+At $p=3$, the spectrum is
+\[
+7/5,\ 3/2,\ 5/3,\ 2,\ 7/3,\ 3,\ 4,\ 5,\ 7,\ 9,\ 11,
+\]
+matching the complete $k=6$ critical list. The numbers of midpoint ratios at $p=5,7,11,13,17,19$ are $20,30,62,77,125,147$. These numbers are finite evaluations of the proven parametrization, not an asserted closed cardinality formula.
+
+\begin{remark}[Do not remove structural midpoint ties at general order]
+At $k=8$, the lower word $TTTAATA$ has componentwise midpoint zero but $\lambda_s=2\sqrt2\rho>0$. Therefore the twice-prime structural-tie inactivity statement must not be extended to all even orders. The general two-family theorem retains these ties.
+\end{remark}
+
+\subsection{Every real cyclotomic ratio is eventually realizable}\label{ext:sec:algebraic}
+\begin{theorem}[Eventual positional realization]\label{ext:thm:algebraic}
+A real algebraic number $\rho>1$ is realized as an accidental DNA embedding ratio at some even order if and only if it belongs to a cyclotomic field. For every representation $\rho=U(\zeta_n)/d$, with even $n\ge4$, $d\in\Z_{>0}$ and $U\in\Z[X]$ reduced to degree less than $n$, there is an explicit one-hot construction at
+\[
+k=n\ell_1\cdots\ell_t,
+\]
+where the $\ell_i$ are fresh distinct odd primes and $2^t\ge\max_e\norm{(2d\,\mathbf1_{e=0},-2U_e)}$.
+\end{theorem}
+\begin{proof}
+Necessity is the preceding field gate. For sufficiency take $t\ge1$ satisfying the bound. For each $e=0,\ldots,n-1$, the vector $c_e=(2d\mathbf1_{e=0},-2U_e)$ has even norm at most $2^t$, so express it as a sum of exactly $2^t$ signed units, padding with opposite pairs. Place these units, with alternating signs, at the corners of a binary $t$-cube. Extend to the full $\ell_1\times\cdots\times\ell_t$ grid by collapsing all nonanchor values to one corner index, exactly as in Lemma~\ref{ext:lem:realization}, but using individual letters rather than letter pairs. The prime-root sum in each new coordinate reduces this array to a nonzero factor $\Gamma$ times $c_e$. CRT identifies all $(e,j_1,\ldots,j_t)$ with distinct positions in the length-$k$ word; every position receives one letter. The resulting component embeddings are
+\[
+H=2d\Gamma\ne0,\qquad L=-2\Gamma U(\zeta_n),
+\]
+so $\rho H+L=0$ and the zero is accidental. Explicitly one may take the exponent $\frac{k}{n}e+\sum_i\frac{k}{\ell_i}j_i\pmod k$; all coefficients of this CRT map are units in their own factors. No abstract coefficient is left without a positional realization.
+\end{proof}
+The cyclotomic-field gate is therefore sufficient \emph{after allowing the order to grow}, although it remains insufficient at a fixed order. Examples verified by exact polynomial division are $\rho=\sqrt2$, base $n=8$, fresh prime $3$, giving $k=24$; and $\rho=(7+3\sqrt5)/2$, base $n=10$, fresh primes $3,7,11$, giving $k=2310$. These are explicit upper bounds, not minimum realizing orders.
+
+\begin{corollary}[Eventual raw realization for the other roles]
+Over all even orders, the same necessary and sufficient cyclotomic-field condition holds for the raw real, imaginary, lower-lambda and midpoint equality families.
+\end{corollary}
+\begin{proof}
+For the real and imaginary roles, rotate an embedding witness until the relevant component of its nonzero $H$ is nonzero. Such rotations exist because $k\ge4$. Delete the exponent-zero letter for a lower-lambda witness; its imaginary contribution was zero. For midpoint, interleave the embedding witness with its letterwise complement at order $2k$. This gives component weight sum zero and new component embedding $(1-\zeta_{2k})H\ne0$, while its scalar embedding is zero. Rotate to make its real high component nonzero and delete the exponent-zero letter; the midpoint form does not see that position. Necessity follows by solving the corresponding nonstructural linear relation in the real cyclotomic coefficient field, after the usual positive sine normalization for lambda.
+\end{proof}
+The midpoint witnesses in this corollary have scalar lambda zero. It does \emph{not} establish eventual active midpoint realization for every algebraic ratio. Fixed-order realization, efficient/minimal conductors, and active branch classification remain separate problems.
+
+\paragraph{Uniform radical designs.}
+The preceding uniform magnitude family is linearly independent over every cyclotomic coefficient field. Since all catalogue forms, not just embedding and normalized lambda, have coefficients in such fields, the same componentwise argument makes every zero in the entire catalogue structural. This does not remove structurally active midpoint ties such as the $k=8$ example.
+
+\subsection{Residual geometry as a three-block problem}\label{ext:sec:paths}
+The imported construction proves strict increase of the midpoint potential along arcs between positive-lambda states \cite{Babanskyy2026Parity}. The following block interface and max-plus formula are deductions, not a new claim to that monotonicity lemma.
+Set
+\[
+\begin{gathered}
+N=\{u:\lambda_s(u)\le0\},\\
+P_0=\{u:\lambda_s(u)>0,a_s(u)=0\},\qquad
+P_1=\{u:\lambda_s(u)>0,a_s(u)=1\}.
+\end{gathered}
+\]
+
+\begin{theorem}[Three-block residual interface]\label{ext:thm:paths}
+There is no original lower-graph arc from $P_0$ to $P_1$. Every residual arc respects the order
+\[
+P_0\longrightarrow N\longrightarrow P_1.
+\]
+The positive blocks contain all their original internal arcs. The core is the original graph induced on $N$ with only the zero-PCR seed arcs deleted. RC swaps the two positive blocks, reverses residual arcs and preserves the core.
+Let $L_P$ be either positive-block longest path, $L_N$ the core longest path, and let $d_P(u)$ be the longest $P_0$-internal path ending at $u$. Define
+\[
+\eta(n)=\max\bigl(\{0\}\cup\{d_P(u)+1:u\in P_0,\ u\to n\}\bigr).
+\]
+Then the exact residual longest path is
+\[
+\boxed{L(D_s)=\max\left\{L_P,\
+\max_{n_0\to\cdots\to n_j\text{ in }N}
+[\eta(n_0)+j+\eta(\RC(n_j))]\right\}.}                         \tag{P}
+\]
+In particular $L_N\le L(D_s)\le2L_P+L_N+2$.
+\end{theorem}
+\begin{proof}
+For any lower arc $u\to v$,
+\[
+r_s(v)-r_s(u)=\tan(\pi/k)(\lambda_s(u)+\lambda_s(v)).
+\]
+This follows by writing $P=x+iy$ in $(\zeta_k^{-1}-1)P$. If both lambdas are positive, the increment is strictly positive. A $P_0$ state has $r\ge0$, and a $P_1$ state has $r\le0$, so $P_0\to P_1$ is impossible. The two-family formula now checks all block types: $N\to P_0$, $P_1\to N$ and $P_1\to P_0$ have terminal indicator one; $P_0\to N$ and $N\to P_1$ have indicator zero. On each positive block it is zero, and on $N$ it is the zero-PCR seed indicator. The imported RC invariance gives the stated anti-isomorphism.
+A residual path either lies inside a positive block or decomposes into a $P_0$ prefix, one core path, and a $P_1$ suffix; either end may be empty. For a fixed core path the longest possible prefix is $\eta(n_0)$. The RC image of a longest incoming prefix at $\RC(n_j)$ is a longest outgoing suffix at $n_j$, with length $\eta(\RC(n_j))$. These paths lie in disjoint blocks, so they concatenate without collision. Maximizing proves (P). The inequalities follow from $\eta\le L_P+1$.
+\end{proof}
+Formula (P) can be evaluated by a weighted DAG dynamic program on the core after computing the two boundary functions; it does not claim subexponential enumeration of all lower states.
+
+\begin{center}\begin{tabular}{llrrr}\toprule
+$k$ & Weight or interval & $L_P$ & $L_N$ & $L(D_s)$\\\midrule
+4 & any atlas cell &2&11&17\\
+6 & first atlas interval &9&43&63\\
+6 & $\rho=3$ &8&47&65\\
+6 & $3<\rho<4$ &9&39&59\\
+6 & $4<\rho<5$ &8&39&57\\
+8 & $\rho=2$ &33&79&147\\
+8 & $\rho=(7+3\sqrt5)/2$ &28&85&143\\
+8 & $\rho=\sqrt{13}$ &27&85&141\\
+8 & $\rho=\sqrt[3]{2}$ &33&93&161\\\bottomrule
+\end{tabular}\end{center}
+All 199 certified strata at $k=4,6,8$ satisfy equality in the upper bound, but we assert only the exact formula (P) and the inequality at arbitrary order. An all-order equality claim would need an additional argument aligning extremal prefixes, core paths, and suffixes.
+
+\subsection{Minimal root locations, positivity, and finite optimization}\label{ext:sec:remaining}
+\begin{proposition}[Minimal one-parameter cut set]
+Let a complete finite affine decision catalogue on an open interval be given, and evaluate the deterministic output on every point and interval cell. A root is indispensable to a point/interval partition exactly when the outputs on its left interval, at the point, and on its right interval are not all equal. Keeping exactly these roots gives the unique minimum set of root locations for such a partition. With $E$ indispensable roots it has $2E+1$ cells; the number of distinct outputs can be smaller.
+\end{proposition}
+\begin{proof}
+If the three outputs agree, removing that root merges cells with identical output. Conversely, without an indispensable root the output would have to be constant in a neighborhood containing all three local cells, a contradiction. Finite repeated deletion cannot change this local necessity. The count is $E$ points and $E+1$ open intervals. A point-only anomaly must therefore be retained even when its adjacent outputs agree.
+\end{proof}
+Applied to the complete small atlases: $k=4$ has one indispensable root, three cells and two distinct terminals; $k=6$ has eleven indispensable roots, twenty-three cells and seventeen terminals. This is not a general solution for minimum forms in higher-dimensional weight space. The complete $k=8$ atlas is given in \Cref{thm:complete-atlas}.
+
+\begin{proposition}[Two barriers to terminal Galois transport]
+A field automorphism of a real number field preserving positivity of every element is the identity. A fixed coordinate permutation on words over an alphabet with at least two letters preserves all directed de Bruijn arcs only when it is the identity; it reverses all arcs only when it is position reversal.
+\end{proposition}
+\begin{proof}
+If $x\ne\sigma(x)$, a rational strictly between them supplies an element whose sign changes under $\sigma$. For the graph statement, write the image of a word as $(w_{\pi(0)},\ldots,w_{\pi(k-1)})$. In an arc $w\to(w_1,\ldots,w_{k-1},a)$, the free appended letter cannot enter an overlap constraint. Those constraints then force $\pi(j+1)=\pi(j)+1$ for all $j$, hence the identity. Compose an arc-reversing permutation with position reversal to obtain the first case.
+\end{proof}
+These barriers do not exclude a finite set of certificates retaining positivity, accidental terminal coincidences, or alphabet symmetries. They explain why equality-level Galois covariance alone cannot be promoted to a terminal orbit classification.
+
+\paragraph{An explicit, bounded optimization result.}
+Choose the projective angular coordinate $\theta=\arctan\rho\in(\pi/4,\pi/2)$, and define robustness as distance to all critical ratios and the two domain boundaries in this coordinate. First minimize residual longest path in the complete atlas, then maximize robustness inside an optimal open cell. At $k=4$, the widest optimal cell is $(1,3)$; its angular midpoint is
+\[
+\rho=(1+\sqrt5)/2.
+\]
+At $k=6$, the minimum is $L(D)=57$ for $\rho\ge4$. Among the optimal open cells, $(11,\infty)$ is angularly widest, giving
+\[
+\rho=11+\sqrt{122}.
+\]
+For example its width is $\arctan(1/11)$; the other finite optimal-cell widths are $\arctan(1/21)$, $\arctan(1/18)$, $\arctan(1/32)$, and $\arctan(1/50)$, all smaller. This is an exact answer for a declared metric and two complete small atlases, not a universal or biologically optimal weight. The first ratio is the ordinary golden ratio, not the earlier landmark $\varphi^4$.

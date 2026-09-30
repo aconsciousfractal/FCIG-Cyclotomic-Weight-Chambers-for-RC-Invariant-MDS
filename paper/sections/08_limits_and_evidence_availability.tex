@@ -1,0 +1,93 @@
+\section{Limits, open questions, and evidence availability}
+\label{sec:boundaries}
+The all-order rational embedding spectrum, rational twice-prime
+classifications, complete fixed-labelled-$\mathcal W$ selector $k=8$ atlas, ordinary
+component optimization and existence of exactly two RC sectors
+are established, together with sharp fixed-sector cost, a complete
+bounded chart, conditional stable completion and exact balanced finite-pool
+closure. The latter remains a relaxation with signed real lifts. The following
+questions remain.
+
+\begin{enumerate}
+\item \textbf{Global DNA optimum at $k=8$.}
+The construction has $L=107$, and 107 is its exact component
+optimum. The minimum over all RC MDS is unknown.
+Any $L\le106$ construction must leave that component and hit the
+displayed 108-cycle at least twice. This necessary condition
+is not a sufficient construction or a global lower bound of 107.
+The 128-member stable fibre and the three-site chart domain are
+already closed at this target. Searching those same domains again
+cannot improve the result.
+
+\item \textbf{Exact cardinality at path bound 106.}
+We have $8230\le\tau_{\RC}(106)\le8232$, with cost 8232 already
+attaining length 105. Cost 8231 would require exactly one double
+stable PCR; the 495-branch completion theorem solves its stable
+subproblem only after the nonstable choices are fixed. The eight
+regional exclusions and three affine-pruning exhaustions are not
+global exclusions. The real-gradient-class lower in
+\Cref{prop:core-pool-strictness} is likewise local to its stated affine class.
+A new insertion or a change of nonstable component may escape these domains.
+
+\item \textbf{Uniform changes of component.}
+The four patches are certified at $k=8$. No theorem supplies
+analogous improvements at arbitrary even order, jointly
+preserving Boolean membership, RC, PCR counts and acyclicity.
+
+\item \textbf{Fixed-order algebraic realization and active branches.}
+The cyclotomic-field condition is sufficient when the order
+may grow. At a prescribed order the full positional image,
+minimal realizing order and efficient conductor bounds remain
+unclassified. Eventual raw midpoint witnesses can have lambda
+zero; general algebraic active midpoint realization is open.
+The resolved quadratic power-of-two slice is not the full
+higher-order domain.
+
+\item \textbf{Higher-order terminal and component arrangements.}
+At $k=8$, 86 fixed linear signs determine the terminal and ten
+determine its encountered component, both minimally. General
+orders and higher-dimensional weight spaces lack such a minimal
+classification here. Adaptive or nonlinear encodings are distinct
+questions. Other labelled sign/order assignments already at $k=8$ are outside $\mathcal W$ and their terminal and component arrangements are not classified here; no exclusion of all such weight maps follows from the 21-component atlas.
+
+\item \textbf{Length control at mixed walls.}
+Regular walls have width at most two. The mixed-wall indicator
+formula does not imply a comparable uniform path-length bound;
+a width-20 example is certified. The max-plus formula is exact,
+but equality in $L\le2L_P+L_N+2$ is verified only in the finite
+atlas and still needs a uniform alignment argument.
+
+\item \textbf{Simultaneous cost in both RC sectors.}
+Each sector optimum is $\ceil R-1$ or $\ceil R$.
+The extra unit is now attained in one sector, while the other
+sector in that example attains the ordinary optimum. Whether
+both sectors of some ordinary component require the extra unit
+remains unresolved here. All 42 sectors from the fixed-labelled-$\mathcal W$ atlas
+still attain their ordinary optima.
+
+\item \textbf{Component range and qualified symmetries.}
+The minimum does not determine the maximum in a component or
+settle the component-range questions of
+\cite{MarcaisDeBlasioKingsford2024}. Naive Galois descent to
+terminals is false. A useful restricted transport theorem must
+explicitly preserve positivity, positional data and ties.
+\end{enumerate}
+
+None of these questions is an unproved premise of the established
+results. Biological and software benefits require comparative
+benchmarks. Odd-order constrained decycling and packing identities
+are separate problems. The general height theorem permits fixed
+vertices, but this does not remove the even-order hypotheses of
+the PCR chart, paired-sector and stable-completion applications.
+
+\subsection{Code and data availability}
+The accompanying companion has repository home
+\begin{center}\small
+\url{https://github.com/aconsciousfractal/FCIG-Cyclotomic-Weight-Chambers-for-RC-Invariant-MDS}
+\end{center}
+This manuscript accompanies version 3.2.0. Its distributed evidence is identified by the immutable SHA-256 digest
+\begin{center}\small\texttt{\EvidenceDigest}\end{center}
+The companion documents the digest's scope and replay procedure. Paths abbreviated as \pathfile{rN/...} in this article are relative to \pathfile{evidence/advances/} at that repository; \pathfile{evidence/finite_assurance/} contains the original regression capsule. Literal witnesses, ranks, paths, cycles and rational certificates support the finite statements. Computation does not replace the uniform proofs, certify global optimality, or establish biological performance. This version identifier and digest do not assert an existing tag, release, DOI or journal publication.
+
+\subsection*{AI assistance and responsibility}
+AI systems assisted proof exploration, counterexample search, implementation of exact checks, drafting and editorial revision. The author is responsible for the mathematical claims and the artifact. Separate implementations provide computational cross-checks; their AI-assisted origin is not a claim of independent human peer review or formal proof verification. No complete historical model/version inventory is asserted.

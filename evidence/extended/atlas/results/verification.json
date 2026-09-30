@@ -1,0 +1,559 @@
+{
+  "status": "PASS",
+  "independence": "No producer or inherited oracle imported; cyclotomic polynomial seed, Fraction-pair signs, symmetric-pair completeness, antipodal embedding count, sink DP",
+  "orders": [
+    {
+      "k": 4,
+      "rows": 3,
+      "word_decisions": 768,
+      "critical_roots": 1,
+      "distinct_terminals": 2,
+      "regular_wall_checks": [
+        {
+          "root_id": 0,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "k": 6,
+      "rows": 23,
+      "word_decisions": 94208,
+      "critical_roots": 11,
+      "distinct_terminals": 17,
+      "regular_wall_checks": [
+        {
+          "root_id": 0,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 1,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 2,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 3,
+          "active_states": 10,
+          "symmetric_difference": 80,
+          "length_span": 0
+        },
+        {
+          "root_id": 4,
+          "active_states": 10,
+          "symmetric_difference": 80,
+          "length_span": 2
+        },
+        {
+          "root_id": 6,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 2
+        },
+        {
+          "root_id": 7,
+          "active_states": 10,
+          "symmetric_difference": 80,
+          "length_span": 0
+        },
+        {
+          "root_id": 8,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 9,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 10,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "k": 8,
+      "rows": 173,
+      "word_decisions": 11337728,
+      "critical_roots": 86,
+      "distinct_terminals": 114,
+      "regular_wall_checks": [
+        {
+          "root_id": 0,
+          "active_states": 6,
+          "symmetric_difference": 48,
+          "length_span": 0
+        },
+        {
+          "root_id": 1,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 2,
+          "active_states": 6,
+          "symmetric_difference": 48,
+          "length_span": 0
+        },
+        {
+          "root_id": 3,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 4,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 5,
+          "active_states": 24,
+          "symmetric_difference": 192,
+          "length_span": 0
+        },
+        {
+          "root_id": 6,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 8,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 9,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 10,
+          "active_states": 36,
+          "symmetric_difference": 288,
+          "length_span": 0
+        },
+        {
+          "root_id": 11,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 12,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 14,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 15,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 16,
+          "active_states": 16,
+          "symmetric_difference": 128,
+          "length_span": 0
+        },
+        {
+          "root_id": 17,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 19,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 20,
+          "active_states": 24,
+          "symmetric_difference": 192,
+          "length_span": 0
+        },
+        {
+          "root_id": 21,
+          "active_states": 16,
+          "symmetric_difference": 128,
+          "length_span": 0
+        },
+        {
+          "root_id": 23,
+          "active_states": 10,
+          "symmetric_difference": 80,
+          "length_span": 0
+        },
+        {
+          "root_id": 24,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 25,
+          "active_states": 32,
+          "symmetric_difference": 256,
+          "length_span": 0
+        },
+        {
+          "root_id": 26,
+          "active_states": 20,
+          "symmetric_difference": 160,
+          "length_span": 0
+        },
+        {
+          "root_id": 28,
+          "active_states": 16,
+          "symmetric_difference": 128,
+          "length_span": 0
+        },
+        {
+          "root_id": 29,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 30,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 31,
+          "active_states": 20,
+          "symmetric_difference": 160,
+          "length_span": 0
+        },
+        {
+          "root_id": 32,
+          "active_states": 6,
+          "symmetric_difference": 48,
+          "length_span": 0
+        },
+        {
+          "root_id": 33,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 34,
+          "active_states": 48,
+          "symmetric_difference": 384,
+          "length_span": 0
+        },
+        {
+          "root_id": 35,
+          "active_states": 40,
+          "symmetric_difference": 320,
+          "length_span": 0
+        },
+        {
+          "root_id": 36,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 37,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 39,
+          "active_states": 6,
+          "symmetric_difference": 48,
+          "length_span": 0
+        },
+        {
+          "root_id": 40,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 41,
+          "active_states": 20,
+          "symmetric_difference": 160,
+          "length_span": 0
+        },
+        {
+          "root_id": 42,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 43,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 44,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 45,
+          "active_states": 16,
+          "symmetric_difference": 128,
+          "length_span": 0
+        },
+        {
+          "root_id": 47,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 48,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 49,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 50,
+          "active_states": 32,
+          "symmetric_difference": 256,
+          "length_span": 0
+        },
+        {
+          "root_id": 51,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 52,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 53,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 55,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 56,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 57,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 58,
+          "active_states": 24,
+          "symmetric_difference": 192,
+          "length_span": 0
+        },
+        {
+          "root_id": 59,
+          "active_states": 24,
+          "symmetric_difference": 192,
+          "length_span": 2
+        },
+        {
+          "root_id": 60,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 61,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 62,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 63,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 65,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 66,
+          "active_states": 24,
+          "symmetric_difference": 192,
+          "length_span": 0
+        },
+        {
+          "root_id": 67,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 68,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 69,
+          "active_states": 24,
+          "symmetric_difference": 192,
+          "length_span": 0
+        },
+        {
+          "root_id": 70,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 71,
+          "active_states": 40,
+          "symmetric_difference": 320,
+          "length_span": 0
+        },
+        {
+          "root_id": 72,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 73,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 74,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        },
+        {
+          "root_id": 76,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 77,
+          "active_states": 36,
+          "symmetric_difference": 288,
+          "length_span": 0
+        },
+        {
+          "root_id": 78,
+          "active_states": 12,
+          "symmetric_difference": 96,
+          "length_span": 0
+        },
+        {
+          "root_id": 79,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 80,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 81,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 82,
+          "active_states": 8,
+          "symmetric_difference": 64,
+          "length_span": 0
+        },
+        {
+          "root_id": 83,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 84,
+          "active_states": 2,
+          "symmetric_difference": 16,
+          "length_span": 0
+        },
+        {
+          "root_id": 85,
+          "active_states": 4,
+          "symmetric_difference": 32,
+          "length_span": 0
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "word_decisions": 11432704
+}

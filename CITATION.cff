@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the article below."
+title: "Cyclotomic Weight Chambers for Reverse-Complement-Invariant Minimum Decycling Sets"
+type: article
+version: 3.2.0
+authors:
+  - family-names: Babanskyy
+    given-names: Oleksiy
+    orcid: "https://orcid.org/0009-0001-6176-6208"
+repository-code: "https://github.com/aconsciousfractal/FCIG-Cyclotomic-Weight-Chambers-for-RC-Invariant-MDS"
+license: MIT
+keywords:
+  - de Bruijn graph
+  - minimum decycling set
+  - reverse complement
+  - cyclotomic field
+  - DNA
+  - oriented matroid

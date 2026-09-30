@@ -1,0 +1,128 @@
+\section{Technical supplement: the earlier length-131 escape}
+
+\subsection{An earlier length-131 escape construction}
+\label{sec:construction-131}
+This retained construction documents one explicit route out of the weighted
+components. Its upper bound is superseded by \Cref{thm:construction-107}.
+
+For a lower word $u$ and a nonempty proper letter set $B$, consider
+the simultaneous cochain change
+\[
+ \Delta_{u,B}=\sum_{a\in B}(\ind_{ua}-\ind_{au})
+       +J\!\left(\sum_{a\in B}(\ind_{ua}-\ind_{au})\right).
+\]
+It preserves RC and the sum on every PCR. It does not by itself
+guarantee Boolean indicators or acyclicity; both must be verified.
+
+\begin{proposition}[Four changes of component]\label{prop:construction-131}
+Start with the weighted terminal $M_0$ for $\rho=49/16$
+(row \texttt{k8\_c094}). Apply the four changes in
+\Cref{tab:patches} in order. All five endpoints are RC MDS
+of size 8230, with
+\[
+ \boxed{L(M_0),\ldots,L(M_4)=141,135,135,133,131.}
+\]
+They occupy five distinct ordinary components and each attains
+the optimum in its own component. The last component is distinct
+from all 21 in \Cref{tab:component-optima}.
+\end{proposition}
+\begin{proof}[Exact certificates]
+Direct reconstruction checks all $4^8$ membership bits after each
+patch, and checks RC, one word per PCR and acyclicity. Integer
+ranks and explicit longest paths give the upper and attained
+bounds. One-hit simple cycles of lengths $142,136,136,134,132$
+give the matching component lower bounds. Ten cycle separators
+distinguish all pairs of endpoints; another 21 distinguish the
+last endpoint from the weighted components. Each separator has
+at most 15 arcs. The separate checker tests these claims without
+importing the discovery search.
+\end{proof}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{clcrr}
+\toprule
+Step & $u$ & $B$ & Changed words & $L$ after\\
+\midrule
+1&\texttt{ATCGGCG}&$\{T\}$&4&135\\
+2&\texttt{ATTACTG}&$\{G,T\}$&8&135\\
+3&\texttt{CCGCCCG}&$\{C\}$&4&133\\
+4&\texttt{GTTCTTG}&$\{T\}$&4&131\\
+\bottomrule
+\end{tabular}
+\caption{Explicit simultaneous changes; the neutral second step
+changes component. Its necessity or minimal number of moves is not claimed.}
+\label{tab:patches}
+\end{table}
+
+The four changed supports are disjoint. A compact final membership
+rule is
+\[
+ \ind_{M_4}(w)=m_{49/16}(w)-\ind_D(w)+\ind_A(w),
+\]
+where the following columns list $D$ and $A$; rows are not canonical
+pairings.
+\begin{center}
+\begin{tabular}{ll}
+\toprule
+Remove ($D$)&Add ($A$)\\\midrule
+\texttt{CAAGAACA}&\texttt{ACAAGAAC}\\
+\texttt{CAGTAATA}&\texttt{ACAGTAAT}\\
+\texttt{CAGTAATC}&\texttt{ACGCCGAT}\\
+\texttt{CCCGCCCG}&\texttt{ATCGGCGT}\\
+\texttt{CGCCGATA}&\texttt{ATTACTGG}\\
+\texttt{CGGGCGGG}&\texttt{ATTACTGT}\\
+\texttt{GATTACTG}&\texttt{CCAGTAAT}\\
+\texttt{TATCGGCG}&\texttt{CCGCCCGC}\\
+\texttt{TATTACTG}&\texttt{GCGGGCGG}\\
+\texttt{TGTTCTTG}&\texttt{GTTCTTGT}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{corollary}[Global upper bound, exact component optimum]
+\label{cor:global-upper-131}
+For RC DNA MDS at $k=8$,
+\[
+ \min_{M\ {\rm RC\ MDS}}L(M)\le131,\qquad
+ \min_{N\in\CF(M_4)}L(N)=131.
+\]
+The final upper residual has length 130 in edges. Its longest
+avoiding word has 138 letters, so every DNA word of length 139
+contains a selected eight-letter window.
+\end{corollary}
+
+The final one-hit cycle is the cyclic concatenation of these lines:
+\begin{center}\ttfamily\small
+CGCGGAGGAGCCGACCCCACCACACAACAAAAAAACAACACAAGAAGACC\\
+AGCAGCCGAGGAGGATAGGCCTATCCTCCTCGGCTGCTGGTCTTCTTGTG\\
+TTGTTTTTTTGTTCTTGGGTGCTGGGCTGATG
+\end{center}
+Its length is 132, its seven-letter prefixes are distinct, and its
+only selected cyclic eight-letter window is \texttt{GCGCGGAG}
+at zero-based index 131. Deleting that arc leaves 131 residual
+arcs. The machine-readable string in
+\pathfile{cycle_132_compact.json} is checked against the cycle
+certificate. Any improvement to $L\le130$ must hit this cycle at
+least twice, and therefore leave this component.
+
+\subsubsection{Reproducibility and evidence boundary}
+The public package contains the original 30-row regression capsule,
+the complete 199-row atlas, mixed-wall and component certificates,
+and the retiming construction. The atlas checks 11,432,704 word
+decisions. The retiming checker verifies 72 certificate occurrences
+(not 72 distinct sets), 42 retimings, 30 lower-bound cycles and
+31 short separators. Its 24 semantic mutations include missing
+lower bounds and a duplicated parity sector. The atlas and wall
+checkers have 18 and 15 further mutation controls respectively.
+Small exhaustive tests cover $(q,k)=(2,2),(2,4),(4,2)$ and 64
+RC-feasibility queries, plus 260 bounded autodual ranks.
+
+All finite outputs have a declared scope. A rank certificate proves
+a universal path bound for its finite DAG; a completed list proves
+a complete atlas only because the affine-root reduction is
+exhaustive. None of these checks proves an all-order theorem by
+sampling. Distinct implementations remain AI-assisted checks,
+not independent human acceptance. No timeout or incomplete
+search is used to claim that a shorter global construction is
+impossible.

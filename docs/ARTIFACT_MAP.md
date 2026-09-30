@@ -7,7 +7,7 @@ The complete article is in [paper/](../paper/main.tex). General proofs remain in
 | Small chamber regression | [finite_assurance](../evidence/finite_assurance/README.md): 30 rows at the declared orders/landmarks | `scripts/verify.py --profile core` |
 | Single-odd-prime formulas and domain checks | [theorem](../evidence/theorem/README.md) | `scripts/verify.py --profile core` |
 | Arithmetic realization and selector extensions | [extended](../evidence/extended/README.md) | `scripts/verify_extended.py` |
-| Complete fixed-W atlas and the 21-component union | [advances](../evidence/advances/README.md), the component panel plus `evidence/extended/atlas` and `evidence/extended/retiming` | `scripts/verify_advances.py` |
+| Complete fixed-W atlas and the 21-component union | [extended](../evidence/extended/README.md): `evidence/extended/atlas` and `evidence/extended/retiming` | `scripts/verify_extended.py` |
 | The 8230-word M107 witness and component optimum | `evidence/advances/r5/witnesses/M107.words.txt`, `r5/certificates/M107.json` | `scripts/verify_advances.py` |
 | Stable completion, charts, heights and scoped exclusions | `evidence/advances/r8` through `r13`, with dependency capsules named by their local manifests | `scripts/verify_advances.py` |
 | Balanced finite-pool closure and class strictness | [balanced_loads](../evidence/balanced_loads/README.md): literal core, signed lift and five complete return families | `scripts/verify_balanced_loads.py` |

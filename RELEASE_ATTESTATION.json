@@ -7,9 +7,9 @@
     "validation_payload_sha256": "b79051b4190d6f13b9bb183fe1299fb67b34a1eef21bbed5bf09c516f243ce46"
   },
   "manifest": {
-    "entries": 1120,
-    "sha256": "44362439b2cefc87c010d183186f31b8ba7d50d59ec3fb58332727ef7118d1e2",
-    "tree_sha256": "a55c37f59f28dab358ee72bd4b705f3351fee1517f40456477590891252ef0bf"
+    "entries": 1122,
+    "sha256": "48c9dbe3b9fb1e43451413e3d27bffac56a9a58bfa9cc9827d562e2f46f8bb51",
+    "tree_sha256": "89faa1bb295a7812a937bd8c2c578946e9d5ce92c3382845c5631691c8edba7b"
   },
   "paper": {
     "bytes": 395400,

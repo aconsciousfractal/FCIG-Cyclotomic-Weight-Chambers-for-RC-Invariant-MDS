@@ -11,6 +11,14 @@ tests, metadata, and project-generated certificates:
 | `evidence/**`, `results/**` | project-generated exact outputs and receipts |
 | root Markdown, CFF, workflow, and manifest files | package documentation and metadata |
 
+## Additional manuscript licence
+
+The original manuscript source and compiled PDF in `paper/` are also available
+under CC BY 4.0, as stated in [LICENSE_MANUSCRIPT.md](LICENSE_MANUSCRIPT.md).
+This is an additional licence option for the manuscript, including its aiXiv
+deposit. The existing MIT grant remains valid; readers may use the manuscript
+under either licence. The other repository materials remain under MIT.
+
 ## Third-party boundary
 
 The MIT grant does not apply to cited papers or to third-party mathematical

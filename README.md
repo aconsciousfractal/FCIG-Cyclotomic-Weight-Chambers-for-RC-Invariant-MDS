@@ -23,6 +23,12 @@ The 21-component classification and the 141 union optimum concern **this fixed l
 
 Lengths count residual arcs in the lower de Bruijn graph. The global frontier remains **8230 ≤ tau_RC(106) ≤ 8232**. The paper does not settle the global optimum at MDS cardinality.
 
+For comparison with the literature, Marçais–DeBlasio–Kingsford report 145 for
+the DNA order-eight minimum-cardinality problem. The certified 107 witness
+improves that achieved value and additionally satisfies RC symmetry. The
+[comparison note](docs/LITERATURE_PATH_LENGTH_COMPARISON.md) gives the exact
+quantity, source, counting convention and limits of this comparison.
+
 ## Three reading paths
 
 1. **Understand the result.** Start with the [article](paper/Cyclotomic_Weight_Chambers_for_RC_Invariant_MDS.pdf), main results and the explicit family W, then the certified separation section. The [reading guide](docs/READING_GUIDE.md) maps the eight main sections and technical appendices.
@@ -44,4 +50,6 @@ The PDF identifies this companion by repository, version and an immutable digest
 
 See the [claim boundaries](docs/PUBLIC_CLAIM_BOUNDARY.md), [scientific open problems](docs/OPEN_PROBLEMS.md), [contribution map](docs/ADVANCES.md) and [source lock](docs/SOURCE_LOCK.md). The imported parity interface is fixed at v2.0.0, commit `89a29a90962d02add6690d6411db927c4788371a`. Classical cyclotomic, retiming, SCC, 2-SAT, ordering and LP mechanisms are attributed. AI assistance and its limits are disclosed in the paper and [authorship statement](docs/AUTHORSHIP.md). Computational checks do not establish specialist acceptance or exhaustive novelty.
 
-The MIT licence applies as stated in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Cite using [CITATION.cff](CITATION.cff).
+The MIT licence applies as stated in [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
+The manuscript is additionally available under
+[CC BY 4.0](LICENSE_MANUSCRIPT.md). Cite using [CITATION.cff](CITATION.cff).
